@@ -1,0 +1,1080 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>BacheObamba · GADM Riobamba</title>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;1,9..144,300;1,9..144,400&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --navy:#0F3460;--navy-deep:#0A2447;--navy-soft:#E8ECF3;
+  --cream:#FAF8F3;--cream-2:#F4F0E6;--paper:#FFFFFF;
+  --gold:#C9A227;--gold-soft:#F5EBC9;
+  --amber:#9A6B16;--amber-soft:#F5EAD2;
+  --red:#9B2C2C;--red-soft:#F5DDDD;
+  --green:#3F6B45;--green-soft:#DEEADF;
+  --ink:#1A1F2C;--ink-2:#3B4252;--ink-3:#6B7280;--ink-4:#9AA1AD;
+  --line:#DCD6C8;--line-2:#E8E2D2;
+  --serif:"Fraunces",Georgia,serif;
+  --sans:"Inter",-apple-system,sans-serif;
+  --mono:"JetBrains Mono",monospace;
+}
+*{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
+html,body{font-family:var(--sans);background:var(--cream);color:var(--ink);min-height:100vh;overflow-x:hidden;-webkit-font-smoothing:antialiased}
+button{font-family:inherit;cursor:pointer;border:0;background:none;color:inherit}
+input,select,textarea{font-family:inherit}
+
+/* ── LOGIN ─────────────────────────────────────────────── */
+#loginScreen{
+  display:flex;flex-direction:column;min-height:100vh;
+  background:var(--navy-deep);
+}
+.login-strip{
+  background:var(--navy);padding:10px 20px;
+  display:flex;align-items:center;gap:8px;
+  border-bottom:1px solid rgba(255,255,255,.08)
+}
+.login-strip .dot{width:6px;height:6px;border-radius:50%;background:var(--gold)}
+.login-strip span{font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:rgba(255,255,255,.6);font-weight:600}
+.login-body{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:2rem 1.5rem}
+.login-logo-wrap{text-align:center;margin-bottom:2rem}
+.login-logo-wrap .city-name{
+  font-family:var(--serif);font-size:2.8rem;font-weight:300;font-style:italic;
+  color:#fff;line-height:1;letter-spacing:-.02em
+}
+.login-logo-wrap .city-name em{font-style:normal;color:var(--gold)}
+.login-logo-wrap .app-tag{
+  display:inline-block;margin-top:8px;
+  font-family:var(--mono);font-size:11px;letter-spacing:.25em;
+  text-transform:uppercase;color:rgba(255,255,255,.5);
+  border-top:1px solid rgba(255,255,255,.15);padding-top:8px
+}
+.tricolor-login{height:3px;display:flex;width:80px;margin:0 auto 2rem}
+.tricolor-login i{flex:1}
+.tricolor-login .t1{background:var(--navy-soft)}
+.tricolor-login .t2{background:#C0392B}
+.tricolor-login .t3{background:var(--gold)}
+.login-card{
+  background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.1);
+  border-radius:4px;padding:2rem 1.5rem;width:100%;max-width:340px
+}
+.login-card .field-label{
+  font-size:10px;letter-spacing:.18em;text-transform:uppercase;
+  color:rgba(255,255,255,.5);font-weight:600;margin-bottom:6px;display:block
+}
+.login-card input{
+  width:100%;background:rgba(255,255,255,.07);
+  border:1px solid rgba(255,255,255,.15);border-radius:3px;
+  padding:14px 16px;font-size:1rem;color:#fff;outline:none;
+  margin-bottom:1rem;transition:border .2s
+}
+.login-card input:focus{border-color:var(--gold)}
+.login-card input::placeholder{color:rgba(255,255,255,.25)}
+.btn-ingresar{
+  width:100%;background:var(--gold);color:var(--navy-deep);
+  border-radius:3px;padding:14px;font-size:0.9rem;
+  font-weight:700;letter-spacing:.12em;text-transform:uppercase;
+  transition:background .2s;margin-top:.25rem
+}
+.btn-ingresar:active{background:#b8911f}
+.login-footer{
+  text-align:center;padding:1.5rem;
+  font-size:11px;color:rgba(255,255,255,.3);letter-spacing:.05em
+}
+
+/* ── APP SHELL ──────────────────────────────────────────── */
+#appScreen{display:none;flex-direction:column;min-height:100vh;background:var(--cream)}
+
+/* HEADER */
+.app-header{
+  background:var(--paper);border-bottom:1px solid var(--line);
+  position:sticky;top:0;z-index:100
+}
+.header-main{
+  display:flex;align-items:center;justify-content:space-between;
+  padding:12px 16px
+}
+.header-title{display:flex;align-items:center;gap:10px}
+.header-title .app-name{
+  font-family:var(--serif);font-size:1.4rem;font-weight:300;
+  font-style:italic;color:var(--ink);line-height:1;letter-spacing:-.01em
+}
+.header-title .app-name em{font-style:normal;font-weight:400;color:var(--navy)}
+.header-right{display:flex;align-items:center;gap:8px}
+.user-chip{
+  display:flex;align-items:center;gap:6px;
+  background:var(--cream-2);border:1px solid var(--line);
+  border-radius:2px;padding:5px 10px
+}
+.user-chip .uname{font-size:11px;font-weight:600;color:var(--ink-2);letter-spacing:.04em}
+.btn-salir{
+  background:none;border:1px solid var(--line);
+  border-radius:2px;padding:5px 8px;
+  font-size:10px;color:var(--ink-3);letter-spacing:.08em;text-transform:uppercase
+}
+
+/* TRICOLOR */
+.tricolor{height:3px;display:flex}
+.tricolor i{flex:1;display:block}
+.t-blue{background:var(--navy)}
+.t-red{background:#C0392B}
+.t-gold{background:var(--gold)}
+
+/* TABS NAV */
+.tabs-nav{
+  background:var(--paper);border-bottom:1px solid var(--line);
+  display:flex;padding:0 4px
+}
+.tab-btn{
+  flex:1;padding:14px 8px 12px;
+  font-size:11px;letter-spacing:.14em;text-transform:uppercase;
+  font-weight:600;color:var(--ink-3);position:relative;
+  transition:color .15s;display:flex;align-items:center;justify-content:center;gap:6px
+}
+.tab-btn.active{color:var(--navy)}
+.tab-btn.active::after{
+  content:'';position:absolute;left:0;right:0;bottom:-1px;
+  height:2px;background:var(--navy)
+}
+.tab-badge{
+  font-family:var(--mono);font-size:9.5px;
+  background:var(--cream-2);color:var(--ink-4);
+  padding:1px 7px;border-radius:1px;font-weight:500
+}
+.tab-btn.active .tab-badge{background:var(--navy);color:#fff}
+
+/* TAB PANELS */
+.tab-panel{display:none;padding:16px;padding-bottom:5rem}
+.tab-panel.active{display:block}
+
+/* SECTION EYEBROW */
+.sec-ey{
+  font-size:10px;letter-spacing:.22em;text-transform:uppercase;
+  color:var(--ink-3);font-weight:600;margin-bottom:16px;
+  display:flex;align-items:center;gap:10px
+}
+.sec-ey::before{content:'';width:20px;height:1px;background:var(--ink-3)}
+.sec-ey::after{content:'';flex:1;height:1px;background:var(--line)}
+
+/* COUNTER HERO */
+.counter-duo{
+  display:grid;grid-template-columns:1fr 1fr;
+  border:1px solid var(--line);background:var(--paper);
+  margin-bottom:16px
+}
+.counter-card{padding:20px 16px;position:relative}
+.counter-card+.counter-card{border-left:1px solid var(--line)}
+.cc-label{font-size:9.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-3);font-weight:600;margin-bottom:10px}
+.cc-num{
+  font-family:var(--serif);font-size:3.5rem;font-weight:300;
+  font-style:italic;color:var(--ink);line-height:1;letter-spacing:-.02em
+}
+.counter-card.c-navy .cc-num{color:var(--navy)}
+.counter-card.c-red .cc-num{color:var(--red)}
+.cc-sub{font-size:11px;color:var(--ink-3);margin-top:6px;line-height:1.4}
+
+/* FORM CARD */
+.form-section{
+  background:var(--paper);border:1px solid var(--line);
+  margin-bottom:16px
+}
+.form-head{
+  padding:14px 16px 12px;border-bottom:1px solid var(--line);
+  display:flex;align-items:center;gap:10px
+}
+.form-head .fh-num{
+  font-family:var(--mono);font-size:10px;color:var(--ink-4);
+  background:var(--cream-2);padding:2px 8px;letter-spacing:.04em
+}
+.form-head .fh-title{font-size:12px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-2)}
+.form-body{padding:16px}
+.field{margin-bottom:14px}
+.field label{
+  display:block;font-size:10px;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--ink-3);font-weight:600;margin-bottom:6px
+}
+.field input,.field select,.field textarea{
+  width:100%;background:var(--cream);border:1px solid var(--line);
+  border-radius:2px;padding:12px 14px;font-size:0.95rem;
+  color:var(--ink);outline:none;transition:border .15s;appearance:none;-webkit-appearance:none
+}
+.field input:focus,.field select:focus,.field textarea:focus{
+  border-color:var(--navy);background:var(--paper)
+}
+.field textarea{resize:none;height:80px;line-height:1.5}
+
+/* GEO ROW */
+.geo-row{
+  display:grid;grid-template-columns:1fr 1fr;gap:8px
+}
+.geo-box{
+  background:var(--cream-2);border:1px solid var(--line);
+  border-radius:2px;padding:10px 12px
+}
+.geo-box .gb-label{font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-4);font-weight:600;margin-bottom:4px}
+.geo-box .gb-val{font-family:var(--mono);font-size:12px;color:var(--ink-2);font-weight:500}
+.geo-box.active{border-color:var(--green);background:var(--green-soft)}
+.geo-box.active .gb-label{color:var(--green)}
+.geo-box.active .gb-val{color:var(--green)}
+.btn-geo{
+  width:100%;background:var(--navy-deep);color:#fff;
+  border-radius:2px;padding:13px;font-size:12px;
+  font-weight:600;letter-spacing:.12em;text-transform:uppercase;
+  display:flex;align-items:center;justify-content:center;gap:8px;
+  margin-bottom:10px;transition:background .2s
+}
+.btn-geo:active{background:#061830}
+.geo-icon{font-size:16px}
+
+/* FOTO */
+.foto-area{
+  border:1.5px dashed var(--line-strong, #B8AE98);
+  border-radius:2px;background:var(--cream);
+  display:flex;flex-direction:column;align-items:center;
+  justify-content:center;padding:24px 16px;
+  cursor:pointer;transition:border .2s;position:relative;min-height:140px
+}
+.foto-area.has-foto{border-style:solid;border-color:var(--navy);padding:0;overflow:hidden}
+.foto-area img{width:100%;max-height:200px;object-fit:cover;display:block}
+.foto-icon{font-size:2rem;margin-bottom:8px;color:var(--ink-4)}
+.foto-label{font-size:11px;color:var(--ink-3);letter-spacing:.06em;text-align:center}
+.foto-change{
+  position:absolute;bottom:8px;right:8px;
+  background:var(--navy);color:#fff;font-size:10px;
+  padding:4px 10px;border-radius:2px;font-weight:600;letter-spacing:.06em
+}
+input[type="file"]{display:none}
+
+/* TAMAÑO CHIPS */
+.size-chips{display:flex;gap:6px}
+.size-chip{
+  flex:1;padding:10px 6px;border:1px solid var(--line);
+  text-align:center;font-size:11px;font-weight:600;
+  color:var(--ink-3);letter-spacing:.06em;border-radius:2px;
+  transition:all .15s;background:var(--cream)
+}
+.size-chip.sel{background:var(--navy);color:#fff;border-color:var(--navy)}
+
+/* BTN REGISTRAR */
+.btn-registrar{
+  width:100%;background:var(--navy);color:#fff;
+  border-radius:2px;padding:16px;font-size:13px;
+  font-weight:700;letter-spacing:.14em;text-transform:uppercase;
+  transition:background .2s;display:flex;align-items:center;justify-content:center;gap:8px
+}
+.btn-registrar:active{background:#061830}
+.btn-registrar.loading{background:var(--ink-3);pointer-events:none}
+.btn-registrar.btn-green{background:var(--green)}
+.btn-registrar.btn-green:active{background:#2d5233}
+
+/* LISTA DE REGISTROS */
+.registros-list{display:flex;flex-direction:column;gap:10px;margin-top:8px}
+.registro-item{
+  background:var(--paper);border:1px solid var(--line);
+  border-radius:2px;overflow:hidden
+}
+.ri-foto{width:100%;height:110px;object-fit:cover;display:block;background:var(--cream-2)}
+.ri-body{padding:12px 14px}
+.ri-id{font-family:var(--mono);font-size:9.5px;color:var(--ink-4);margin-bottom:4px;letter-spacing:.06em}
+.ri-calle{font-size:14px;font-weight:600;color:var(--ink);margin-bottom:4px}
+.ri-meta{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:8px}
+.ri-tag{
+  font-size:10px;font-weight:600;letter-spacing:.06em;padding:2px 8px;
+  border-radius:1px;text-transform:uppercase
+}
+.ri-tag.tag-size{background:var(--navy-soft);color:var(--navy)}
+.ri-tag.tag-tec{background:var(--gold-soft);color:var(--amber)}
+.ri-tag.tag-pend{background:var(--red-soft);color:var(--red)}
+.ri-tag.tag-ok{background:var(--green-soft);color:var(--green)}
+.ri-coords{font-family:var(--mono);font-size:10px;color:var(--ink-4);margin-bottom:8px}
+.ri-fecha{font-size:10.5px;color:var(--ink-3)}
+.ri-actions{display:flex;gap:6px;margin-top:8px}
+.btn-mini{
+  flex:1;padding:8px 6px;font-size:10px;font-weight:700;
+  letter-spacing:.08em;text-transform:uppercase;border-radius:2px;
+  text-align:center;border:1px solid var(--line);color:var(--ink-3);
+  background:var(--cream);transition:all .2s
+}
+.btn-mini.btn-atender{background:var(--navy);color:#fff;border-color:var(--navy)}
+.btn-mini.btn-del{color:var(--red);border-color:var(--red-soft)}
+
+/* EMPTY STATE */
+.empty-state{
+  text-align:center;padding:3rem 1.5rem;
+  border:1px dashed var(--line);background:var(--paper);margin-top:8px
+}
+.empty-state .es-icon{font-size:2.5rem;margin-bottom:12px;color:var(--ink-4)}
+.empty-state p{font-size:13px;color:var(--ink-3);line-height:1.6}
+
+/* GITHUB SECTION */
+.gh-section{
+  background:var(--paper);border:1px solid var(--line);
+  margin-bottom:16px
+}
+.gh-head{
+  padding:12px 16px;border-bottom:1px solid var(--line);
+  display:flex;align-items:center;gap:8px
+}
+.gh-head .gh-icon{font-size:16px}
+.gh-head .gh-title{font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-2)}
+.gh-body{padding:14px 16px}
+.gh-status{
+  margin-top:10px;padding:10px 12px;border-radius:2px;
+  font-size:11px;font-weight:600;letter-spacing:.04em
+}
+.gh-status.ok{background:var(--green-soft);color:var(--green)}
+.gh-status.err{background:var(--red-soft);color:var(--red)}
+.gh-status.info{background:var(--navy-soft);color:var(--navy)}
+
+/* TOAST */
+.toast{
+  position:fixed;bottom:80px;left:50%;transform:translateX(-50%) translateY(20px);
+  background:var(--navy-deep);color:#fff;padding:10px 20px;
+  border-radius:3px;font-size:12px;font-weight:600;letter-spacing:.06em;
+  z-index:999;opacity:0;transition:all .3s;pointer-events:none;
+  border-left:3px solid var(--gold);white-space:nowrap
+}
+.toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+.toast.err{border-left-color:#C0392B}
+
+/* MANIFIESTO BOTTOM */
+.manifesto-bar{
+  background:var(--navy);color:#fff;
+  padding:16px;text-align:center;margin-top:8px
+}
+.manifesto-bar .mb-eyebrow{
+  font-size:9px;letter-spacing:.22em;text-transform:uppercase;
+  color:var(--gold);font-weight:600;margin-bottom:4px
+}
+.manifesto-bar .mb-text{
+  font-family:var(--serif);font-size:1.1rem;font-weight:300;
+  font-style:italic;color:rgba(255,255,255,.9);line-height:1.3
+}
+</style>
+</head>
+<body>
+
+<!-- ══════════ LOGIN ══════════ -->
+<div id="loginScreen">
+  <div class="login-strip">
+    <div class="dot"></div>
+    <span>GADM Riobamba · Obras Públicas</span>
+  </div>
+  <div class="login-body">
+    <div class="login-logo-wrap">
+      <div class="city-name">Bache<em>Obamba</em></div>
+      <div class="app-tag">Sistema de gestión vial · 2026</div>
+    </div>
+    <div class="tricolor-login"><i class="t1"></i><i class="t2"></i><i class="t3"></i></div>
+    <div class="login-card">
+      <label class="field-label">Usuario</label>
+      <input id="l-user" type="text" placeholder="Tu nombre o código" autocomplete="off" autocorrect="off" spellcheck="false">
+      <label class="field-label">Contraseña</label>
+      <input id="l-pass" type="password" placeholder="••••••">
+      <button class="btn-ingresar" onclick="doLogin()">Ingresar</button>
+    </div>
+  </div>
+  <div class="login-footer">GADM Riobamba · 2026 · Versión 1.0</div>
+</div>
+
+<!-- ══════════ APP ══════════ -->
+<div id="appScreen">
+  <div class="app-header">
+    <div class="header-main">
+      <div class="header-title">
+        <div class="app-name">Bache<em>Obamba</em></div>
+      </div>
+      <div class="header-right">
+        <div class="user-chip">
+          <div class="uname" id="headerUser">—</div>
+        </div>
+        <button class="btn-salir" onclick="doLogout()">Salir</button>
+      </div>
+    </div>
+    <div class="tricolor"><i class="t-blue"></i><i class="t-red"></i><i class="t-gold"></i></div>
+    <div class="tabs-nav">
+      <button class="tab-btn active" onclick="setTab('pendientes',this)">
+        Pendientes <span class="tab-badge" id="cnt-pend">0</span>
+      </button>
+      <button class="tab-btn" onclick="setTab('atendidos',this)">
+        Atendidos <span class="tab-badge" id="cnt-aten">0</span>
+      </button>
+      <button class="tab-btn" onclick="setTab('exportar',this)">
+        Publicar
+      </button>
+    </div>
+  </div>
+
+  <!-- ─── TAB: PENDIENTES ─────────────────────────── -->
+  <div class="tab-panel active" id="panel-pendientes">
+    <div class="sec-ey">Registrar bache</div>
+
+    <!-- Counter -->
+    <div class="counter-duo">
+      <div class="counter-card c-red">
+        <div class="cc-label">Pendientes</div>
+        <div class="cc-num" id="num-pend">0</div>
+        <div class="cc-sub">Sin atender</div>
+      </div>
+      <div class="counter-card c-navy">
+        <div class="cc-label">Total hoy</div>
+        <div class="cc-num" id="num-hoy">0</div>
+        <div class="cc-sub">Registrados</div>
+      </div>
+    </div>
+
+    <!-- Form -->
+    <div class="form-section">
+      <div class="form-head">
+        <span class="fh-num">01</span>
+        <span class="fh-title">Datos del bache</span>
+      </div>
+      <div class="form-body">
+        <!-- Foto -->
+        <div class="field">
+          <label>Fotografía</label>
+          <div class="foto-area" id="pend-foto-area" onclick="document.getElementById('pend-foto-input').click()">
+            <div class="foto-icon">📷</div>
+            <div class="foto-label">Toca para tomar foto<br><small style="color:var(--ink-4)">o seleccionar de galería</small></div>
+          </div>
+          <input type="file" id="pend-foto-input" accept="image/*" capture="environment" onchange="previewFoto(this,'pend-foto-area','pend-foto-b64')">
+          <input type="hidden" id="pend-foto-b64">
+        </div>
+        <!-- Dirección -->
+        <div class="field">
+          <label>Dirección / Calle</label>
+          <input type="text" id="pend-calle" placeholder="Ej. Av. Daniel León Borja y Tarqui">
+        </div>
+        <!-- Tamaño -->
+        <div class="field">
+          <label>Tamaño del bache</label>
+          <div class="size-chips">
+            <div class="size-chip sel" onclick="selSize(this,'P')" data-size="P">Pequeño</div>
+            <div class="size-chip" onclick="selSize(this,'M')" data-size="M">Mediano</div>
+            <div class="size-chip" onclick="selSize(this,'G')" data-size="G">Grande</div>
+          </div>
+        </div>
+        <!-- Observación -->
+        <div class="field">
+          <label>Observación (opcional)</label>
+          <textarea id="pend-obs" placeholder="Describe el estado, profundidad, riesgo…"></textarea>
+        </div>
+        <!-- Geolocalización -->
+        <div class="field">
+          <label>Georeferenciación</label>
+          <button class="btn-geo" onclick="obtenerGeo('pend')">
+            <span class="geo-icon">📍</span> Obtener ubicación GPS
+          </button>
+          <div class="geo-row">
+            <div class="geo-box" id="pend-geo-lat">
+              <div class="gb-label">Latitud</div>
+              <div class="gb-val" id="pend-lat-val">—</div>
+            </div>
+            <div class="geo-box" id="pend-geo-lng">
+              <div class="gb-label">Longitud</div>
+              <div class="gb-val" id="pend-lng-val">—</div>
+            </div>
+          </div>
+        </div>
+        <button class="btn-registrar" onclick="registrarPendiente()">
+          <span>⊕</span> Registrar bache pendiente
+        </button>
+      </div>
+    </div>
+
+    <!-- Lista pendientes -->
+    <div class="sec-ey">Baches pendientes</div>
+    <div id="lista-pendientes"></div>
+  </div>
+
+  <!-- ─── TAB: ATENDIDOS ─────────────────────────── -->
+  <div class="tab-panel" id="panel-atendidos">
+    <div class="sec-ey">Registrar atención</div>
+
+    <!-- Counter -->
+    <div class="counter-duo">
+      <div class="counter-card c-navy">
+        <div class="cc-label">Atendidos</div>
+        <div class="cc-num" id="num-aten-big">0</div>
+        <div class="cc-sub">Baches reparados</div>
+      </div>
+      <div class="counter-card" style="background:var(--gold-soft)">
+        <div class="cc-label">Esta semana</div>
+        <div class="cc-num" id="num-semana" style="color:var(--amber)">0</div>
+        <div class="cc-sub">Últ. 7 días</div>
+      </div>
+    </div>
+
+    <!-- Form atendido -->
+    <div class="form-section">
+      <div class="form-head">
+        <span class="fh-num">01</span>
+        <span class="fh-title">Datos de la atención</span>
+      </div>
+      <div class="form-body">
+        <!-- Foto -->
+        <div class="field">
+          <label>Foto del bache reparado</label>
+          <div class="foto-area" id="aten-foto-area" onclick="document.getElementById('aten-foto-input').click()">
+            <div class="foto-icon">📷</div>
+            <div class="foto-label">Foto del bache atendido</div>
+          </div>
+          <input type="file" id="aten-foto-input" accept="image/*" capture="environment" onchange="previewFoto(this,'aten-foto-area','aten-foto-b64')">
+          <input type="hidden" id="aten-foto-b64">
+        </div>
+        <!-- Técnico -->
+        <div class="field">
+          <label>Técnico responsable</label>
+          <input type="text" id="aten-tec" placeholder="Nombre del técnico" id="aten-tec">
+        </div>
+        <!-- Dirección -->
+        <div class="field">
+          <label>Dirección / Calle</label>
+          <input type="text" id="aten-calle" placeholder="Ej. Calle Guayaquil y Espejo">
+        </div>
+        <!-- Tamaño -->
+        <div class="field">
+          <label>Tamaño atendido</label>
+          <div class="size-chips">
+            <div class="size-chip sel" onclick="selSizeAten(this,'P')" data-size="P">Pequeño</div>
+            <div class="size-chip" onclick="selSizeAten(this,'M')" data-size="M">Mediano</div>
+            <div class="size-chip" onclick="selSizeAten(this,'G')" data-size="G">Grande</div>
+          </div>
+        </div>
+        <!-- Observación -->
+        <div class="field">
+          <label>Observación técnica</label>
+          <textarea id="aten-obs" placeholder="Material usado, horas, condiciones…"></textarea>
+        </div>
+        <!-- Geo -->
+        <div class="field">
+          <label>Georeferenciación</label>
+          <button class="btn-geo" onclick="obtenerGeo('aten')">
+            <span class="geo-icon">📍</span> Obtener ubicación GPS
+          </button>
+          <div class="geo-row">
+            <div class="geo-box" id="aten-geo-lat">
+              <div class="gb-label">Latitud</div>
+              <div class="gb-val" id="aten-lat-val">—</div>
+            </div>
+            <div class="geo-box" id="aten-geo-lng">
+              <div class="gb-label">Longitud</div>
+              <div class="gb-val" id="aten-lng-val">—</div>
+            </div>
+          </div>
+        </div>
+        <button class="btn-registrar btn-green" onclick="registrarAtendido()">
+          <span>✓</span> Registrar bache atendido
+        </button>
+      </div>
+    </div>
+
+    <!-- Lista atendidos -->
+    <div class="sec-ey">Baches atendidos</div>
+    <div id="lista-atendidos"></div>
+
+    <div class="manifesto-bar">
+      <div class="mb-eyebrow">Riobamba · Obras Públicas</div>
+      <div class="mb-text">Cada bache atendido es una <em style="color:var(--gold)">ciudad mejor</em></div>
+    </div>
+  </div>
+
+  <!-- ─── TAB: EXPORTAR ─────────────────────────── -->
+  <div class="tab-panel" id="panel-exportar">
+    <div class="sec-ey">Publicar en GitHub</div>
+
+    <!-- Stats resumen -->
+    <div class="counter-duo" style="margin-bottom:16px">
+      <div class="counter-card c-red">
+        <div class="cc-label">Pendientes</div>
+        <div class="cc-num" id="exp-pend">0</div>
+      </div>
+      <div class="counter-card c-navy">
+        <div class="cc-label">Atendidos</div>
+        <div class="cc-num" id="exp-aten">0</div>
+      </div>
+    </div>
+
+    <!-- GitHub config -->
+    <div class="gh-section">
+      <div class="gh-head">
+        <span class="gh-icon">🐙</span>
+        <span class="gh-title">Configuración GitHub</span>
+      </div>
+      <div class="gh-body">
+        <div class="field">
+          <label>Usuario / Organización</label>
+          <input type="text" id="gh-owner" placeholder="ej. gadm-riobamba">
+        </div>
+        <div class="field">
+          <label>Repositorio</label>
+          <input type="text" id="gh-repo" placeholder="ej. baches-datos">
+        </div>
+        <div class="field">
+          <label>Token de acceso (PAT)</label>
+          <input type="password" id="gh-token" placeholder="ghp_xxxxxxxxxxxx">
+        </div>
+        <button class="btn-registrar" onclick="guardarConfigGH()">Guardar configuración</button>
+        <div id="gh-cfg-status"></div>
+      </div>
+    </div>
+
+    <!-- Publicar -->
+    <div class="gh-section">
+      <div class="gh-head">
+        <span class="gh-icon">📤</span>
+        <span class="gh-title">Publicar datos JSON</span>
+      </div>
+      <div class="gh-body">
+        <p style="font-size:12px;color:var(--ink-3);line-height:1.6;margin-bottom:14px">
+          Publica los registros de baches en tu repositorio GitHub como <code style="font-family:var(--mono);font-size:11px;background:var(--cream-2);padding:1px 5px">baches-data.json</code>. Desde ahí puedes descargar o integrar con el portal.
+        </p>
+        <button class="btn-registrar" onclick="publicarGH()">
+          <span>⬆</span> Publicar en GitHub
+        </button>
+        <div id="gh-pub-status"></div>
+      </div>
+    </div>
+
+    <!-- Descarga local -->
+    <div class="gh-section">
+      <div class="gh-head">
+        <span class="gh-icon">💾</span>
+        <span class="gh-title">Descarga local</span>
+      </div>
+      <div class="gh-body">
+        <p style="font-size:12px;color:var(--ink-3);margin-bottom:14px;line-height:1.6">Descarga el JSON directamente en este dispositivo.</p>
+        <button class="btn-registrar" style="background:var(--ink-2)" onclick="descargarJSON()">
+          <span>↓</span> Descargar JSON
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- TOAST -->
+<div class="toast" id="toast"></div>
+
+<script>
+// ══════════════════════════════════════════════════
+// STATE
+// ══════════════════════════════════════════════════
+var currentUser = '';
+var pendientes = JSON.parse(localStorage.getItem('bo_pendientes')||'[]');
+var atendidos  = JSON.parse(localStorage.getItem('bo_atendidos')||'[]');
+var sizePend = 'P';
+var sizeAten = 'P';
+
+// ── LOGIN ────────────────────────────────────────
+function doLogin(){
+  var u = document.getElementById('l-user').value.trim();
+  var p = document.getElementById('l-pass').value.trim();
+  if(!u){ toast('Ingresa tu nombre de usuario','err'); return; }
+  if(!p){ toast('Ingresa una contraseña','err'); return; }
+  // Simple auth: guardamos usuario, contraseña libre para campo
+  currentUser = u;
+  localStorage.setItem('bo_user', u);
+  localStorage.setItem('bo_pass', btoa(p));
+  initApp();
+}
+
+function doLogout(){
+  currentUser='';
+  document.getElementById('appScreen').style.display='none';
+  document.getElementById('loginScreen').style.display='flex';
+}
+
+function autoLogin(){
+  var u = localStorage.getItem('bo_user');
+  var p = localStorage.getItem('bo_pass');
+  if(u && p){
+    currentUser = u;
+    initApp();
+    return true;
+  }
+  return false;
+}
+
+function initApp(){
+  document.getElementById('loginScreen').style.display='none';
+  document.getElementById('appScreen').style.display='flex';
+  document.getElementById('headerUser').textContent = currentUser;
+  // Restore GH config
+  var o=localStorage.getItem('gh_b_owner')||'';
+  var r=localStorage.getItem('gh_b_repo')||'';
+  var t=localStorage.getItem('gh_b_token')||'';
+  if(o) document.getElementById('gh-owner').value=o;
+  if(r) document.getElementById('gh-repo').value=r;
+  if(t) document.getElementById('gh-token').value=atob(t);
+  renderAll();
+}
+
+// ── TABS ─────────────────────────────────────────
+function setTab(tab, el){
+  document.querySelectorAll('.tab-btn').forEach(function(b){b.classList.remove('active')});
+  el.classList.add('active');
+  document.querySelectorAll('.tab-panel').forEach(function(p){p.classList.remove('active')});
+  document.getElementById('panel-'+tab).classList.add('active');
+  if(tab==='exportar') updateExpCounters();
+}
+
+// ── FOTO PREVIEW ─────────────────────────────────
+function previewFoto(input, areaId, hiddenId){
+  var file = input.files[0];
+  if(!file) return;
+  var reader = new FileReader();
+  reader.onload = function(e){
+    var area = document.getElementById(areaId);
+    area.innerHTML = '<img src="'+e.target.result+'"><span class="foto-change">Cambiar</span>';
+    area.classList.add('has-foto');
+    document.getElementById(hiddenId).value = e.target.result;
+  };
+  reader.readAsDataURL(file);
+}
+
+// ── GEOLOCALIZACIÓN ──────────────────────────────
+function obtenerGeo(prefix){
+  if(!navigator.geolocation){ toast('GPS no disponible','err'); return; }
+  toast('Obteniendo GPS…');
+  navigator.geolocation.getCurrentPosition(function(pos){
+    var lat = pos.coords.latitude.toFixed(6);
+    var lng = pos.coords.longitude.toFixed(6);
+    document.getElementById(prefix+'-lat-val').textContent = lat;
+    document.getElementById(prefix+'-lng-val').textContent = lng;
+    document.getElementById(prefix+'-geo-lat').classList.add('active');
+    document.getElementById(prefix+'-geo-lng').classList.add('active');
+    toast('Ubicación obtenida ✓');
+  }, function(){
+    toast('No se pudo obtener GPS','err');
+  }, {enableHighAccuracy:true, timeout:10000});
+}
+
+// ── TAMAÑO ───────────────────────────────────────
+function selSize(el, s){
+  sizePend = s;
+  document.querySelectorAll('#panel-pendientes .size-chip').forEach(function(c){c.classList.remove('sel')});
+  el.classList.add('sel');
+}
+function selSizeAten(el, s){
+  sizeAten = s;
+  document.querySelectorAll('#panel-atendidos .size-chip').forEach(function(c){c.classList.remove('sel')});
+  el.classList.add('sel');
+}
+
+// ── REGISTRAR PENDIENTE ──────────────────────────
+function registrarPendiente(){
+  var calle = document.getElementById('pend-calle').value.trim();
+  var lat   = document.getElementById('pend-lat-val').textContent;
+  var lng   = document.getElementById('pend-lng-val').textContent;
+  var foto  = document.getElementById('pend-foto-b64').value;
+  var obs   = document.getElementById('pend-obs').value.trim();
+  if(!calle){ toast('Ingresa la dirección','err'); return; }
+  if(lat==='—'){ toast('Obtén la ubicación GPS primero','err'); return; }
+  var reg = {
+    id:'PB-'+Date.now(),
+    tipo:'pendiente',
+    calle:calle,
+    tamano:sizePend,
+    lat:parseFloat(lat),
+    lng:parseFloat(lng),
+    obs:obs,
+    foto:foto,
+    fecha:new Date().toISOString(),
+    usuario:currentUser
+  };
+  pendientes.unshift(reg);
+  savePendientes();
+  limpiarFormPend();
+  renderAll();
+  toast('Bache registrado #'+pendientes.length);
+}
+
+// ── REGISTRAR ATENDIDO ───────────────────────────
+function registrarAtendido(){
+  var calle = document.getElementById('aten-calle').value.trim();
+  var tec   = document.getElementById('aten-tec').value.trim();
+  var lat   = document.getElementById('aten-lat-val').textContent;
+  var lng   = document.getElementById('aten-lng-val').textContent;
+  var foto  = document.getElementById('aten-foto-b64').value;
+  var obs   = document.getElementById('aten-obs').value.trim();
+  if(!calle){ toast('Ingresa la dirección','err'); return; }
+  if(!tec){ toast('Ingresa el nombre del técnico','err'); return; }
+  if(lat==='—'){ toast('Obtén la ubicación GPS primero','err'); return; }
+  var reg = {
+    id:'AB-'+Date.now(),
+    tipo:'atendido',
+    calle:calle,
+    tecnico:tec,
+    tamano:sizeAten,
+    lat:parseFloat(lat),
+    lng:parseFloat(lng),
+    obs:obs,
+    foto:foto,
+    fecha:new Date().toISOString(),
+    usuario:currentUser
+  };
+  atendidos.unshift(reg);
+  saveAtendidos();
+  limpiarFormAten();
+  renderAll();
+  toast('Bache atendido registrado ✓');
+}
+
+// ── LIMPIAR FORMS ────────────────────────────────
+function limpiarFormPend(){
+  document.getElementById('pend-calle').value='';
+  document.getElementById('pend-obs').value='';
+  document.getElementById('pend-lat-val').textContent='—';
+  document.getElementById('pend-lng-val').textContent='—';
+  document.getElementById('pend-geo-lat').classList.remove('active');
+  document.getElementById('pend-geo-lng').classList.remove('active');
+  document.getElementById('pend-foto-b64').value='';
+  var area=document.getElementById('pend-foto-area');
+  area.classList.remove('has-foto');
+  area.innerHTML='<div class="foto-icon">📷</div><div class="foto-label">Toca para tomar foto<br><small style="color:var(--ink-4)">o seleccionar de galería</small></div>';
+  sizePend='P';
+  document.querySelectorAll('#panel-pendientes .size-chip').forEach(function(c){c.classList.remove('sel')});
+  document.querySelector('#panel-pendientes .size-chip[data-size="P"]').classList.add('sel');
+}
+function limpiarFormAten(){
+  document.getElementById('aten-calle').value='';
+  document.getElementById('aten-tec').value='';
+  document.getElementById('aten-obs').value='';
+  document.getElementById('aten-lat-val').textContent='—';
+  document.getElementById('aten-lng-val').textContent='—';
+  document.getElementById('aten-geo-lat').classList.remove('active');
+  document.getElementById('aten-geo-lng').classList.remove('active');
+  document.getElementById('aten-foto-b64').value='';
+  var area=document.getElementById('aten-foto-area');
+  area.classList.remove('has-foto');
+  area.innerHTML='<div class="foto-icon">📷</div><div class="foto-label">Foto del bache atendido</div>';
+  sizeAten='P';
+  document.querySelectorAll('#panel-atendidos .size-chip').forEach(function(c){c.classList.remove('sel')});
+  document.querySelector('#panel-atendidos .size-chip[data-size="P"]').classList.add('sel');
+}
+
+// ── ELIMINAR ─────────────────────────────────────
+function eliminarPend(id){
+  pendientes = pendientes.filter(function(r){ return r.id!==id; });
+  savePendientes(); renderAll();
+  toast('Registro eliminado');
+}
+function eliminarAten(id){
+  atendidos = atendidos.filter(function(r){ return r.id!==id; });
+  saveAtendidos(); renderAll();
+  toast('Registro eliminado');
+}
+function moverAAtendido(id){
+  var idx = pendientes.findIndex(function(r){ return r.id===id; });
+  if(idx<0) return;
+  var reg = pendientes.splice(idx,1)[0];
+  reg.tipo='atendido';
+  reg.id='AB-'+Date.now();
+  reg.tecnico=currentUser;
+  reg.fechaAtencion=new Date().toISOString();
+  atendidos.unshift(reg);
+  savePendientes(); saveAtendidos(); renderAll();
+  toast('Movido a atendidos ✓');
+}
+
+// ── RENDER ───────────────────────────────────────
+function renderAll(){
+  // Counters
+  document.getElementById('num-pend').textContent = pendientes.length;
+  document.getElementById('cnt-pend').textContent = pendientes.length;
+  document.getElementById('num-aten-big').textContent = atendidos.length;
+  document.getElementById('cnt-aten').textContent = atendidos.length;
+  // Hoy
+  var hoy = new Date().toDateString();
+  var hoyCount = pendientes.filter(function(r){ return new Date(r.fecha).toDateString()===hoy; }).length
+                + atendidos.filter(function(r){ return new Date(r.fecha).toDateString()===hoy; }).length;
+  document.getElementById('num-hoy').textContent = hoyCount;
+  // Semana
+  var semana = new Date(); semana.setDate(semana.getDate()-7);
+  var semCount = atendidos.filter(function(r){ return new Date(r.fecha)>=semana; }).length;
+  document.getElementById('num-semana').textContent = semCount;
+  // Listas
+  renderListaPend();
+  renderListaAten();
+}
+
+var tamNombre = {P:'Pequeño',M:'Mediano',G:'Grande'};
+
+function renderListaPend(){
+  var el = document.getElementById('lista-pendientes');
+  if(pendientes.length===0){
+    el.innerHTML='<div class="empty-state"><div class="es-icon">🟢</div><p>Sin baches pendientes.<br>Registra uno arriba.</p></div>';
+    return;
+  }
+  el.innerHTML='<div class="registros-list">'+pendientes.map(function(r){
+    var fecha = new Date(r.fecha).toLocaleString('es-EC',{dateStyle:'short',timeStyle:'short'});
+    return '<div class="registro-item">'
+      +(r.foto?'<img class="ri-foto" src="'+r.foto+'" alt="bache">':'')
+      +'<div class="ri-body">'
+      +'<div class="ri-id">'+r.id+'</div>'
+      +'<div class="ri-calle">'+r.calle+'</div>'
+      +'<div class="ri-meta">'
+      +'<span class="ri-tag tag-size">'+tamNombre[r.tamano]+'</span>'
+      +'<span class="ri-tag tag-pend">Pendiente</span>'
+      +'</div>'
+      +(r.obs?'<div style="font-size:11px;color:var(--ink-3);margin-bottom:6px">'+r.obs+'</div>':'')
+      +'<div class="ri-coords">'+r.lat+', '+r.lng+'</div>'
+      +'<div class="ri-fecha">'+fecha+' · '+r.usuario+'</div>'
+      +'<div class="ri-actions">'
+      +'<button class="btn-mini btn-atender" onclick="moverAAtendido(\''+r.id+'\')">Marcar atendido</button>'
+      +'<button class="btn-mini btn-del" onclick="eliminarPend(\''+r.id+'\')">Eliminar</button>'
+      +'</div>'
+      +'</div></div>';
+  }).join('')+'</div>';
+}
+
+function renderListaAten(){
+  var el = document.getElementById('lista-atendidos');
+  if(atendidos.length===0){
+    el.innerHTML='<div class="empty-state"><div class="es-icon">🏗️</div><p>Aún no hay baches atendidos.<br>Registra el primero.</p></div>';
+    return;
+  }
+  el.innerHTML='<div class="registros-list">'+atendidos.map(function(r){
+    var fecha = new Date(r.fecha).toLocaleString('es-EC',{dateStyle:'short',timeStyle:'short'});
+    return '<div class="registro-item">'
+      +(r.foto?'<img class="ri-foto" src="'+r.foto+'" alt="bache">':'')
+      +'<div class="ri-body">'
+      +'<div class="ri-id">'+r.id+'</div>'
+      +'<div class="ri-calle">'+r.calle+'</div>'
+      +'<div class="ri-meta">'
+      +'<span class="ri-tag tag-size">'+tamNombre[r.tamano]+'</span>'
+      +'<span class="ri-tag tag-ok">Atendido</span>'
+      +(r.tecnico?'<span class="ri-tag tag-tec">'+r.tecnico+'</span>':'')
+      +'</div>'
+      +(r.obs?'<div style="font-size:11px;color:var(--ink-3);margin-bottom:6px">'+r.obs+'</div>':'')
+      +'<div class="ri-coords">'+r.lat+', '+r.lng+'</div>'
+      +'<div class="ri-fecha">'+fecha+'</div>'
+      +'<div class="ri-actions">'
+      +'<button class="btn-mini btn-del" onclick="eliminarAten(\''+r.id+'\')">Eliminar</button>'
+      +'</div>'
+      +'</div></div>';
+  }).join('')+'</div>';
+}
+
+function updateExpCounters(){
+  document.getElementById('exp-pend').textContent = pendientes.length;
+  document.getElementById('exp-aten').textContent = atendidos.length;
+}
+
+// ── SAVE ─────────────────────────────────────────
+function savePendientes(){
+  // Guardar sin fotos para no saturar localStorage, fotos solo en memoria
+  var light = pendientes.map(function(r){
+    var c=Object.assign({},r);
+    return c;
+  });
+  try{ localStorage.setItem('bo_pendientes', JSON.stringify(light)); }
+  catch(e){ /* quota */ }
+}
+function saveAtendidos(){
+  try{ localStorage.setItem('bo_atendidos', JSON.stringify(atendidos)); }
+  catch(e){ /* quota */ }
+}
+
+// ── GITHUB ───────────────────────────────────────
+function guardarConfigGH(){
+  var o=document.getElementById('gh-owner').value.trim();
+  var r=document.getElementById('gh-repo').value.trim();
+  var t=document.getElementById('gh-token').value.trim();
+  if(!o||!r||!t){ toast('Completa los tres campos','err'); return; }
+  localStorage.setItem('gh_b_owner',o);
+  localStorage.setItem('gh_b_repo',r);
+  localStorage.setItem('gh_b_token',btoa(t));
+  var st=document.getElementById('gh-cfg-status');
+  st.innerHTML='<div class="gh-status ok">✓ Configuración guardada</div>';
+  toast('Configuración guardada');
+}
+
+function buildJSON(){
+  return {
+    generado: new Date().toISOString(),
+    app: 'BacheObamba · GADM Riobamba',
+    pendientes: pendientes.map(function(r){
+      var c=Object.assign({},r); delete c.foto; return c;
+    }),
+    atendidos: atendidos.map(function(r){
+      var c=Object.assign({},r); delete c.foto; return c;
+    }),
+    totales:{ pendientes:pendientes.length, atendidos:atendidos.length }
+  };
+}
+
+function publicarGH(){
+  var owner=localStorage.getItem('gh_b_owner')||'';
+  var repo=localStorage.getItem('gh_b_repo')||'';
+  var tokenRaw=localStorage.getItem('gh_b_token')||'';
+  var token=tokenRaw?atob(tokenRaw):'';
+  if(!owner||!repo||!token){
+    toast('Configura GitHub primero','err');
+    document.getElementById('gh-pub-status').innerHTML='<div class="gh-status err">⚠ Configura tus credenciales arriba</div>';
+    return;
+  }
+  var st=document.getElementById('gh-pub-status');
+  st.innerHTML='<div class="gh-status info">Publicando…</div>';
+  var datos=JSON.stringify(buildJSON(),null,2);
+  var b64=btoa(unescape(encodeURIComponent(datos)));
+  var url='https://api.github.com/repos/'+owner+'/'+repo+'/contents/baches-data.json';
+  // Intentar leer SHA existente
+  fetch(url,{headers:{'Authorization':'token '+token,'Accept':'application/vnd.github.v3+json'}})
+    .then(function(r){ return r.ok?r.json():null; })
+    .then(function(meta){
+      var body={message:'BacheObamba: actualización '+new Date().toISOString(),content:b64};
+      if(meta&&meta.sha) body.sha=meta.sha;
+      return fetch(url,{
+        method:'PUT',
+        headers:{'Authorization':'token '+token,'Content-Type':'application/json','Accept':'application/vnd.github.v3+json'},
+        body:JSON.stringify(body)
+      });
+    })
+    .then(function(r){ return r.json(); })
+    .then(function(d){
+      if(d.content){
+        st.innerHTML='<div class="gh-status ok">✓ Publicado exitosamente en GitHub</div>';
+        toast('Publicado en GitHub ✓');
+      } else {
+        st.innerHTML='<div class="gh-status err">Error: '+(d.message||'Verifica credenciales')+'</div>';
+      }
+    })
+    .catch(function(e){
+      st.innerHTML='<div class="gh-status err">Error de conexión: '+e+'</div>';
+    });
+}
+
+function descargarJSON(){
+  var datos=JSON.stringify(buildJSON(),null,2);
+  var blob=new Blob([datos],{type:'application/json'});
+  var url=URL.createObjectURL(blob);
+  var a=document.createElement('a');
+  a.href=url;
+  a.download='baches-data-'+new Date().toISOString().slice(0,10)+'.json';
+  a.click();
+  URL.revokeObjectURL(url);
+  toast('JSON descargado');
+}
+
+// ── TOAST ─────────────────────────────────────────
+function toast(msg, type){
+  var el=document.getElementById('toast');
+  el.textContent=msg;
+  el.className='toast'+(type==='err'?' err':'')+' show';
+  clearTimeout(el._t);
+  el._t=setTimeout(function(){ el.classList.remove('show'); },2500);
+}
+
+// ── INIT ─────────────────────────────────────────
+window.addEventListener('DOMContentLoaded',function(){
+  if(!autoLogin()){
+    document.getElementById('loginScreen').style.display='flex';
+  }
+  document.getElementById('l-pass').addEventListener('keydown',function(e){
+    if(e.key==='Enter') doLogin();
+  });
+});
+</script>
+</body>
+</html>
