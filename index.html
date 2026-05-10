@@ -1,0 +1,2241 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BACHEOBAMBA · GADM Riobamba</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,500;0,9..40,700;1,9..40,300&family=Syne:wght@700;800&display=swap');
+
+:root {
+  --rojo: #C0392B;
+  --rojo-vivo: #E74C3C;
+  --verde: #1A7A4A;
+  --verde-vivo: #27AE60;
+  --amarillo: #F0A500;
+  --gris-oscuro: #1C1C1E;
+  --gris-medio: #3A3A3C;
+  --gris-claro: #8E8E93;
+  --gris-borde: #D1D1D6;
+  --fondo: #F2F2F7;
+  --blanco: #FFFFFF;
+  --azul-gadm: #1B3A6B;
+  --azul-claro: #2D5AA0;
+  --sombra: 0 2px 20px rgba(0,0,0,0.10);
+  --sombra-fuerte: 0 8px 40px rgba(0,0,0,0.18);
+  --radio: 14px;
+  --radio-sm: 8px;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  background: var(--fondo);
+  color: var(--gris-oscuro);
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* ─── HEADER CIUDADANO ─── */
+.header-ciudadano {
+  background: var(--azul-gadm);
+  color: white;
+  padding: 0 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 64px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.25);
+}
+
+.header-logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.header-logo-icon {
+  width: 40px;
+  height: 40px;
+  background: var(--amarillo);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+}
+
+.header-logo h1 {
+  font-family: 'Syne', sans-serif;
+  font-size: 1.3rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+}
+
+.header-logo span {
+  font-size: 0.7rem;
+  font-weight: 300;
+  opacity: 0.75;
+  display: block;
+  letter-spacing: 0.05em;
+}
+
+.btn-admin {
+  background: rgba(255,255,255,0.12);
+  border: 1.5px solid rgba(255,255,255,0.25);
+  color: white;
+  padding: 8px 18px;
+  border-radius: 8px;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.85rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+.btn-admin:hover { background: rgba(255,255,255,0.22); }
+
+/* ─── HERO CIUDADANO ─── */
+.hero {
+  background: linear-gradient(135deg, var(--azul-gadm) 0%, var(--azul-claro) 60%, #3D6BB5 100%);
+  color: white;
+  padding: 48px 24px 40px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+.hero::before {
+  content: '';
+  position: absolute;
+  top: -50px; right: -80px;
+  width: 300px; height: 300px;
+  background: rgba(255,255,255,0.04);
+  border-radius: 50%;
+}
+.hero::after {
+  content: '';
+  position: absolute;
+  bottom: -60px; left: -40px;
+  width: 200px; height: 200px;
+  background: rgba(255,255,255,0.03);
+  border-radius: 50%;
+}
+.hero h2 {
+  font-family: 'Syne', sans-serif;
+  font-size: 2rem;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  margin-bottom: 10px;
+  position: relative;
+}
+.hero p {
+  opacity: 0.82;
+  font-size: 1rem;
+  font-weight: 300;
+  margin-bottom: 28px;
+  position: relative;
+}
+.btn-reportar {
+  background: var(--amarillo);
+  color: var(--gris-oscuro);
+  border: none;
+  padding: 14px 32px;
+  border-radius: 50px;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s;
+  box-shadow: 0 4px 16px rgba(240,165,0,0.4);
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+.btn-reportar:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(240,165,0,0.5);
+}
+
+/* ─── MAIN CIUDADANO ─── */
+.main-ciudadano {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 24px 16px 80px;
+}
+
+/* ─── ESTADÍSTICAS ─── */
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  margin-bottom: 28px;
+}
+.stat-card {
+  background: var(--blanco);
+  border-radius: var(--radio);
+  padding: 20px 16px;
+  text-align: center;
+  box-shadow: var(--sombra);
+  position: relative;
+  overflow: hidden;
+}
+.stat-card::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 4px;
+}
+.stat-card.total::before { background: var(--azul-gadm); }
+.stat-card.pendiente::before { background: var(--rojo-vivo); }
+.stat-card.atendido::before { background: var(--verde-vivo); }
+
+.stat-num {
+  font-family: 'Syne', sans-serif;
+  font-size: 2.4rem;
+  font-weight: 800;
+  line-height: 1;
+  margin-bottom: 4px;
+}
+.stat-card.total .stat-num { color: var(--azul-gadm); }
+.stat-card.pendiente .stat-num { color: var(--rojo-vivo); }
+.stat-card.atendido .stat-num { color: var(--verde-vivo); }
+.stat-label { font-size: 0.75rem; color: var(--gris-claro); font-weight: 500; text-transform: uppercase; letter-spacing: 0.06em; }
+
+/* ─── SECTION HEADERS ─── */
+.section-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 14px;
+}
+.section-title {
+  font-family: 'Syne', sans-serif;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--gris-oscuro);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* ─── MAPA CIUDADANO ─── */
+.mapa-container {
+  background: var(--blanco);
+  border-radius: var(--radio);
+  overflow: hidden;
+  box-shadow: var(--sombra);
+  margin-bottom: 28px;
+}
+.mapa-placeholder {
+  height: 320px;
+  background: linear-gradient(160deg, #e8ecf1, #d8dfe8);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.mapa-placeholder:hover { background: linear-gradient(160deg, #dde2ea, #c9d3de); }
+.mapa-placeholder .mapa-icon { font-size: 3rem; }
+.mapa-placeholder p { color: var(--gris-claro); font-size: 0.9rem; }
+#mapa-ciudadano { height: 320px; }
+
+/* ─── CRONOGRAMA ─── */
+.cronograma-card {
+  background: var(--blanco);
+  border-radius: var(--radio);
+  box-shadow: var(--sombra);
+  overflow: hidden;
+  margin-bottom: 28px;
+}
+.cronograma-banner {
+  background: linear-gradient(135deg, var(--verde) 0%, var(--verde-vivo) 100%);
+  padding: 18px 20px;
+  color: white;
+}
+.cronograma-banner h3 {
+  font-family: 'Syne', sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+}
+.cronograma-banner p {
+  font-size: 0.82rem;
+  opacity: 0.85;
+  margin-top: 3px;
+  font-style: italic;
+}
+.cronograma-body { padding: 16px; }
+.cronograma-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  padding: 12px 0;
+  border-bottom: 1px solid var(--fondo);
+}
+.cronograma-item:last-child { border-bottom: none; }
+.cron-fecha {
+  background: var(--fondo);
+  border-radius: var(--radio-sm);
+  padding: 8px 10px;
+  text-align: center;
+  min-width: 52px;
+  flex-shrink: 0;
+}
+.cron-fecha .dia {
+  font-family: 'Syne', sans-serif;
+  font-size: 1.3rem;
+  font-weight: 800;
+  line-height: 1;
+  color: var(--azul-gadm);
+}
+.cron-fecha .mes { font-size: 0.65rem; text-transform: uppercase; color: var(--gris-claro); letter-spacing: 0.05em; }
+.cron-info h4 { font-size: 0.9rem; font-weight: 600; margin-bottom: 2px; }
+.cron-info p { font-size: 0.78rem; color: var(--gris-claro); }
+.cron-badge {
+  margin-left: auto;
+  flex-shrink: 0;
+  padding: 4px 10px;
+  border-radius: 50px;
+  font-size: 0.7rem;
+  font-weight: 600;
+}
+.cron-badge.prog { background: #EBF4FF; color: var(--azul-claro); }
+.cron-badge.exec { background: #FFF3CD; color: #856404; }
+.cronograma-vacio { text-align: center; color: var(--gris-claro); padding: 24px; font-size: 0.9rem; }
+
+/* ─── LISTA REPORTES CIUDADANO ─── */
+.reporte-card {
+  background: var(--blanco);
+  border-radius: var(--radio);
+  padding: 16px;
+  box-shadow: var(--sombra);
+  margin-bottom: 12px;
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+  cursor: pointer;
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+.reporte-card:hover { transform: translateY(-2px); box-shadow: var(--sombra-fuerte); }
+.reporte-dot {
+  width: 12px; height: 12px;
+  border-radius: 50%;
+  margin-top: 4px;
+  flex-shrink: 0;
+}
+.reporte-dot.pendiente { background: var(--rojo-vivo); box-shadow: 0 0 0 3px rgba(231,76,60,0.2); }
+.reporte-dot.atendido { background: var(--verde-vivo); box-shadow: 0 0 0 3px rgba(39,174,96,0.2); }
+.reporte-info { flex: 1; min-width: 0; }
+.reporte-dir { font-weight: 600; font-size: 0.9rem; margin-bottom: 3px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.reporte-meta { font-size: 0.75rem; color: var(--gris-claro); }
+.reporte-badge {
+  padding: 4px 10px;
+  border-radius: 50px;
+  font-size: 0.7rem;
+  font-weight: 600;
+  flex-shrink: 0;
+  align-self: center;
+}
+.reporte-badge.pendiente { background: #FFEBEE; color: var(--rojo-vivo); }
+.reporte-badge.atendido { background: #E8F5E9; color: var(--verde); }
+
+/* ─── MODAL LOGIN ─── */
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.55);
+  backdrop-filter: blur(4px);
+  z-index: 200;
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+.overlay.active { display: flex; }
+
+.modal-login {
+  background: var(--blanco);
+  border-radius: 20px;
+  padding: 40px 36px;
+  width: 90%;
+  max-width: 380px;
+  box-shadow: var(--sombra-fuerte);
+  animation: slideUp 0.25s ease;
+}
+@keyframes slideUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.modal-login h2 {
+  font-family: 'Syne', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 800;
+  margin-bottom: 4px;
+}
+.modal-login .subtitulo { font-size: 0.82rem; color: var(--gris-claro); margin-bottom: 28px; }
+.campo { margin-bottom: 16px; }
+.campo label { display: block; font-size: 0.8rem; font-weight: 600; color: var(--gris-oscuro); margin-bottom: 6px; text-transform: uppercase; letter-spacing: 0.04em; }
+.campo input, .campo select, .campo textarea {
+  width: 100%;
+  padding: 11px 14px;
+  border: 1.5px solid var(--gris-borde);
+  border-radius: var(--radio-sm);
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.9rem;
+  transition: border-color 0.15s;
+  background: var(--blanco);
+  color: var(--gris-oscuro);
+}
+.campo input:focus, .campo select:focus, .campo textarea:focus {
+  outline: none;
+  border-color: var(--azul-claro);
+  box-shadow: 0 0 0 3px rgba(45,90,160,0.12);
+}
+.campo textarea { resize: vertical; min-height: 80px; }
+.error-msg { color: var(--rojo-vivo); font-size: 0.8rem; margin-top: 6px; display: none; }
+.error-msg.show { display: block; }
+
+/* ─── BOTONES ─── */
+.btn-primary {
+  width: 100%;
+  background: var(--azul-gadm);
+  color: white;
+  border: none;
+  padding: 13px;
+  border-radius: var(--radio-sm);
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.btn-primary:hover { background: var(--azul-claro); transform: translateY(-1px); }
+.btn-primary.verde { background: var(--verde); }
+.btn-primary.verde:hover { background: var(--verde-vivo); }
+.btn-primary.rojo { background: var(--rojo); }
+.btn-primary.rojo:hover { background: var(--rojo-vivo); }
+.btn-secondary {
+  background: var(--fondo);
+  border: 1.5px solid var(--gris-borde);
+  color: var(--gris-oscuro);
+  padding: 10px 18px;
+  border-radius: var(--radio-sm);
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.85rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.btn-secondary:hover { background: var(--gris-borde); }
+
+/* ─── PANEL TÉCNICO ─── */
+.panel-tecnico {
+  position: fixed;
+  inset: 0;
+  background: var(--fondo);
+  z-index: 300;
+  display: none;
+  flex-direction: column;
+  animation: fadeIn 0.2s ease;
+}
+.panel-tecnico.active { display: flex; }
+@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+
+.panel-header {
+  background: var(--gris-oscuro);
+  color: white;
+  padding: 0 20px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+}
+.panel-header h2 {
+  font-family: 'Syne', sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.user-badge {
+  background: rgba(255,255,255,0.12);
+  border: 1px solid rgba(255,255,255,0.2);
+  border-radius: 20px;
+  padding: 5px 12px;
+  font-size: 0.8rem;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.btn-cerrar-sesion {
+  background: rgba(231,76,60,0.25);
+  border: 1px solid rgba(231,76,60,0.4);
+  color: #ff8a80;
+  padding: 6px 14px;
+  border-radius: 6px;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.btn-cerrar-sesion:hover { background: rgba(231,76,60,0.4); }
+
+/* ─── TABS ─── */
+.tabs-bar {
+  background: var(--blanco);
+  display: flex;
+  overflow-x: auto;
+  border-bottom: 2px solid var(--fondo);
+  flex-shrink: 0;
+  scrollbar-width: none;
+}
+.tabs-bar::-webkit-scrollbar { display: none; }
+.tab-btn {
+  padding: 14px 18px;
+  background: none;
+  border: none;
+  border-bottom: 3px solid transparent;
+  color: var(--gris-claro);
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all 0.15s;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.tab-btn:hover { color: var(--azul-gadm); }
+.tab-btn.active {
+  color: var(--azul-gadm);
+  border-bottom-color: var(--azul-gadm);
+}
+.tab-badge {
+  background: var(--rojo-vivo);
+  color: white;
+  border-radius: 50px;
+  padding: 1px 6px;
+  font-size: 0.65rem;
+}
+
+.tab-content { display: none; flex: 1; overflow-y: auto; padding: 20px; }
+.tab-content.active { display: block; }
+
+/* ─── TABLA TÉCNICO ─── */
+.tabla-container { background: var(--blanco); border-radius: var(--radio); box-shadow: var(--sombra); overflow: hidden; }
+.tabla-header { padding: 16px 20px; border-bottom: 1px solid var(--fondo); display: flex; align-items: center; justify-content: space-between; }
+.tabla-header h3 { font-family: 'Syne', sans-serif; font-size: 0.95rem; font-weight: 700; }
+
+.reporte-item-tec {
+  padding: 16px 20px;
+  border-bottom: 1px solid var(--fondo);
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+  transition: background 0.1s;
+}
+.reporte-item-tec:hover { background: #FAFAFA; }
+.reporte-item-tec:last-child { border-bottom: none; }
+.rit-info { flex: 1; min-width: 0; }
+.rit-dir { font-weight: 600; font-size: 0.9rem; margin-bottom: 4px; }
+.rit-meta { font-size: 0.75rem; color: var(--gris-claro); line-height: 1.6; }
+.rit-acciones { display: flex; gap: 8px; align-items: center; flex-shrink: 0; }
+.btn-icon {
+  width: 34px; height: 34px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.95rem;
+  transition: all 0.15s;
+}
+.btn-icon.verde { background: #E8F5E9; color: var(--verde); }
+.btn-icon.verde:hover { background: var(--verde-vivo); color: white; }
+.btn-icon.rojo { background: #FFEBEE; color: var(--rojo-vivo); }
+.btn-icon.rojo:hover { background: var(--rojo-vivo); color: white; }
+.btn-icon.azul { background: #EBF4FF; color: var(--azul-claro); }
+.btn-icon.azul:hover { background: var(--azul-claro); color: white; }
+.btn-icon.gris { background: var(--fondo); color: var(--gris-claro); }
+.btn-icon.gris:hover { background: var(--gris-borde); color: var(--gris-oscuro); }
+
+/* ─── MODAL FOTO ─── */
+.modal-grande {
+  background: var(--blanco);
+  border-radius: 20px;
+  width: 95%;
+  max-width: 560px;
+  max-height: 92vh;
+  overflow-y: auto;
+  box-shadow: var(--sombra-fuerte);
+  animation: slideUp 0.25s ease;
+}
+.modal-grande-header {
+  padding: 20px 24px 16px;
+  border-bottom: 1px solid var(--fondo);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.modal-grande-header h3 {
+  font-family: 'Syne', sans-serif;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+.modal-grande-body { padding: 20px 24px; }
+.btn-cerrar-modal {
+  width: 32px; height: 32px;
+  border-radius: 50%;
+  background: var(--fondo);
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  color: var(--gris-claro);
+  transition: all 0.15s;
+}
+.btn-cerrar-modal:hover { background: var(--gris-borde); color: var(--gris-oscuro); }
+
+/* ─── FOTO PREVIEW ─── */
+.foto-upload-area {
+  border: 2px dashed var(--gris-borde);
+  border-radius: var(--radio-sm);
+  padding: 24px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.15s;
+  background: var(--fondo);
+  position: relative;
+}
+.foto-upload-area:hover { border-color: var(--azul-claro); background: #EBF4FF; }
+.foto-preview {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: var(--radio-sm);
+  margin-top: 10px;
+  display: none;
+}
+.foto-preview.show { display: block; }
+
+/* ─── ANTES/DESPUÉS ─── */
+.antes-despues {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+.ad-item { text-align: center; }
+.ad-item label { display: block; font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 6px; }
+.ad-item.antes label { color: var(--rojo-vivo); }
+.ad-item.despues label { color: var(--verde-vivo); }
+
+/* ─── GPS BADGE ─── */
+.gps-info {
+  background: #EBF4FF;
+  border-radius: var(--radio-sm);
+  padding: 10px 14px;
+  font-size: 0.8rem;
+  color: var(--azul-claro);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+.gps-info.ok { background: #E8F5E9; color: var(--verde); }
+.gps-info.error { background: #FFEBEE; color: var(--rojo-vivo); }
+
+/* ─── ADMIN ─── */
+.admin-section { margin-bottom: 28px; }
+.admin-section h3 {
+  font-family: 'Syne', sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 14px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.usuario-row {
+  background: var(--blanco);
+  border-radius: var(--radio-sm);
+  padding: 14px 18px;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  box-shadow: var(--sombra);
+}
+.usuario-avatar {
+  width: 38px; height: 38px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--azul-gadm), var(--azul-claro));
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 0.9rem;
+  flex-shrink: 0;
+}
+.usuario-info { flex: 1; }
+.usuario-nombre { font-weight: 600; font-size: 0.9rem; }
+.usuario-rol { font-size: 0.75rem; color: var(--gris-claro); }
+.usuario-acciones { display: flex; gap: 6px; }
+
+/* ─── CAMBIO CLAVE OBLIGATORIO ─── */
+.modal-cambio-clave {
+  background: var(--blanco);
+  border-radius: 20px;
+  padding: 40px 36px;
+  width: 90%;
+  max-width: 400px;
+  box-shadow: var(--sombra-fuerte);
+  animation: slideUp 0.25s ease;
+}
+
+/* ─── VIEWER FOTO FULL ─── */
+.foto-viewer {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.9);
+  z-index: 999;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 16px;
+}
+.foto-viewer.active { display: flex; }
+.foto-viewer img {
+  max-width: 95vw;
+  max-height: 80vh;
+  border-radius: 12px;
+  object-fit: contain;
+}
+.foto-viewer-label {
+  color: white;
+  font-size: 0.85rem;
+  opacity: 0.7;
+}
+
+/* ─── MAPA TÉCNICO ─── */
+#mapa-tecnico { height: 420px; border-radius: var(--radio); overflow: hidden; box-shadow: var(--sombra); }
+
+/* ─── CRONOGRAMA TÉCNICO ─── */
+.cron-tec-item {
+  background: var(--blanco);
+  border-radius: var(--radio);
+  padding: 16px 18px;
+  box-shadow: var(--sombra);
+  margin-bottom: 10px;
+  display: flex;
+  gap: 14px;
+  align-items: center;
+}
+.cron-tec-acciones { margin-left: auto; display: flex; gap: 6px; }
+
+/* ─── NOTIFICACIÓN ─── */
+.notif {
+  position: fixed;
+  bottom: 24px;
+  left: 50%;
+  transform: translateX(-50%) translateY(20px);
+  background: var(--gris-oscuro);
+  color: white;
+  padding: 12px 22px;
+  border-radius: 50px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  z-index: 9999;
+  opacity: 0;
+  transition: all 0.3s;
+  pointer-events: none;
+  white-space: nowrap;
+  box-shadow: var(--sombra-fuerte);
+}
+.notif.show { opacity: 1; transform: translateX(-50%) translateY(0); }
+.notif.verde { background: var(--verde); }
+.notif.rojo { background: var(--rojo); }
+
+/* ─── MODAL REPORTE (ciudadano) ─── */
+.modal-reporte-ciudadano {
+  background: var(--blanco);
+  border-radius: 20px;
+  width: 95%;
+  max-width: 480px;
+  max-height: 90vh;
+  overflow-y: auto;
+  box-shadow: var(--sombra-fuerte);
+  animation: slideUp 0.25s ease;
+}
+
+/* ─── EMPTY STATE ─── */
+.empty-state {
+  text-align: center;
+  padding: 48px 24px;
+  color: var(--gris-claro);
+}
+.empty-state .empty-icon { font-size: 3rem; margin-bottom: 12px; }
+.empty-state p { font-size: 0.9rem; }
+
+/* ─── POPUP MAPA ─── */
+.popup-mapa-content { font-family: 'DM Sans', sans-serif; min-width: 200px; }
+.popup-mapa-content h4 { font-family: 'Syne', sans-serif; font-size: 0.9rem; margin-bottom: 6px; }
+.popup-mapa-content p { font-size: 0.78rem; color: #555; margin-bottom: 4px; }
+.popup-antes-despues { display: flex; gap: 6px; margin-top: 8px; }
+.popup-antes-despues img { width: 80px; height: 60px; object-fit: cover; border-radius: 6px; cursor: pointer; }
+.popup-antes-despues .pd-label { font-size: 0.65rem; text-align: center; margin-top: 3px; color: #888; }
+
+/* ─── RESPONSIVE ─── */
+@media (max-width: 480px) {
+  .stats-grid { gap: 8px; }
+  .stat-num { font-size: 1.9rem; }
+  .modal-login { padding: 28px 20px; }
+  .modal-cambio-clave { padding: 28px 20px; }
+  .tab-btn { padding: 12px 14px; font-size: 0.8rem; }
+}
+
+/* ─── SESIÓN EXPIRA AVISO ─── */
+.sesion-aviso {
+  position: fixed;
+  top: 70px;
+  right: 16px;
+  background: #FFF3CD;
+  border: 1px solid #FFD700;
+  border-radius: 10px;
+  padding: 10px 16px;
+  font-size: 0.8rem;
+  z-index: 1000;
+  display: none;
+  box-shadow: var(--sombra);
+}
+.sesion-aviso.show { display: block; }
+
+/* Separador */
+.divider { height: 1px; background: var(--fondo); margin: 16px 0; }
+.mt12 { margin-top: 12px; }
+.mb16 { margin-bottom: 16px; }
+.text-center { text-align: center; }
+.text-sm { font-size: 0.8rem; color: var(--gris-claro); }
+</style>
+</head>
+<body>
+
+<!-- NOTIFICACIÓN TOAST -->
+<div class="notif" id="notif"></div>
+
+<!-- AVISO SESIÓN PRÓXIMA A EXPIRAR -->
+<div class="sesion-aviso" id="sesion-aviso">⏱ Tu sesión expira en 5 minutos</div>
+
+<!-- ═══════════════════════════════════════════════
+     PORTAL CIUDADANO
+═══════════════════════════════════════════════ -->
+<header class="header-ciudadano">
+  <div class="header-logo">
+    <div class="header-logo-icon">🛣</div>
+    <h1>BACHEOBAMBA<span>GADM Riobamba · Obras Públicas</span></h1>
+  </div>
+  <button class="btn-admin" onclick="abrirLogin()">🔐 Administración</button>
+</header>
+
+<div class="hero">
+  <h2>¿Encontraste un bache?</h2>
+  <p>Repórtalo en segundos y deja que Obras Públicas te escuche</p>
+  <button class="btn-reportar" onclick="abrirModalReporteCiudadano()">
+    📍 Reportar bache
+  </button>
+</div>
+
+<main class="main-ciudadano">
+
+  <!-- ESTADÍSTICAS -->
+  <div class="stats-grid">
+    <div class="stat-card total">
+      <div class="stat-num" id="stat-total">0</div>
+      <div class="stat-label">Total</div>
+    </div>
+    <div class="stat-card pendiente">
+      <div class="stat-num" id="stat-pendiente">0</div>
+      <div class="stat-label">Pendientes</div>
+    </div>
+    <div class="stat-card atendido">
+      <div class="stat-num" id="stat-atendido">0</div>
+      <div class="stat-label">Atendidos</div>
+    </div>
+  </div>
+
+  <!-- MAPA CIUDADANO -->
+  <div class="section-header">
+    <div class="section-title">🗺 Mapa de reportes</div>
+  </div>
+  <div class="mapa-container" style="margin-bottom: 28px;">
+    <div class="mapa-placeholder" id="mapa-ciudadano-placeholder" onclick="cargarMapaCiudadano()">
+      <div class="mapa-icon">🗺</div>
+      <p>Toca para cargar el mapa interactivo</p>
+    </div>
+    <div id="mapa-ciudadano" style="display:none;"></div>
+  </div>
+
+  <!-- CRONOGRAMA -->
+  <div class="section-header">
+    <div class="section-title">📅 Cronograma de intervenciones</div>
+  </div>
+  <div class="cronograma-card">
+    <div class="cronograma-banner">
+      <h3>🚧 Conoce dónde trabajamos</h3>
+      <p>Pronto llegaremos a tu lugar</p>
+    </div>
+    <div class="cronograma-body" id="cronograma-ciudadano">
+      <div class="cronograma-vacio">No hay intervenciones programadas aún.</div>
+    </div>
+  </div>
+
+  <!-- ÚLTIMOS REPORTES -->
+  <div class="section-header" style="margin-top: 28px;">
+    <div class="section-title">📋 Últimos reportes</div>
+  </div>
+  <div id="lista-reportes-ciudadano">
+    <div class="empty-state">
+      <div class="empty-icon">🕳</div>
+      <p>Aún no hay reportes. ¡Sé el primero!</p>
+    </div>
+  </div>
+
+</main>
+
+<!-- ═══════════════════════════════════════════════
+     MODAL: REPORTE CIUDADANO
+═══════════════════════════════════════════════ -->
+<div class="overlay" id="overlay-reporte-ciudadano">
+  <div class="modal-reporte-ciudadano">
+    <div class="modal-grande-header">
+      <h3>📍 Nuevo reporte de bache</h3>
+      <button class="btn-cerrar-modal" onclick="cerrarOverlay('overlay-reporte-ciudadano')">✕</button>
+    </div>
+    <div class="modal-grande-body">
+      <div id="gps-estado-reporte" class="gps-info">📡 Obteniendo ubicación GPS…</div>
+      <input type="hidden" id="rep-lat" value="">
+      <input type="hidden" id="rep-lng" value="">
+      <div class="campo">
+        <label>Dirección / Referencia</label>
+        <input type="text" id="rep-direccion" placeholder="Ej: Av. Daniel León Borja y Duchicela">
+      </div>
+      <div class="campo">
+        <label>Descripción</label>
+        <textarea id="rep-descripcion" placeholder="Describe el problema: tamaño, peligrosidad, etc."></textarea>
+      </div>
+      <div class="campo">
+        <label>Foto (opcional)</label>
+        <div class="foto-upload-area" onclick="document.getElementById('rep-foto-input').click()">
+          <div>📷 Toca para tomar foto o adjuntar</div>
+          <img class="foto-preview" id="rep-foto-preview" src="" alt="">
+        </div>
+        <input type="file" id="rep-foto-input" accept="image/*" capture="environment" style="display:none" onchange="previsualizarFoto(this,'rep-foto-preview')">
+      </div>
+      <div class="campo">
+        <label>Nombre (opcional)</label>
+        <input type="text" id="rep-nombre" placeholder="Tu nombre o anónimo">
+      </div>
+      <button class="btn-primary mt12" onclick="enviarReporteCiudadano()">✅ Enviar reporte</button>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════
+     OVERLAY LOGIN
+═══════════════════════════════════════════════ -->
+<div class="overlay" id="overlay-login">
+  <div class="modal-login">
+    <h2>🔐 Acceso técnico</h2>
+    <p class="subtitulo">GADM Riobamba · Dirección de Obras Públicas</p>
+    <div class="campo">
+      <label>Usuario</label>
+      <input type="text" id="login-usuario" placeholder="Tu nombre de usuario" autocomplete="username">
+    </div>
+    <div class="campo">
+      <label>Contraseña</label>
+      <input type="password" id="login-clave" placeholder="••••••••" autocomplete="current-password">
+    </div>
+    <div class="error-msg" id="login-error">Usuario o contraseña incorrectos</div>
+    <button class="btn-primary mt12" onclick="intentarLogin()">Ingresar</button>
+    <div class="text-center" style="margin-top: 14px;">
+      <button class="btn-secondary" style="width:100%; font-size:0.8rem;" onclick="mostrarRecuperacion()">¿Olvidaste tu contraseña?</button>
+    </div>
+    <div class="divider"></div>
+    <button class="btn-secondary" style="width:100%;" onclick="cerrarOverlay('overlay-login')">Cancelar</button>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════
+     OVERLAY RECUPERACIÓN
+═══════════════════════════════════════════════ -->
+<div class="overlay" id="overlay-recuperacion">
+  <div class="modal-login">
+    <h2>🔑 Recuperar acceso</h2>
+    <p class="subtitulo">Responde tu pregunta de seguridad</p>
+    <div class="campo">
+      <label>Usuario</label>
+      <input type="text" id="rec-usuario" placeholder="Tu nombre de usuario">
+    </div>
+    <div class="campo" id="rec-pregunta-campo" style="display:none;">
+      <label id="rec-pregunta-label">Pregunta</label>
+      <input type="text" id="rec-respuesta" placeholder="Tu respuesta">
+    </div>
+    <div class="campo" id="rec-nueva-clave-campo" style="display:none;">
+      <label>Nueva contraseña</label>
+      <input type="password" id="rec-nueva-clave" placeholder="Mínimo 6 caracteres">
+    </div>
+    <div class="error-msg" id="rec-error">Datos incorrectos</div>
+    <button class="btn-primary mt12" id="rec-btn" onclick="pasoRecuperacion()">Buscar usuario</button>
+    <div class="divider"></div>
+    <button class="btn-secondary" style="width:100%;" onclick="cerrarOverlay('overlay-recuperacion');abrirLogin()">← Volver al login</button>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════
+     OVERLAY CAMBIO DE CLAVE OBLIGATORIO
+═══════════════════════════════════════════════ -->
+<div class="overlay" id="overlay-cambio-clave">
+  <div class="modal-cambio-clave">
+    <h2>🔒 Cambio de contraseña obligatorio</h2>
+    <p class="subtitulo" style="margin-bottom: 24px; font-size: 0.85rem; color: var(--gris-claro);">Es tu primer ingreso. Debes establecer una nueva contraseña y una pregunta de seguridad.</p>
+    <div class="campo">
+      <label>Nueva contraseña</label>
+      <input type="password" id="cambio-nueva" placeholder="Mínimo 6 caracteres">
+    </div>
+    <div class="campo">
+      <label>Confirmar contraseña</label>
+      <input type="password" id="cambio-confirma" placeholder="Repite tu nueva contraseña">
+    </div>
+    <div class="campo">
+      <label>Pregunta de seguridad</label>
+      <select id="cambio-pregunta">
+        <option value="">Elige una pregunta…</option>
+        <option>¿Cuál es el nombre de tu primera mascota?</option>
+        <option>¿En qué ciudad naciste?</option>
+        <option>¿Cuál es el nombre de tu escuela primaria?</option>
+        <option>¿Cuál es tu película favorita?</option>
+        <option>¿Cuál es el segundo nombre de tu madre?</option>
+      </select>
+    </div>
+    <div class="campo">
+      <label>Respuesta</label>
+      <input type="text" id="cambio-respuesta" placeholder="Tu respuesta (recuérdala bien)">
+    </div>
+    <div class="error-msg" id="cambio-error">Completa todos los campos correctamente</div>
+    <button class="btn-primary mt12" onclick="guardarCambioClaveObligatorio()">Guardar y continuar</button>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════
+     PANEL TÉCNICO
+═══════════════════════════════════════════════ -->
+<div class="panel-tecnico" id="panel-tecnico">
+  <div class="panel-header">
+    <h2>⚙ Panel Técnico</h2>
+    <div style="display:flex; align-items:center; gap: 10px;">
+      <div class="user-badge">👤 <span id="usuario-nombre-panel">—</span></div>
+      <div class="sesion-tiempo" id="sesion-tiempo" style="font-size:0.75rem; color: rgba(255,255,255,0.5);"></div>
+      <button class="btn-cerrar-sesion" onclick="cerrarSesion()">Salir</button>
+    </div>
+  </div>
+  <div class="tabs-bar" id="tabs-bar">
+    <button class="tab-btn active" onclick="activarTab('tab-pendientes')" id="tbtn-tab-pendientes">
+      🕳 Pendientes <span class="tab-badge" id="badge-pendientes">0</span>
+    </button>
+    <button class="tab-btn" onclick="activarTab('tab-atendidos')" id="tbtn-tab-atendidos">
+      ✅ Atendidos
+    </button>
+    <button class="tab-btn" onclick="activarTab('tab-mapa-tec')" id="tbtn-tab-mapa-tec">
+      🗺 Mapa
+    </button>
+    <button class="tab-btn" onclick="activarTab('tab-cron-tec')" id="tbtn-tab-cron-tec">
+      📅 Cronograma
+    </button>
+    <button class="tab-btn" id="tbtn-tab-admin" onclick="activarTab('tab-admin')" style="display:none;">
+      🛡 Admin
+    </button>
+  </div>
+
+  <!-- TAB: PENDIENTES -->
+  <div class="tab-content active" id="tab-pendientes">
+    <div class="tabla-container">
+      <div class="tabla-header">
+        <h3>🕳 Reportes pendientes</h3>
+        <span class="text-sm" id="count-pendientes-label"></span>
+      </div>
+      <div id="lista-pendientes"></div>
+    </div>
+  </div>
+
+  <!-- TAB: ATENDIDOS -->
+  <div class="tab-content" id="tab-atendidos">
+    <div class="tabla-container">
+      <div class="tabla-header">
+        <h3>✅ Reportes atendidos</h3>
+        <span class="text-sm" id="count-atendidos-label"></span>
+      </div>
+      <div id="lista-atendidos"></div>
+    </div>
+  </div>
+
+  <!-- TAB: MAPA TÉCNICO -->
+  <div class="tab-content" id="tab-mapa-tec">
+    <div id="mapa-tecnico" style="height:calc(100vh - 170px); border-radius: var(--radio); overflow:hidden; box-shadow: var(--sombra);"></div>
+  </div>
+
+  <!-- TAB: CRONOGRAMA TÉCNICO -->
+  <div class="tab-content" id="tab-cron-tec">
+    <button class="btn-primary mb16" style="max-width:240px;" onclick="abrirModalAgregarCron()">+ Agregar intervención</button>
+    <div id="lista-cron-tec"></div>
+  </div>
+
+  <!-- TAB: ADMIN -->
+  <div class="tab-content" id="tab-admin">
+    <div class="admin-section">
+      <h3>👥 Gestión de usuarios</h3>
+      <div id="lista-usuarios-admin"></div>
+      <button class="btn-primary mt12" style="max-width:220px;" onclick="abrirModalAgregarUsuario()">+ Agregar usuario</button>
+    </div>
+    <div class="admin-section">
+      <h3>📊 Estadísticas del sistema</h3>
+      <div class="tabla-container" style="padding: 16px;">
+        <div id="stats-admin"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════
+     MODAL: ATENDER REPORTE (técnico)
+═══════════════════════════════════════════════ -->
+<div class="overlay" id="overlay-atender">
+  <div class="modal-grande">
+    <div class="modal-grande-header">
+      <h3>✅ Atender reporte</h3>
+      <button class="btn-cerrar-modal" onclick="cerrarOverlay('overlay-atender')">✕</button>
+    </div>
+    <div class="modal-grande-body">
+      <div id="atender-info" style="background: var(--fondo); border-radius: var(--radio-sm); padding: 12px; margin-bottom: 16px; font-size: 0.85rem;"></div>
+      <div id="gps-estado-atender" class="gps-info">📡 Obteniendo ubicación GPS…</div>
+      <input type="hidden" id="atender-id">
+      <div class="campo">
+        <label>Foto ANTES (ya adjunta o nueva)</label>
+        <div class="antes-despues">
+          <div class="ad-item antes">
+            <label>ANTES</label>
+            <div class="foto-upload-area" style="padding: 14px;" onclick="document.getElementById('atender-foto-antes').click()">
+              <div style="font-size:0.8rem;">📷 Foto antes</div>
+              <img class="foto-preview" id="atender-prev-antes" src="" alt="" style="max-height:120px;">
+            </div>
+            <input type="file" id="atender-foto-antes" accept="image/*" capture="environment" style="display:none" onchange="previsualizarFoto(this,'atender-prev-antes')">
+          </div>
+          <div class="ad-item despues">
+            <label>DESPUÉS *</label>
+            <div class="foto-upload-area" style="padding: 14px;" onclick="document.getElementById('atender-foto-despues').click()">
+              <div style="font-size:0.8rem;">📷 Foto después</div>
+              <img class="foto-preview" id="atender-prev-despues" src="" alt="" style="max-height:120px;">
+            </div>
+            <input type="file" id="atender-foto-despues" accept="image/*" capture="environment" style="display:none" onchange="previsualizarFoto(this,'atender-prev-despues')">
+          </div>
+        </div>
+      </div>
+      <div class="campo">
+        <label>Observaciones de cierre</label>
+        <textarea id="atender-observaciones" placeholder="Materiales usados, condición final, etc."></textarea>
+      </div>
+      <div class="error-msg" id="atender-error">Debes adjuntar foto después y observaciones</div>
+      <button class="btn-primary verde mt12" onclick="confirmarAtender()">✅ Marcar como atendido</button>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════
+     MODAL: VER DETALLE REPORTE
+═══════════════════════════════════════════════ -->
+<div class="overlay" id="overlay-detalle">
+  <div class="modal-grande">
+    <div class="modal-grande-header">
+      <h3 id="detalle-titulo">Detalle del reporte</h3>
+      <button class="btn-cerrar-modal" onclick="cerrarOverlay('overlay-detalle')">✕</button>
+    </div>
+    <div class="modal-grande-body" id="detalle-body"></div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════
+     MODAL: AGREGAR CRONOGRAMA
+═══════════════════════════════════════════════ -->
+<div class="overlay" id="overlay-cron">
+  <div class="modal-grande">
+    <div class="modal-grande-header">
+      <h3>📅 Programar intervención</h3>
+      <button class="btn-cerrar-modal" onclick="cerrarOverlay('overlay-cron')">✕</button>
+    </div>
+    <div class="modal-grande-body">
+      <input type="hidden" id="cron-id-edit">
+      <div class="campo">
+        <label>Sector / Dirección</label>
+        <input type="text" id="cron-sector" placeholder="Ej: Barrio Bellavista">
+      </div>
+      <div class="campo">
+        <label>Descripción del trabajo</label>
+        <input type="text" id="cron-descripcion" placeholder="Ej: Bacheo integral Av. Unidad Nacional">
+      </div>
+      <div class="campo">
+        <label>Fecha programada</label>
+        <input type="date" id="cron-fecha">
+      </div>
+      <div class="campo">
+        <label>Estado</label>
+        <select id="cron-estado">
+          <option value="programado">Programado</option>
+          <option value="en ejecución">En ejecución</option>
+          <option value="completado">Completado</option>
+        </select>
+      </div>
+      <div class="error-msg" id="cron-error">Completa todos los campos</div>
+      <button class="btn-primary mt12" onclick="guardarCronograma()">Guardar intervención</button>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════
+     MODAL: AGREGAR/EDITAR USUARIO
+═══════════════════════════════════════════════ -->
+<div class="overlay" id="overlay-usuario">
+  <div class="modal-login">
+    <h2 id="usuario-modal-titulo">+ Agregar usuario</h2>
+    <p class="subtitulo">Sistema BACHEOBAMBA · GADMR</p>
+    <input type="hidden" id="usuario-edit-id">
+    <div class="campo">
+      <label>Nombre de usuario</label>
+      <input type="text" id="usu-nombre" placeholder="Sin espacios, ej: jperez">
+    </div>
+    <div class="campo">
+      <label>Nombre completo</label>
+      <input type="text" id="usu-nombrec" placeholder="Ej: Juan Pérez">
+    </div>
+    <div class="campo">
+      <label>Rol</label>
+      <select id="usu-rol">
+        <option value="tecnico">Técnico</option>
+        <option value="admin">Administrador</option>
+      </select>
+    </div>
+    <div class="error-msg" id="usu-error">Completa todos los campos</div>
+    <button class="btn-primary mt12" onclick="guardarUsuario()">Guardar usuario</button>
+    <div class="divider"></div>
+    <button class="btn-secondary" style="width:100%;" onclick="cerrarOverlay('overlay-usuario')">Cancelar</button>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════
+     MODAL: RESETEAR CLAVE (admin)
+═══════════════════════════════════════════════ -->
+<div class="overlay" id="overlay-reset-clave">
+  <div class="modal-login">
+    <h2>🔄 Resetear contraseña</h2>
+    <p class="subtitulo" id="reset-usuario-nombre"></p>
+    <input type="hidden" id="reset-usuario-id">
+    <p style="font-size:0.85rem; color: var(--gris-claro); margin-bottom: 16px;">La contraseña se restablecerá a <strong>1234</strong> y el usuario deberá cambiarla al próximo ingreso.</p>
+    <button class="btn-primary rojo" onclick="confirmarResetClave()">🔄 Confirmar reseteo</button>
+    <div class="divider"></div>
+    <button class="btn-secondary" style="width:100%;" onclick="cerrarOverlay('overlay-reset-clave')">Cancelar</button>
+  </div>
+</div>
+
+<!-- VISOR DE FOTO FULLSCREEN -->
+<div class="foto-viewer" id="foto-viewer" onclick="this.classList.remove('active')">
+  <img id="foto-viewer-img" src="" alt="">
+  <div class="foto-viewer-label" id="foto-viewer-label"></div>
+  <div style="color: rgba(255,255,255,0.5); font-size: 0.75rem;">Toca en cualquier lugar para cerrar</div>
+</div>
+
+<!-- ═══════════════════════════════════════════════
+     JAVASCRIPT
+═══════════════════════════════════════════════ -->
+<script>
+/* ─────────────────────────────────────────────
+   SHA-256 puro en JS (sin crypto.subtle)
+   RFC-compliant, sin dependencias externas
+───────────────────────────────────────────── */
+function sha256(ascii) {
+  function rightRotate(value, amount) {
+    return (value >>> amount) | (value << (32 - amount));
+  }
+  const mathPow = Math.pow;
+  const maxWord = mathPow(2, 32);
+  const lengthProperty = 'length';
+  let i, j, result = '';
+  const words = [];
+  let asciiBitLength = ascii[lengthProperty] * 8;
+  let hash = sha256.h = sha256.h || [];
+  const k = sha256.k = sha256.k || [];
+  let primeCounter = k[lengthProperty];
+  const isComposite = {};
+  for (let candidate = 2; primeCounter < 64; candidate++) {
+    if (!isComposite[candidate]) {
+      for (i = 0; i < 313; i += candidate) isComposite[i] = candidate;
+      hash[primeCounter] = (mathPow(candidate, .5) * maxWord) | 0;
+      k[primeCounter++] = (mathPow(candidate, 1 / 3) * maxWord) | 0;
+    }
+  }
+  ascii += '\x80';
+  while (ascii[lengthProperty] % 64 - 56) ascii += '\x00';
+  for (i = 0; i < ascii[lengthProperty]; i++) {
+    j = ascii.charCodeAt(i);
+    if (j >> 8) return '';
+    words[i >> 2] |= j << ((3 - i) % 4) * 8;
+  }
+  words[words[lengthProperty]] = ((asciiBitLength / maxWord) | 0);
+  words[words[lengthProperty]] = (asciiBitLength);
+  for (j = 0; j < words[lengthProperty];) {
+    const w = words.slice(j, j += 16);
+    const oldHash = hash.slice(0);
+    for (i = 0; i < 64; i++) {
+      const i2 = i + j - 16;
+      const w15 = w[i - 15], w2 = w[i - 2];
+      const a = oldHash[0], e = oldHash[4];
+      const temp1 = oldHash[7]
+        + (rightRotate(e, 6) ^ rightRotate(e, 11) ^ rightRotate(e, 25))
+        + ((e & oldHash[5]) ^ (~e & oldHash[6]))
+        + k[i]
+        + (w[i] = (i < 16) ? w[i] : (
+          w[i - 16]
+          + (rightRotate(w15, 7) ^ rightRotate(w15, 18) ^ (w15 >>> 3))
+          + w[i - 7]
+          + (rightRotate(w2, 17) ^ rightRotate(w2, 19) ^ (w2 >>> 10))
+        ) | 0);
+      const temp2 = (rightRotate(a, 2) ^ rightRotate(a, 13) ^ rightRotate(a, 22))
+        + ((a & oldHash[1]) ^ (a & oldHash[2]) ^ (oldHash[1] & oldHash[2]));
+      hash = [(temp1 + temp2) | 0].concat(hash);
+      hash[4] = (hash[4] + temp1) | 0;
+      hash.length = 8;
+    }
+    for (i = 0; i < 8; i++) oldHash[i] = hash[i] = (hash[i] + oldHash[i]) | 0;
+  }
+  for (i = 0; i < 8; i++) {
+    for (j = 3; j + 1; j--) {
+      const b = (hash[i] >> (j * 8)) & 255;
+      result += ((b < 16) ? 0 : '') + b.toString(16);
+    }
+  }
+  return result;
+}
+
+/* ─────────────────────────────────────────────
+   STORAGE HELPERS
+───────────────────────────────────────────── */
+const LS = {
+  get: k => { try { return JSON.parse(localStorage.getItem(k)); } catch { return null; } },
+  set: (k, v) => localStorage.setItem(k, JSON.stringify(v)),
+};
+
+/* ─────────────────────────────────────────────
+   INICIALIZACIÓN DE DATOS
+───────────────────────────────────────────── */
+function inicializarDatos() {
+  if (!LS.get('bb_usuarios')) {
+    LS.set('bb_usuarios', [
+      { id: 'fabian', nombre: 'Fabian', nombrec: 'Fabián Borja', rol: 'admin', hash: sha256('1234'), primerLogin: true, pregunta: '', respuestaHash: '' },
+      { id: 'tatiana', nombre: 'Tatiana', nombrec: 'Tatiana', rol: 'tecnico', hash: sha256('1234'), primerLogin: true, pregunta: '', respuestaHash: '' },
+      { id: 'patricio', nombre: 'Patricio', nombrec: 'Patricio', rol: 'tecnico', hash: sha256('1234'), primerLogin: true, pregunta: '', respuestaHash: '' },
+    ]);
+  }
+  if (!LS.get('bb_reportes')) LS.set('bb_reportes', []);
+  if (!LS.get('bb_cronograma')) LS.set('bb_cronograma', []);
+}
+
+/* ─────────────────────────────────────────────
+   SESIÓN
+───────────────────────────────────────────── */
+let sesionTimer = null;
+let sesionAvisoTimer = null;
+const SESION_DURACION = 30 * 60 * 1000; // 30 min
+const SESION_AVISO = 25 * 60 * 1000;    // aviso a los 25 min
+
+function getSesion() { return LS.get('bb_sesion'); }
+function setSesion(usuario) {
+  LS.set('bb_sesion', { usuario, expira: Date.now() + SESION_DURACION });
+  iniciarTimerSesion();
+}
+function borrarSesion() {
+  localStorage.removeItem('bb_sesion');
+  clearTimeout(sesionTimer);
+  clearTimeout(sesionAvisoTimer);
+  document.getElementById('sesion-aviso').classList.remove('show');
+}
+
+function sesionValida() {
+  const s = getSesion();
+  return s && s.expira > Date.now();
+}
+
+function iniciarTimerSesion() {
+  clearTimeout(sesionTimer);
+  clearTimeout(sesionAvisoTimer);
+  const s = getSesion();
+  if (!s) return;
+  const tiempoRestante = s.expira - Date.now();
+  const tiempoAviso = tiempoRestante - 5 * 60 * 1000;
+  if (tiempoAviso > 0) {
+    sesionAvisoTimer = setTimeout(() => {
+      document.getElementById('sesion-aviso').classList.add('show');
+    }, tiempoAviso);
+  }
+  sesionTimer = setTimeout(() => {
+    cerrarSesion(true);
+  }, tiempoRestante);
+  // Ticker en panel
+  actualizarTickerSesion();
+}
+
+function actualizarTickerSesion() {
+  const s = getSesion();
+  if (!s) return;
+  const restante = s.expira - Date.now();
+  if (restante <= 0) return;
+  const min = Math.floor(restante / 60000);
+  const sec = Math.floor((restante % 60000) / 1000);
+  const el = document.getElementById('sesion-tiempo');
+  if (el) el.textContent = `${min}:${sec.toString().padStart(2,'0')}`;
+  setTimeout(actualizarTickerSesion, 1000);
+}
+
+/* ─────────────────────────────────────────────
+   LOGIN
+───────────────────────────────────────────── */
+let usuarioPendienteCambio = null;
+
+function abrirLogin() {
+  document.getElementById('login-usuario').value = '';
+  document.getElementById('login-clave').value = '';
+  document.getElementById('login-error').classList.remove('show');
+  abrirOverlay('overlay-login');
+}
+
+function intentarLogin() {
+  const nombre = document.getElementById('login-usuario').value.trim().toLowerCase();
+  const clave = document.getElementById('login-clave').value;
+  const usuarios = LS.get('bb_usuarios') || [];
+  const usuario = usuarios.find(u => u.id.toLowerCase() === nombre || u.nombre.toLowerCase() === nombre);
+  if (!usuario || usuario.hash !== sha256(clave)) {
+    document.getElementById('login-error').classList.add('show');
+    return;
+  }
+  cerrarOverlay('overlay-login');
+  if (usuario.primerLogin) {
+    usuarioPendienteCambio = usuario.id;
+    abrirOverlay('overlay-cambio-clave');
+    return;
+  }
+  setSesion(usuario.id);
+  abrirPanelTecnico(usuario);
+}
+
+function guardarCambioClaveObligatorio() {
+  const nueva = document.getElementById('cambio-nueva').value;
+  const confirma = document.getElementById('cambio-confirma').value;
+  const pregunta = document.getElementById('cambio-pregunta').value;
+  const respuesta = document.getElementById('cambio-respuesta').value.trim();
+  const errEl = document.getElementById('cambio-error');
+  if (nueva.length < 6) { errEl.textContent = 'La contraseña debe tener al menos 6 caracteres'; errEl.classList.add('show'); return; }
+  if (nueva !== confirma) { errEl.textContent = 'Las contraseñas no coinciden'; errEl.classList.add('show'); return; }
+  if (!pregunta) { errEl.textContent = 'Elige una pregunta de seguridad'; errEl.classList.add('show'); return; }
+  if (!respuesta) { errEl.textContent = 'Escribe una respuesta de seguridad'; errEl.classList.add('show'); return; }
+  errEl.classList.remove('show');
+  const usuarios = LS.get('bb_usuarios') || [];
+  const idx = usuarios.findIndex(u => u.id === usuarioPendienteCambio);
+  if (idx < 0) return;
+  usuarios[idx].hash = sha256(nueva);
+  usuarios[idx].primerLogin = false;
+  usuarios[idx].pregunta = pregunta;
+  usuarios[idx].respuestaHash = sha256(respuesta.toLowerCase());
+  LS.set('bb_usuarios', usuarios);
+  cerrarOverlay('overlay-cambio-clave');
+  setSesion(usuarioPendienteCambio);
+  abrirPanelTecnico(usuarios[idx]);
+  mostrarNotif('✅ Contraseña actualizada. Bienvenido/a.', 'verde');
+}
+
+/* ─────────────────────────────────────────────
+   RECUPERACIÓN DE CONTRASEÑA
+───────────────────────────────────────────── */
+let recEstado = 0;
+function mostrarRecuperacion() {
+  recEstado = 0;
+  document.getElementById('rec-usuario').value = '';
+  document.getElementById('rec-respuesta').value = '';
+  document.getElementById('rec-nueva-clave').value = '';
+  document.getElementById('rec-pregunta-campo').style.display = 'none';
+  document.getElementById('rec-nueva-clave-campo').style.display = 'none';
+  document.getElementById('rec-error').classList.remove('show');
+  document.getElementById('rec-btn').textContent = 'Buscar usuario';
+  cerrarOverlay('overlay-login');
+  abrirOverlay('overlay-recuperacion');
+}
+
+function pasoRecuperacion() {
+  const usuarios = LS.get('bb_usuarios') || [];
+  const errEl = document.getElementById('rec-error');
+  if (recEstado === 0) {
+    const nombre = document.getElementById('rec-usuario').value.trim().toLowerCase();
+    const usuario = usuarios.find(u => u.id.toLowerCase() === nombre || u.nombre.toLowerCase() === nombre);
+    if (!usuario || !usuario.pregunta) { errEl.textContent = 'Usuario no encontrado o sin pregunta de seguridad'; errEl.classList.add('show'); return; }
+    errEl.classList.remove('show');
+    document.getElementById('rec-pregunta-label').textContent = usuario.pregunta;
+    document.getElementById('rec-pregunta-campo').style.display = 'block';
+    document.getElementById('rec-btn').textContent = 'Verificar respuesta';
+    recEstado = 1;
+  } else if (recEstado === 1) {
+    const nombre = document.getElementById('rec-usuario').value.trim().toLowerCase();
+    const respuesta = document.getElementById('rec-respuesta').value.trim().toLowerCase();
+    const usuario = usuarios.find(u => u.id.toLowerCase() === nombre || u.nombre.toLowerCase() === nombre);
+    if (!usuario || usuario.respuestaHash !== sha256(respuesta)) { errEl.textContent = 'Respuesta incorrecta'; errEl.classList.add('show'); return; }
+    errEl.classList.remove('show');
+    document.getElementById('rec-nueva-clave-campo').style.display = 'block';
+    document.getElementById('rec-btn').textContent = 'Guardar nueva contraseña';
+    recEstado = 2;
+    recEstado_usuario = usuario.id;
+  } else if (recEstado === 2) {
+    const nueva = document.getElementById('rec-nueva-clave').value;
+    if (nueva.length < 6) { errEl.textContent = 'Mínimo 6 caracteres'; errEl.classList.add('show'); return; }
+    const idx = usuarios.findIndex(u => u.id === recEstado_usuario);
+    usuarios[idx].hash = sha256(nueva);
+    LS.set('bb_usuarios', usuarios);
+    cerrarOverlay('overlay-recuperacion');
+    mostrarNotif('✅ Contraseña restablecida. Ya puedes ingresar.', 'verde');
+    abrirLogin();
+  }
+}
+let recEstado_usuario = '';
+
+/* ─────────────────────────────────────────────
+   PANEL TÉCNICO
+───────────────────────────────────────────── */
+function abrirPanelTecnico(usuario) {
+  document.getElementById('usuario-nombre-panel').textContent = usuario.nombrec || usuario.nombre;
+  document.getElementById('panel-tecnico').classList.add('active');
+  const tabAdmin = document.getElementById('tbtn-tab-admin');
+  if (usuario.rol === 'admin') tabAdmin.style.display = 'flex';
+  else tabAdmin.style.display = 'none';
+  activarTab('tab-pendientes');
+  renderPendientes();
+  renderAtendidos();
+  renderCronogramaTecnico();
+  if (usuario.rol === 'admin') renderAdmin();
+  actualizarEstadisticas();
+}
+
+function cerrarSesion(expirado = false) {
+  borrarSesion();
+  document.getElementById('panel-tecnico').classList.remove('active');
+  document.getElementById('sesion-aviso').classList.remove('show');
+  if (expirado) mostrarNotif('⏱ Sesión expirada. Vuelve a ingresar.', 'rojo');
+  else mostrarNotif('👋 Sesión cerrada.');
+}
+
+function activarTab(id) {
+  document.querySelectorAll('.tab-content').forEach(t => t.classList.remove('active'));
+  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+  document.getElementById(id).classList.add('active');
+  const btn = document.getElementById('tbtn-' + id);
+  if (btn) btn.classList.add('active');
+  if (id === 'tab-mapa-tec') setTimeout(cargarMapaTecnico, 100);
+}
+
+/* ─────────────────────────────────────────────
+   GPS
+───────────────────────────────────────────── */
+let gpsRepCache = null;
+function obtenerGPS(callbackOk, callbackError, elId) {
+  const el = document.getElementById(elId);
+  if (el) { el.className = 'gps-info'; el.textContent = '📡 Obteniendo ubicación GPS…'; }
+  if (!navigator.geolocation) {
+    if (el) { el.className = 'gps-info error'; el.textContent = '❌ GPS no disponible en este dispositivo'; }
+    if (callbackError) callbackError();
+    return;
+  }
+  navigator.geolocation.getCurrentPosition(
+    pos => {
+      const lat = pos.coords.latitude.toFixed(6);
+      const lng = pos.coords.longitude.toFixed(6);
+      if (el) { el.className = 'gps-info ok'; el.textContent = `✅ Ubicación: ${lat}, ${lng}`; }
+      if (callbackOk) callbackOk(lat, lng);
+    },
+    err => {
+      if (el) { el.className = 'gps-info error'; el.textContent = `⚠ GPS no disponible: ingresa dirección manualmente`; }
+      if (callbackError) callbackError();
+    },
+    { enableHighAccuracy: true, timeout: 10000 }
+  );
+}
+
+/* ─────────────────────────────────────────────
+   REPORTES CIUDADANO
+───────────────────────────────────────────── */
+function abrirModalReporteCiudadano() {
+  document.getElementById('rep-lat').value = '';
+  document.getElementById('rep-lng').value = '';
+  document.getElementById('rep-direccion').value = '';
+  document.getElementById('rep-descripcion').value = '';
+  document.getElementById('rep-nombre').value = '';
+  document.getElementById('rep-foto-preview').classList.remove('show');
+  document.getElementById('rep-foto-input').value = '';
+  abrirOverlay('overlay-reporte-ciudadano');
+  obtenerGPS(
+    (lat, lng) => { document.getElementById('rep-lat').value = lat; document.getElementById('rep-lng').value = lng; },
+    null,
+    'gps-estado-reporte'
+  );
+}
+
+function enviarReporteCiudadano() {
+  const dir = document.getElementById('rep-direccion').value.trim();
+  const desc = document.getElementById('rep-descripcion').value.trim();
+  if (!dir) { mostrarNotif('⚠ Ingresa una dirección o referencia', 'rojo'); return; }
+  const lat = document.getElementById('rep-lat').value;
+  const lng = document.getElementById('rep-lng').value;
+  const fotoInput = document.getElementById('rep-foto-input');
+  const nombre = document.getElementById('rep-nombre').value.trim() || 'Anónimo';
+  const id = 'R' + Date.now();
+  const reporte = {
+    id, direccion: dir, descripcion: desc, nombre,
+    lat: lat || null, lng: lng || null,
+    estado: 'pendiente',
+    fecha: new Date().toISOString(),
+    fotoAntes: null, fotoDespues: null,
+    observaciones: '',
+    tecnico: null, fechaAtencion: null
+  };
+  if (fotoInput.files[0]) {
+    const reader = new FileReader();
+    reader.onload = e => {
+      reporte.fotoAntes = e.target.result;
+      guardarReporte(reporte);
+    };
+    reader.readAsDataURL(fotoInput.files[0]);
+  } else {
+    guardarReporte(reporte);
+  }
+}
+
+function guardarReporte(reporte) {
+  const reportes = LS.get('bb_reportes') || [];
+  reportes.unshift(reporte);
+  LS.set('bb_reportes', reportes);
+  cerrarOverlay('overlay-reporte-ciudadano');
+  actualizarEstadisticas();
+  renderListaReportesCiudadano();
+  mostrarNotif('✅ Reporte enviado. ¡Gracias!', 'verde');
+}
+
+/* ─────────────────────────────────────────────
+   RENDER CIUDADANO
+───────────────────────────────────────────── */
+function actualizarEstadisticas() {
+  const reportes = LS.get('bb_reportes') || [];
+  const total = reportes.length;
+  const pendientes = reportes.filter(r => r.estado === 'pendiente').length;
+  const atendidos = reportes.filter(r => r.estado === 'atendido').length;
+  document.getElementById('stat-total').textContent = total;
+  document.getElementById('stat-pendiente').textContent = pendientes;
+  document.getElementById('stat-atendido').textContent = atendidos;
+  const badge = document.getElementById('badge-pendientes');
+  if (badge) badge.textContent = pendientes;
+  const cp = document.getElementById('count-pendientes-label');
+  if (cp) cp.textContent = pendientes + ' reporte(s)';
+  const ca = document.getElementById('count-atendidos-label');
+  if (ca) ca.textContent = atendidos + ' reporte(s)';
+}
+
+function renderListaReportesCiudadano() {
+  const reportes = LS.get('bb_reportes') || [];
+  const el = document.getElementById('lista-reportes-ciudadano');
+  if (!reportes.length) {
+    el.innerHTML = '<div class="empty-state"><div class="empty-icon">🕳</div><p>Aún no hay reportes.</p></div>';
+    return;
+  }
+  el.innerHTML = reportes.slice(0, 10).map(r => `
+    <div class="reporte-card" onclick="verDetalleCiudadano('${r.id}')">
+      <div class="reporte-dot ${r.estado}"></div>
+      <div class="reporte-info">
+        <div class="reporte-dir">${r.direccion}</div>
+        <div class="reporte-meta">${r.descripcion ? r.descripcion.substring(0,60)+'…' : 'Sin descripción'} · ${formatFecha(r.fecha)}</div>
+      </div>
+      <div class="reporte-badge ${r.estado}">${r.estado === 'pendiente' ? 'Pendiente' : 'Atendido'}</div>
+    </div>
+  `).join('');
+}
+
+function verDetalleCiudadano(id) {
+  const reportes = LS.get('bb_reportes') || [];
+  const r = reportes.find(x => x.id === id);
+  if (!r) return;
+  document.getElementById('detalle-titulo').textContent = r.estado === 'pendiente' ? '🕳 Reporte pendiente' : '✅ Reporte atendido';
+  let html = `
+    <div style="background: var(--fondo); border-radius: var(--radio-sm); padding: 14px; margin-bottom: 16px;">
+      <div style="font-weight:600; margin-bottom:4px;">${r.direccion}</div>
+      <div class="text-sm">${r.descripcion || 'Sin descripción'}</div>
+      <div class="text-sm" style="margin-top:6px;">📅 ${formatFecha(r.fecha)} · 👤 ${r.nombre}</div>
+      ${r.lat ? `<div class="text-sm">📍 ${r.lat}, ${r.lng}</div>` : ''}
+    </div>
+  `;
+  if (r.fotoAntes || r.fotoDespues) {
+    html += '<div class="antes-despues">';
+    if (r.fotoAntes) html += `<div class="ad-item antes"><label>ANTES</label><img src="${r.fotoAntes}" style="width:100%;border-radius:8px;cursor:pointer;" onclick="verFotoFullscreen('${r.fotoAntes}','Foto antes')"></div>`;
+    if (r.fotoDespues) html += `<div class="ad-item despues"><label>DESPUÉS</label><img src="${r.fotoDespues}" style="width:100%;border-radius:8px;cursor:pointer;" onclick="verFotoFullscreen('${r.fotoDespues}','Foto después')"></div>`;
+    html += '</div>';
+  }
+  if (r.estado === 'atendido' && r.observaciones) {
+    html += `<div style="margin-top:14px; background: #E8F5E9; border-radius: var(--radio-sm); padding: 12px; font-size:0.85rem;"><strong>✅ Atendido por ${r.tecnico || 'Técnico'}:</strong><br>${r.observaciones}</div>`;
+  }
+  document.getElementById('detalle-body').innerHTML = html;
+  abrirOverlay('overlay-detalle');
+}
+
+/* ─────────────────────────────────────────────
+   RENDER TÉCNICO - PENDIENTES
+───────────────────────────────────────────── */
+function renderPendientes() {
+  const reportes = (LS.get('bb_reportes') || []).filter(r => r.estado === 'pendiente');
+  const el = document.getElementById('lista-pendientes');
+  if (!reportes.length) {
+    el.innerHTML = '<div class="empty-state"><div class="empty-icon">🎉</div><p>No hay reportes pendientes. ¡Excelente!</p></div>';
+    return;
+  }
+  el.innerHTML = reportes.map(r => `
+    <div class="reporte-item-tec">
+      <div class="reporte-dot pendiente" style="margin-top:6px;"></div>
+      <div class="rit-info">
+        <div class="rit-dir">${r.direccion}</div>
+        <div class="rit-meta">
+          ${r.descripcion ? r.descripcion.substring(0,80) : 'Sin descripción'}<br>
+          👤 ${r.nombre} · 📅 ${formatFecha(r.fecha)}
+          ${r.lat ? ` · 📍 ${r.lat}, ${r.lng}` : ''}
+        </div>
+      </div>
+      <div class="rit-acciones">
+        ${r.fotoAntes ? `<button class="btn-icon azul" title="Ver foto antes" onclick="verFotoFullscreen('${r.fotoAntes.replace(/'/g,"\\'")}','Foto antes')">🖼</button>` : ''}
+        <button class="btn-icon verde" title="Atender" onclick="abrirAtender('${r.id}')">✅</button>
+        <button class="btn-icon rojo" title="Eliminar" onclick="eliminarReporte('${r.id}')">🗑</button>
+      </div>
+    </div>
+  `).join('');
+}
+
+function renderAtendidos() {
+  const reportes = (LS.get('bb_reportes') || []).filter(r => r.estado === 'atendido');
+  const el = document.getElementById('lista-atendidos');
+  if (!reportes.length) {
+    el.innerHTML = '<div class="empty-state"><div class="empty-icon">📋</div><p>Aún no hay reportes atendidos.</p></div>';
+    return;
+  }
+  el.innerHTML = reportes.map(r => `
+    <div class="reporte-item-tec">
+      <div class="reporte-dot atendido" style="margin-top:6px;"></div>
+      <div class="rit-info">
+        <div class="rit-dir">${r.direccion}</div>
+        <div class="rit-meta">
+          ${r.observaciones ? r.observaciones.substring(0,80) : ''}<br>
+          ✅ Atendido por ${r.tecnico || '—'} · ${formatFecha(r.fechaAtencion || r.fecha)}
+        </div>
+      </div>
+      <div class="rit-acciones">
+        ${r.fotoAntes ? `<button class="btn-icon azul" title="Foto antes" onclick="verFotoFullscreen('${r.fotoAntes.replace(/'/g,"\\'")}','Foto antes')">🖼</button>` : ''}
+        ${r.fotoDespues ? `<button class="btn-icon verde" title="Foto después" onclick="verFotoFullscreen('${r.fotoDespues.replace(/'/g,"\\'")}','Foto después')">✅</button>` : ''}
+        <button class="btn-icon gris" title="Ver detalle" onclick="verDetalleCiudadano('${r.id}')">👁</button>
+        <button class="btn-icon rojo" title="Eliminar" onclick="eliminarReporte('${r.id}')">🗑</button>
+      </div>
+    </div>
+  `).join('');
+}
+
+/* ─────────────────────────────────────────────
+   ATENDER REPORTE
+───────────────────────────────────────────── */
+function abrirAtender(id) {
+  const reportes = LS.get('bb_reportes') || [];
+  const r = reportes.find(x => x.id === id);
+  if (!r) return;
+  document.getElementById('atender-id').value = id;
+  document.getElementById('atender-info').innerHTML = `<strong>${r.direccion}</strong><br><span class="text-sm">${r.descripcion || ''} · ${r.nombre}</span>`;
+  document.getElementById('atender-observaciones').value = '';
+  document.getElementById('atender-error').classList.remove('show');
+  // Pre-cargar foto antes si existe
+  const prevAntes = document.getElementById('atender-prev-antes');
+  if (r.fotoAntes) { prevAntes.src = r.fotoAntes; prevAntes.classList.add('show'); }
+  else { prevAntes.src = ''; prevAntes.classList.remove('show'); }
+  const prevDespues = document.getElementById('atender-prev-despues');
+  prevDespues.src = ''; prevDespues.classList.remove('show');
+  document.getElementById('atender-foto-antes').value = '';
+  document.getElementById('atender-foto-despues').value = '';
+  abrirOverlay('overlay-atender');
+  obtenerGPS(null, null, 'gps-estado-atender');
+}
+
+function confirmarAtender() {
+  const id = document.getElementById('atender-id').value;
+  const obs = document.getElementById('atender-observaciones').value.trim();
+  const fotoDespuesInput = document.getElementById('atender-foto-despues');
+  const fotoAntesInput = document.getElementById('atender-foto-antes');
+  const errEl = document.getElementById('atender-error');
+  if (!fotoDespuesInput.files[0] && !document.getElementById('atender-prev-despues').src) {
+    errEl.textContent = 'Debes adjuntar la foto DESPUÉS para cerrar el reporte'; errEl.classList.add('show'); return;
+  }
+  if (!obs) { errEl.textContent = 'Agrega observaciones de cierre'; errEl.classList.add('show'); return; }
+  errEl.classList.remove('show');
+  const sesion = getSesion();
+  const usuarios = LS.get('bb_usuarios') || [];
+  const usr = usuarios.find(u => u.id === (sesion && sesion.usuario));
+  const tecnico = usr ? (usr.nombrec || usr.nombre) : 'Técnico';
+  const procesarYGuardar = (fotoAntesB64, fotoDespuesB64) => {
+    const reportes = LS.get('bb_reportes') || [];
+    const idx = reportes.findIndex(r => r.id === id);
+    if (idx < 0) return;
+    reportes[idx].estado = 'atendido';
+    reportes[idx].observaciones = obs;
+    reportes[idx].tecnico = tecnico;
+    reportes[idx].fechaAtencion = new Date().toISOString();
+    if (fotoAntesB64) reportes[idx].fotoAntes = fotoAntesB64;
+    if (fotoDespuesB64) reportes[idx].fotoDespues = fotoDespuesB64;
+    LS.set('bb_reportes', reportes);
+    cerrarOverlay('overlay-atender');
+    renderPendientes();
+    renderAtendidos();
+    actualizarEstadisticas();
+    renderListaReportesCiudadano();
+    mostrarNotif('✅ Reporte atendido correctamente', 'verde');
+  };
+  const readFile = (input, cb) => {
+    if (input.files[0]) {
+      const reader = new FileReader();
+      reader.onload = e => cb(e.target.result);
+      reader.readAsDataURL(input.files[0]);
+    } else cb(null);
+  };
+  readFile(fotoAntesInput, fotoAntesB64 => {
+    readFile(fotoDespuesInput, fotoDespuesB64 => {
+      if (!fotoDespuesB64) {
+        errEl.textContent = 'Debes adjuntar la foto DESPUÉS'; errEl.classList.add('show'); return;
+      }
+      procesarYGuardar(fotoAntesB64, fotoDespuesB64);
+    });
+  });
+}
+
+function eliminarReporte(id) {
+  if (!confirm('¿Eliminar este reporte? Esta acción no se puede deshacer.')) return;
+  let reportes = LS.get('bb_reportes') || [];
+  reportes = reportes.filter(r => r.id !== id);
+  LS.set('bb_reportes', reportes);
+  renderPendientes();
+  renderAtendidos();
+  actualizarEstadisticas();
+  renderListaReportesCiudadano();
+  mostrarNotif('🗑 Reporte eliminado');
+}
+
+/* ─────────────────────────────────────────────
+   FOTOS
+───────────────────────────────────────────── */
+function previsualizarFoto(input, previewId) {
+  if (!input.files[0]) return;
+  const reader = new FileReader();
+  reader.onload = e => {
+    const img = document.getElementById(previewId);
+    img.src = e.target.result;
+    img.classList.add('show');
+  };
+  reader.readAsDataURL(input.files[0]);
+}
+
+function verFotoFullscreen(src, label) {
+  document.getElementById('foto-viewer-img').src = src;
+  document.getElementById('foto-viewer-label').textContent = label || '';
+  document.getElementById('foto-viewer').classList.add('active');
+}
+
+/* ─────────────────────────────────────────────
+   MAPA (lazy)
+───────────────────────────────────────────── */
+let leafletCargado = false;
+let mapaCiudadanoInstance = null;
+let mapaTecnicoInstance = null;
+
+function cargarLeaflet(cb) {
+  if (leafletCargado) { cb(); return; }
+  const link = document.createElement('link');
+  link.rel = 'stylesheet';
+  link.href = 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.css';
+  document.head.appendChild(link);
+  const script = document.createElement('script');
+  script.src = 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.js';
+  script.onload = () => { leafletCargado = true; cb(); };
+  document.head.appendChild(script);
+}
+
+function cargarMapaCiudadano() {
+  document.getElementById('mapa-ciudadano-placeholder').style.display = 'none';
+  const mapaEl = document.getElementById('mapa-ciudadano');
+  mapaEl.style.display = 'block';
+  cargarLeaflet(() => {
+    if (mapaCiudadanoInstance) { mapaCiudadanoInstance.remove(); mapaCiudadanoInstance = null; }
+    mapaCiudadanoInstance = L.map('mapa-ciudadano').setView([-1.6635, -78.6543], 14);
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '© OpenStreetMap',
+      maxZoom: 19
+    }).addTo(mapaCiudadanoInstance);
+    agregarMarcadores(mapaCiudadanoInstance, false);
+    setTimeout(() => mapaCiudadanoInstance.invalidateSize(), 100);
+  });
+}
+
+function cargarMapaTecnico() {
+  const mapaEl = document.getElementById('mapa-tecnico');
+  cargarLeaflet(() => {
+    if (mapaTecnicoInstance) { mapaTecnicoInstance.remove(); mapaTecnicoInstance = null; }
+    mapaTecnicoInstance = L.map('mapa-tecnico').setView([-1.6635, -78.6543], 14);
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '© OpenStreetMap',
+      maxZoom: 19
+    }).addTo(mapaTecnicoInstance);
+    agregarMarcadores(mapaTecnicoInstance, true);
+    setTimeout(() => mapaTecnicoInstance.invalidateSize(), 100);
+  });
+}
+
+function agregarMarcadores(mapa, esTecnico) {
+  const reportes = LS.get('bb_reportes') || [];
+  reportes.forEach(r => {
+    if (!r.lat || !r.lng) return;
+    const color = r.estado === 'pendiente' ? '#E74C3C' : '#27AE60';
+    const icono = L.divIcon({
+      className: '',
+      html: `<div style="width:16px;height:16px;border-radius:50%;background:${color};border:3px solid white;box-shadow:0 2px 6px rgba(0,0,0,0.3);"></div>`,
+      iconSize: [16, 16], iconAnchor: [8, 8]
+    });
+    const marker = L.marker([parseFloat(r.lat), parseFloat(r.lng)], { icon: icono }).addTo(mapa);
+    let popupHtml = `
+      <div class="popup-mapa-content">
+        <h4>${r.direccion}</h4>
+        <p>${r.descripcion ? r.descripcion.substring(0,80) : ''}</p>
+        <p>📅 ${formatFecha(r.fecha)}</p>
+        <p>Estado: <strong>${r.estado === 'pendiente' ? '🔴 Pendiente' : '🟢 Atendido'}</strong></p>
+    `;
+    if (r.fotoAntes || r.fotoDespues) {
+      popupHtml += `<div class="popup-antes-despues">`;
+      if (r.fotoAntes) popupHtml += `<div><img src="${r.fotoAntes}" onclick="verFotoFullscreen('${r.fotoAntes.replace(/'/g,"\\'")}','Foto antes')"><div class="pd-label">ANTES</div></div>`;
+      if (r.fotoDespues) popupHtml += `<div><img src="${r.fotoDespues}" onclick="verFotoFullscreen('${r.fotoDespues.replace(/'/g,"\\'")}','Foto después')"><div class="pd-label">DESPUÉS</div></div>`;
+      popupHtml += `</div>`;
+    }
+    if (esTecnico) {
+      popupHtml += `<button onclick="cerrarOverlay('x');abrirAtender('${r.id}')" style="background:var(--verde);color:white;border:none;padding:6px 12px;border-radius:6px;cursor:pointer;margin-top:6px;font-size:0.8rem;" ${r.estado==='atendido'?'disabled':''}>✅ Atender</button>`;
+    }
+    popupHtml += `</div>`;
+    marker.bindPopup(popupHtml, { maxWidth: 260 });
+  });
+}
+
+/* ─────────────────────────────────────────────
+   CRONOGRAMA
+───────────────────────────────────────────── */
+function renderCronogramaCiudadano() {
+  const cron = LS.get('bb_cronograma') || [];
+  const el = document.getElementById('cronograma-ciudadano');
+  const activos = cron.filter(c => c.estado !== 'completado').sort((a, b) => a.fecha.localeCompare(b.fecha));
+  if (!activos.length) {
+    el.innerHTML = '<div class="cronograma-vacio">No hay intervenciones programadas próximamente.</div>';
+    return;
+  }
+  el.innerHTML = activos.map(c => {
+    const f = new Date(c.fecha + 'T12:00:00');
+    const dia = f.getDate();
+    const mes = f.toLocaleString('es', { month: 'short' }).toUpperCase();
+    return `
+      <div class="cronograma-item">
+        <div class="cron-fecha"><div class="dia">${dia}</div><div class="mes">${mes}</div></div>
+        <div class="cron-info">
+          <h4>${c.sector}</h4>
+          <p>${c.descripcion}</p>
+        </div>
+        <div class="cron-badge ${c.estado === 'en ejecución' ? 'exec' : 'prog'}">${c.estado === 'en ejecución' ? '🔧 En curso' : '📋 Programado'}</div>
+      </div>
+    `;
+  }).join('');
+}
+
+function renderCronogramaTecnico() {
+  const cron = LS.get('bb_cronograma') || [];
+  const el = document.getElementById('lista-cron-tec');
+  if (!cron.length) {
+    el.innerHTML = '<div class="empty-state"><div class="empty-icon">📅</div><p>No hay intervenciones programadas.</p></div>';
+    return;
+  }
+  const sorted = [...cron].sort((a, b) => a.fecha.localeCompare(b.fecha));
+  el.innerHTML = sorted.map(c => `
+    <div class="cron-tec-item">
+      <div style="flex:1;">
+        <div style="font-weight:600;">${c.sector}</div>
+        <div class="text-sm">${c.descripcion} · ${c.fecha}</div>
+        <div class="text-sm">Estado: <strong>${c.estado}</strong></div>
+      </div>
+      <div class="cron-tec-acciones">
+        <button class="btn-icon azul" onclick="editarCronograma('${c.id}')">✏</button>
+        <button class="btn-icon rojo" onclick="eliminarCronograma('${c.id}')">🗑</button>
+      </div>
+    </div>
+  `).join('');
+}
+
+function abrirModalAgregarCron() {
+  document.getElementById('cron-id-edit').value = '';
+  document.getElementById('cron-sector').value = '';
+  document.getElementById('cron-descripcion').value = '';
+  document.getElementById('cron-fecha').value = '';
+  document.getElementById('cron-estado').value = 'programado';
+  document.getElementById('cron-error').classList.remove('show');
+  abrirOverlay('overlay-cron');
+}
+
+function editarCronograma(id) {
+  const cron = LS.get('bb_cronograma') || [];
+  const c = cron.find(x => x.id === id);
+  if (!c) return;
+  document.getElementById('cron-id-edit').value = id;
+  document.getElementById('cron-sector').value = c.sector;
+  document.getElementById('cron-descripcion').value = c.descripcion;
+  document.getElementById('cron-fecha').value = c.fecha;
+  document.getElementById('cron-estado').value = c.estado;
+  abrirOverlay('overlay-cron');
+}
+
+function guardarCronograma() {
+  const sector = document.getElementById('cron-sector').value.trim();
+  const descripcion = document.getElementById('cron-descripcion').value.trim();
+  const fecha = document.getElementById('cron-fecha').value;
+  const estado = document.getElementById('cron-estado').value;
+  const errEl = document.getElementById('cron-error');
+  if (!sector || !descripcion || !fecha) { errEl.classList.add('show'); return; }
+  errEl.classList.remove('show');
+  const cron = LS.get('bb_cronograma') || [];
+  const idEdit = document.getElementById('cron-id-edit').value;
+  if (idEdit) {
+    const idx = cron.findIndex(c => c.id === idEdit);
+    if (idx >= 0) { cron[idx] = { ...cron[idx], sector, descripcion, fecha, estado }; }
+  } else {
+    cron.push({ id: 'C' + Date.now(), sector, descripcion, fecha, estado });
+  }
+  LS.set('bb_cronograma', cron);
+  cerrarOverlay('overlay-cron');
+  renderCronogramaTecnico();
+  renderCronogramaCiudadano();
+  mostrarNotif('✅ Intervención guardada', 'verde');
+}
+
+function eliminarCronograma(id) {
+  if (!confirm('¿Eliminar esta intervención?')) return;
+  let cron = LS.get('bb_cronograma') || [];
+  cron = cron.filter(c => c.id !== id);
+  LS.set('bb_cronograma', cron);
+  renderCronogramaTecnico();
+  renderCronogramaCiudadano();
+  mostrarNotif('🗑 Intervención eliminada');
+}
+
+/* ─────────────────────────────────────────────
+   ADMIN
+───────────────────────────────────────────── */
+function renderAdmin() {
+  const usuarios = LS.get('bb_usuarios') || [];
+  const el = document.getElementById('lista-usuarios-admin');
+  el.innerHTML = usuarios.map(u => `
+    <div class="usuario-row">
+      <div class="usuario-avatar">${u.nombrec ? u.nombrec[0].toUpperCase() : u.id[0].toUpperCase()}</div>
+      <div class="usuario-info">
+        <div class="usuario-nombre">${u.nombrec || u.nombre}</div>
+        <div class="usuario-rol">${u.rol === 'admin' ? '🛡 Admin' : '🔧 Técnico'} · @${u.id} ${u.primerLogin ? '· ⚠ Sin configurar' : ''}</div>
+      </div>
+      <div class="usuario-acciones">
+        <button class="btn-icon azul" title="Editar" onclick="editarUsuario('${u.id}')">✏</button>
+        <button class="btn-icon rojo" title="Resetear clave" onclick="abrirResetClave('${u.id}')">🔄</button>
+        ${u.id !== 'fabian' ? `<button class="btn-icon gris" title="Eliminar" onclick="eliminarUsuario('${u.id}')">🗑</button>` : ''}
+      </div>
+    </div>
+  `).join('');
+
+  const reportes = LS.get('bb_reportes') || [];
+  const cron = LS.get('bb_cronograma') || [];
+  document.getElementById('stats-admin').innerHTML = `
+    <div style="display:grid; grid-template-columns: repeat(2,1fr); gap: 10px; font-size: 0.85rem;">
+      <div><strong>${reportes.length}</strong> reportes totales</div>
+      <div><strong>${reportes.filter(r=>r.estado==='pendiente').length}</strong> pendientes</div>
+      <div><strong>${reportes.filter(r=>r.estado==='atendido').length}</strong> atendidos</div>
+      <div><strong>${cron.length}</strong> intervenciones</div>
+      <div><strong>${usuarios.length}</strong> usuarios</div>
+      <div><strong>${reportes.filter(r=>r.fotoAntes||r.fotoDespues).length}</strong> con foto</div>
+    </div>
+  `;
+}
+
+function abrirModalAgregarUsuario() {
+  document.getElementById('usuario-edit-id').value = '';
+  document.getElementById('usuario-modal-titulo').textContent = '+ Agregar usuario';
+  document.getElementById('usu-nombre').value = '';
+  document.getElementById('usu-nombrec').value = '';
+  document.getElementById('usu-rol').value = 'tecnico';
+  document.getElementById('usu-nombre').disabled = false;
+  document.getElementById('usu-error').classList.remove('show');
+  abrirOverlay('overlay-usuario');
+}
+
+function editarUsuario(id) {
+  const usuarios = LS.get('bb_usuarios') || [];
+  const u = usuarios.find(x => x.id === id);
+  if (!u) return;
+  document.getElementById('usuario-edit-id').value = id;
+  document.getElementById('usuario-modal-titulo').textContent = 'Editar usuario';
+  document.getElementById('usu-nombre').value = u.id;
+  document.getElementById('usu-nombrec').value = u.nombrec || u.nombre;
+  document.getElementById('usu-rol').value = u.rol;
+  document.getElementById('usu-nombre').disabled = true;
+  document.getElementById('usu-error').classList.remove('show');
+  abrirOverlay('overlay-usuario');
+}
+
+function guardarUsuario() {
+  const editId = document.getElementById('usuario-edit-id').value;
+  const nombre = document.getElementById('usu-nombre').value.trim().toLowerCase();
+  const nombrec = document.getElementById('usu-nombrec').value.trim();
+  const rol = document.getElementById('usu-rol').value;
+  const errEl = document.getElementById('usu-error');
+  if (!nombre || !nombrec) { errEl.textContent = 'Completa todos los campos'; errEl.classList.add('show'); return; }
+  if (!/^[a-z0-9_]+$/.test(nombre)) { errEl.textContent = 'El usuario solo puede tener letras, números y _'; errEl.classList.add('show'); return; }
+  const usuarios = LS.get('bb_usuarios') || [];
+  if (editId) {
+    const idx = usuarios.findIndex(u => u.id === editId);
+    if (idx >= 0) { usuarios[idx].nombrec = nombrec; usuarios[idx].rol = rol; }
+  } else {
+    if (usuarios.find(u => u.id === nombre)) { errEl.textContent = 'Ese nombre de usuario ya existe'; errEl.classList.add('show'); return; }
+    usuarios.push({ id: nombre, nombre: nombrec, nombrec, rol, hash: sha256('1234'), primerLogin: true, pregunta: '', respuestaHash: '' });
+  }
+  LS.set('bb_usuarios', usuarios);
+  cerrarOverlay('overlay-usuario');
+  renderAdmin();
+  mostrarNotif('✅ Usuario guardado', 'verde');
+}
+
+function eliminarUsuario(id) {
+  if (id === 'fabian') { mostrarNotif('No se puede eliminar al admin principal', 'rojo'); return; }
+  if (!confirm(`¿Eliminar usuario "${id}"?`)) return;
+  let usuarios = LS.get('bb_usuarios') || [];
+  usuarios = usuarios.filter(u => u.id !== id);
+  LS.set('bb_usuarios', usuarios);
+  renderAdmin();
+  mostrarNotif('🗑 Usuario eliminado');
+}
+
+function abrirResetClave(id) {
+  const usuarios = LS.get('bb_usuarios') || [];
+  const u = usuarios.find(x => x.id === id);
+  if (!u) return;
+  document.getElementById('reset-usuario-id').value = id;
+  document.getElementById('reset-usuario-nombre').textContent = `Usuario: ${u.nombrec || u.nombre}`;
+  abrirOverlay('overlay-reset-clave');
+}
+
+function confirmarResetClave() {
+  const id = document.getElementById('reset-usuario-id').value;
+  const usuarios = LS.get('bb_usuarios') || [];
+  const idx = usuarios.findIndex(u => u.id === id);
+  if (idx < 0) return;
+  usuarios[idx].hash = sha256('1234');
+  usuarios[idx].primerLogin = true;
+  LS.set('bb_usuarios', usuarios);
+  cerrarOverlay('overlay-reset-clave');
+  renderAdmin();
+  mostrarNotif(`🔄 Contraseña de ${usuarios[idx].nombrec || usuarios[idx].nombre} restablecida a 1234`, 'verde');
+}
+
+/* ─────────────────────────────────────────────
+   UTILIDADES UI
+───────────────────────────────────────────── */
+function abrirOverlay(id) {
+  document.getElementById(id).classList.add('active');
+}
+function cerrarOverlay(id) {
+  if (id === 'x') return;
+  const el = document.getElementById(id);
+  if (el) el.classList.remove('active');
+}
+
+// Cerrar overlays clickando fondo
+document.querySelectorAll('.overlay').forEach(ov => {
+  ov.addEventListener('click', function(e) {
+    if (e.target === this) this.classList.remove('active');
+  });
+});
+
+let notifTimer = null;
+function mostrarNotif(msg, tipo) {
+  const el = document.getElementById('notif');
+  el.textContent = msg;
+  el.className = 'notif show' + (tipo ? ' ' + tipo : '');
+  clearTimeout(notifTimer);
+  notifTimer = setTimeout(() => el.classList.remove('show'), 3000);
+}
+
+function formatFecha(iso) {
+  if (!iso) return '';
+  const d = new Date(iso);
+  return d.toLocaleDateString('es-EC', { day: '2-digit', month: 'short', year: 'numeric' });
+}
+
+/* ─────────────────────────────────────────────
+   ENTER KEY LOGIN
+───────────────────────────────────────────── */
+document.getElementById('login-clave').addEventListener('keydown', e => { if (e.key === 'Enter') intentarLogin(); });
+document.getElementById('login-usuario').addEventListener('keydown', e => { if (e.key === 'Enter') document.getElementById('login-clave').focus(); });
+
+/* ─────────────────────────────────────────────
+   INIT
+───────────────────────────────────────────── */
+document.addEventListener('DOMContentLoaded', () => {
+  inicializarDatos();
+  actualizarEstadisticas();
+  renderListaReportesCiudadano();
+  renderCronogramaCiudadano();
+  // Verificar sesión activa al cargar
+  if (sesionValida()) {
+    const s = getSesion();
+    const usuarios = LS.get('bb_usuarios') || [];
+    const usr = usuarios.find(u => u.id === s.usuario);
+    if (usr) {
+      abrirPanelTecnico(usr);
+      iniciarTimerSesion();
+    }
+  }
+});
+</script>
+</body>
+</html>
