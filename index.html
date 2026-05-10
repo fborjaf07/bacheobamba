@@ -1,0 +1,584 @@
+Index
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="description" content="BACHEOBAMBA - Sistema de Gestión Vial del GADM Riobamba">
+<meta name="theme-color" content="#1B3A5C">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<title>BACHEOBAMBA · GADM Riobamba</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css"/>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.5.31/jspdf.plugin.autotable.min.js"></script>
+<style>
+:root{--rojo:#C41E3A;--rojo-oscuro:#8B1529;--rojo-claro:#FFE8EC;--azul:#1B3A5C;--azul-oscuro:#0F2440;--azul-claro:#E8EFF7;--crema:#FAF8F3;--papel:#FFFFFF;--dorado:#C9A227;--dorado-claro:#F5EBC9;--verde:#2E7D32;--verde-claro:#E8F5E9;--tinta:#1A1F2C;--tinta-3:#6B7280;--tinta-4:#9AA1AD;--linea:#DCD6C8;--sans:"Inter",-apple-system,sans-serif;--mono:"JetBrains Mono",monospace}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{font-family:var(--sans);background:var(--crema);color:var(--tinta);min-height:100vh}
+button{font-family:inherit;cursor:pointer;border:0;background:none;color:inherit}
+input.file-hidden{position:absolute;width:0.1px;height:0.1px;opacity:0;overflow:hidden;z-index:-1}
+
+/* HEADER */
+.app-hdr{background:var(--papel);border-bottom:2px solid var(--rojo);position:sticky;top:0;z-index:200}
+.hdr-main{display:flex;align-items:center;justify-content:space-between;padding:10px 14px}
+.app-name{font-size:.95rem;font-weight:900;letter-spacing:.12em;color:var(--azul)}
+.btn-admin{
+  background:var(--azul);color:#fff;border:none;border-radius:6px;padding:8px 14px;
+  font-size:10px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;cursor:pointer;
+  display:flex;align-items:center;gap:6px;
+}
+.btn-admin:active{background:var(--azul-oscuro)}
+.franja-tricolor{height:3px;display:flex}.ft1{background:var(--azul);flex:1}.ft2{background:var(--rojo);flex:1}.ft3{background:var(--dorado);flex:1}
+
+/* CIUDADANO */
+#scrCiudadano{min-height:100vh;background:var(--crema)}
+.sec-ey{font-size:9px;letter-spacing:.18em;text-transform:uppercase;color:var(--tinta-3);font-weight:600;margin-bottom:12px;display:flex;align-items:center;gap:8px}
+.sec-ey::before{content:'';width:15px;height:1px;background:var(--rojo)}.sec-ey::after{content:'';flex:1;height:1px;background:var(--linea)}
+.stats-trio{display:grid;grid-template-columns:1fr 1fr 1fr;gap:6px;margin-bottom:12px}
+.stat-card{background:var(--papel);border:1px solid var(--linea);padding:12px 8px;text-align:center;border-radius:8px}
+.stat-num{font-size:1.8rem;font-weight:800;margin-bottom:3px}
+.sn-rojo{color:var(--rojo)}.sn-verde{color:var(--verde)}.sn-azul{color:var(--azul)}
+.stat-lbl{font-size:8px;text-transform:uppercase;color:var(--tinta-3)}
+.info-banner{background:linear-gradient(135deg,var(--azul),var(--azul-oscuro));color:#fff;padding:14px;margin-bottom:12px;border-radius:8px}
+.map-wrap{border:1px solid var(--linea);border-radius:8px;overflow:hidden;margin-bottom:12px}
+.map-container{width:100%;height:350px}
+.map-legend{display:flex;gap:12px;padding:7px 10px;background:var(--papel)}
+.legend-dot{width:8px;height:8px;border-radius:50%;display:inline-block}.ld-pend{background:var(--rojo)}.ld-aten{background:var(--verde)}
+.mbar{background:linear-gradient(135deg,var(--azul),var(--azul-oscuro));color:#fff;padding:16px;text-align:center;border-radius:8px;margin-top:6px}
+
+/* OVERLAY LOGIN */
+.login-overlay{display:none;position:fixed;inset:0;background:rgba(10,36,71,.7);z-index:9000;align-items:center;justify-content:center}
+.login-box{background:var(--azul-oscuro);border-radius:12px;width:92%;max-width:360px;overflow:hidden}
+.login-box-hd{background:var(--azul);padding:14px 18px;display:flex;align-items:center;justify-content:space-between}
+.login-box-bd{padding:1.5rem}
+.login-box select,.login-box input{width:100%;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.15);border-radius:6px;padding:12px 14px;font-size:.95rem;color:#fff;outline:none;margin-bottom:10px;appearance:none;-webkit-appearance:none;font-family:var(--sans)}
+.login-box select option{background:var(--azul-oscuro);color:#fff}
+.btn-login{width:100%;background:var(--dorado);color:var(--azul-oscuro);border:none;border-radius:6px;padding:13px;font-size:.9rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase;cursor:pointer}
+
+/* OVERLAY ADMIN */
+.admin-overlay{display:none;position:fixed;inset:0;background:var(--crema);z-index:9000;flex-direction:column;overflow-y:auto}
+.admin-tabs{display:flex;overflow-x:auto;background:var(--papel);border-bottom:1px solid var(--linea)}
+.admin-tab{flex:1;padding:10px 8px;font-size:9px;font-weight:600;text-transform:uppercase;color:var(--tinta-3);border:none;cursor:pointer;white-space:nowrap;background:var(--papel)}
+.admin-tab.active{color:var(--azul);border-bottom:2px solid var(--azul)}
+.admin-content{flex:1;padding:12px}
+.gps-bar{background:var(--azul-claro);padding:5px 14px;display:flex;align-items:center;gap:5px;font-size:9px}
+.gps-dot{width:6px;height:6px;border-radius:50%;background:var(--tinta-4)}.gps-dot.ok{background:var(--verde)}.gps-dot.err{background:var(--rojo)}
+
+/* FORM */
+.cnt-duo{display:grid;grid-template-columns:1fr 1fr;border:1px solid var(--linea);background:var(--papel);margin-bottom:12px;border-radius:8px;overflow:hidden}
+.cnt-card{padding:16px 12px}.cnt-card+.cnt-card{border-left:1px solid var(--linea)}
+.cnt-lbl{font-size:8px;text-transform:uppercase;color:var(--tinta-3);margin-bottom:6px}
+.cnt-num{font-size:2.5rem;font-weight:800}.c-rojo .cnt-num{color:var(--rojo)}.c-azul .cnt-num{color:var(--azul)}.c-verde .cnt-num{color:var(--verde)}
+.form-sec{background:var(--papel);border:1px solid var(--linea);margin-bottom:12px;border-radius:8px;overflow:hidden}
+.form-hd{padding:10px 14px;background:var(--azul-claro);font-weight:600;font-size:10px;color:var(--azul)}
+.form-bd{padding:12px}.fld{margin-bottom:10px}.fld>span{display:block;font-size:8.5px;text-transform:uppercase;color:var(--tinta-3);margin-bottom:4px}
+textarea{width:100%;border:1px solid var(--linea);border-radius:6px;padding:10px;font-size:.9rem;resize:none;height:65px;font-family:var(--sans)}
+.sz-chips{display:flex;gap:4px}.sz-chip{flex:1;padding:8px;border:1px solid var(--linea);text-align:center;font-size:10px;font-weight:600;border-radius:6px;cursor:pointer}
+.sz-chip.sel{background:var(--azul);color:#fff}
+.pasos-indicador{display:flex;gap:8px;margin-bottom:14px}
+.paso-item{flex:1;text-align:center;padding:10px;border-radius:8px;font-size:9px;font-weight:600;border:2px solid var(--linea)}
+.paso-item.completado{background:var(--verde-claro);border-color:var(--verde);color:var(--verde)}
+.cam-label{display:flex;flex-direction:column;align-items:center;gap:6px;width:100%;min-height:90px;cursor:pointer;background:linear-gradient(135deg,var(--azul),var(--azul-oscuro));border-radius:8px;padding:14px;color:#fff}
+.cam-label.listoso{background:linear-gradient(135deg,var(--verde),#1B5E20)}
+.btn-gps{width:100%;padding:14px;border-radius:8px;display:flex;align-items:center;justify-content:center;gap:8px;font-size:11px;font-weight:700;cursor:pointer;background:var(--azul-claro);color:var(--azul);border:2px dashed var(--azul)}
+.btn-gps.listoso{background:var(--verde-claro);color:var(--verde);border:2px solid var(--verde)}
+.foto-wrap{width:100%;border-radius:8px;overflow:hidden;border:2px solid var(--azul);margin-top:8px;display:none}
+.foto-wrap img{width:100%;max-height:200px;object-fit:cover}
+.btn-reg{width:100%;padding:14px;font-size:11.5px;font-weight:700;text-transform:uppercase;border-radius:6px;border:none;cursor:pointer;background:linear-gradient(135deg,var(--azul),var(--azul-oscuro));color:#fff;margin-top:8px}
+.btn-reg:disabled{opacity:.5;cursor:not-allowed}.btn-g{background:linear-gradient(135deg,var(--verde),#1B5E20)}
+.admin-input{width:100%;padding:10px;border:1px solid var(--linea);border-radius:6px;margin-bottom:8px;font-size:14px;background:var(--papel)}
+.reg-list{display:flex;flex-direction:column;gap:8px}
+.reg-item{background:var(--papel);border:1px solid var(--linea);border-radius:8px;overflow:hidden}
+.ri-foto{width:100%;height:120px;object-fit:cover;background:var(--crema-2)}
+.ri-body{padding:8px 11px}
+.ri-tag{font-size:8.5px;font-weight:600;padding:2px 6px;border-radius:8px;text-transform:uppercase}
+.ts{background:var(--azul-claro);color:var(--azul)}.tp{background:var(--rojo-claro);color:var(--rojo)}.tok{background:var(--verde-claro);color:var(--verde)}
+.empty{text-align:center;padding:2rem;border:2px dashed var(--linea);border-radius:8px}
+.toast{position:fixed;bottom:70px;left:50%;transform:translateX(-50%);background:var(--azul-oscuro);color:#fff;padding:10px 18px;border-radius:16px;font-size:10.5px;z-index:9999;opacity:0;transition:all .3s;border-left:3px solid var(--dorado)}
+.toast.show{opacity:1}.toast.err{border-left-color:var(--rojo)}
+@media(max-width:400px){.cnt-num{font-size:2rem}}
+</style>
+</head>
+<body>
+
+<!-- ═══════════ PORTAL CIUDADANO (SIEMPRE VISIBLE) ═══════════ -->
+<div id="scrCiudadano">
+<div class="app-hdr">
+  <div class="hdr-main">
+    <div class="app-name">BACHEOBAMBA</div>
+    <button class="btn-admin" onclick="abrirLoginAdmin()">
+      <span>🔧</span> Administración
+    </button>
+  </div>
+  <div class="franja-tricolor"><i class="ft1"></i><i class="ft2"></i><i class="ft3"></i></div>
+</div>
+<div style="padding:12px 12px 3rem">
+<div class="sec-ey">Estado de la vialidad</div>
+<div class="stats-trio">
+<div class="stat-card"><div class="stat-num sn-azul" id="c-tot">0</div><div class="stat-lbl">Total</div></div>
+<div class="stat-card"><div class="stat-num sn-rojo" id="c-pen">0</div><div class="stat-lbl">Pendientes</div></div>
+<div class="stat-card"><div class="stat-num sn-verde" id="c-ate">0</div><div class="stat-lbl">Atendidos</div></div>
+</div>
+<div class="info-banner">
+<div style="font-size:11px;font-weight:700;color:var(--dorado);margin-bottom:5px">📍 Mapa en tiempo real</div>
+<div style="font-size:11px"><span style="color:#ff6b6b">●</span> Pendientes · <span style="color:#6bcf7f">●</span> Reparados · <small id="info-carga">Cargando...</small></div>
+</div>
+<div class="map-wrap"><div id="mapa-c" class="map-container"></div><div class="map-legend"><span class="legend-dot ld-pend"></span> Pendiente &nbsp; <span class="legend-dot ld-aten"></span> Atendido</div></div>
+<div class="mbar"><div>GADM Riobamba · Obras Públicas</div><div style="font-style:italic;margin-top:4px">"Alcaldía de la Gente · Riobamba avanza contigo"</div></div>
+</div>
+</div>
+
+<!-- ═══════════ OVERLAY LOGIN ═══════════ -->
+<div class="login-overlay" id="loginOverlay">
+<div class="login-box">
+<div class="login-box-hd">
+<div style="font-size:11px;font-weight:800;letter-spacing:.1em;color:#fff">PORTAL TÉCNICO</div>
+<button onclick="cerrarLogin()" style="color:rgba(255,255,255,.5);font-size:18px;cursor:pointer">×</button>
+</div>
+<div class="login-box-bd">
+<div style="font-size:9px;letter-spacing:.18em;text-transform:uppercase;color:rgba(255,255,255,.5);margin-bottom:5px">Usuario</div>
+<select id="l-user"><option value="">— Selecciona —</option></select>
+<div style="font-size:9px;letter-spacing:.18em;text-transform:uppercase;color:rgba(255,255,255,.5);margin-bottom:5px">Contraseña</div>
+<input type="password" id="l-pass" placeholder="••••••">
+<button class="btn-login" onclick="doLogin()">Ingresar</button>
+</div>
+</div>
+</div>
+
+<!-- ═══════════ OVERLAY ADMIN ═══════════ -->
+<div class="admin-overlay" id="adminOverlay">
+<div class="app-hdr">
+  <div class="hdr-main">
+    <div class="app-name">BACHEOBAMBA</div>
+    <div style="display:flex;align-items:center;gap:8px">
+      <span style="background:var(--azul-claro);padding:4px 10px;border-radius:16px;font-size:10px;font-weight:600;color:var(--azul)" id="admUser">—</span>
+      <button onclick="cerrarAdmin()" style="background:none;border:1px solid var(--rojo);border-radius:4px;padding:4px 8px;font-size:9px;color:var(--rojo);cursor:pointer">Salir</button>
+    </div>
+  </div>
+  <div class="franja-tricolor"><i class="ft1"></i><i class="ft2"></i><i class="ft3"></i></div>
+</div>
+<div class="gps-bar"><div class="gps-dot blink" id="gps-dot"></div><span id="gps-txt">Iniciando GPS…</span></div>
+<div class="admin-tabs" id="adminTabs">
+<button class="admin-tab active" onclick="setAdminTab('pend')">📋 Pendientes <span id="cnt-p">0</span></button>
+<button class="admin-tab" onclick="setAdminTab('aten')">✅ Atendidos <span id="cnt-a">0</span></button>
+<button class="admin-tab" onclick="setAdminTab('mapa')">🗺️ Mapa</button>
+<button class="admin-tab" onclick="setAdminTab('publicar')">📤 Publicar</button>
+<button class="admin-tab" onclick="setAdminTab('admin')">⚙️ Admin</button>
+</div>
+<div class="admin-content" id="adminContent">
+
+<div id="adm-pend" class="admin-panel">
+<div class="sec-ey">Registrar bache</div>
+<div class="cnt-duo"><div class="cnt-card c-rojo"><div class="cnt-lbl">Pendientes</div><div class="cnt-num" id="np">0</div></div><div class="cnt-card c-azul"><div class="cnt-lbl">Hoy</div><div class="cnt-num" id="nh">0</div></div></div>
+<div class="pasos-indicador"><div class="paso-item" id="paso-p-foto">1 📸 Foto</div><div class="paso-item" id="paso-p-gps">2 📍 GPS</div><div class="paso-item" id="paso-p-reg">3 ✅ Listo</div></div>
+<div class="form-sec"><div class="form-hd">Captura del bache</div><div class="form-bd">
+<input class="file-hidden" type="file" id="p-inp" accept="image/*" capture="environment">
+<input type="hidden" id="p-lat"><input type="hidden" id="p-lng">
+<div class="fld"><span>Foto</span><label for="p-inp" class="cam-label" id="p-lbl"><span style="font-size:1.8rem">📸</span><span>Tomar foto</span></label></div>
+<div class="foto-wrap" id="p-wrap"><img id="p-img" src="" alt=""><div style="background:var(--azul-oscuro);padding:8px;color:#fff;font-size:10px" id="p-cval">Sin coordenadas</div></div>
+<div class="fld"><span>GPS</span><button class="btn-gps" id="btn-gps-p" onclick="obtenerCoordenadas('p')">📍 Obtener ubicación</button></div>
+<div class="fld"><span>Tamaño</span><div class="sz-chips"><div class="sz-chip sel" onclick="selSz(this,'P')">Pequeño</div><div class="sz-chip" onclick="selSz(this,'M')">Mediano</div><div class="sz-chip" onclick="selSz(this,'G')">Grande</div></div></div>
+<div class="fld"><span>Observación</span><textarea id="p-obs" placeholder="Estado, profundidad…"></textarea></div>
+<button class="btn-reg" id="btn-reg-p" disabled onclick="regPend()">📋 Registrar bache</button>
+</div></div>
+<div class="sec-ey">Lista</div><div id="lst-p"></div>
+</div>
+
+<div id="adm-aten" class="admin-panel" style="display:none">
+<div class="sec-ey">Registrar atención</div>
+<div class="cnt-duo"><div class="cnt-card c-azul"><div class="cnt-lbl">Atendidos</div><div class="cnt-num" id="na">0</div></div><div class="cnt-card"><div class="cnt-lbl">Semana</div><div class="cnt-num" id="ns" style="color:#8B6914">0</div></div></div>
+<div class="form-sec"><div class="form-hd">Captura</div><div class="form-bd">
+<input class="file-hidden" type="file" id="a-inp" accept="image/*" capture="environment">
+<input type="hidden" id="a-lat"><input type="hidden" id="a-lng">
+<div class="fld"><span>Foto</span><label for="a-inp" class="cam-label" id="a-lbl"><span style="font-size:1.8rem">📸</span><span>Tomar foto</span></label></div>
+<div class="foto-wrap" id="a-wrap"><img id="a-img" src="" alt=""><div style="background:var(--azul-oscuro);padding:8px;color:#fff;font-size:10px" id="a-cval">Sin coordenadas</div></div>
+<div class="fld"><span>GPS</span><button class="btn-gps" id="btn-gps-a" onclick="obtenerCoordenadas('a')">📍 Obtener ubicación</button></div>
+<div class="fld"><span>Observación</span><textarea id="a-obs" placeholder="Material, horas…"></textarea></div>
+<button class="btn-reg btn-g" id="btn-reg-a" disabled onclick="regAten()">✅ Registrar atención</button>
+</div></div>
+<div class="sec-ey">Lista</div><div id="lst-a"></div>
+</div>
+
+<div id="adm-mapa" class="admin-panel" style="display:none">
+<div class="map-wrap"><div id="mapa-t" class="map-container" style="height:350px"></div></div>
+<div class="cnt-duo"><div class="cnt-card c-rojo"><div class="cnt-lbl">Pendientes</div><div class="cnt-num" id="mt-p">0</div></div><div class="cnt-card c-verde"><div class="cnt-lbl">Atendidos</div><div class="cnt-num" id="mt-a">0</div></div></div>
+</div>
+
+<div id="adm-publicar" class="admin-panel" style="display:none">
+<div class="sec-ey">Publicar en GitHub</div>
+<div class="form-sec"><div class="form-hd">Configuración</div><div class="form-bd">
+<div class="fld"><span>Usuario</span><input type="text" id="gh-user" class="admin-input" placeholder="fborjaf07"></div>
+<div class="fld"><span>Repositorio</span><input type="text" id="gh-repo" class="admin-input" placeholder="bacheobamba"></div>
+<div class="fld"><span>Token</span><input type="password" id="gh-token" class="admin-input" placeholder="ghp_..."></div>
+<button class="btn-reg" onclick="guardarConfigGH()">💾 Guardar</button>
+<div id="gh-status" style="margin-top:8px;font-size:10px;text-align:center"></div>
+</div></div>
+<div class="cnt-duo"><div class="cnt-card c-rojo"><div class="cnt-lbl">Pendientes</div><div class="cnt-num" id="pub-p">0</div></div><div class="cnt-card c-verde"><div class="cnt-lbl">Atendidos</div><div class="cnt-num" id="pub-a">0</div></div></div>
+<button class="btn-reg btn-g" onclick="publicarAGitHub()">📤 Publicar baches</button>
+<div id="pub-status" style="margin-top:8px;padding:10px;text-align:center;font-size:10px;border-radius:6px;background:var(--crema)">Listo</div>
+</div>
+
+<div id="adm-admin" class="admin-panel" style="display:none">
+<div class="sec-ey">Admin</div>
+<div class="form-sec"><div class="form-hd">🔐 Cambiar contraseña</div><div class="form-bd">
+<input type="password" id="pass-actual" placeholder="Actual" class="admin-input">
+<input type="password" id="pass-nueva1" placeholder="Nueva" class="admin-input">
+<input type="password" id="pass-nueva2" placeholder="Confirmar" class="admin-input">
+<button class="btn-reg" style="background:var(--rojo)" onclick="cambiarMiPassword()">🔒 Cambiar</button>
+</div></div>
+<div class="form-sec" id="panel-fabian" style="display:none"><div class="form-hd">👑 Admin usuarios</div><div class="form-bd">
+<div id="lista-usuarios"></div>
+<input type="text" id="nuevo-nombre" placeholder="Nombre" class="admin-input">
+<input type="text" id="nuevo-pass" placeholder="Contraseña" class="admin-input">
+<button class="btn-reg" onclick="agregarUsuario()">➕ Agregar</button>
+</div></div>
+</div>
+
+</div>
+</div>
+
+<div class="toast" id="tst"></div>
+
+<script>
+'use strict';
+
+var GITHUB_USER = 'fborjaf07';
+var GITHUB_REPO = 'bacheobamba';
+var CU = '';
+var pend = [], aten = [];
+var szP = 'P';
+var gpsLat = null, gpsLng = null;
+var fotoLista = { p: false, a: false };
+var gpsListo = { p: false, a: false };
+var fotoTemp = { p: null, a: null };
+
+var USUARIOS = {
+  Fabian: { hash: '03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4', primerLogin: false },
+  Tatiana: { hash: '03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4', primerLogin: false },
+  Patricio: { hash: '03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4', primerLogin: false }
+};
+
+var db = null;
+function abrirDB() {
+  return new Promise(function(resolve) {
+    var r = indexedDB.open('BACHEOBAMBA_DB', 1);
+    r.onupgradeneeded = function(e) { if (!e.target.result.objectStoreNames.contains('fotos')) e.target.result.createObjectStore('fotos', { keyPath: 'id' }); };
+    r.onsuccess = function(e) { db = e.target.result; resolve(db); };
+    r.onerror = function() { resolve(null); };
+  });
+}
+function guardarFotoDB(id, blob) {
+  return new Promise(function(resolve) { if (!db) { resolve(); return; } var tx = db.transaction('fotos', 'readwrite'); tx.objectStore('fotos').put({ id: id, blob: blob }); tx.oncomplete = resolve; });
+}
+function obtenerFotoDB(id) {
+  return new Promise(function(resolve) { if (!db) { resolve(null); return; } var tx = db.transaction('fotos', 'readonly'); var req = tx.objectStore('fotos').get(id); req.onsuccess = function(e) { resolve(e.target.result); }; req.onerror = function() { resolve(null); }; });
+}
+function eliminarFotoDB(id) {
+  return new Promise(function(resolve) { if (!db) { resolve(); return; } var tx = db.transaction('fotos', 'readwrite'); tx.objectStore('fotos').delete(id); tx.oncomplete = resolve; });
+}
+
+async function sha256(t) { var d = new TextEncoder().encode(t); var h = await crypto.subtle.digest('SHA-256', d); return Array.from(new Uint8Array(h)).map(function(b) { return b.toString(16).padStart(2, '0'); }).join(''); }
+function guardarMetadatos() { try { localStorage.setItem('bo_p', JSON.stringify(pend.slice(0, 50))); localStorage.setItem('bo_a', JSON.stringify(aten.slice(0, 50))); } catch(e) {} }
+function cargarDatos() { try { pend = JSON.parse(localStorage.getItem('bo_p') || '[]'); aten = JSON.parse(localStorage.getItem('bo_a') || '[]'); } catch(e) { pend = []; aten = []; } }
+
+// ===== LOGIN =====
+function abrirLoginAdmin() { document.getElementById('loginOverlay').style.display = 'flex'; }
+function cerrarLogin() { document.getElementById('loginOverlay').style.display = 'none'; }
+function cerrarAdmin() { CU = ''; document.getElementById('adminOverlay').style.display = 'none'; }
+
+async function doLogin() {
+  var u = document.getElementById('l-user').value;
+  var p = document.getElementById('l-pass').value;
+  if (!u || !p) { toast('Completa los campos', 'err'); return; }
+  if (!USUARIOS[u]) { toast('Usuario no encontrado', 'err'); return; }
+  if (USUARIOS[u].hash !== await sha256(p)) { toast('Contraseña incorrecta', 'err'); return; }
+  CU = u; localStorage.setItem('bo_u', u);
+  document.getElementById('loginOverlay').style.display = 'none';
+  document.getElementById('adminOverlay').style.display = 'flex';
+  document.getElementById('admUser').textContent = CU;
+  if (CU === 'Fabian') document.getElementById('panel-fabian').style.display = 'block';
+  renderAll(); iniciarGPS(); configurarInputs();
+}
+
+function setAdminTab(tab) {
+  document.querySelectorAll('.admin-tab').forEach(function(b) { b.classList.remove('active'); });
+  event.target.classList.add('active');
+  document.querySelectorAll('.admin-panel').forEach(function(p) { p.style.display = 'none'; });
+  var panel = document.getElementById('adm-' + tab); if (panel) panel.style.display = 'block';
+  if (tab === 'mapa') setTimeout(iniciarMapaTec, 200);
+  if (tab === 'publicar') { document.getElementById('pub-p').textContent = pend.length; document.getElementById('pub-a').textContent = aten.length; cargarConfigGH(); }
+  if (tab === 'admin' && CU === 'Fabian') renderListaUsuarios();
+}
+
+async function cambiarMiPassword() {
+  var a = document.getElementById('pass-actual').value;
+  var n1 = document.getElementById('pass-nueva1').value;
+  var n2 = document.getElementById('pass-nueva2').value;
+  if (!a || !n1 || n1.length < 4) { toast('Completa correctamente', 'err'); return; }
+  if (n1 !== n2) { toast('No coinciden', 'err'); return; }
+  if (USUARIOS[CU].hash !== await sha256(a)) { toast('Contraseña actual incorrecta', 'err'); return; }
+  USUARIOS[CU].hash = await sha256(n1);
+  localStorage.setItem('bo_usuarios', JSON.stringify(USUARIOS));
+  toast('✅ Contraseña cambiada');
+}
+
+function renderListaUsuarios() {
+  var el = document.getElementById('lista-usuarios'); if (!el) return;
+  el.innerHTML = Object.keys(USUARIOS).map(function(u) {
+    return '<div style="display:flex;justify-content:space-between;align-items:center;padding:8px;border:1px solid var(--linea);border-radius:6px;margin-bottom:4px"><span><b>' + u + '</b>' + (u === 'Fabian' ? ' 👑' : '') + '</span>' + (u !== 'Fabian' ? '<button onclick="resetearClave(\'' + u + '\')" style="background:var(--rojo-claro);color:var(--rojo);padding:4px 8px;border-radius:4px;font-size:10px">🔄 Resetear</button>' : '<span style="font-size:10px;color:var(--tinta-4)">Admin</span>') + '</div>';
+  }).join('');
+}
+
+async function resetearClave(u) {
+  USUARIOS[u].hash = '03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4';
+  USUARIOS[u].primerLogin = true;
+  localStorage.setItem('bo_usuarios', JSON.stringify(USUARIOS));
+  renderListaUsuarios(); toast('✅ Clave de ' + u + ' reseteada');
+}
+
+async function agregarUsuario() {
+  var n = document.getElementById('nuevo-nombre').value.trim();
+  var p = document.getElementById('nuevo-pass').value.trim();
+  if (!n || !p || p.length < 4) { toast('Nombre y contraseña (mín 4)', 'err'); return; }
+  if (USUARIOS[n]) { toast('Ya existe', 'err'); return; }
+  USUARIOS[n] = { hash: await sha256(p), primerLogin: false };
+  localStorage.setItem('bo_usuarios', JSON.stringify(USUARIOS));
+  actualizarSelectUsuarios(); renderListaUsuarios();
+  document.getElementById('nuevo-nombre').value = ''; document.getElementById('nuevo-pass').value = '';
+  toast('✅ Usuario ' + n + ' creado');
+}
+
+function actualizarSelectUsuarios() {
+  var sel = document.getElementById('l-user'); if (!sel) return;
+  sel.innerHTML = '<option value="">— Selecciona —</option>';
+  for (var u in USUARIOS) sel.innerHTML += '<option value="' + u + '">' + u + '</option>';
+}
+
+// ===== GITHUB =====
+function guardarConfigGH() {
+  var u = document.getElementById('gh-user').value.trim();
+  var r = document.getElementById('gh-repo').value.trim();
+  var t = document.getElementById('gh-token').value.trim();
+  if (!u || !r || !t) { toast('Completa todos', 'err'); return; }
+  localStorage.setItem('gh_user', u); localStorage.setItem('gh_repo', r); localStorage.setItem('gh_token', btoa(t));
+  GITHUB_USER = u; GITHUB_REPO = r;
+  document.getElementById('gh-status').innerHTML = '<span style="color:var(--verde)">✅ Guardado</span>';
+  toast('✅ Configuración guardada');
+}
+function cargarConfigGH() {
+  var u = localStorage.getItem('gh_user') || GITHUB_USER;
+  var r = localStorage.getItem('gh_repo') || GITHUB_REPO;
+  var t = ''; try { t = atob(localStorage.getItem('gh_token') || ''); } catch(e) {}
+  var eU = document.getElementById('gh-user'); if (eU) eU.value = u;
+  var eR = document.getElementById('gh-repo'); if (eR) eR.value = r;
+  var eT = document.getElementById('gh-token'); if (eT) eT.value = t;
+  return { user: u, repo: r, token: t };
+}
+
+async function cargarDatosPublicos() {
+  var cfg = cargarConfigGH();
+  document.getElementById('info-carga').textContent = 'Cargando...';
+  var url = 'https://raw.githubusercontent.com/' + cfg.user + '/' + cfg.repo + '/main/baches-data.json?t=' + Date.now();
+  try {
+    var res = await fetch(url);
+    if (res.ok) {
+      var data = await res.json();
+      pend = data.pendientes || []; aten = data.atendidos || [];
+      document.getElementById('info-carga').textContent = '✅ Actualizado: ' + new Date(data.generado).toLocaleString('es-EC');
+    } else {
+      document.getElementById('info-carga').textContent = 'Sin datos publicados';
+    }
+  } catch(e) { document.getElementById('info-carga').textContent = 'Error de conexión'; }
+  actualizarStatsCiu();
+  setTimeout(iniciarMapaCiu, 300);
+}
+
+async function publicarAGitHub() {
+  var cfg = cargarConfigGH();
+  if (!cfg.token) { toast('Configura el token', 'err'); return; }
+  var ps = document.getElementById('pub-status'); ps.innerHTML = '⏳ Publicando...';
+  var data = {
+    generado: new Date().toISOString(),
+    pendientes: pend.map(function(r) { return { id: r.id, tipo: r.tipo, tamano: r.tamano, lat: r.lat, lng: r.lng, obs: r.obs, fecha: r.fecha, usuario: r.usuario }; }),
+    atendidos: aten.map(function(r) { return { id: r.id, tipo: r.tipo, tecnico: r.tecnico, lat: r.lat, lng: r.lng, obs: r.obs, fecha: r.fecha, usuario: r.usuario }; }),
+    totales: { pendientes: pend.length, atendidos: aten.length }
+  };
+  var b64 = btoa(unescape(encodeURIComponent(JSON.stringify(data, null, 2))));
+  var url = 'https://api.github.com/repos/' + cfg.user + '/' + cfg.repo + '/contents/baches-data.json';
+  try {
+    var cr = await fetch(url, { headers: { 'Authorization': 'token ' + cfg.token } });
+    var sha = null; if (cr.ok) { var m = await cr.json(); sha = m.sha; }
+    var body = { message: 'Update ' + new Date().toISOString().slice(0, 10), content: b64 }; if (sha) body.sha = sha;
+    var pr = await fetch(url, { method: 'PUT', headers: { 'Authorization': 'token ' + cfg.token, 'Content-Type': 'application/json' }, body: JSON.stringify(body) });
+    if (pr.ok) { ps.innerHTML = '✅ Publicado'; toast('✅ Publicado en GitHub'); }
+    else { throw new Error('Error al publicar'); }
+  } catch(e) { ps.innerHTML = '❌ ' + e.message; toast('❌ Error', 'err'); }
+}
+
+// ===== GPS =====
+function iniciarGPS() {
+  if (!navigator.geolocation) return;
+  navigator.geolocation.watchPosition(
+    function(p) { gpsLat = p.coords.latitude.toFixed(6); gpsLng = p.coords.longitude.toFixed(6);
+      var dot = document.getElementById('gps-dot'); if (dot) { dot.classList.remove('blink'); dot.classList.add('ok'); }
+      var txt = document.getElementById('gps-txt'); if (txt) txt.textContent = '📍 ' + gpsLat + ', ' + gpsLng; },
+    function() {},
+    { enableHighAccuracy: true }
+  );
+}
+
+// ===== INPUTS =====
+function configurarInputs() { configurarInput('p'); configurarInput('a'); }
+function configurarInput(px) {
+  var inp = document.getElementById(px + '-inp'); if (!inp) return;
+  var n = inp.cloneNode(true); inp.parentNode.replaceChild(n, inp);
+  n.addEventListener('change', function(e) { procesarFoto(e.target, px); });
+}
+function procesarFoto(inputElement, px) {
+  if (!inputElement.files || !inputElement.files[0]) return;
+  var file = inputElement.files[0]; fotoTemp[px] = file;
+  var url = URL.createObjectURL(file);
+  var img = document.getElementById(px + '-img'); if (img) { img.src = url; img.style.display = 'block'; }
+  var wrap = document.getElementById(px + '-wrap'); if (wrap) wrap.style.display = 'block';
+  var lbl = document.getElementById(px + '-lbl'); if (lbl) { lbl.classList.add('listoso'); lbl.querySelector('span').textContent = '✅ Foto lista'; }
+  fotoLista[px] = true; actualizarPaso(px, 'foto', true); verificarEstadoRegistro(px);
+}
+function obtenerCoordenadas(px) {
+  if (!navigator.geolocation) { toast('GPS no disponible', 'err'); return; }
+  var btn = document.getElementById('btn-gps-' + px); if (btn) { btn.textContent = '⏳ Obteniendo...'; btn.disabled = true; }
+  navigator.geolocation.getCurrentPosition(
+    function(p) {
+      gpsLat = p.coords.latitude.toFixed(6); gpsLng = p.coords.longitude.toFixed(6);
+      document.getElementById(px + '-lat').value = gpsLat; document.getElementById(px + '-lng').value = gpsLng;
+      document.getElementById(px + '-cval').textContent = '📍 ' + gpsLat + ', ' + gpsLng;
+      if (btn) { btn.textContent = '✅ Ubicación obtenida'; btn.classList.add('listoso'); btn.disabled = false; }
+      gpsListo[px] = true; actualizarPaso(px, 'gps', true); verificarEstadoRegistro(px);
+    },
+    function() { if (btn) { btn.textContent = '⚠️ Reintentar'; btn.disabled = false; } },
+    { enableHighAccuracy: true, timeout: 15000 }
+  );
+}
+function actualizarPaso(px, paso, ok) { var el = document.getElementById('paso-' + px + '-' + paso); if (el && ok) el.classList.add('completado'); }
+function verificarEstadoRegistro(px) {
+  if (fotoLista[px] && gpsListo[px]) {
+    var btn = document.getElementById(px === 'p' ? 'btn-reg-p' : 'btn-reg-a');
+    if (btn) { btn.disabled = false; } var pr = document.getElementById('paso-' + px + '-reg'); if (pr) pr.classList.add('completado');
+  }
+}
+function selSz(el, s) { szP = s; document.querySelectorAll('.sz-chip').forEach(function(c) { c.classList.remove('sel'); }); el.classList.add('sel'); }
+
+async function regPend() {
+  var lat = document.getElementById('p-lat').value, lng = document.getElementById('p-lng').value;
+  if (!lat) { toast('Obtén ubicación GPS', 'err'); return; }
+  var id = 'PB-' + Date.now();
+  var reg = { id: id, tipo: 'pendiente', tamano: szP, lat: parseFloat(lat), lng: parseFloat(lng), obs: document.getElementById('p-obs').value.trim() || null, fecha: new Date().toISOString(), usuario: CU };
+  if (db && fotoTemp['p']) await guardarFotoDB(id, fotoTemp['p']);
+  pend.unshift(reg); guardarMetadatos(); limpiarP(); renderAll(); toast('✅ Bache registrado');
+}
+async function regAten() {
+  var lat = document.getElementById('a-lat').value, lng = document.getElementById('a-lng').value;
+  if (!lat) { toast('Obtén ubicación GPS', 'err'); return; }
+  var id = 'AB-' + Date.now();
+  var reg = { id: id, tipo: 'atendido', tecnico: CU, lat: parseFloat(lat), lng: parseFloat(lng), obs: document.getElementById('a-obs').value.trim() || null, fecha: new Date().toISOString(), usuario: CU };
+  if (db && fotoTemp['a']) await guardarFotoDB(id, fotoTemp['a']);
+  aten.unshift(reg); guardarMetadatos(); limpiarA(); renderAll(); toast('✅ Atención registrada');
+}
+
+function limpiarCampo(px) {
+  fotoLista[px] = false; gpsListo[px] = false; fotoTemp[px] = null;
+  document.getElementById(px + '-lat').value = ''; document.getElementById(px + '-lng').value = '';
+  document.getElementById(px + '-wrap').style.display = 'none'; document.getElementById(px + '-img').src = '';
+  document.getElementById(px + '-cval').textContent = 'Sin coordenadas';
+  var btn = document.getElementById(px === 'p' ? 'btn-reg-p' : 'btn-reg-a'); if (btn) btn.disabled = true;
+  var lbl = document.getElementById(px + '-lbl'); if (lbl) { lbl.classList.remove('listoso'); lbl.querySelector('span').textContent = 'Tomar foto'; }
+  var btnGps = document.getElementById('btn-gps-' + px); if (btnGps) { btnGps.classList.remove('listoso'); btnGps.textContent = '📍 Obtener ubicación'; btnGps.disabled = false; }
+  ['foto','gps','reg'].forEach(function(p) { var el = document.getElementById('paso-' + px + '-' + p); if (el) el.classList.remove('completado'); });
+  configurarInput(px);
+}
+function limpiarP() { limpiarCampo('p'); document.getElementById('p-obs').value = ''; szP = 'P'; }
+function limpiarA() { limpiarCampo('a'); document.getElementById('a-obs').value = ''; }
+
+function delP(id) { if (!confirm('¿Eliminar?')) return; pend = pend.filter(function(r) { return r.id !== id; }); eliminarFotoDB(id); guardarMetadatos(); renderAll(); }
+function delA(id) { if (!confirm('¿Eliminar?')) return; aten = aten.filter(function(r) { return r.id !== id; }); eliminarFotoDB(id); guardarMetadatos(); renderAll(); }
+function mover(id) { var i = pend.findIndex(function(r) { return r.id === id; }); if (i < 0) return; if (!confirm('¿Marcar como atendido?')) return; var r = pend.splice(i, 1)[0]; r.tipo = 'atendido'; r.id = 'AB-' + Date.now(); r.tecnico = CU; r.fechaAtencion = new Date().toISOString(); aten.unshift(r); guardarMetadatos(); renderAll(); }
+
+var SN = { P: 'Pequeño', M: 'Mediano', G: 'Grande' };
+function renderAll() {
+  try {
+    document.getElementById('np').textContent = pend.length; document.getElementById('cnt-p').textContent = pend.length;
+    document.getElementById('na').textContent = aten.length; document.getElementById('cnt-a').textContent = aten.length;
+    var hoy = new Date().toDateString();
+    document.getElementById('nh').textContent = pend.filter(function(r) { return new Date(r.fecha).toDateString() === hoy; }).length + aten.filter(function(r) { return new Date(r.fecha).toDateString() === hoy; }).length;
+    var s7 = new Date(); s7.setDate(s7.getDate() - 7);
+    document.getElementById('ns').textContent = aten.filter(function(r) { return new Date(r.fecha) >= s7; }).length;
+    if (document.getElementById('pub-p')) document.getElementById('pub-p').textContent = pend.length;
+    if (document.getElementById('pub-a')) document.getElementById('pub-a').textContent = aten.length;
+  } catch(e) {}
+  renderLP(); renderLA();
+}
+function renderLP() {
+  var el = document.getElementById('lst-p');
+  if (!pend.length) { el.innerHTML = '<div class="empty"><p>Sin baches</p></div>'; return; }
+  el.innerHTML = '<div class="reg-list">' + pend.map(function(r) {
+    return '<div class="reg-item"><img class="ri-foto" id="fotop-' + r.id + '" src=""><div class="ri-body"><b>' + r.id + '</b> <span class="ri-tag ts">' + (SN[r.tamano] || r.tamano) + '</span><br><small>' + r.lat + ', ' + r.lng + '</small>' + (r.obs ? '<br>' + r.obs : '') + '<br><small>' + new Date(r.fecha).toLocaleString('es-EC') + '</small><br><button onclick="mover(\'' + r.id + '\')" style="background:var(--verde);color:#fff;padding:4px 8px;border-radius:4px;font-size:10px;margin-right:4px">✅</button><button onclick="delP(\'' + r.id + '\')" style="background:var(--rojo);color:#fff;padding:4px 8px;border-radius:4px;font-size:10px">🗑️</button></div></div>';
+  }).join('') + '</div>';
+  pend.forEach(function(r) { cargarFotoParaLista(r.id, 'fotop-' + r.id); });
+}
+function renderLA() {
+  var el = document.getElementById('lst-a');
+  if (!aten.length) { el.innerHTML = '<div class="empty"><p>Sin atendidos</p></div>'; return; }
+  el.innerHTML = '<div class="reg-list">' + aten.map(function(r) {
+    return '<div class="reg-item"><img class="ri-foto" id="fotoa-' + r.id + '" src=""><div class="ri-body"><b>' + r.id + '</b> <span class="ri-tag tok">Atendido</span><br><small>' + r.lat + ', ' + r.lng + '</small>' + (r.obs ? '<br>' + r.obs : '') + '<br><small>' + new Date(r.fecha).toLocaleString('es-EC') + '</small><br><button onclick="delA(\'' + r.id + '\')" style="background:var(--rojo);color:#fff;padding:4px 8px;border-radius:4px;font-size:10px">🗑️</button></div></div>';
+  }).join('') + '</div>';
+  aten.forEach(function(r) { cargarFotoParaLista(r.id, 'fotoa-' + r.id); });
+}
+async function cargarFotoParaLista(id, imgId) {
+  if (!db) return; var datos = await obtenerFotoDB(id);
+  if (datos && datos.blob) { var imgEl = document.getElementById(imgId); if (imgEl) imgEl.src = URL.createObjectURL(datos.blob); }
+}
+
+// ===== MAPAS =====
+var mapC = null, mapT = null, CENTER = [-1.6635, -78.6543];
+function iniciarMapaCiu() {
+  if (!document.getElementById('mapa-c')) return;
+  if (mapC) { cargarMarcadores(mapC); mapC.invalidateSize(); return; }
+  mapC = L.map('mapa-c', { zoomControl: true, attributionControl: false }).setView(CENTER, 14);
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom: 19 }).addTo(mapC); cargarMarcadores(mapC);
+}
+function iniciarMapaTec() {
+  if (!document.getElementById('mapa-t')) return;
+  if (mapT) { cargarMarcadores(mapT); mapT.invalidateSize(); return; }
+  mapT = L.map('mapa-t', { zoomControl: true, attributionControl: false }).setView(CENTER, 14);
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom: 19 }).addTo(mapT); cargarMarcadores(mapT);
+}
+function cargarMarcadores(mapa) {
+  if (!mapa) return;
+  mapa.eachLayer(function(l) { if (l instanceof L.Marker) mapa.removeLayer(l); });
+  pend.forEach(function(r) { if (r.lat && r.lng) L.marker([r.lat, r.lng], { icon: L.divIcon({ className: '', html: '<div style="width:12px;height:12px;border-radius:50%;background:#C41E3A;border:2px solid #fff"></div>', iconSize: [12,12], iconAnchor: [6,6] }) }).bindPopup('<b>Pendiente</b><br>' + r.lat + ', ' + r.lng).addTo(mapa); });
+  aten.forEach(function(r) { if (r.lat && r.lng) L.marker([r.lat, r.lng], { icon: L.divIcon({ className: '', html: '<div style="width:12px;height:12px;border-radius:50%;background:#2E7D32;border:2px solid #fff"></div>', iconSize: [12,12], iconAnchor: [6,6] }) }).bindPopup('<b>Atendido</b><br>' + r.lat + ', ' + r.lng).addTo(mapa); });
+}
+function actualizarStatsCiu() {
+  try { document.getElementById('c-tot').textContent = pend.length + aten.length; document.getElementById('c-pen').textContent = pend.length; document.getElementById('c-ate').textContent = aten.length; } catch(e) {}
+}
+
+function toast(msg, type) {
+  var el = document.getElementById('tst'); if (!el) return;
+  el.textContent = msg; el.className = 'toast' + (type === 'err' ? ' err' : '') + ' show';
+  clearTimeout(el._t); el._t = setTimeout(function() { el.classList.remove('show'); }, 3000);
+}
+
+window.addEventListener('DOMContentLoaded', async function() {
+  cargarDatos(); actualizarSelectUsuarios();
+  await abrirDB();
+  // Mostrar ciudadano directamente
+  document.getElementById('scrCiudadano').style.display = 'block';
+  actualizarStatsCiu();
+  cargarDatosPublicos();
+  setTimeout(iniciarMapaCiu, 500);
+  document.getElementById('l-pass').addEventListener('keydown', function(e) { if (e.key === 'Enter') doLogin(); });
+});
+</script>
+</body>
+</html>
