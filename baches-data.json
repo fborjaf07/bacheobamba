@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "actualizacion": "2026-05-25T16:11:23.472Z",
+  "actualizacion": "2026-05-25T16:28:30.031Z",
   "baches": [
     {
       "id": "R177907641720177ja",
@@ -471,23 +471,6 @@
       "fechaAten": null
     },
     {
-      "id": "R17793872437621hzo",
-      "direccion": "Primera Constituyente 20-12, Riobamba",
-      "tipo": "Mediano",
-      "descripcion": "",
-      "origen": "tecnico",
-      "tecnico_creador": "",
-      "lat": -1.673686,
-      "lng": -78.647819,
-      "estado": "pendiente",
-      "fecha": "2026-05-21T18:14:03.825Z",
-      "fotoAntes": "https://raw.githubusercontent.com/fborjaf07/bacheobamba/main/fotos/R17793872437621hzo_antes.jpg",
-      "fotoDespues": null,
-      "observaciones": "",
-      "tecnico": "",
-      "fechaAten": null
-    },
-    {
       "id": "R1779395646873s02c",
       "direccion": "Almagro, Riobamba",
       "tipo": "Mediano",
@@ -587,6 +570,23 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": null,
+      "fechaAten": null
+    },
+    {
+      "id": "R17793872437621hzo",
+      "direccion": "Primera Constituyente 20-12, Riobamba",
+      "tipo": "Mediano",
+      "descripcion": "",
+      "origen": "tecnico",
+      "tecnico_creador": "",
+      "lat": -1.673686,
+      "lng": -78.647819,
+      "estado": "pendiente",
+      "fecha": "2026-05-21T18:14:03.825Z",
+      "fotoAntes": "https://raw.githubusercontent.com/fborjaf07/bacheobamba/main/fotos/R17793872437621hzo_antes.jpg",
+      "fotoDespues": null,
+      "observaciones": "",
+      "tecnico": "",
       "fechaAten": null
     }
   ]
