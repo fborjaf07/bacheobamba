@@ -1,0 +1,18 @@
+{
+  "id": "R1779808743178vjgv",
+  "direccion": "Avenida Atahualpa, Riobamba",
+  "tipo": "Mediano",
+  "descripcion": "",
+  "origen": "ciudadano",
+  "tecnico_creador": "",
+  "lat": "-1.681969",
+  "lng": "-78.662774",
+  "estado": "pendiente",
+  "fecha": "2026-05-26T15:19:03.211Z",
+  "fotoAntes": "https://raw.githubusercontent.com/fborjaf07/bacheobamba/main/fotos/R1779808743178vjgv_antes.jpg",
+  "fotoDespues": null,
+  "observaciones": "",
+  "tecnico": null,
+  "fechaAten": null,
+  "pendienteSubir": true
+}
