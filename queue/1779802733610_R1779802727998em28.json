@@ -1,0 +1,18 @@
+{
+  "id": "R1779802727998em28",
+  "direccion": "Luis Elisa Borja, Riobamba",
+  "tipo": "Pequeño",
+  "descripcion": "",
+  "origen": "tecnico",
+  "tecnico_creador": "Diego Bayona",
+  "lat": "-1.666567",
+  "lng": "-78.646601",
+  "estado": "pendiente",
+  "fecha": "2026-05-26T13:38:48.069Z",
+  "fotoAntes": "https://raw.githubusercontent.com/fborjaf07/bacheobamba/main/fotos/R1779802727998em28_antes.jpg",
+  "fotoDespues": null,
+  "observaciones": "",
+  "tecnico": null,
+  "fechaAten": null,
+  "pendienteSubir": true
+}
