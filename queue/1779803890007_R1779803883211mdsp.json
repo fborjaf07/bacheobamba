@@ -1,0 +1,18 @@
+{
+  "id": "R1779803883211mdsp",
+  "direccion": "Nueva York, Riobamba",
+  "tipo": "Pequeño",
+  "descripcion": "",
+  "origen": "ciudadano",
+  "tecnico_creador": "",
+  "lat": "-1.663035",
+  "lng": "-78.650960",
+  "estado": "pendiente",
+  "fecha": "2026-05-26T13:58:03.251Z",
+  "fotoAntes": null,
+  "fotoDespues": null,
+  "observaciones": "",
+  "tecnico": null,
+  "fechaAten": null,
+  "pendienteSubir": true
+}
