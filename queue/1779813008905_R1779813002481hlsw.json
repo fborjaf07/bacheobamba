@@ -1,0 +1,18 @@
+{
+  "id": "R1779813002481hlsw",
+  "direccion": "Avenida Juan Felix Proaño, San Luis",
+  "tipo": "Mediano",
+  "descripcion": "",
+  "origen": "ciudadano",
+  "tecnico_creador": "",
+  "lat": "-1.690480",
+  "lng": "-78.643978",
+  "estado": "pendiente",
+  "fecha": "2026-05-26T16:30:02.520Z",
+  "fotoAntes": "https://raw.githubusercontent.com/fborjaf07/bacheobamba/main/fotos/R1779813002481hlsw_antes.jpg",
+  "fotoDespues": null,
+  "observaciones": "",
+  "tecnico": null,
+  "fechaAten": null,
+  "pendienteSubir": true
+}
