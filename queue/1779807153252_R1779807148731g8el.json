@@ -1,0 +1,18 @@
+{
+  "id": "R1779807148731g8el",
+  "direccion": "Avenida Atahualpa, Riobamba",
+  "tipo": "Pequeño",
+  "descripcion": "",
+  "origen": "ciudadano",
+  "tecnico_creador": "",
+  "lat": "-1.680525",
+  "lng": "-78.661867",
+  "estado": "pendiente",
+  "fecha": "2026-05-26T14:52:28.776Z",
+  "fotoAntes": null,
+  "fotoDespues": null,
+  "observaciones": "",
+  "tecnico": null,
+  "fechaAten": null,
+  "pendienteSubir": true
+}
