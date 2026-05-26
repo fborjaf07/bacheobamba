@@ -1,0 +1,18 @@
+{
+  "id": "R1779808259051vdau",
+  "direccion": "Avenida Atahualpa, Yaruquíes",
+  "tipo": "Pequeño",
+  "descripcion": "",
+  "origen": "ciudadano",
+  "tecnico_creador": "",
+  "lat": "-1.687080",
+  "lng": "-78.673933",
+  "estado": "pendiente",
+  "fecha": "2026-05-26T15:10:59.090Z",
+  "fotoAntes": "https://raw.githubusercontent.com/fborjaf07/bacheobamba/main/fotos/R1779808259051vdau_antes.jpg",
+  "fotoDespues": null,
+  "observaciones": "",
+  "tecnico": null,
+  "fechaAten": null,
+  "pendienteSubir": true
+}
