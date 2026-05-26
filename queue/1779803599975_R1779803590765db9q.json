@@ -1,0 +1,18 @@
+{
+  "id": "R1779803590765db9q",
+  "direccion": "Nueva York 31 05, Riobamba",
+  "tipo": "Mediano",
+  "descripcion": "",
+  "origen": "ciudadano",
+  "tecnico_creador": "",
+  "lat": "-1.664208",
+  "lng": "-78.649500",
+  "estado": "pendiente",
+  "fecha": "2026-05-26T13:53:10.797Z",
+  "fotoAntes": null,
+  "fotoDespues": null,
+  "observaciones": "",
+  "tecnico": null,
+  "fechaAten": null,
+  "pendienteSubir": true
+}
