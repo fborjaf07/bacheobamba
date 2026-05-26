@@ -1,0 +1,18 @@
+{
+  "id": "R1779801630118biza",
+  "direccion": "Nueva York 21-58, Riobamba",
+  "tipo": "Pequeño",
+  "descripcion": "",
+  "origen": "tecnico",
+  "tecnico_creador": "Diego Bayona",
+  "lat": "-1.668441",
+  "lng": "-78.644696",
+  "estado": "pendiente",
+  "fecha": "2026-05-26T13:20:30.161Z",
+  "fotoAntes": "https://raw.githubusercontent.com/fborjaf07/bacheobamba/main/fotos/R1779801630118biza_antes.jpg",
+  "fotoDespues": null,
+  "observaciones": "",
+  "tecnico": null,
+  "fechaAten": null,
+  "pendienteSubir": true
+}
