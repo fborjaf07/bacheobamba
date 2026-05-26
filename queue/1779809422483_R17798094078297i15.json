@@ -1,0 +1,18 @@
+{
+  "id": "R17798094078297i15",
+  "direccion": "San Andres, Riobamba",
+  "tipo": "Pequeño",
+  "descripcion": "",
+  "origen": "ciudadano",
+  "tecnico_creador": "",
+  "lat": "-1.679788",
+  "lng": "-78.658955",
+  "estado": "pendiente",
+  "fecha": "2026-05-26T15:30:07.867Z",
+  "fotoAntes": "https://raw.githubusercontent.com/fborjaf07/bacheobamba/main/fotos/R17798094078297i15_antes.jpg",
+  "fotoDespues": null,
+  "observaciones": "",
+  "tecnico": null,
+  "fechaAten": null,
+  "pendienteSubir": true
+}
