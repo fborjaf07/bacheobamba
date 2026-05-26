@@ -1,0 +1,18 @@
+{
+  "id": "R17798092852192dge",
+  "direccion": "Santa Isabel, Riobamba",
+  "tipo": "Pequeño",
+  "descripcion": "",
+  "origen": "ciudadano",
+  "tecnico_creador": "",
+  "lat": "-1.680002",
+  "lng": "-78.659159",
+  "estado": "pendiente",
+  "fecha": "2026-05-26T15:28:05.264Z",
+  "fotoAntes": "https://raw.githubusercontent.com/fborjaf07/bacheobamba/main/fotos/R17798092852192dge_antes.jpg",
+  "fotoDespues": null,
+  "observaciones": "",
+  "tecnico": null,
+  "fechaAten": null,
+  "pendienteSubir": true
+}
