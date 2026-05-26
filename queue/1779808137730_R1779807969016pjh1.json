@@ -1,0 +1,18 @@
+{
+  "id": "R1779807969016pjh1",
+  "direccion": "-1.684442, -78.669140",
+  "tipo": "Mediano",
+  "descripcion": "",
+  "origen": "ciudadano",
+  "tecnico_creador": "",
+  "lat": "-1.684442",
+  "lng": "-78.669140",
+  "estado": "pendiente",
+  "fecha": "2026-05-26T15:06:09.051Z",
+  "fotoAntes": "https://raw.githubusercontent.com/fborjaf07/bacheobamba/main/fotos/R1779807969016pjh1_antes.jpg",
+  "fotoDespues": null,
+  "observaciones": "",
+  "tecnico": null,
+  "fechaAten": null,
+  "pendienteSubir": true
+}
