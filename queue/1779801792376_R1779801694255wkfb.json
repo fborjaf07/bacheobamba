@@ -1,0 +1,18 @@
+{
+  "id": "R1779801694255wkfb",
+  "direccion": "5 de Junio, Riobamba",
+  "tipo": "Pequeño",
+  "descripcion": "",
+  "origen": "tecnico",
+  "tecnico_creador": "Diego Bayona",
+  "lat": "-1.668734",
+  "lng": "-78.644439",
+  "estado": "pendiente",
+  "fecha": "2026-05-26T13:21:34.305Z",
+  "fotoAntes": null,
+  "fotoDespues": null,
+  "observaciones": "",
+  "tecnico": null,
+  "fechaAten": null,
+  "pendienteSubir": true
+}
