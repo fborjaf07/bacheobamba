@@ -1,0 +1,18 @@
+{
+  "id": "R17798024750605t81",
+  "direccion": "Venezuela, Riobamba",
+  "tipo": "Pequeño",
+  "descripcion": "",
+  "origen": "tecnico",
+  "tecnico_creador": "Diego Bayona",
+  "lat": "-1.669224",
+  "lng": "-78.646248",
+  "estado": "pendiente",
+  "fecha": "2026-05-26T13:34:35.100Z",
+  "fotoAntes": null,
+  "fotoDespues": null,
+  "observaciones": "",
+  "tecnico": null,
+  "fechaAten": null,
+  "pendienteSubir": true
+}
