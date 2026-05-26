@@ -1,0 +1,18 @@
+{
+  "id": "R1779808974394az1y",
+  "direccion": "Fernandina, Riobamba",
+  "tipo": "Grande",
+  "descripcion": "",
+  "origen": "ciudadano",
+  "tecnico_creador": "",
+  "lat": "-1.679520",
+  "lng": "-78.660232",
+  "estado": "pendiente",
+  "fecha": "2026-05-26T15:22:54.428Z",
+  "fotoAntes": "https://raw.githubusercontent.com/fborjaf07/bacheobamba/main/fotos/R1779808974394az1y_antes.jpg",
+  "fotoDespues": null,
+  "observaciones": "",
+  "tecnico": null,
+  "fechaAten": null,
+  "pendienteSubir": true
+}
