@@ -1,0 +1,18 @@
+{
+  "id": "R1779807577030411t",
+  "direccion": "La Victoria, Riobamba",
+  "tipo": "Grande",
+  "descripcion": "",
+  "origen": "ciudadano",
+  "tecnico_creador": "",
+  "lat": "-1.682433",
+  "lng": "-78.663256",
+  "estado": "pendiente",
+  "fecha": "2026-05-26T14:59:37.058Z",
+  "fotoAntes": "https://raw.githubusercontent.com/fborjaf07/bacheobamba/main/fotos/R1779807577030411t_antes.jpg",
+  "fotoDespues": null,
+  "observaciones": "",
+  "tecnico": null,
+  "fechaAten": null,
+  "pendienteSubir": true
+}
