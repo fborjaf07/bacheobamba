@@ -1,0 +1,18 @@
+{
+  "id": "R1779812737673lmg7",
+  "direccion": "Avenida Juan Felix Proaño, San Luis",
+  "tipo": "Pequeño",
+  "descripcion": "",
+  "origen": "ciudadano",
+  "tecnico_creador": "",
+  "lat": "-1.692893",
+  "lng": "-78.643967",
+  "estado": "pendiente",
+  "fecha": "2026-05-26T16:25:37.715Z",
+  "fotoAntes": "https://raw.githubusercontent.com/fborjaf07/bacheobamba/main/fotos/R1779812737673lmg7_antes.jpg",
+  "fotoDespues": null,
+  "observaciones": "",
+  "tecnico": null,
+  "fechaAten": null,
+  "pendienteSubir": true
+}
