@@ -1,0 +1,18 @@
+{
+  "id": "R1779810025271bp4p",
+  "direccion": "Avenida Atahualpa, Riobamba",
+  "tipo": "Mediano",
+  "descripcion": "",
+  "origen": "ciudadano",
+  "tecnico_creador": "",
+  "lat": "-1.678965",
+  "lng": "-78.657976",
+  "estado": "pendiente",
+  "fecha": "2026-05-26T15:40:25.322Z",
+  "fotoAntes": null,
+  "fotoDespues": null,
+  "observaciones": "",
+  "tecnico": null,
+  "fechaAten": null,
+  "pendienteSubir": true
+}
