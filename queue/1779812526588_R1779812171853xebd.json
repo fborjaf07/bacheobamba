@@ -1,0 +1,18 @@
+{
+  "id": "R1779812171853xebd",
+  "direccion": "Avenida Juan Felix Proaño 1, San Luis",
+  "tipo": "Pequeño",
+  "descripcion": "",
+  "origen": "ciudadano",
+  "tecnico_creador": "",
+  "lat": "-1.695771",
+  "lng": "-78.643145",
+  "estado": "pendiente",
+  "fecha": "2026-05-26T16:16:11.886Z",
+  "fotoAntes": null,
+  "fotoDespues": null,
+  "observaciones": "",
+  "tecnico": null,
+  "fechaAten": null,
+  "pendienteSubir": true
+}
