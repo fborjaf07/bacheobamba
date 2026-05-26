@@ -1,0 +1,18 @@
+{
+  "id": "R1779807188790k8or",
+  "direccion": "Avenida Atahualpa, Riobamba",
+  "tipo": "Grande",
+  "descripcion": "",
+  "origen": "ciudadano",
+  "tecnico_creador": "",
+  "lat": "-1.680743",
+  "lng": "-78.662012",
+  "estado": "pendiente",
+  "fecha": "2026-05-26T14:53:08.831Z",
+  "fotoAntes": "https://raw.githubusercontent.com/fborjaf07/bacheobamba/main/fotos/R1779807188790k8or_antes.jpg",
+  "fotoDespues": null,
+  "observaciones": "",
+  "tecnico": null,
+  "fechaAten": null,
+  "pendienteSubir": true
+}
