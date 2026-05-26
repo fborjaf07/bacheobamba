@@ -1,0 +1,18 @@
+{
+  "id": "R177980301643252sg",
+  "direccion": "Nueva York, Riobamba",
+  "tipo": "Pequeño",
+  "descripcion": "",
+  "origen": "tecnico",
+  "tecnico_creador": "Diego Bayona",
+  "lat": "-1.666036",
+  "lng": "-78.647439",
+  "estado": "pendiente",
+  "fecha": "2026-05-26T13:43:36.469Z",
+  "fotoAntes": null,
+  "fotoDespues": null,
+  "observaciones": "",
+  "tecnico": null,
+  "fechaAten": null,
+  "pendienteSubir": true
+}
