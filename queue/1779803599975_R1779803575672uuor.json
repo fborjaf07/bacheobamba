@@ -1,0 +1,18 @@
+{
+  "id": "R1779803575672uuor",
+  "direccion": "Nueva York 31 05, Riobamba",
+  "tipo": "Grande",
+  "descripcion": "",
+  "origen": "ciudadano",
+  "tecnico_creador": "",
+  "lat": "-1.664232",
+  "lng": "-78.649470",
+  "estado": "pendiente",
+  "fecha": "2026-05-26T13:52:55.711Z",
+  "fotoAntes": null,
+  "fotoDespues": null,
+  "observaciones": "",
+  "tecnico": null,
+  "fechaAten": null,
+  "pendienteSubir": true
+}
