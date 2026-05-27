@@ -1,0 +1,18 @@
+{
+  "id": "R1779801341042ed6t",
+  "direccion": "Nueva York 21-58, Riobamba",
+  "tipo": "Mediano",
+  "lat": "-1.668592",
+  "lng": "-78.644493",
+  "estado": "atendido",
+  "fecha": "2026-05-26T13:15:41.093Z",
+  "fotoAntes": "https://raw.githubusercontent.com/fborjaf07/bacheobamba/main/fotos/R1779801341042ed6t_antes.jpg",
+  "fotoDespues": null,
+  "observaciones": "Atendido en lote",
+  "tecnico": "Fabian Borja",
+  "origen": "tecnico",
+  "pendienteSubir": true,
+  "descripcion": "",
+  "tecnico_creador": "Diego Bayona",
+  "fechaAten": "2026-05-27T22:24:44.462Z"
+}
