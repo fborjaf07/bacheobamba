@@ -2,8 +2,8 @@ name: Fusionar reportes de baches
 
 on:
   push:
-    paths:
-      - 'queue/**.json'
+    branches:
+      - main
 
 jobs:
   fusionar:
@@ -13,70 +13,49 @@ jobs:
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
 
-      - name: Fusionar queue en baches-data.json
+      - name: Fusionar queue
         run: |
-          python3 - <<'EOF'
-import json, os, glob
+          python3 -c "
+          import json, os, glob, datetime
+          archivos = glob.glob('queue/*.json')
+          if not archivos:
+              print('Sin archivos en queue/')
+              exit(0)
+          with open('baches-data.json') as f:
+              data = json.load(f)
+          mapa = {b['id']: b for b in data.get('baches', [])}
+          for archivo in sorted(archivos):
+              try:
+                  with open(archivo) as f:
+                      item = json.load(f)
+                  rid = item.get('id')
+                  if not rid: continue
+                  accion = item.get('_accion', 'upsert')
+                  limpio = {k:v for k,v in item.items() if not k.startswith('_')}
+                  if accion == 'eliminar':
+                      mapa.pop(rid, None)
+                  elif rid in mapa:
+                      ex = mapa[rid]
+                      if ex.get('estado') == 'atendido': limpio['estado'] = 'atendido'
+                      mapa[rid] = {**ex, **limpio}
+                  else:
+                      mapa[rid] = limpio
+              except Exception as e:
+                  print(f'Error {archivo}: {e}')
+          data['baches'] = list(mapa.values())
+          data['actualizacion'] = datetime.datetime.utcnow().isoformat() + 'Z'
+          with open('baches-data.json', 'w') as f:
+              json.dump(data, f, ensure_ascii=False, indent=2)
+          for a in archivos: os.remove(a)
+          print(f'OK: {len(data[\"baches\"])} baches')
+          "
 
-# Leer baches-data.json actual
-with open('baches-data.json', 'r') as f:
-    data = json.load(f)
-
-baches = data.get('baches', [])
-ids_existentes = {b['id'] for b in baches}
-
-# Leer todos los archivos de la cola
-archivos = glob.glob('queue/*.json')
-nuevos = 0
-for archivo in archivos:
-    try:
-        with open(archivo, 'r') as f:
-            item = json.load(f)
-        
-        # Puede ser un reporte nuevo o una actualización de estado
-        id_rep = item.get('id')
-        if not id_rep:
-            continue
-            
-        accion = item.get('_accion', 'upsert')
-        
-        if accion == 'eliminar':
-            baches = [b for b in baches if b['id'] != id_rep]
-        else:
-            # upsert con prioridad atendido > pendiente
-            idx = next((i for i,b in enumerate(baches) if b['id']==id_rep), -1)
-            item_limpio = {k:v for k,v in item.items() if not k.startswith('_')}
-            if idx >= 0:
-                existente = baches[idx]
-                # Atendido nunca regresa a pendiente
-                if existente.get('estado')=='atendido' and item_limpio.get('estado')=='pendiente':
-                    item_limpio['estado'] = 'atendido'
-                baches[idx] = {**existente, **item_limpio}
-            else:
-                baches.append(item_limpio)
-        nuevos += 1
-    except Exception as e:
-        print(f'Error procesando {archivo}: {e}')
-
-# Guardar baches-data.json actualizado
-data['baches'] = baches
-data['actualizacion'] = __import__('datetime').datetime.utcnow().isoformat() + 'Z'
-with open('baches-data.json', 'w') as f:
-    json.dump(data, f, ensure_ascii=False, indent=2)
-
-# Eliminar archivos procesados de la cola
-for archivo in archivos:
-    os.remove(archivo)
-
-print(f'Procesados: {nuevos} items. Total baches: {len(baches)}')
-EOF
-
-      - name: Commit resultado
+      - name: Commit
         run: |
           git config user.name "BACHEOBAMBA Bot"
-          git config user.email "bot@bacheobamba"
+          git config user.email "bot@bacheobamba.gadmr"
           git add baches-data.json
-          git rm --cached queue/*.json 2>/dev/null || true
-          git diff --staged --quiet || git commit -m "BACHEOBAMBA: fusión automática de reportes"
-          git push
+          git rm -r --cached queue/ 2>/dev/null || true
+          git diff --staged --quiet && echo "Sin cambios" || (git commit -m "BACHEOBAMBA: fusion [skip ci]" && git push)
