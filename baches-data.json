@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "actualizacion": "2026-05-27T13:51:51.020709Z",
+  "actualizacion": "2026-05-27T21:58:46.474571Z",
   "baches": [
     {
       "id": "R177907641720177ja",
@@ -507,15 +507,16 @@
       "descripcion": "",
       "origen": "tecnico",
       "tecnico_creador": "Diego Bayona",
-      "lat": -1.670026,
-      "lng": -78.640929,
-      "estado": "pendiente",
+      "lat": "-1.670026",
+      "lng": "-78.640929",
+      "estado": "atendido",
       "fecha": "2026-05-21T20:34:06.930Z",
       "fotoAntes": "https://raw.githubusercontent.com/fborjaf07/bacheobamba/main/fotos/R1779395646873s02c_antes.jpg",
       "fotoDespues": null,
-      "observaciones": "",
-      "tecnico": "",
-      "fechaAten": null
+      "observaciones": "Sin observaciones",
+      "tecnico": "Fabian Borja",
+      "fechaAten": "2026-05-27T21:57:31.625Z",
+      "pendienteSubir": true
     },
     {
       "id": "R1779395601673ffr8",
