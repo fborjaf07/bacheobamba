@@ -1,0 +1,18 @@
+{
+  "id": "R1779803590765db9q",
+  "direccion": "Nueva York 31 05, Riobamba",
+  "tipo": "Mediano",
+  "lat": "-1.664208",
+  "lng": "-78.649500",
+  "estado": "atendido",
+  "fecha": "2026-05-26T13:53:10.797Z",
+  "fotoAntes": null,
+  "fotoDespues": null,
+  "observaciones": "Atendido en lote",
+  "tecnico": "Fabian Borja",
+  "origen": "ciudadano",
+  "pendienteSubir": true,
+  "descripcion": "",
+  "tecnico_creador": "",
+  "fechaAten": "2026-05-27T22:24:44.462Z"
+}
