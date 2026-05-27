@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "actualizacion": "2026-05-27T22:27:13.993317Z",
+  "actualizacion": "2026-05-27T22:33:19.999397Z",
   "baches": [
     {
       "id": "R177907641720177ja",
@@ -817,13 +817,13 @@
       "tecnico_creador": "Diego Bayona",
       "lat": "-1.668734",
       "lng": "-78.644439",
-      "estado": "pendiente",
+      "estado": "atendido",
       "fecha": "2026-05-26T13:21:34.305Z",
       "fotoAntes": null,
       "fotoDespues": null,
-      "observaciones": "",
-      "tecnico": null,
-      "fechaAten": null,
+      "observaciones": "Atendido en lote",
+      "tecnico": "Fabian Borja",
+      "fechaAten": "2026-05-27T22:31:33.668Z",
       "pendienteSubir": true
     },
     {
