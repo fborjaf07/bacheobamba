@@ -1,0 +1,18 @@
+{
+  "id": "R1779802222227pkst",
+  "direccion": "Cristóbal Colón, Riobamba",
+  "tipo": "Pequeño",
+  "lat": "-1.667432",
+  "lng": "-78.645971",
+  "estado": "atendido",
+  "fecha": "2026-05-26T13:30:22.267Z",
+  "fotoAntes": null,
+  "fotoDespues": null,
+  "observaciones": "Atendido en lote",
+  "tecnico": "Fabian Borja",
+  "origen": "tecnico",
+  "pendienteSubir": true,
+  "descripcion": "",
+  "tecnico_creador": "Diego Bayona",
+  "fechaAten": "2026-05-27T22:24:44.462Z"
+}
