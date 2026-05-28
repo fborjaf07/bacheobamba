@@ -1,0 +1,15 @@
+{
+  "id": "AB-1778273463837",
+  "direccion": "",
+  "tipo": "Intervención",
+  "lat": -1.692848,
+  "lng": -78.64392,
+  "estado": "atendido",
+  "fecha": "2026-05-08T20:51:01.384Z",
+  "fotoAntes": null,
+  "fotoDespues": null,
+  "observaciones": "",
+  "tecnico": "Fabian",
+  "origen": "tecnico",
+  "pendienteSubir": false
+}
