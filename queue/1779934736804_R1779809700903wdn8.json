@@ -1,0 +1,18 @@
+{
+  "id": "R1779809700903wdn8",
+  "direccion": "Avenida Atahualpa, Riobamba",
+  "tipo": "Grande",
+  "lat": "-1.678967",
+  "lng": "-78.658589",
+  "estado": "atendido",
+  "fecha": "2026-05-26T15:35:00.952Z",
+  "fotoAntes": null,
+  "fotoDespues": null,
+  "observaciones": "Atendido en lote",
+  "tecnico": "Fabian Borja",
+  "origen": "ciudadano",
+  "pendienteSubir": true,
+  "descripcion": "",
+  "tecnico_creador": "",
+  "fechaAten": "2026-05-28T02:18:56.742Z"
+}
