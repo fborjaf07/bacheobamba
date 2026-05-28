@@ -1,0 +1,18 @@
+{
+  "id": "R17798018670725xzf",
+  "direccion": "Venezuela, Riobamba",
+  "tipo": "Pequeño",
+  "descripcion": "",
+  "origen": "tecnico",
+  "tecnico_creador": "Diego Bayona",
+  "lat": "-1.670082",
+  "lng": "-78.645179",
+  "estado": "pendiente",
+  "fecha": "2026-05-26T13:24:27.110Z",
+  "fotoAntes": "https://raw.githubusercontent.com/fborjaf07/bacheobamba/main/fotos/R17798018670725xzf_antes.jpg",
+  "fotoDespues": null,
+  "observaciones": "",
+  "tecnico": null,
+  "fechaAten": null,
+  "pendienteSubir": true
+}
