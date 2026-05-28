@@ -1,0 +1,18 @@
+{
+  "id": "R17798137580864mv3",
+  "direccion": "Avenida Juan Felix Proaño, Riobamba",
+  "tipo": "Mediano",
+  "lat": "-1.686072",
+  "lng": "-78.643548",
+  "estado": "atendido",
+  "fecha": "2026-05-26T16:42:38.117Z",
+  "fotoAntes": "https://raw.githubusercontent.com/fborjaf07/bacheobamba/main/fotos/R17798137580864mv3_antes.jpg",
+  "fotoDespues": null,
+  "observaciones": "Atendido en lote",
+  "tecnico": "Fabian Borja",
+  "origen": "ciudadano",
+  "pendienteSubir": true,
+  "descripcion": "",
+  "tecnico_creador": "",
+  "fechaAten": "2026-05-28T02:18:56.742Z"
+}
