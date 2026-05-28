@@ -1,0 +1,18 @@
+{
+  "id": "R1779808511069y03s",
+  "direccion": "Avenida Atahualpa, Yaruquíes",
+  "tipo": "Pequeño",
+  "lat": "-1.684470",
+  "lng": "-78.669580",
+  "estado": "atendido",
+  "fecha": "2026-05-26T15:15:11.102Z",
+  "fotoAntes": null,
+  "fotoDespues": null,
+  "observaciones": "Atendido en lote",
+  "tecnico": "Fabian Borja",
+  "origen": "ciudadano",
+  "pendienteSubir": true,
+  "descripcion": "",
+  "tecnico_creador": "",
+  "fechaAten": "2026-05-28T02:08:53.560Z"
+}
