@@ -1,0 +1,18 @@
+{
+  "id": "R17798076063926z1e",
+  "direccion": "Avenida Atahualpa, Riobamba",
+  "tipo": "Pequeño",
+  "descripcion": "",
+  "origen": "ciudadano",
+  "tecnico_creador": "",
+  "lat": "-1.682474",
+  "lng": "-78.663306",
+  "estado": "atendido",
+  "fecha": "2026-05-26T15:00:06.448Z",
+  "fotoAntes": null,
+  "fotoDespues": null,
+  "observaciones": "Atendido en lote",
+  "tecnico": "Fabian Borja",
+  "fechaAten": "2026-05-28T02:08:53.560Z",
+  "pendienteSubir": true
+}
