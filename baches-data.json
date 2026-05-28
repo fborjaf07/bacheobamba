@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "actualizacion": "2026-05-28T02:16:44.294349Z",
+  "actualizacion": "2026-05-28T02:20:00.466315Z",
   "baches": [
     {
       "id": "R177907641720177ja",
@@ -2653,13 +2653,13 @@
       "tecnico_creador": "",
       "lat": "-1.672088",
       "lng": "-78.662710",
-      "estado": "pendiente",
+      "estado": "atendido",
       "fecha": "2026-05-26T14:44:58.638Z",
       "fotoAntes": null,
       "fotoDespues": null,
-      "observaciones": "",
-      "tecnico": null,
-      "fechaAten": null,
+      "observaciones": "Atendido en lote",
+      "tecnico": "Fabian Borja",
+      "fechaAten": "2026-05-28T02:18:56.742Z",
       "pendienteSubir": true
     },
     {
@@ -2959,13 +2959,13 @@
       "tecnico_creador": "",
       "lat": "-1.682433",
       "lng": "-78.663256",
-      "estado": "pendiente",
+      "estado": "atendido",
       "fecha": "2026-05-26T14:59:37.058Z",
       "fotoAntes": "https://raw.githubusercontent.com/fborjaf07/bacheobamba/main/fotos/R1779807577030411t_antes.jpg",
       "fotoDespues": null,
-      "observaciones": "",
-      "tecnico": null,
-      "fechaAten": null,
+      "observaciones": "Atendido en lote",
+      "tecnico": "Fabian Borja",
+      "fechaAten": "2026-05-28T02:18:56.742Z",
       "pendienteSubir": true
     },
     {
@@ -3193,13 +3193,13 @@
       "tecnico_creador": "",
       "lat": "-1.679520",
       "lng": "-78.660232",
-      "estado": "pendiente",
+      "estado": "atendido",
       "fecha": "2026-05-26T15:22:54.428Z",
       "fotoAntes": "https://raw.githubusercontent.com/fborjaf07/bacheobamba/main/fotos/R1779808974394az1y_antes.jpg",
       "fotoDespues": null,
-      "observaciones": "",
-      "tecnico": null,
-      "fechaAten": null,
+      "observaciones": "Atendido en lote",
+      "tecnico": "Fabian Borja",
+      "fechaAten": "2026-05-28T02:18:56.742Z",
       "pendienteSubir": true
     },
     {
@@ -3679,13 +3679,13 @@
       "tecnico_creador": "",
       "lat": "-1.678967",
       "lng": "-78.658589",
-      "estado": "pendiente",
+      "estado": "atendido",
       "fecha": "2026-05-26T15:35:00.952Z",
       "fotoAntes": null,
       "fotoDespues": null,
-      "observaciones": "",
-      "tecnico": null,
-      "fechaAten": null,
+      "observaciones": "Atendido en lote",
+      "tecnico": "Fabian Borja",
+      "fechaAten": "2026-05-28T02:18:56.742Z",
       "pendienteSubir": true
     },
     {
@@ -4255,13 +4255,13 @@
       "tecnico_creador": "",
       "lat": "-1.687134",
       "lng": "-78.643570",
-      "estado": "pendiente",
+      "estado": "atendido",
       "fecha": "2026-05-26T16:38:57.831Z",
       "fotoAntes": "https://raw.githubusercontent.com/fborjaf07/bacheobamba/main/fotos/R17798135377952prn_antes.jpg",
       "fotoDespues": null,
-      "observaciones": "",
-      "tecnico": null,
-      "fechaAten": null,
+      "observaciones": "Atendido en lote",
+      "tecnico": "Fabian Borja",
+      "fechaAten": "2026-05-28T02:18:56.742Z",
       "pendienteSubir": true
     },
     {
@@ -4273,13 +4273,13 @@
       "tecnico_creador": "",
       "lat": "-1.686072",
       "lng": "-78.643548",
-      "estado": "pendiente",
+      "estado": "atendido",
       "fecha": "2026-05-26T16:42:38.117Z",
       "fotoAntes": "https://raw.githubusercontent.com/fborjaf07/bacheobamba/main/fotos/R17798137580864mv3_antes.jpg",
       "fotoDespues": null,
-      "observaciones": "",
-      "tecnico": null,
-      "fechaAten": null,
+      "observaciones": "Atendido en lote",
+      "tecnico": "Fabian Borja",
+      "fechaAten": "2026-05-28T02:18:56.742Z",
       "pendienteSubir": true
     }
   ]
