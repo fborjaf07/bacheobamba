@@ -1,0 +1,18 @@
+{
+  "id": "R1779802627648868c",
+  "direccion": "Nueva York, Riobamba",
+  "tipo": "Pequeño",
+  "lat": "-1.666812",
+  "lng": "-78.646464",
+  "estado": "atendido",
+  "fecha": "2026-05-26T13:37:07.685Z",
+  "fotoAntes": "https://raw.githubusercontent.com/fborjaf07/bacheobamba/main/fotos/R1779802627648868c_antes.jpg",
+  "fotoDespues": null,
+  "observaciones": "Atendido en lote",
+  "tecnico": "Fabian Borja",
+  "origen": "tecnico",
+  "pendienteSubir": true,
+  "descripcion": "",
+  "tecnico_creador": "Diego Bayona",
+  "fechaAten": "2026-05-27T22:24:44.462Z"
+}
