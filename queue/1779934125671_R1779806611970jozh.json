@@ -1,0 +1,18 @@
+{
+  "id": "R1779806611970jozh",
+  "direccion": "Avenida 9 de Octubre, Riobamba",
+  "tipo": "Pequeño",
+  "descripcion": "",
+  "origen": "ciudadano",
+  "tecnico_creador": "",
+  "lat": "-1.672098",
+  "lng": "-78.662729",
+  "estado": "pendiente",
+  "fecha": "2026-05-26T14:43:32.007Z",
+  "fotoAntes": null,
+  "fotoDespues": null,
+  "observaciones": "",
+  "tecnico": null,
+  "fechaAten": null,
+  "pendienteSubir": true
+}
