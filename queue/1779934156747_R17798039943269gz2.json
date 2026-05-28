@@ -1,0 +1,18 @@
+{
+  "id": "R17798039943269gz2",
+  "direccion": "-1.662614, -78.651561",
+  "tipo": "Pequeño",
+  "descripcion": "",
+  "origen": "ciudadano",
+  "tecnico_creador": "",
+  "lat": "-1.662614",
+  "lng": "-78.651561",
+  "estado": "atendido",
+  "fecha": "2026-05-26T13:59:54.365Z",
+  "fotoAntes": null,
+  "fotoDespues": null,
+  "observaciones": "Atendido en lote",
+  "tecnico": "Fabian Borja",
+  "fechaAten": "2026-05-28T02:08:53.560Z",
+  "pendienteSubir": true
+}
