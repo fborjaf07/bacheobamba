@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "actualizacion": "2026-05-28T02:00:59.957578Z",
+  "actualizacion": "2026-05-28T02:06:19.167879Z",
   "baches": [
     {
       "id": "R177907641720177ja",
@@ -1069,13 +1069,13 @@
       "tecnico_creador": "Diego Bayona",
       "lat": "-1.669224",
       "lng": "-78.646248",
-      "estado": "pendiente",
+      "estado": "atendido",
       "fecha": "2026-05-26T13:34:35.100Z",
       "fotoAntes": null,
       "fotoDespues": null,
-      "observaciones": "",
-      "tecnico": null,
-      "fechaAten": null,
+      "observaciones": "Atendido en lote",
+      "tecnico": "Fabian Borja",
+      "fechaAten": "2026-05-28T02:00:27.150Z",
       "pendienteSubir": true
     },
     {
@@ -1231,13 +1231,13 @@
       "tecnico_creador": "Diego Bayona",
       "lat": "-1.666421",
       "lng": "-78.646814",
-      "estado": "pendiente",
+      "estado": "atendido",
       "fecha": "2026-05-26T13:40:15.370Z",
       "fotoAntes": null,
       "fotoDespues": null,
-      "observaciones": "",
-      "tecnico": null,
-      "fechaAten": null,
+      "observaciones": "Atendido en lote",
+      "tecnico": "Fabian Borja",
+      "fechaAten": "2026-05-28T02:00:27.150Z",
       "pendienteSubir": true
     },
     {
@@ -1267,13 +1267,13 @@
       "tecnico_creador": "Diego Bayona",
       "lat": "-1.666417",
       "lng": "-78.646919",
-      "estado": "pendiente",
+      "estado": "atendido",
       "fecha": "2026-05-26T13:40:57.404Z",
       "fotoAntes": null,
       "fotoDespues": null,
-      "observaciones": "",
-      "tecnico": null,
-      "fechaAten": null,
+      "observaciones": "Atendido en lote",
+      "tecnico": "Fabian Borja",
+      "fechaAten": "2026-05-28T02:00:27.150Z",
       "pendienteSubir": true
     },
     {
