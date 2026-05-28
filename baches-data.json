@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "actualizacion": "2026-05-28T02:13:16.668139Z",
+  "actualizacion": "2026-05-28T02:16:44.294349Z",
   "baches": [
     {
       "id": "R177907641720177ja",
@@ -1681,13 +1681,13 @@
       "tecnico_creador": "",
       "lat": "-1.663035",
       "lng": "-78.650960",
-      "estado": "pendiente",
+      "estado": "atendido",
       "fecha": "2026-05-26T13:58:03.251Z",
       "fotoAntes": null,
       "fotoDespues": null,
-      "observaciones": "",
-      "tecnico": null,
-      "fechaAten": null,
+      "observaciones": "Atendido en lote",
+      "tecnico": "Fabian Borja",
+      "fechaAten": "2026-05-28T02:14:28.384Z",
       "pendienteSubir": true
     },
     {
@@ -1753,13 +1753,13 @@
       "tecnico_creador": "",
       "lat": "-1.662578",
       "lng": "-78.651663",
-      "estado": "pendiente",
+      "estado": "atendido",
       "fecha": "2026-05-26T14:00:07.568Z",
       "fotoAntes": null,
       "fotoDespues": null,
-      "observaciones": "",
-      "tecnico": null,
-      "fechaAten": null,
+      "observaciones": "Atendido en lote",
+      "tecnico": "Fabian Borja",
+      "fechaAten": "2026-05-28T02:14:28.384Z",
       "pendienteSubir": true
     },
     {
