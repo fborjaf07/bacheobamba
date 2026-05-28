@@ -1,0 +1,18 @@
+{
+  "id": "R1779803674648u964",
+  "direccion": "Nueva York 31 05, Riobamba",
+  "tipo": "Pequeño",
+  "descripcion": "",
+  "origen": "ciudadano",
+  "tecnico_creador": "",
+  "lat": "-1.663973",
+  "lng": "-78.649789",
+  "estado": "atendido",
+  "fecha": "2026-05-26T13:54:34.683Z",
+  "fotoAntes": null,
+  "fotoDespues": null,
+  "observaciones": "Atendido en lote",
+  "tecnico": "Fabian Borja",
+  "fechaAten": "2026-05-28T02:08:53.560Z",
+  "pendienteSubir": true
+}
