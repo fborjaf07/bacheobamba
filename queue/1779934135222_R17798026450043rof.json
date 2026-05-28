@@ -1,0 +1,18 @@
+{
+  "id": "R17798026450043rof",
+  "direccion": "España, Riobamba",
+  "tipo": "Pequeño",
+  "descripcion": "",
+  "origen": "tecnico",
+  "tecnico_creador": "Diego Bayona",
+  "lat": "-1.666710",
+  "lng": "-78.646489",
+  "estado": "atendido",
+  "fecha": "2026-05-26T13:37:25.047Z",
+  "fotoAntes": null,
+  "fotoDespues": null,
+  "observaciones": "Atendido en lote",
+  "tecnico": "Fabian Borja",
+  "fechaAten": "2026-05-27T22:24:44.462Z",
+  "pendienteSubir": true
+}
