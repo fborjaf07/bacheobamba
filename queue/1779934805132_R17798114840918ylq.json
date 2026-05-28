@@ -1,0 +1,18 @@
+{
+  "id": "R17798114840918ylq",
+  "direccion": "Avenida Juan Felix Proaño, San Luis",
+  "tipo": "Grande",
+  "descripcion": "",
+  "origen": "ciudadano",
+  "tecnico_creador": "",
+  "lat": "-1.698748",
+  "lng": "-78.642583",
+  "estado": "atendido",
+  "fecha": "2026-05-26T16:04:44.153Z",
+  "fotoAntes": null,
+  "fotoDespues": null,
+  "observaciones": "Atendido en lote",
+  "tecnico": "Fabian Borja",
+  "fechaAten": "2026-05-28T02:20:05.066Z",
+  "pendienteSubir": true
+}
