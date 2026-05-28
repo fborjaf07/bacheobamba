@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "actualizacion": "2026-05-28T02:22:25.890676Z",
+  "actualizacion": "2026-05-28T02:23:40.744265Z",
   "baches": [
     {
       "id": "R177907641720177ja",
@@ -2851,13 +2851,13 @@
       "tecnico_creador": "",
       "lat": "-1.682345",
       "lng": "-78.663158",
-      "estado": "pendiente",
+      "estado": "atendido",
       "fecha": "2026-05-26T14:59:17.503Z",
       "fotoAntes": "https://raw.githubusercontent.com/fborjaf07/bacheobamba/main/fotos/R17798075574603hdc_antes.jpg",
       "fotoDespues": null,
-      "observaciones": "",
-      "tecnico": null,
-      "fechaAten": null,
+      "observaciones": "Atendido en lote",
+      "tecnico": "Fabian Borja",
+      "fechaAten": "2026-05-28T02:21:45.391Z",
       "pendienteSubir": true
     },
     {
@@ -3337,13 +3337,13 @@
       "tecnico_creador": "",
       "lat": "-1.679646",
       "lng": "-78.659712",
-      "estado": "pendiente",
+      "estado": "atendido",
       "fecha": "2026-05-26T15:25:09.796Z",
       "fotoAntes": null,
       "fotoDespues": null,
-      "observaciones": "",
-      "tecnico": null,
-      "fechaAten": null,
+      "observaciones": "Atendido en lote",
+      "tecnico": "Fabian Borja",
+      "fechaAten": "2026-05-28T02:21:45.391Z",
       "pendienteSubir": true
     },
     {
@@ -3589,13 +3589,13 @@
       "tecnico_creador": "",
       "lat": "-1.679565",
       "lng": "-78.658664",
-      "estado": "pendiente",
+      "estado": "atendido",
       "fecha": "2026-05-26T15:33:08.596Z",
       "fotoAntes": null,
       "fotoDespues": null,
-      "observaciones": "",
-      "tecnico": null,
-      "fechaAten": null,
+      "observaciones": "Atendido en lote",
+      "tecnico": "Fabian Borja",
+      "fechaAten": "2026-05-28T02:21:45.391Z",
       "pendienteSubir": true
     },
     {
@@ -4237,13 +4237,13 @@
       "tecnico_creador": "",
       "lat": "-1.689275",
       "lng": "-78.643881",
-      "estado": "pendiente",
+      "estado": "atendido",
       "fecha": "2026-05-26T16:35:03.576Z",
       "fotoAntes": null,
       "fotoDespues": null,
-      "observaciones": "",
-      "tecnico": null,
-      "fechaAten": null,
+      "observaciones": "Atendido en lote",
+      "tecnico": "Fabian Borja",
+      "fechaAten": "2026-05-28T02:21:45.391Z",
       "pendienteSubir": true
     },
     {
