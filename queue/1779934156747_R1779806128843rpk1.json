@@ -1,0 +1,18 @@
+{
+  "id": "R1779806128843rpk1",
+  "direccion": "Isabel de Godín, Riobamba",
+  "tipo": "Mediano",
+  "descripcion": "",
+  "origen": "ciudadano",
+  "tecnico_creador": "",
+  "lat": "-1.672050",
+  "lng": "-78.661208",
+  "estado": "atendido",
+  "fecha": "2026-05-26T14:35:28.878Z",
+  "fotoAntes": null,
+  "fotoDespues": null,
+  "observaciones": "Atendido en lote",
+  "tecnico": "Fabian Borja",
+  "fechaAten": "2026-05-28T02:08:53.560Z",
+  "pendienteSubir": true
+}
