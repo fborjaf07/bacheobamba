@@ -1,0 +1,18 @@
+{
+  "id": "R1779395601673ffr8",
+  "direccion": "Almagro, Riobamba",
+  "tipo": "Mediano",
+  "descripcion": "",
+  "origen": "tecnico",
+  "tecnico_creador": "Diego Bayona",
+  "lat": -1.669964,
+  "lng": -78.640823,
+  "estado": "atendido",
+  "fecha": "2026-05-21T20:33:21.723Z",
+  "fotoAntes": "https://raw.githubusercontent.com/fborjaf07/bacheobamba/main/fotos/R1779395601673ffr8_antes.jpg",
+  "fotoDespues": null,
+  "observaciones": "Atendido en lote",
+  "tecnico": "Fabian Borja",
+  "fechaAten": "2026-05-27T22:25:31.727Z",
+  "pendienteSubir": true
+}
