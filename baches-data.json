@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "actualizacion": "2026-05-28T02:42:16.926265Z",
+  "actualizacion": "2026-05-28T02:42:48.924609Z",
   "baches": [
     {
       "id": "R177907641720177ja",
@@ -3319,13 +3319,13 @@
       "tecnico_creador": "",
       "lat": "-1.679514",
       "lng": "-78.660014",
-      "estado": "pendiente",
+      "estado": "atendido",
       "fecha": "2026-05-26T15:23:52.218Z",
       "fotoAntes": null,
       "fotoDespues": null,
-      "observaciones": "",
-      "tecnico": null,
-      "fechaAten": null,
+      "observaciones": "Atendido en lote",
+      "tecnico": "Fabian Borja",
+      "fechaAten": "2026-05-28T02:35:42.899Z",
       "pendienteSubir": true
     },
     {
