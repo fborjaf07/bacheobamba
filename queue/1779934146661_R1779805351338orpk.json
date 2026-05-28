@@ -1,0 +1,18 @@
+{
+  "id": "R1779805351338orpk",
+  "direccion": "Isabel de Godín, Riobamba",
+  "tipo": "Mediano",
+  "descripcion": "",
+  "origen": "ciudadano",
+  "tecnico_creador": "",
+  "lat": "-1.672099",
+  "lng": "-78.659293",
+  "estado": "atendido",
+  "fecha": "2026-05-26T14:22:31.374Z",
+  "fotoAntes": "https://raw.githubusercontent.com/fborjaf07/bacheobamba/main/fotos/R1779805351338orpk_antes.jpg",
+  "fotoDespues": null,
+  "observaciones": "Atendido en lote",
+  "tecnico": "Fabian Borja",
+  "fechaAten": "2026-05-28T02:08:53.560Z",
+  "pendienteSubir": true
+}
