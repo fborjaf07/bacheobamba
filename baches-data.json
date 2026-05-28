@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "actualizacion": "2026-05-28T02:36:19.162352Z",
+  "actualizacion": "2026-05-28T02:42:16.926265Z",
   "baches": [
     {
       "id": "R177907641720177ja",
@@ -1465,13 +1465,13 @@
       "tecnico_creador": "",
       "lat": "-1.664694",
       "lng": "-78.648917",
-      "estado": "pendiente",
+      "estado": "atendido",
       "fecha": "2026-05-26T13:49:56.725Z",
       "fotoAntes": "https://raw.githubusercontent.com/fborjaf07/bacheobamba/main/fotos/R1779803396689kkay_antes.jpg",
       "fotoDespues": null,
-      "observaciones": "",
-      "tecnico": null,
-      "fechaAten": null,
+      "observaciones": "Atendido en lote",
+      "tecnico": "Fabian Borja",
+      "fechaAten": "2026-05-28T02:35:42.899Z",
       "pendienteSubir": true
     },
     {
