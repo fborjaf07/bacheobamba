@@ -1,0 +1,18 @@
+{
+  "id": "R1779802857369gvke",
+  "direccion": "Nueva York, Riobamba",
+  "tipo": "Pequeño",
+  "descripcion": "",
+  "origen": "tecnico",
+  "tecnico_creador": "Diego Bayona",
+  "lat": "-1.666417",
+  "lng": "-78.646919",
+  "estado": "atendido",
+  "fecha": "2026-05-26T13:40:57.404Z",
+  "fotoAntes": null,
+  "fotoDespues": null,
+  "observaciones": "Atendido en lote",
+  "tecnico": "Fabian Borja",
+  "fechaAten": "2026-05-28T02:00:27.150Z",
+  "pendienteSubir": true
+}
