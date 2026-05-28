@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "actualizacion": "2026-05-28T02:23:40.744265Z",
+  "actualizacion": "2026-05-28T02:34:56.517275Z",
   "baches": [
     {
       "id": "R177907641720177ja",
@@ -2815,13 +2815,13 @@
       "tecnico_creador": "",
       "lat": "-1.682075",
       "lng": "-78.662927",
-      "estado": "pendiente",
+      "estado": "atendido",
       "fecha": "2026-05-26T14:57:09.833Z",
       "fotoAntes": "https://raw.githubusercontent.com/fborjaf07/bacheobamba/main/fotos/R1779807429800y2xy_antes.jpg",
       "fotoDespues": null,
-      "observaciones": "",
-      "tecnico": null,
-      "fechaAten": null,
+      "observaciones": "Atendido en lote",
+      "tecnico": "Fabian Borja",
+      "fechaAten": "2026-05-28T02:33:55.870Z",
       "pendienteSubir": true
     },
     {
@@ -3535,13 +3535,13 @@
       "tecnico_creador": "",
       "lat": "-1.679788",
       "lng": "-78.658859",
-      "estado": "pendiente",
+      "estado": "atendido",
       "fecha": "2026-05-26T15:31:29.471Z",
       "fotoAntes": null,
       "fotoDespues": null,
-      "observaciones": "",
-      "tecnico": null,
-      "fechaAten": null,
+      "observaciones": "Atendido en lote",
+      "tecnico": "Fabian Borja",
+      "fechaAten": "2026-05-28T02:33:55.870Z",
       "pendienteSubir": true
     },
     {
@@ -4057,13 +4057,13 @@
       "tecnico_creador": "",
       "lat": "-1.695772",
       "lng": "-78.643147",
-      "estado": "pendiente",
+      "estado": "atendido",
       "fecha": "2026-05-26T16:15:53.677Z",
       "fotoAntes": null,
       "fotoDespues": null,
-      "observaciones": "",
-      "tecnico": null,
-      "fechaAten": null,
+      "observaciones": "Atendido en lote",
+      "tecnico": "Fabian Borja",
+      "fechaAten": "2026-05-28T02:33:55.870Z",
       "pendienteSubir": true
     },
     {
