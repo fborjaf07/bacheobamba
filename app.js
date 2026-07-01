@@ -771,8 +771,9 @@ function actualizarStats(){
   const b=document.getElementById('bdg-pen');if(b)b.textContent=p;
 }
 function renderCiu(){
-  const rs=LS.g('bb_r')||[];const el=document.getElementById('lista-ciu');
-  if(!rs.length){el.innerHTML='<div class="empty"><p>Aún no hay reportes. ¡Sé el primero en reportar!</p></div>';return;}
+  let rs=LS.g('bb_r')||[];const el=document.getElementById('lista-ciu');
+  rs=rs.filter(bacheEnPlat);
+  if(!rs.length){el.innerHTML='<div class="empty"><p>'+(_platFiltro?'No hay reportes en esta plataforma.':'Aún no hay reportes. ¡Sé el primero en reportar!')+'</p></div>';if(mapaCiu)refrescarMarcadores(mapaCiu);return;}
   el.innerHTML=rs.slice(0,5).map(r=>`
     <div class="rep-card ${r.estado}" onclick="verDetalle('${r.id}')">
       <div class="rep-dot ${r.estado}"></div>
@@ -1041,6 +1042,75 @@ function confirmarReset(){
 
 /* ── MAPA ── */
 let mapaCiu=null,mapaTec=null;
+let _platFiltro='';
+let _estadoFiltro='';
+function platColor(i){const t=(window.PLATAFORMAS_GEO||[]).length||18;const hue=Math.round(185+i*(330-185)/Math.max(1,t-1));return 'hsl('+hue+',62%,48%)';}
+function platLetra(p){var d=String(p.name||'').replace(/plataforma/i,'').trim();if(/^[A-Za-z\u00d1\u00f1]$/.test(d))return d;return p.letter||d;}
+function bacheEnPlat(r){
+  if(_estadoFiltro&&(r.estado||'pendiente')!==_estadoFiltro)return false;
+  if(!_platFiltro)return true;
+  if(r.lat==null||r.lng==null)return false;
+  return !!(window.findPlataforma&&window.findPlataforma(parseFloat(r.lat),parseFloat(r.lng))===_platFiltro);
+}
+function filtrarEstado(v){
+  _estadoFiltro=v||'';
+  document.querySelectorAll('#estado-filtro .plat-chip').forEach(c=>c.classList.toggle('on',(c.getAttribute('data-est')||'')===_estadoFiltro));
+  initPlatFiltro();
+  renderCiu();
+  if(mapaCiu)refrescarMapa(mapaCiu);
+  if(mapaTec)refrescarMapa(mapaTec);
+}
+function dibujarPlataformas(mapa){
+  if(!mapa||!window.PLATAFORMAS_GEO)return;
+  window.PLATAFORMAS_GEO.forEach((p,i)=>{
+    if(!p.rings||!p.rings[0])return;
+    const col=platColor(i);
+    const dim=_platFiltro&&p.name!==_platFiltro;
+    const ll=p.rings[0].map(c=>[c[0],c[1]]);
+    const poly=L.polygon(ll,{color:col,weight:dim?1:2,opacity:dim?0.25:0.8,fillColor:col,fillOpacity:dim?0.03:0.15});
+    poly.addTo(mapa);
+    poly.on('click',()=>filtrarPlataforma(p.name));
+    poly.bindTooltip(p.name,{sticky:true});
+    if(p.center){
+      const lbl=L.divIcon({className:'',html:'<div class="plat-lbl" style="--pc:'+col+';'+(dim?'opacity:.35;':'')+'">'+platLetra(p)+'</div>',iconSize:[24,24],iconAnchor:[12,12]});
+      L.marker([p.center[0],p.center[1]],{icon:lbl,interactive:false,keyboard:false}).addTo(mapa);
+    }
+  });
+}
+function initPlatFiltro(){
+  const wrap=document.getElementById('plat-filtro');
+  if(!wrap||!window.PLATAFORMAS_GEO)return;
+  // contar reportes por plataforma (respetando filtro de estado activo)
+  const rs=(LS.g('bb_r')||[]).filter(r=>{
+    if(r.lat==null||r.lng==null)return false;
+    if(_estadoFiltro&&(r.estado||'pendiente')!==_estadoFiltro)return false;
+    return true;
+  });
+  const cuentas={};
+  let totalFiltrado=0;
+  rs.forEach(r=>{
+    const pn=window.findPlataforma?window.findPlataforma(parseFloat(r.lat),parseFloat(r.lng)):null;
+    if(pn){cuentas[pn]=(cuentas[pn]||0)+1;totalFiltrado++;}
+  });
+  let h='<span class="plat-filtro-tit">Plataforma</span>';
+  h+='<button type="button" class="plat-chip'+((_platFiltro==='')?' on':'')+' " data-plat="" onclick="filtrarPlataforma(\'\')">Todas <span class="plat-count">'+totalFiltrado+'</span></button>';
+  window.PLATAFORMAS_GEO.forEach((p,i)=>{
+    const n=cuentas[p.name]||0;
+    h+='<button type="button" class="plat-chip'+(_platFiltro===p.name?' on':'')+' " data-plat="'+escH(p.name)+'" onclick="filtrarPlataforma(\''+escH(p.name)+'\')"><span class="plat-chip-dot" style="background:'+platColor(i)+'"></span>'+escH(platLetra(p))+'<span class="plat-count">'+n+'</span></button>';
+  });
+  wrap.innerHTML=h;
+}
+function filtrarPlataforma(name){
+  _platFiltro=name||'';
+  document.querySelectorAll('.plat-chip').forEach(c=>c.classList.toggle('on',(c.getAttribute('data-plat')||'')===_platFiltro));
+  renderCiu();
+  if(mapaCiu)refrescarMapa(mapaCiu);
+  if(mapaTec)refrescarMapa(mapaTec);
+  if(_platFiltro){
+    const p=(window.PLATAFORMAS_GEO||[]).find(x=>x.name===_platFiltro);
+    if(p&&p.rings&&p.rings[0]){const ll=p.rings[0].map(c=>[c[0],c[1]]);if(mapaCiu){try{mapaCiu.fitBounds(ll,{padding:[20,20],maxZoom:16});}catch(e){}}}
+  }
+}
 function mkIco(color){
   return L.divIcon({className:'',
     html:`<div style="width:14px;height:14px;border-radius:50%;background:${color};border:3px solid #fff;box-shadow:0 2px 8px rgba(26,47,90,0.35);"></div>`,
@@ -1048,14 +1118,16 @@ function mkIco(color){
 }
 function refrescarMapa(mapa){
   if(!mapa)return;
-  mapa.eachLayer(l=>{if(l instanceof L.Marker||l instanceof L.Polyline||l instanceof L.CircleMarker)mapa.removeLayer(l);});
+  mapa.eachLayer(l=>{if(l instanceof L.Marker||l instanceof L.Polyline||l instanceof L.CircleMarker||l instanceof L.Polygon)mapa.removeLayer(l);});
+  dibujarPlataformas(mapa);
   const rs=LS.g('bb_r')||[];const cs=LS.g('bb_c')||[];const bounds=[];
   rs.forEach(r=>{
     if(r.lat==null||r.lng==null)return;
+    if(!bacheEnPlat(r))return;
     const lat=parseFloat(r.lat),lng=parseFloat(r.lng);
     if(isNaN(lat)||isNaN(lng))return;
     bounds.push([lat,lng]);
-    const color=r.estado==='pendiente'?'#C8102E':'#0B1F4D';
+    const color=r.estado==='pendiente'?'#C8102E':'#1A7A4A';
     const m=L.marker([lat,lng],{icon:mkIco(color)}).addTo(mapa);
     const srcA=fotoSrc(r,'antes');const srcD=fotoSrc(r,'desp');
     let p='<div style="font-family:Montserrat,sans-serif;min-width:160px;">'
@@ -1103,8 +1175,10 @@ function refrescarMapa(mapa){
     const mk=L.marker([p0[0],p0[1]],{icon:mIco}).addTo(mapa);
     mk.bindPopup(L.popup({maxWidth:240}).setContent(popHTML));
   });
-  if(bounds.length===1){mapa.setView(bounds[0],16);}
-  else if(bounds.length>1){try{mapa.fitBounds(bounds,{padding:[24,24],maxZoom:16});}catch(e){}}
+  if(!_platFiltro){
+    if(bounds.length===1){mapa.setView(bounds[0],16);}
+    else if(bounds.length>1){try{mapa.fitBounds(bounds,{padding:[24,24],maxZoom:16});}catch(e){}}
+  }
   setTimeout(()=>mapa.invalidateSize(),100);
 }
 function refrescarMarcadores(mapa){refrescarMapa(mapa);}
@@ -1205,6 +1279,7 @@ function __bootApp(){
   actualizarStats();
   renderCiu();
   renderCronCiu();
+  initPlatFiltro();
   initMapaCiu();
   galInit();
   if(sesOk()){
