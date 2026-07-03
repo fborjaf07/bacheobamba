@@ -1130,6 +1130,7 @@ function refrescarMapa(mapa){
     const color=r.estado==='pendiente'?'#C8102E':'#1A7A4A';
     const m=L.marker([lat,lng],{icon:mkIco(color)}).addTo(mapa);
     const srcA=fotoSrc(r,'antes');const srcD=fotoSrc(r,'desp');
+    const sesAct=LS.g('bb_ses');const esTec=sesAct&&sesAct.rol==='tecnico';
     let p='<div style="font-family:Montserrat,sans-serif;min-width:160px;">'
       +(r.direccion?'<strong style="font-size:0.84rem;color:#1A2F5A;">'+escH(r.direccion)+'</strong><br>':'')
       +'<span style="font-size:0.7rem;color:#7a818e;">'+escH(r.tipo||'—')+' · '+fFecha(r.fecha)+'</span><br>'
@@ -1140,6 +1141,9 @@ function refrescarMapa(mapa){
       if(srcA)p+='<img src="'+srcA+'" style="width:72px;height:52px;object-fit:cover;border-radius:6px;cursor:pointer;" id="mk-a-'+r.id+'">';
       if(srcD)p+='<img src="'+srcD+'" style="width:72px;height:52px;object-fit:cover;border-radius:6px;cursor:pointer;" id="mk-d-'+r.id+'">';
       p+='</div>';
+    }
+    if(esTec&&r.estado==='pendiente'){
+      p+='<button onclick="atenderRapido(\''+r.id+'\')" style="margin-top:9px;width:100%;padding:8px 0;background:#1A7A4A;color:#fff;border:none;border-radius:8px;font-family:Montserrat,sans-serif;font-size:0.82rem;font-weight:700;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:6px;">✓ Marcar atendido</button>';
     }
     p+='</div>';
     m.bindPopup(L.popup({maxWidth:240}).setContent(p));
@@ -1182,6 +1186,74 @@ function refrescarMapa(mapa){
   setTimeout(()=>mapa.invalidateSize(),100);
 }
 function refrescarMarcadores(mapa){refrescarMapa(mapa);}
+
+/* ── ATENDER RÁPIDO desde popup ── */
+let _arId=null,_arBlob=null,_arUrl=null;
+function atenderRapido(repId){
+  const ses=LS.g('bb_ses');
+  if(!ses||ses.rol!=='tecnico'){notif('Inicia sesión técnico primero','e');return;}
+  const rs=LS.g('bb_r')||[];
+  const r=rs.find(x=>x.id===repId);
+  if(!r){notif('Reporte no encontrado','e');return;}
+  _arId=repId;_arBlob=null;_arUrl=null;
+  // cerrar popup de leaflet
+  if(mapaTec)mapaTec.closePopup();
+  if(mapaCiu)mapaCiu.closePopup();
+  // rellenar panel
+  document.getElementById('ar-dir').textContent=r.direccion||'Sin dirección';
+  document.getElementById('ar-tipo').textContent=(r.tipo||'—')+' · '+fFecha(r.fecha);
+  document.getElementById('ar-obs').value='';
+  document.getElementById('ar-foto-inp').value='';
+  document.getElementById('ar-prev').src='';
+  document.getElementById('ar-prev').style.display='none';
+  document.getElementById('ar-foto-lbl').textContent='📷 Tomar foto del después';
+  document.getElementById('ar-panel').classList.add('on');
+}
+function ar_fotoSel(inp){
+  if(!inp.files[0])return;
+  _arBlob=inp.files[0];
+  _arUrl=URL.createObjectURL(_arBlob);
+  const prev=document.getElementById('ar-prev');
+  prev.src=_arUrl;prev.style.display='block';
+  document.getElementById('ar-foto-lbl').textContent='✓ Foto lista — toca para cambiar';
+}
+function ar_cerrar(){
+  document.getElementById('ar-panel').classList.remove('on');
+  _arId=null;_arBlob=null;_arUrl=null;
+}
+async function ar_guardar(){
+  const btn=document.getElementById('ar-btn-guar');
+  if(!_arId){notif('Error: sin reporte','e');return;}
+  if(!_arBlob){notif('Adjunta la foto del después','e');return;}
+  const obs=document.getElementById('ar-obs').value.trim();
+  if(!obs){notif('Agrega una observación de cierre','e');return;}
+  btn.disabled=true;btn.textContent='Guardando…';
+  try{
+    const rs=LS.g('bb_r')||[];
+    const idx=rs.findIndex(x=>x.id===_arId);if(idx<0)throw new Error('no encontrado');
+    const ses=LS.g('bb_ses');
+    const us=LS.g('bb_u')||[];
+    const u=us.find(x=>x.id===(ses&&ses.uid));
+    const clave='tmp_desp_'+Date.now();
+    await idbGuardar(clave,_arBlob);
+    rs[idx].estado='atendido';
+    rs[idx].observaciones=obs;
+    rs[idx].fechaAten=new Date().toISOString();
+    rs[idx].tecnico=u?u.nc||u.nombre:'Técnico';
+    rs[idx].idbDesp=clave;rs[idx].fotoDespues=null;
+    rs[idx].pendienteSubir=true;
+    LS.s('bb_r',rs);
+    ar_cerrar();
+    if(mapaCiu)refrescarMarcadores(mapaCiu);
+    if(mapaTec)refrescarMarcadores(mapaTec);
+    renderTec&&renderTec();renderCiu&&renderCiu();
+    actualizarStats&&actualizarStats();
+    notif('Bache marcado como atendido ✓','v');
+    sincronizar&&sincronizar();
+  }catch(e){notif('Error al guardar: '+e.message,'e');}
+  btn.disabled=false;btn.textContent='Marcar como atendido';
+}
+
 const TILE_URL='https://tile.openstreetmap.org/{z}/{x}/{y}.png';
 const TILE_ATTR='© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>';
 function initMapaCiu(){

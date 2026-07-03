@@ -189,6 +189,25 @@ button,input,select,textarea{font-family:inherit;color:inherit;}
 .plat-chip.on .plat-count{background:rgba(255,255,255,.25);color:#fff;}
 .plat-lbl{display:flex;align-items:center;justify-content:center;width:24px;height:24px;border-radius:50%;background:#fff;border:2px solid var(--pc);color:var(--pc);font-size:12px;font-weight:800;box-shadow:0 1px 3px rgba(11,31,77,.25);}
 .plat-filtro + .mapa-wrap{border-top-left-radius:0;border-top-right-radius:0;}
+/* ── PANEL ATENDER RÁPIDO ── */
+#ar-panel{position:fixed;bottom:0;left:0;right:0;z-index:9999;background:#fff;border-radius:20px 20px 0 0;box-shadow:0 -8px 36px rgba(11,31,77,.18);padding:20px 18px 32px;transform:translateY(100%);transition:transform .3s cubic-bezier(.34,1.1,.64,1);max-width:540px;margin:0 auto;}
+#ar-panel.on{transform:translateY(0);}
+#ar-panel::before{content:"";display:block;width:40px;height:4px;border-radius:999px;background:var(--linea);margin:0 auto 16px;}
+.ar-hdr{margin-bottom:14px;}
+.ar-hdr h3{font-size:1rem;font-weight:800;color:var(--azul);}
+.ar-hdr p{font-size:0.74rem;color:var(--tx-c);margin-top:2px;}
+.ar-foto-zone{border:2px dashed var(--linea);border-radius:var(--r);overflow:hidden;cursor:pointer;text-align:center;margin-bottom:12px;transition:border-color .15s;background:var(--fondo-s,#F4F6FB);}
+.ar-foto-zone:hover{border-color:var(--verde);}
+.ar-foto-zone input{display:none;}
+.ar-foto-lbl{display:block;padding:18px;font-size:0.88rem;font-weight:700;color:var(--verde);cursor:pointer;}
+#ar-prev{width:100%;max-height:160px;object-fit:cover;display:none;border-radius:calc(var(--r) - 2px);}
+.ar-obs{width:100%;padding:11px 14px;border:1.5px solid var(--linea);border-radius:var(--rs);font-family:inherit;font-size:0.88rem;resize:none;height:72px;color:var(--tx);margin-bottom:12px;}
+.ar-obs:focus{outline:none;border-color:var(--verde);box-shadow:0 0 0 3px rgba(26,122,74,.13);}
+.ar-btns{display:flex;gap:10px;}
+#ar-btn-guar{flex:1;padding:14px;background:var(--verde);color:#fff;border:none;border-radius:var(--r-pill);font-family:inherit;font-size:0.92rem;font-weight:700;cursor:pointer;transition:.15s;}
+#ar-btn-guar:hover{background:#0F5C36;}
+#ar-btn-guar:disabled{opacity:.6;cursor:not-allowed;}
+.ar-btn-can{padding:14px 18px;background:#fff;color:var(--tx-m);border:1.5px solid var(--linea);border-radius:var(--r-pill);font-family:inherit;font-size:0.88rem;font-weight:700;cursor:pointer;}
 .mapa-leyenda{display:flex;gap:18px;flex-wrap:wrap;align-items:center;padding:10px 14px;
   border-top:1px solid var(--linea-f);background:#FAFBFD;}
 .mapa-leyenda-tit{font-size:.62rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--tx-c);margin-right:4px;}
@@ -951,5 +970,22 @@ function __injectStaticIcons(){
 }
 if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',__injectStaticIcons);}else{__injectStaticIcons();}
 </script>
+<!-- Panel atender rápido desde mapa -->
+<div id="ar-panel" role="dialog" aria-modal="true" aria-label="Atender bache">
+  <div class="ar-hdr">
+    <h3 id="ar-dir">—</h3>
+    <p id="ar-tipo"></p>
+  </div>
+  <div class="ar-foto-zone" onclick="document.getElementById('ar-foto-inp').click()">
+    <img id="ar-prev" alt="Foto después">
+    <input type="file" id="ar-foto-inp" accept="image/*" capture="environment" onchange="ar_fotoSel(this)">
+    <label id="ar-foto-lbl" class="ar-foto-lbl">📷 Tomar foto del después</label>
+  </div>
+  <textarea id="ar-obs" class="ar-obs" placeholder="Observaciones de cierre (requerido)…" rows="3"></textarea>
+  <div class="ar-btns">
+    <button type="button" class="ar-btn-can" onclick="ar_cerrar()">Cancelar</button>
+    <button type="button" id="ar-btn-guar" onclick="ar_guardar()">✓ Marcar como atendido</button>
+  </div>
+</div>
 </body>
 </html>
