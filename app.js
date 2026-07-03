@@ -1130,7 +1130,7 @@ function refrescarMapa(mapa){
     const color=r.estado==='pendiente'?'#C8102E':'#1A7A4A';
     const m=L.marker([lat,lng],{icon:mkIco(color)}).addTo(mapa);
     const srcA=fotoSrc(r,'antes');const srcD=fotoSrc(r,'desp');
-    const sesAct=LS.g('bb_ses');const esTec=sesAct&&sesAct.rol==='tecnico';
+    const sesAct=LS.g('bb_ses');const esTec=sesAct&&(sesAct.rol==='tecnico'||sesAct.rol==='admin');
     let p='<div style="font-family:Montserrat,sans-serif;min-width:160px;">'
       +(r.direccion?'<strong style="font-size:0.84rem;color:#1A2F5A;">'+escH(r.direccion)+'</strong><br>':'')
       +'<span style="font-size:0.7rem;color:#7a818e;">'+escH(r.tipo||'—')+' · '+fFecha(r.fecha)+'</span><br>'
@@ -1191,7 +1191,7 @@ function refrescarMarcadores(mapa){refrescarMapa(mapa);}
 let _arId=null,_arBlob=null,_arUrl=null;
 function atenderRapido(repId){
   const ses=LS.g('bb_ses');
-  if(!ses||ses.rol!=='tecnico'){notif('Inicia sesión técnico primero','e');return;}
+  if(!ses||(ses.rol!=='tecnico'&&ses.rol!=='admin')){notif('Inicia sesión técnico primero','e');return;}
   const rs=LS.g('bb_r')||[];
   const r=rs.find(x=>x.id===repId);
   if(!r){notif('Reporte no encontrado','e');return;}
