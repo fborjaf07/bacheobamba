@@ -786,18 +786,25 @@ function renderCiu(){
 }
 
 function renderPend(){
-  const rs=(LS.g('bb_r')||[]).filter(r=>r.estado==='pendiente');
-  document.getElementById('bdg-pen').textContent=rs.length;
+  const todas=(LS.g('bb_r')||[]).filter(r=>r.estado==='pendiente');
+  document.getElementById('bdg-pen').textContent=todas.length;
+  const q=(document.getElementById('tec-busq')||{}).value||'';
+  const ql=q.toLowerCase().trim();
+  const rs=ql?todas.filter((r,i)=>{
+    const n='#'+(i+1);
+    return n.includes(ql)||(r.direccion||'').toLowerCase().includes(ql)||(r.tipo||'').toLowerCase().includes(ql);
+  }):todas;
   const el=document.getElementById('lista-pen');
-  if(!rs.length){el.innerHTML='<div class="empty"><p>Sin reportes pendientes.</p></div>';return;}
+  if(!rs.length){el.innerHTML='<div class="empty"><p>'+(ql?'Sin resultados para "'+escH(q)+'"':'Sin reportes pendientes.')+'</p></div>';return;}
   el.innerHTML='';
   rs.forEach(r=>{
+    const numGlobal=todas.indexOf(r)+1;
     const srcA=fotoSrc(r,'antes');
     const div=document.createElement('div');
     div.className='tec-card';
     div.innerHTML='<div class="tec-body">'
       +'<div style="flex:1;min-width:0;">'
-      +'<div class="tec-tipo">'+escH(r.tipo||'—')+'</div>'
+      +'<div class="tec-tipo">'+escH(r.tipo||'—')+'<span class="tec-num">#'+numGlobal+'</span></div>'
       +'<div class="tec-dir">'+escH(r.direccion||'Sin dirección')+'</div>'
       +'<div class="tec-meta">'+fFecha(r.fecha)
         +(r.lat?' · '+r.lat+', '+r.lng:'')
@@ -1130,27 +1137,34 @@ function refrescarMapa(mapa){
     const color=r.estado==='pendiente'?'#C8102E':'#1A7A4A';
     const m=L.marker([lat,lng],{icon:mkIco(color)}).addTo(mapa);
     const srcA=fotoSrc(r,'antes');const srcD=fotoSrc(r,'desp');
-    const sesAct=getSes();const usAll=LS.g('bb_u')||[];const uAct=usAll.find(x=>x.id===(sesAct&&sesAct.uid));const esTec=sesOk()&&uAct&&(uAct.rol==='tecnico'||uAct.rol==='admin');
-    let p='<div style="font-family:Montserrat,sans-serif;min-width:160px;">'
-      +(r.direccion?'<strong style="font-size:0.84rem;color:#1A2F5A;">'+escH(r.direccion)+'</strong><br>':'')
-      +'<span style="font-size:0.7rem;color:#7a818e;">'+escH(r.tipo||'—')+' · '+fFecha(r.fecha)+'</span><br>'
-      +'<span style="font-size:0.7rem;font-weight:700;color:'+color+';">'
-      +(r.estado==='pendiente'?'Pendiente':'Atendido')+'</span>';
-    if(srcA||srcD){
-      p+='<div style="display:flex;gap:5px;margin-top:6px;">';
-      if(srcA)p+='<img src="'+srcA+'" style="width:72px;height:52px;object-fit:cover;border-radius:6px;cursor:pointer;" id="mk-a-'+r.id+'">';
-      if(srcD)p+='<img src="'+srcD+'" style="width:72px;height:52px;object-fit:cover;border-radius:6px;cursor:pointer;" id="mk-d-'+r.id+'">';
+    function mkPopupContent(){
+      const sesAct=getSes();const usAll=LS.g('bb_u')||[];const uAct=usAll.find(x=>x.id===(sesAct&&sesAct.uid));const esTec=sesOk()&&uAct&&(uAct.rol==='tecnico'||uAct.rol==='admin');
+      let p='<div style="font-family:Montserrat,sans-serif;min-width:160px;">'
+        +(r.direccion?'<strong style="font-size:0.84rem;color:#1A2F5A;">'+escH(r.direccion)+'</strong><br>':'')
+        +'<span style="font-size:0.7rem;color:#7a818e;">'+escH(r.tipo||'—')+' · '+fFecha(r.fecha)+'</span><br>'
+        +'<span style="font-size:0.7rem;font-weight:700;color:'+color+';">'
+        +(r.estado==='pendiente'?'Pendiente':'Atendido')+'</span>';
+      if(srcA||srcD){
+        p+='<div style="display:flex;gap:5px;margin-top:6px;">';
+        if(srcA)p+='<img src="'+srcA+'" style="width:72px;height:52px;object-fit:cover;border-radius:6px;cursor:pointer;" id="mk-a-'+r.id+'">';
+        if(srcD)p+='<img src="'+srcD+'" style="width:72px;height:52px;object-fit:cover;border-radius:6px;cursor:pointer;" id="mk-d-'+r.id+'">';
+        p+='</div>';
+      }
+      if(esTec&&r.estado==='pendiente'){
+        p+='<button onclick="atenderRapido(\''+r.id+'\')" style="margin-top:9px;width:100%;padding:8px 0;background:#1A7A4A;color:#fff;border:none;border-radius:8px;font-family:Montserrat,sans-serif;font-size:0.82rem;font-weight:700;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:6px;">✓ Marcar atendido</button>';
+      }
       p+='</div>';
+      return p;
     }
-    if(esTec&&r.estado==='pendiente'){
-      p+='<button onclick="atenderRapido(\''+r.id+'\')" style="margin-top:9px;width:100%;padding:8px 0;background:#1A7A4A;color:#fff;border:none;border-radius:8px;font-family:Montserrat,sans-serif;font-size:0.82rem;font-weight:700;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:6px;">✓ Marcar atendido</button>';
-    }
-    p+='</div>';
-    m.bindPopup(L.popup({maxWidth:240}).setContent(p));
+    const pop=L.popup({maxWidth:240});
+    m.bindPopup(pop);
     m.on('popupopen',()=>{
-      const ia=document.getElementById('mk-a-'+r.id);const ib=document.getElementById('mk-d-'+r.id);
-      if(ia){const s=ia.src;ia.onclick=()=>verFoto(s,'Antes');}
-      if(ib){const s=ib.src;ib.onclick=()=>verFoto(s,'Después');}
+      pop.setContent(mkPopupContent());
+      setTimeout(()=>{
+        const ia=document.getElementById('mk-a-'+r.id);const ib=document.getElementById('mk-d-'+r.id);
+        if(ia){const s=ia.src;ia.onclick=()=>verFoto(s,'Antes');}
+        if(ib){const s=ib.src;ib.onclick=()=>verFoto(s,'Después');}
+      },50);
     });
   });
   cs.forEach(c=>{
