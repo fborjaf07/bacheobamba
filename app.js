@@ -1331,6 +1331,20 @@ function cargarMapaTec(){
   mapaTec=L.map('mapa-tec').setView([-1.6635,-78.6543],14);
   L.tileLayer(TILE_URL,{attribution:TILE_ATTR,maxZoom:19}).addTo(mapaTec);
   refrescarMarcadores(mapaTec);
+  // botón GPS ubicación en tiempo real
+  const gpsCtrl=L.control({position:'topright'});
+  gpsCtrl.onAdd=()=>{
+    const d=L.DomUtil.create('button','mapa-gps-btn');
+    d.title='Mi ubicación en tiempo real';
+    d.innerHTML='<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3"/><circle cx="12" cy="12" r="8" stroke-dasharray="2 4"/></svg>'
+      +'<span style="font-size:11px;font-weight:700;margin-left:5px;font-family:Montserrat,sans-serif;">Mi ubicación</span>';
+    d.style.width='auto';d.style.padding='0 10px';d.style.gap='4px';
+    L.DomEvent.on(d,'click',L.DomEvent.stop);
+    L.DomEvent.on(d,'click',()=>centrarUbicacion(mapaTec));
+    return d;
+  };
+  gpsCtrl.addTo(mapaTec);
+  mapaTec._gpsBtn=gpsCtrl;
   setTimeout(()=>mapaTec.invalidateSize(),200);
 }
 
