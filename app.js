@@ -578,7 +578,7 @@ async function cargarGH(){
 /* ── USUARIOS (repo privado, login multi-dispositivo) ── */
 const GHU={
   owner:'fborjaf07',repo:'usuarios_bacheobamba',file:'usuarios.json',branch:'main',
-  get token(){return LS.g('bb_gh_token')||'';},
+  get token(){return GH_PUBLIC_TOKEN||LS.g('bb_gh_token')||'';},
   get api(){return 'https://api.github.com/repos/'+this.owner+'/'+this.repo+'/contents/'+this.file;}
 };
 async function leerUsuariosGH(){
@@ -1331,7 +1331,24 @@ function cargarMapaTec(){
   mapaTec=L.map('mapa-tec').setView([-1.6635,-78.6543],14);
   L.tileLayer(TILE_URL,{attribution:TILE_ATTR,maxZoom:19}).addTo(mapaTec);
   refrescarMarcadores(mapaTec);
-  // botón GPS ubicación en tiempo real
+  // auto-centrar en ubicación actual al abrir
+  if(navigator.geolocation){
+    navigator.geolocation.getCurrentPosition(
+      pos=>{
+        const lat=pos.coords.latitude,lng=pos.coords.longitude;
+        mapaTec.setView([lat,lng],17);
+        if(mapaTec._miUbic)mapaTec._miUbic.setLatLng([lat,lng]);
+        else{
+          const ico=L.divIcon({className:'',html:'<div class="mi-ubic-dot"></div>',iconSize:[18,18],iconAnchor:[9,9]});
+          mapaTec._miUbic=L.marker([lat,lng],{icon:ico,zIndexOffset:1000}).addTo(mapaTec);
+          mapaTec._miUbic.bindPopup('<div style="font-family:Montserrat,sans-serif;font-size:0.82rem;font-weight:700;color:#1A7A4A;">📍 Mi ubicación</div>');
+        }
+      },
+      ()=>{},
+      {enableHighAccuracy:true,timeout:8000,maximumAge:0}
+    );
+  }
+  // botón GPS para centrar manualmente
   const gpsCtrl=L.control({position:'topright'});
   gpsCtrl.onAdd=()=>{
     const d=L.DomUtil.create('button','mapa-gps-btn');
