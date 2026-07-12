@@ -1,14 +1,28 @@
 {
   "version": "2.0",
-  "actualizacion": "2026-07-11T18:53:30.410Z",
+  "actualizacion": "2026-07-12T21:12:21.463Z",
   "baches": [
     {
-      "id": "R1783796004081xiyw",
+      "id": "R1783890737085zxed",
       "direccion": "",
       "tipo": "Grande",
       "descripcion": "",
       "origen": "ciudadano",
       "tecnico_creador": "",
+      "lat": -1.646,
+      "lng": -78.6816,
+      "estado": "pendiente",
+      "fecha": "2026-07-12T21:12:17.105Z",
+      "fotoAntes": "https://raw.githubusercontent.com/fborjaf07/bacheobamba/main/fotos/R1783890737085zxed_antes.jpg",
+      "fotoDespues": null,
+      "observaciones": "",
+      "tecnico": "",
+      "fechaAten": null
+    },
+    {
+      "id": "R1783796004081xiyw",
+      "direccion": "",
+      "tipo": "Grande",
       "lat": -1.6687,
       "lng": -78.6638,
       "estado": "pendiente",
@@ -17,7 +31,8 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "",
-      "fechaAten": null
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R17836977026993s3m",
@@ -38,9 +53,6 @@
       "id": "R17836357106982yso",
       "direccion": "",
       "tipo": "Profundo",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.6684,
       "lng": -78.6647,
       "estado": "pendiente",
@@ -49,7 +61,8 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "",
-      "fechaAten": null
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R17836190184485vl1",
@@ -29530,9 +29543,6 @@
       "id": "R1783273287194f3w7",
       "direccion": "",
       "tipo": "Grande",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.6836,
       "lng": -78.6355,
       "estado": "pendiente",
@@ -29541,7 +29551,8 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "",
-      "fechaAten": null
+      "origen": "tecnico",
+      "tecnico_creador": ""
     }
   ]
 }
