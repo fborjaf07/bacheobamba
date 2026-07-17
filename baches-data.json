@@ -1,14 +1,28 @@
 {
   "version": "2.0",
-  "actualizacion": "2026-07-17T03:13:21.714Z",
+  "actualizacion": "2026-07-17T20:20:18.573Z",
   "baches": [
+    {
+      "id": "R17843195994880yr8",
+      "direccion": "",
+      "tipo": "Mediano",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
+      "lat": -1.6779,
+      "lng": -78.6258,
+      "estado": "pendiente",
+      "fecha": "2026-07-17T20:19:59.614Z",
+      "fotoAntes": "https://raw.githubusercontent.com/fborjaf07/bacheobamba/main/fotos/R17843195994880yr8_antes.jpg",
+      "fotoDespues": null,
+      "observaciones": "",
+      "tecnico": "",
+      "fechaAten": null
+    },
     {
       "id": "R1784257997248klrb",
       "direccion": "",
       "tipo": "Grande",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.6643,
       "lng": -78.6532,
       "estado": "pendiente",
@@ -17,7 +31,8 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "",
-      "fechaAten": null
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R1784069453040xms0",
@@ -98,9 +113,6 @@
       "id": "R1783893948360nlhj",
       "direccion": "",
       "tipo": "Profundo",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.6689,
       "lng": -78.6475,
       "estado": "pendiente",
@@ -109,7 +121,8 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "",
-      "fechaAten": null
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R1783890737085zxed",
