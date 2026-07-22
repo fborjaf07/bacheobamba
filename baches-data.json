@@ -1,14 +1,28 @@
 {
   "version": "2.0",
-  "actualizacion": "2026-07-17T20:25:15.514Z",
+  "actualizacion": "2026-07-22T22:47:37.668Z",
   "baches": [
+    {
+      "id": "R17847604447881elr",
+      "direccion": "",
+      "tipo": "Superficial",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
+      "lat": -1.6799,
+      "lng": -78.6289,
+      "estado": "pendiente",
+      "fecha": "2026-07-22T22:47:24.904Z",
+      "fotoAntes": "https://raw.githubusercontent.com/fborjaf07/bacheobamba/main/fotos/R17847604447881elr_antes.jpg",
+      "fotoDespues": null,
+      "observaciones": "",
+      "tecnico": "",
+      "fechaAten": null
+    },
     {
       "id": "R1784319899870qgm0",
       "direccion": "",
       "tipo": "Profundo",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.68,
       "lng": -78.627,
       "estado": "pendiente",
@@ -17,15 +31,13 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "",
-      "fechaAten": null
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R1784319775333zv2j",
       "direccion": "",
       "tipo": "Profundo",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.6792,
       "lng": -78.6263,
       "estado": "pendiente",
@@ -34,15 +46,13 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "",
-      "fechaAten": null
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R17843195994880yr8",
       "direccion": "",
       "tipo": "Mediano",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.6779,
       "lng": -78.6258,
       "estado": "pendiente",
@@ -51,7 +61,8 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "",
-      "fechaAten": null
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R1784257997248klrb",
