@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "actualizacion": "2026-07-23T17:38:31.065Z",
+  "actualizacion": "2026-07-23T17:51:34.298Z",
   "baches": [
     {
       "id": "R17847604447881elr",
@@ -31183,13 +31183,13 @@
       "tecnico_creador": "D. B.",
       "lat": -1.6727,
       "lng": -78.6569,
-      "estado": "pendiente",
+      "estado": "atendido",
       "fecha": "2026-07-22T17:07:27.085Z",
       "fotoAntes": "https://raw.githubusercontent.com/fborjaf07/bacheobamba/main/fotos/R1784740047025loqs_antes.jpg",
       "fotoDespues": null,
       "observaciones": "",
-      "tecnico": "",
-      "fechaAten": null
+      "tecnico": "D. B.",
+      "fechaAten": "2026-07-23T17:51:32.305Z"
     },
     {
       "id": "R1784740037102s9tw",
