@@ -188,6 +188,11 @@ button,input,select,textarea{font-family:inherit;color:inherit;}
 .plat-count{display:inline-flex;align-items:center;justify-content:center;min-width:18px;height:18px;padding:0 5px;border-radius:999px;background:rgba(11,31,77,.10);font-size:11px;font-weight:700;color:inherit;margin-left:2px;}
 .plat-chip.on .plat-count{background:rgba(255,255,255,.25);color:#fff;}
 .plat-lbl{display:flex;align-items:center;justify-content:center;width:24px;height:24px;border-radius:50%;background:#fff;border:2px solid var(--pc);color:var(--pc);font-size:12px;font-weight:800;box-shadow:0 1px 3px rgba(11,31,77,.25);}
+.mapa-gps-btn{width:36px;height:36px;border-radius:8px;background:#fff;border:2px solid rgba(0,0,0,.15);box-shadow:0 2px 6px rgba(0,0,0,.15);cursor:pointer;display:flex;align-items:center;justify-content:center;color:var(--azul);transition:.15s;padding:0;}
+.mapa-gps-btn:hover{background:var(--azul-s);border-color:var(--azul);}
+.mapa-gps-btn.cargando{color:var(--tx-c);animation:ds-pulse 1s infinite;}
+.mapa-gps-btn.activo{color:var(--verde);border-color:var(--verde);}
+.mi-ubic-dot{width:18px;height:18px;border-radius:50%;background:#1A7A4A;border:3px solid #fff;box-shadow:0 0 0 2px #1A7A4A,0 2px 8px rgba(26,122,74,.5);animation:ds-pulse 2s ease-in-out infinite;}
 .plat-filtro + .mapa-wrap{border-top-left-radius:0;border-top-right-radius:0;}
 /* ── PANEL ATENDER RÁPIDO ── */
 #ar-panel{position:fixed;bottom:0;left:0;right:0;z-index:9999;background:#fff;border-radius:20px 20px 0 0;box-shadow:0 -8px 36px rgba(11,31,77,.18);padding:20px 18px 32px;transform:translateY(100%);transition:transform .3s cubic-bezier(.34,1.1,.64,1);max-width:540px;margin:0 auto;}
@@ -462,6 +467,14 @@ button,input,select,textarea{font-family:inherit;color:inherit;}
 .tec-tipo{display:inline-block;background:var(--rojo-s);color:var(--rojo);border-radius:6px;padding:3px 9px;font-size:0.64rem;font-weight:700;
   text-transform:uppercase;letter-spacing:0.05em;margin-bottom:5px;}
 .tec-tipo.done{background:var(--verde-s);color:var(--verde);}
+.tec-num{display:inline-flex;align-items:center;padding:2px 8px;margin-left:7px;border-radius:999px;background:var(--azul-s);color:var(--azul);font-size:0.68rem;font-weight:800;letter-spacing:.03em;vertical-align:middle;}
+.tec-busq-wrap{padding:10px 14px 0;}
+.tec-busq{width:100%;padding:10px 14px 10px 38px;border:1.5px solid var(--linea);border-radius:var(--r-pill);font-family:inherit;font-size:0.9rem;background:#fff url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='none' stroke='%237A8299' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' viewBox='0 0 24 24'%3E%3Ccircle cx='11' cy='11' r='8'/%3E%3Cpath d='m21 21-4.35-4.35'/%3E%3C/svg%3E") no-repeat 12px center;color:var(--tx);transition:border-color .15s,box-shadow .15s;}
+.tec-busq:focus{outline:none;border-color:var(--azul-c);box-shadow:0 0 0 3px rgba(30,58,138,.12);}
+.sub-oblig{display:flex;align-items:center;justify-content:space-between;gap:10px;margin:10px 14px 0;padding:11px 14px;border-radius:var(--r);background:var(--rojo-s);border:1.5px solid var(--rojo);animation:ds-pulse 2s ease-in-out infinite;}
+.sub-oblig span{font-size:0.8rem;font-weight:700;color:var(--rojo-d);}
+.sub-oblig button{padding:8px 14px;background:var(--rojo);color:#fff;border:none;border-radius:var(--r-pill);font-family:inherit;font-size:0.8rem;font-weight:700;cursor:pointer;white-space:nowrap;}
+.sub-oblig button:disabled{opacity:.6;cursor:not-allowed;}
 
 /* ANTES/DESPUÉS */
 .ad-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;}
@@ -912,7 +925,16 @@ button,input,select,textarea{font-family:inherit;color:inherit;}
     <button class="tab" id="tb-tc-adm" onclick="actTab('tc-adm')" style="display:none;"><span class="ico" data-ico-static="shield"></span>Admin</button>
   </div>
 
-  <div class="tc on" id="tc-pen"><div id="lista-pen"></div></div>
+  <div class="tc on" id="tc-pen">
+    <div id="sub-oblig" class="sub-oblig" style="display:none;">
+      <span id="sub-oblig-txt">Tienes cambios sin subir</span>
+      <button type="button" onclick="forzarSubida()" id="sub-oblig-btn">⬆ Subir ahora</button>
+    </div>
+    <div class="tec-busq-wrap">
+      <input type="search" id="tec-busq" class="tec-busq" placeholder="Buscar por #número o dirección…" oninput="renderPend()" autocomplete="off">
+    </div>
+    <div id="lista-pen"></div>
+  </div>
   <div class="tc" id="tc-ate"><div id="lista-ate"></div></div>
 
   <div class="tc" id="tc-rep">

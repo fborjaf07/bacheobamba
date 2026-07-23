@@ -787,6 +787,29 @@ function renderCiu(){
   if(mapaCiu)refrescarMarcadores(mapaCiu);
 }
 
+function chequearSubOblig(){
+  const el=document.getElementById('sub-oblig');if(!el)return;
+  const rs=LS.g('bb_r')||[];
+  const pend=rs.filter(r=>r.pendienteSubir).length;
+  const cs=(LS.g('bb_c')||[]).filter(c=>c.pendienteSubir).length;
+  const tot=pend+cs;
+  if(tot>0){
+    el.style.display='flex';
+    document.getElementById('sub-oblig-txt').textContent=tot+' cambio'+(tot===1?'':'s')+' sin subir a GitHub';
+  }else{
+    el.style.display='none';
+  }
+}
+async function forzarSubida(){
+  const btn=document.getElementById('sub-oblig-btn');
+  btn.disabled=true;btn.textContent='Subiendo…';
+  try{
+    await sincGH(true);
+    notif('Sincronizado con GitHub ✓','v');
+  }catch(e){notif('Error al subir: '+e.message,'e');}
+  chequearSubOblig();
+  btn.disabled=false;btn.textContent='⬆ Subir ahora';
+}
 function renderPend(){
   const todas=(LS.g('bb_r')||[]).filter(r=>r.estado==='pendiente');
   document.getElementById('bdg-pen').textContent=todas.length;
@@ -824,6 +847,7 @@ function renderPend(){
     btns[btnIdx].onclick=()=>elimRep(r.id);
     el.appendChild(div);
   });
+  chequearSubOblig();
 }
 
 function renderAten(){
