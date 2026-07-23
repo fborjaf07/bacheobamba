@@ -1520,3 +1520,14 @@ function __bootApp(){
   })();
 }
 if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',__bootApp);}else{__bootApp();}
+if(new URLSearchParams(location.search).get('export')==='1'){
+  setTimeout(()=>{
+    const datos={reportes:LS.g('bb_r')||[],cronograma:LS.g('bb_c')||[],fecha:new Date().toISOString()};
+    const blob=new Blob([JSON.stringify(datos,null,2)],{type:'application/json'});
+    const a=document.createElement('a');
+    a.href=URL.createObjectURL(blob);
+    a.download='respaldo-local-'+Date.now()+'.json';
+    document.body.appendChild(a);a.click();a.remove();
+    alert('Respaldo descargado. Compártelo por WhatsApp.');
+  },800);
+}
