@@ -481,21 +481,34 @@ async function subirFotoGH(repId,tipo,blob){
   return `https://raw.githubusercontent.com/${GH.owner}/${GH.repo}/main/${path}`;
 }
 
-async function sincGH(silent=false){
+async function sincGH(silent=false,_lote=0){
   if(!GH.token){notif('Configura el token de GitHub primero','r');return;}
-  if(!silent)notif('Sincronizando…');
+  if(!silent&&_lote===0)notif('Sincronizando…');
+  const LOTE_MAX=20;
   try{
     const remoto=await leerGH();
     let local=LS.g('bb_r')||[];
+    let subidas=0;
     for(let r of local){
       if(!r.pendienteSubir)continue;
+      if(subidas>=LOTE_MAX)break;
       if(r.idbAntes&&!r.fotoAntes){
         const blob=await idbLeer(r.idbAntes);
-        if(blob){try{r.fotoAntes=await subirFotoGH(r.id,'antes',blob);notif('Subiendo fotos…');}catch(e){console.warn(e);}}
+        if(blob){
+          try{r.fotoAntes=await subirFotoGH(r.id,'antes',blob);subidas++;
+            document.querySelectorAll('#sub-oblig-btn').forEach(b=>b.textContent='Subiendo fotos… ('+subidas+'/'+LOTE_MAX+')');
+            await new Promise(res=>setTimeout(res,300));
+          }catch(e){console.warn(e);}
+        }
       }
-      if(r.idbDesp&&!r.fotoDespues){
+      if(r.idbDesp&&!r.fotoDespues&&subidas<LOTE_MAX){
         const blob=await idbLeer(r.idbDesp);
-        if(blob){try{r.fotoDespues=await subirFotoGH(r.id,'desp',blob);}catch(e){console.warn(e);}}
+        if(blob){
+          try{r.fotoDespues=await subirFotoGH(r.id,'desp',blob);subidas++;
+            document.querySelectorAll('#sub-oblig-btn').forEach(b=>b.textContent='Subiendo fotos… ('+subidas+'/'+LOTE_MAX+')');
+            await new Promise(res=>setTimeout(res,300));
+          }catch(e){console.warn(e);}
+        }
       }
       const fotoAntesOk=!r.idbAntes||r.fotoAntes;
       const fotoDespOk=!r.idbDesp||r.fotoDespues;
@@ -527,8 +540,16 @@ async function sincGH(silent=false){
       body:JSON.stringify(body)});
     if(!rr.ok){const e=await rr.json();throw new Error(e.message||rr.status);}
     LS.s('bb_r',fusionado);
-    if(!silent)notif('Sincronizado con GitHub','v');
     renderCiu();renderPend&&renderPend();renderAten&&renderAten();
+    const quedan=fusionado.filter(r=>r.pendienteSubir).length;
+    if(quedan>0){
+      chequearSubOblig&&chequearSubOblig();
+      document.querySelectorAll('#sub-oblig-btn').forEach(b=>b.textContent='⬆ Subiendo… quedan '+quedan);
+      setTimeout(()=>sincGH(true,_lote+1),600);
+    }else{
+      if(!silent)notif('Sincronizado con GitHub ✓','v');
+      chequearSubOblig&&chequearSubOblig();
+    }
     return true;
   }catch(e){notif('Error: '+e.message,'r');return false;}
 }
@@ -787,6 +808,15 @@ function renderCiu(){
   if(mapaCiu)refrescarMarcadores(mapaCiu);
 }
 
+function exportarRespaldoLocal(){
+  const datos={reportes:LS.g('bb_r')||[],cronograma:LS.g('bb_c')||[],fecha:new Date().toISOString()};
+  const blob=new Blob([JSON.stringify(datos,null,2)],{type:'application/json'});
+  const a=document.createElement('a');
+  a.href=URL.createObjectURL(blob);
+  a.download='respaldo-local-'+Date.now()+'.json';
+  document.body.appendChild(a);a.click();a.remove();
+  notif('Respaldo descargado ✓','v');
+}
 function chequearSubOblig(){
   const el=document.getElementById('sub-oblig');if(!el)return;
   const rs=LS.g('bb_r')||[];
