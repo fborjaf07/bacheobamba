@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "actualizacion": "2026-07-24T12:23:25.296Z",
+  "actualizacion": "2026-07-24T12:25:06.641Z",
   "baches": [
     {
       "id": "R1784849456774ya7a",
@@ -16170,13 +16170,14 @@
       "tipo": "Mediano",
       "lat": -1.6688,
       "lng": -78.6634,
-      "estado": "pendiente",
+      "estado": "atendido",
       "fecha": "2026-06-23T00:03:21.509Z",
       "fotoAntes": "https://raw.githubusercontent.com/fborjaf07/bacheobamba/main/fotos/R1782173001495rloq_antes.jpg",
-      "fotoDespues": null,
+      "fotoDespues": "https://raw.githubusercontent.com/fborjaf07/bacheobamba/main/fotos/R1782173001495rloq_desp.jpg",
       "observaciones": "",
-      "tecnico": "",
+      "tecnico": "D. B.",
       "origen": "tecnico",
+      "fechaAten": "2026-07-24T12:23:57.953Z",
       "tecnico_creador": ""
     },
     {
@@ -33654,13 +33655,13 @@
       "tecnico_creador": "D. B.",
       "lat": -1.669,
       "lng": -78.6634,
-      "estado": "pendiente",
+      "estado": "atendido",
       "fecha": "2026-07-22T16:18:20.968Z",
       "fotoAntes": "https://raw.githubusercontent.com/fborjaf07/bacheobamba/main/fotos/R1784737100885odd0_antes.jpg",
-      "fotoDespues": null,
+      "fotoDespues": "https://raw.githubusercontent.com/fborjaf07/bacheobamba/main/fotos/R1784737100885odd0_desp.jpg",
       "observaciones": "",
-      "tecnico": "",
-      "fechaAten": null
+      "tecnico": "D. B.",
+      "fechaAten": "2026-07-24T12:25:05.147Z"
     },
     {
       "id": "R1784737080017j9gy",
@@ -33688,13 +33689,13 @@
       "tecnico_creador": "D. B.",
       "lat": -1.6688,
       "lng": -78.6634,
-      "estado": "pendiente",
+      "estado": "atendido",
       "fecha": "2026-07-22T16:17:44.471Z",
       "fotoAntes": "https://raw.githubusercontent.com/fborjaf07/bacheobamba/main/fotos/R17847370644242rts_antes.jpg",
       "fotoDespues": null,
       "observaciones": "",
-      "tecnico": "",
-      "fechaAten": null
+      "tecnico": "D. B.",
+      "fechaAten": "2026-07-24T12:24:16.270Z"
     },
     {
       "id": "R1784737051431dudz",
