@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "actualizacion": "2026-07-24T12:16:05.421Z",
+  "actualizacion": "2026-07-24T12:17:53.166Z",
   "baches": [
     {
       "id": "R1784849456774ya7a",
@@ -33754,13 +33754,13 @@
       "tecnico_creador": "D. B.",
       "lat": -1.6687,
       "lng": -78.6638,
-      "estado": "pendiente",
+      "estado": "atendido",
       "fecha": "2026-07-22T16:16:06.541Z",
       "fotoAntes": "https://raw.githubusercontent.com/fborjaf07/bacheobamba/main/fotos/R17847369664651uno_antes.jpg",
-      "fotoDespues": null,
+      "fotoDespues": "https://raw.githubusercontent.com/fborjaf07/bacheobamba/main/fotos/R17847369664651uno_desp.jpg",
       "observaciones": "",
-      "tecnico": "",
-      "fechaAten": null
+      "tecnico": "D. B.",
+      "fechaAten": "2026-07-24T12:16:34.605Z"
     },
     {
       "id": "R1784736939322gczp",
@@ -35216,13 +35216,13 @@
       "tecnico_creador": "D. B.",
       "lat": -1.6688,
       "lng": -78.6639,
-      "estado": "pendiente",
+      "estado": "atendido",
       "fecha": "2026-07-16T12:30:18.153Z",
       "fotoAntes": "https://raw.githubusercontent.com/fborjaf07/bacheobamba/main/fotos/R17842050181028y0c_antes.jpg",
-      "fotoDespues": null,
+      "fotoDespues": "https://raw.githubusercontent.com/fborjaf07/bacheobamba/main/fotos/R17842050181028y0c_desp.jpg",
       "observaciones": "",
-      "tecnico": "",
-      "fechaAten": null
+      "tecnico": "D. B.",
+      "fechaAten": "2026-07-24T12:16:50.948Z"
     },
     {
       "id": "R17842050019107z25",
@@ -35233,13 +35233,13 @@
       "tecnico_creador": "D. B.",
       "lat": -1.6688,
       "lng": -78.6639,
-      "estado": "pendiente",
+      "estado": "atendido",
       "fecha": "2026-07-16T12:30:01.955Z",
       "fotoAntes": "https://raw.githubusercontent.com/fborjaf07/bacheobamba/main/fotos/R17842050019107z25_antes.jpg",
-      "fotoDespues": null,
+      "fotoDespues": "https://raw.githubusercontent.com/fborjaf07/bacheobamba/main/fotos/R17842050019107z25_desp.jpg",
       "observaciones": "",
-      "tecnico": "",
-      "fechaAten": null
+      "tecnico": "D. B.",
+      "fechaAten": "2026-07-24T12:17:49.666Z"
     },
     {
       "id": "R1784204979799ssq6",
