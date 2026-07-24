@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "actualizacion": "2026-07-24T13:12:58.374Z",
+  "actualizacion": "2026-07-24T13:14:01.768Z",
   "baches": [
     {
       "id": "R1784849456774ya7a",
@@ -31791,13 +31791,13 @@
       "tecnico_creador": "D. B.",
       "lat": -1.6714,
       "lng": -78.6585,
-      "estado": "pendiente",
+      "estado": "atendido",
       "fecha": "2026-07-22T16:55:55.068Z",
       "fotoAntes": "https://raw.githubusercontent.com/fborjaf07/bacheobamba/main/fotos/R1784739355018a5up_antes.jpg",
-      "fotoDespues": null,
+      "fotoDespues": "https://raw.githubusercontent.com/fborjaf07/bacheobamba/main/fotos/R1784739355018a5up_desp.jpg",
       "observaciones": "",
-      "tecnico": "",
-      "fechaAten": null
+      "tecnico": "D. B.",
+      "fechaAten": "2026-07-24T13:14:00.463Z"
     },
     {
       "id": "R1784739340740zd0z",
@@ -31825,13 +31825,13 @@
       "tecnico_creador": "D. B.",
       "lat": -1.6713,
       "lng": -78.6586,
-      "estado": "pendiente",
+      "estado": "atendido",
       "fecha": "2026-07-22T16:55:29.136Z",
       "fotoAntes": "https://raw.githubusercontent.com/fborjaf07/bacheobamba/main/fotos/R1784739329081fggr_antes.jpg",
-      "fotoDespues": null,
+      "fotoDespues": "https://raw.githubusercontent.com/fborjaf07/bacheobamba/main/fotos/R1784739329081fggr_desp.jpg",
       "observaciones": "",
-      "tecnico": "",
-      "fechaAten": null
+      "tecnico": "D. B.",
+      "fechaAten": "2026-07-24T13:13:31.123Z"
     },
     {
       "id": "R17847393150677hbk",
