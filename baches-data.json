@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "actualizacion": "2026-07-24T12:09:23.272Z",
+  "actualizacion": "2026-07-24T12:10:40.008Z",
   "baches": [
     {
       "id": "R1784849456774ya7a",
@@ -16151,13 +16151,14 @@
       "tipo": "Grande",
       "lat": -1.6687,
       "lng": -78.6637,
-      "estado": "pendiente",
+      "estado": "atendido",
       "fecha": "2026-06-23T00:03:02.607Z",
       "fotoAntes": null,
-      "fotoDespues": null,
+      "fotoDespues": "https://raw.githubusercontent.com/fborjaf07/bacheobamba/main/fotos/R1782172982607he4p_desp.jpg",
       "observaciones": "",
-      "tecnico": "",
+      "tecnico": "D. B.",
       "origen": "tecnico",
+      "fechaAten": "2026-07-24T12:10:04.764Z",
       "tecnico_creador": ""
     },
     {
@@ -33888,13 +33889,13 @@
       "tecnico_creador": "D. B.",
       "lat": -1.6687,
       "lng": -78.664,
-      "estado": "pendiente",
+      "estado": "atendido",
       "fecha": "2026-07-22T16:14:04.752Z",
       "fotoAntes": "https://raw.githubusercontent.com/fborjaf07/bacheobamba/main/fotos/R1784736844698n2lf_antes.jpg",
-      "fotoDespues": null,
+      "fotoDespues": "https://raw.githubusercontent.com/fborjaf07/bacheobamba/main/fotos/R1784736844698n2lf_desp.jpg",
       "observaciones": "",
-      "tecnico": "",
-      "fechaAten": null
+      "tecnico": "D. B.",
+      "fechaAten": "2026-07-24T12:10:38.635Z"
     },
     {
       "id": "R17847368308903jxu",
@@ -35248,13 +35249,13 @@
       "tecnico_creador": "D. B.",
       "lat": -1.6688,
       "lng": -78.6639,
-      "estado": "pendiente",
+      "estado": "atendido",
       "fecha": "2026-07-16T12:29:39.866Z",
       "fotoAntes": "https://raw.githubusercontent.com/fborjaf07/bacheobamba/main/fotos/R1784204979799ssq6_antes.jpg",
-      "fotoDespues": null,
+      "fotoDespues": "https://raw.githubusercontent.com/fborjaf07/bacheobamba/main/fotos/R1784204979799ssq6_desp.jpg",
       "observaciones": "",
-      "tecnico": "",
-      "fechaAten": null
+      "tecnico": "D. B.",
+      "fechaAten": "2026-07-24T12:09:44.439Z"
     },
     {
       "id": "R1784204963811bt11",
