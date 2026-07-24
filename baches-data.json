@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "actualizacion": "2026-07-24T13:17:48.815Z",
+  "actualizacion": "2026-07-24T13:19:17.010Z",
   "baches": [
     {
       "id": "R1784849456774ya7a",
@@ -31621,13 +31621,13 @@
       "tecnico_creador": "D. B.",
       "lat": -1.6722,
       "lng": -78.6577,
-      "estado": "pendiente",
+      "estado": "atendido",
       "fecha": "2026-07-22T16:59:49.827Z",
       "fotoAntes": "https://raw.githubusercontent.com/fborjaf07/bacheobamba/main/fotos/R17847395897771nb5_antes.jpg",
-      "fotoDespues": null,
+      "fotoDespues": "https://raw.githubusercontent.com/fborjaf07/bacheobamba/main/fotos/R17847395897771nb5_desp.jpg",
       "observaciones": "",
-      "tecnico": "",
-      "fechaAten": null
+      "tecnico": "D. B.",
+      "fechaAten": "2026-07-24T13:19:15.715Z"
     },
     {
       "id": "R178473955806651d0",
@@ -31638,13 +31638,13 @@
       "tecnico_creador": "D. B.",
       "lat": -1.672,
       "lng": -78.6578,
-      "estado": "pendiente",
+      "estado": "atendido",
       "fecha": "2026-07-22T16:59:18.112Z",
       "fotoAntes": "https://raw.githubusercontent.com/fborjaf07/bacheobamba/main/fotos/R178473955806651d0_antes.jpg",
       "fotoDespues": null,
       "observaciones": "",
-      "tecnico": "",
-      "fechaAten": null
+      "tecnico": "D. B.",
+      "fechaAten": "2026-07-24T13:17:55.188Z"
     },
     {
       "id": "R1784739544344dwr8",
@@ -31723,13 +31723,13 @@
       "tecnico_creador": "D. B.",
       "lat": -1.6716,
       "lng": -78.6582,
-      "estado": "pendiente",
+      "estado": "atendido",
       "fecha": "2026-07-22T16:57:28.460Z",
       "fotoAntes": "https://raw.githubusercontent.com/fborjaf07/bacheobamba/main/fotos/R1784739448406w5ut_antes.jpg",
-      "fotoDespues": null,
+      "fotoDespues": "https://raw.githubusercontent.com/fborjaf07/bacheobamba/main/fotos/R1784739448406w5ut_desp.jpg",
       "observaciones": "",
-      "tecnico": "",
-      "fechaAten": null
+      "tecnico": "D. B.",
+      "fechaAten": "2026-07-24T13:18:21.990Z"
     },
     {
       "id": "R17847394309916ek6",
