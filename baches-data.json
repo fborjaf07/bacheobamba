@@ -1,7 +1,24 @@
 {
   "version": "2.0",
-  "actualizacion": "2026-07-25T22:10:42.250Z",
+  "actualizacion": "2026-07-25T22:12:38.711Z",
   "baches": [
+    {
+      "id": "R1785017519622er3g",
+      "direccion": "",
+      "tipo": "Grande",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
+      "lat": -1.6808,
+      "lng": -78.6378,
+      "estado": "pendiente",
+      "fecha": "2026-07-25T22:11:59.721Z",
+      "fotoAntes": "https://raw.githubusercontent.com/fborjaf07/bacheobamba/main/fotos/R1785017519622er3g_antes.jpg",
+      "fotoDespues": null,
+      "observaciones": "",
+      "tecnico": "",
+      "fechaAten": null
+    },
     {
       "id": "R1785017433748r9s9",
       "direccion": "",
