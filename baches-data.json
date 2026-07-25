@@ -1,7 +1,41 @@
 {
   "version": "2.0",
-  "actualizacion": "2026-07-25T21:26:43.977Z",
+  "actualizacion": "2026-07-25T21:27:58.511Z",
   "baches": [
+    {
+      "id": "R1785014871482quzw",
+      "direccion": "",
+      "tipo": "Superficial",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
+      "lat": -1.6809,
+      "lng": -78.6356,
+      "estado": "pendiente",
+      "fecha": "2026-07-25T21:27:51.594Z",
+      "fotoAntes": "https://raw.githubusercontent.com/fborjaf07/bacheobamba/main/fotos/R1785014871482quzw_antes.jpg",
+      "fotoDespues": null,
+      "observaciones": "",
+      "tecnico": "",
+      "fechaAten": null
+    },
+    {
+      "id": "R1785014829789g8io",
+      "direccion": "",
+      "tipo": "Grande",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
+      "lat": -1.6808,
+      "lng": -78.6355,
+      "estado": "pendiente",
+      "fecha": "2026-07-25T21:27:09.892Z",
+      "fotoAntes": "https://raw.githubusercontent.com/fborjaf07/bacheobamba/main/fotos/R1785014829789g8io_antes.jpg",
+      "fotoDespues": null,
+      "observaciones": "",
+      "tecnico": "",
+      "fechaAten": null
+    },
     {
       "id": "R17850147968556xqa",
       "direccion": "",
