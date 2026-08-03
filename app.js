@@ -481,8 +481,20 @@ async function subirFotoGH(repId,tipo,blob){
   return `https://raw.githubusercontent.com/${GH.owner}/${GH.repo}/main/${path}`;
 }
 
-async function sincGH(silent=false,_lote=0){
+function enWifi(){
+  const c=navigator.connection||navigator.mozConnection||navigator.webkitConnection;
+  if(!c)return true; // sin API de red, no bloquear
+  if(c.type)return c.type==='wifi';
+  if(typeof c.effectiveType==='string')return true; // sin type explícito, no se puede distinguir wifi/datos — permitir
+  return true;
+}
+async function sincGH(silent=false,_lote=0,forzar=false){
   if(!GH.token){notif('Configura el token de GitHub primero','r');return;}
+  if(!forzar&&!enWifi()){
+    if(!silent)notif('Sin WiFi — los cambios se guardan localmente y se subirán al conectar WiFi','r');
+    chequearSubOblig&&chequearSubOblig();
+    return false;
+  }
   if(!silent&&_lote===0)notif('Sincronizando…');
   const LOTE_MAX=20;
   try{
@@ -545,7 +557,7 @@ async function sincGH(silent=false,_lote=0){
     if(quedan>0){
       chequearSubOblig&&chequearSubOblig();
       document.querySelectorAll('#sub-oblig-btn').forEach(b=>b.textContent='⬆ Subiendo… quedan '+quedan);
-      setTimeout(()=>sincGH(true,_lote+1),600);
+      setTimeout(()=>sincGH(true,_lote+1,forzar),600);
     }else{
       if(!silent)notif('Sincronizado con GitHub ✓','v');
       chequearSubOblig&&chequearSubOblig();
@@ -831,10 +843,13 @@ function chequearSubOblig(){
   }
 }
 async function forzarSubida(){
+  if(!enWifi()){
+    if(!confirm('No detectamos WiFi. ¿Subir usando datos móviles? Puede consumir tu plan.'))return;
+  }
   const btn=document.getElementById('sub-oblig-btn');
   btn.disabled=true;btn.textContent='Subiendo…';
   try{
-    await sincGH(true);
+    await sincGH(true,0,true);
     notif('Sincronizado con GitHub ✓','v');
   }catch(e){notif('Error al subir: '+e.message,'e');}
   chequearSubOblig();
@@ -1488,6 +1503,8 @@ function recargarDatos(){
     }catch(e){notif('Error al cargar datos','r');}
   })();
 }
+window.addEventListener('online',()=>{if(GH.token&&enWifi())sincGH(true);});
+if(navigator.connection)navigator.connection.addEventListener('change',()=>{if(GH.token&&enWifi())sincGH(true);});
 function __bootApp(){
   // Inyectar iconos en botones declarativos
   document.querySelectorAll('[data-ico]').forEach(el=>{
