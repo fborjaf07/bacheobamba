@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "actualizacion": "2026-08-03T21:33:22.621Z",
+  "actualizacion": "2026-08-04T14:46:24.642Z",
   "baches": [
     {
       "id": "R17857067909165u4y",
@@ -38481,9 +38481,6 @@
       "id": "R17857888257885wgz",
       "direccion": "",
       "tipo": "Grande",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.6618,
       "lng": -78.6587,
       "estado": "pendiente",
@@ -38492,15 +38489,13 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "",
-      "fechaAten": null
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R1785788706603gqb8",
       "direccion": "",
       "tipo": "Grande",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.6618,
       "lng": -78.6587,
       "estado": "pendiente",
@@ -38509,7 +38504,8 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "",
-      "fechaAten": null
+      "origen": "tecnico",
+      "tecnico_creador": ""
     }
   ]
 }
