@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "actualizacion": "2026-08-10T17:20:59.069Z",
+  "actualizacion": "2026-08-10T22:30:06.024Z",
   "baches": [
     {
       "id": "R17863688092015xtb",
@@ -1148,12 +1148,12 @@
       "tipo": "Grande",
       "lat": -1.6687,
       "lng": -78.6638,
-      "estado": "pendiente",
+      "estado": "atendido",
       "fecha": "2026-07-11T18:53:24.174Z",
       "fotoAntes": "https://raw.githubusercontent.com/fborjaf07/bacheobamba/main/fotos/R1783796004081xiyw_antes.jpg",
-      "fotoDespues": null,
+      "fotoDespues": "https://raw.githubusercontent.com/fborjaf07/bacheobamba/main/fotos/R1783796004081xiyw_desp.jpg",
       "observaciones": "",
-      "tecnico": "",
+      "tecnico": "D. B.",
       "origen": "tecnico",
       "tecnico_creador": ""
     },
@@ -1178,12 +1178,12 @@
       "tipo": "Profundo",
       "lat": -1.6684,
       "lng": -78.6647,
-      "estado": "pendiente",
+      "estado": "atendido",
       "fecha": "2026-07-09T22:21:50.872Z",
       "fotoAntes": "https://raw.githubusercontent.com/fborjaf07/bacheobamba/main/fotos/R17836357106982yso_antes.jpg",
       "fotoDespues": null,
       "observaciones": "",
-      "tecnico": "",
+      "tecnico": "D. B.",
       "origen": "tecnico",
       "tecnico_creador": ""
     },
@@ -40769,6 +40769,21 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "D. B.",
+      "origen": "tecnico",
+      "tecnico_creador": ""
+    },
+    {
+      "id": "R1782230383994yvtl",
+      "direccion": "Vía Bolívar San Gabriel, La Paz",
+      "tipo": "Pequeño",
+      "lat": 0.5521,
+      "lng": -77.8455,
+      "estado": "pendiente",
+      "fecha": "2026-06-23T15:59:44.015Z",
+      "fotoAntes": "https://raw.githubusercontent.com/fborjaf07/bacheobamba/main/fotos/R1782230383994yvtl_antes.jpg",
+      "fotoDespues": null,
+      "observaciones": "",
+      "tecnico": "",
       "origen": "tecnico",
       "tecnico_creador": ""
     }
