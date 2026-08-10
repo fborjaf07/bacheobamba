@@ -1,7 +1,24 @@
 {
   "version": "2.0",
-  "actualizacion": "2026-08-10T13:09:22.587Z",
+  "actualizacion": "2026-08-10T13:17:25.436Z",
   "baches": [
+    {
+      "id": "R1786367832273alaz",
+      "direccion": "",
+      "tipo": "Profundo",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
+      "lat": -1.6419,
+      "lng": -78.6772,
+      "estado": "pendiente",
+      "fecha": "2026-08-10T13:17:12.434Z",
+      "fotoAntes": "https://raw.githubusercontent.com/fborjaf07/bacheobamba/main/fotos/R1786367832273alaz_antes.jpg",
+      "fotoDespues": null,
+      "observaciones": "",
+      "tecnico": "",
+      "fechaAten": null
+    },
     {
       "id": "R17857067909165u4y",
       "direccion": "",
