@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "actualizacion": "2026-08-12T15:30:40.027Z",
+  "actualizacion": "2026-08-12T15:32:10.449Z",
   "baches": [
     {
       "id": "R17865415408367x4d",
@@ -42000,7 +42000,7 @@
       "lng": -78.6658,
       "estado": "atendido",
       "fecha": "2026-08-11T13:31:57.010Z",
-      "fotoAntes": null,
+      "fotoAntes": "https://raw.githubusercontent.com/fborjaf07/bacheobamba/main/fotos/R1786455116942xwr1_antes.jpg",
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "D. B.",
@@ -42034,7 +42034,7 @@
       "lng": -78.6661,
       "estado": "atendido",
       "fecha": "2026-08-11T13:30:50.753Z",
-      "fotoAntes": null,
+      "fotoAntes": "https://raw.githubusercontent.com/fborjaf07/bacheobamba/main/fotos/R1786455050699dx74_antes.jpg",
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "D. B.",
@@ -42119,7 +42119,7 @@
       "lng": -78.6667,
       "estado": "pendiente",
       "fecha": "2026-08-11T13:28:58.599Z",
-      "fotoAntes": null,
+      "fotoAntes": "https://raw.githubusercontent.com/fborjaf07/bacheobamba/main/fotos/R178645493854378w8_antes.jpg",
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "",
