@@ -448,6 +448,15 @@ async function obtenerSHA(){
   try{const r=await fetch(GH.api+'?ref='+GH.branch,{headers:{Authorization:'token '+GH.token,Accept:'application/vnd.github.v3+json'}});
     if(r.status===404)return null;if(!r.ok)return undefined;return(await r.json()).sha;
   }catch{return undefined;}}
+// Descarta reportes con coordenadas fuera del cantón Riobamba (datos erróneos que
+// reaparecían al fusionar entre dispositivos)
+function enRiobamba(r){
+  if(r.lat==null||r.lng==null)return true;
+  const la=parseFloat(r.lat),ln=parseFloat(r.lng);
+  if(isNaN(la)||isNaN(ln))return true;
+  return la>-2.3&&la<-1.2&&ln>-79.2&&ln<-78.2;
+}
+function limpiarFuera(arr){return (arr||[]).filter(enRiobamba);}
 async function leerGH(){
   const url='https://raw.githubusercontent.com/'+GH.owner+'/'+GH.repo+'/main/'+GH.file+'?t='+Date.now();
   for(let i=0;i<3;i++){
@@ -455,7 +464,9 @@ async function leerGH(){
       const r=await fetch(url,{cache:'no-store'});
       if(r.status===404)return null;
       if(!r.ok){await new Promise(res=>setTimeout(res,800));continue;}
-      return await r.json();
+      const d=await r.json();
+      if(d&&Array.isArray(d.baches))d.baches=limpiarFuera(d.baches);
+      return d;
     }catch(e){await new Promise(res=>setTimeout(res,800));}
   }
   return null;
@@ -499,7 +510,7 @@ async function sincGH(silent=false,_lote=0,forzar=false){
   const LOTE_MAX=20;
   try{
     const remoto=await leerGH();
-    let local=LS.g('bb_r')||[];
+    let local=limpiarFuera(LS.g('bb_r')||[]);
     let subidas=0;
     for(let r of local){
       if(!r.pendienteSubir)continue;
@@ -569,7 +580,7 @@ async function cargarGH(){
   notif('Cargando datos...');
   const dataBaches=await leerGH();
   if(dataBaches){
-    const local=LS.g('bb_r')||[];
+    const local=limpiarFuera(LS.g('bb_r')||[]);
     const ml={};local.forEach(r=>{ml[r.id]=r;});
     let remotos=[];
     if(Array.isArray(dataBaches.baches)){
@@ -1227,14 +1238,6 @@ function refrescarMapa(mapa){
       p+='</div>';
       return p;
     }
-    // Metadatos para selección por recuadro
-    m._bacheId=r.id;m._bacheEstado=r.estado;
-    // Click individual para admin (toggle selección)
-    if(mapa===mapaTec&&r.estado==='pendiente'){
-      m.on('click',function(e){
-        if(esAdmin()&&_mapaSel.size>0){L.DomEvent.stop(e);_toggleMarkerSel(r.id,m,r);return;}
-      });
-    }
     const pop=L.popup({maxWidth:240});
     m.bindPopup(pop);
     m.on('popupopen',()=>{
@@ -1291,135 +1294,6 @@ function refrescarMapa(mapa){
   }
 }
 function refrescarMarcadores(mapa){refrescarMapa(mapa);}
-
-/* ── SELECCIÓN MÚLTIPLE POR RECUADRO (solo admin en mapa técnico) ── */
-let _mapaSel=new Set();
-let _mapaSelMarkers={};// id->marker
-
-function esAdmin(){
-  const ses=getSes();const usAll=LS.g('bb_u')||[];
-  const uAct=usAll.find(x=>x.id===(ses&&ses.uid));
-  return sesOk()&&uAct&&uAct.rol==='admin';
-}
-
-function _mkIcoSel(){
-  return L.divIcon({className:'',html:'<div style="width:20px;height:20px;border-radius:50%;background:#003B8E;border:3px solid #fff;box-shadow:0 0 0 2px #003B8E,0 2px 8px rgba(0,59,142,.5);display:flex;align-items:center;justify-content:center;"><svg viewBox=\'0 0 12 12\' width=\'10\' height=\'10\'><polyline points=\'2,6 5,9 10,3\' stroke=\'#fff\' stroke-width=\'2.2\' fill=\'none\' stroke-linecap=\'round\' stroke-linejoin=\'round\'/></svg></div>',iconSize:[20,20],iconAnchor:[10,10]});
-}
-
-function _actualizarBtnLote(){
-  let btn=document.getElementById('map-lote-btn');
-  if(!btn){
-    btn=document.createElement('div');
-    btn.id='map-lote-btn';
-    btn.style.cssText='position:fixed;bottom:76px;left:50%;transform:translateX(-50%);z-index:9999;background:#003B8E;color:#fff;border-radius:50px;padding:13px 26px;font-family:Montserrat,sans-serif;font-size:0.88rem;font-weight:700;cursor:pointer;box-shadow:0 4px 20px rgba(0,59,142,.5);display:none;align-items:center;gap:10px;white-space:nowrap;';
-    btn.innerHTML='✓ Atender <span id="map-lote-cnt">0</span> seleccionados';
-    btn.onclick=_atenderLote;
-    document.body.appendChild(btn);
-  }
-  if(_mapaSel.size>0){
-    btn.style.display='flex';
-    document.getElementById('map-lote-cnt').textContent=_mapaSel.size;
-  } else {
-    btn.style.display='none';
-  }
-}
-
-function _toggleMarkerSel(id,marker,r){
-  if(_mapaSel.has(id)){
-    _mapaSel.delete(id);
-    delete _mapaSelMarkers[id];
-    marker.setIcon(mkIco('#C8102E'));
-  } else {
-    _mapaSel.add(id);
-    _mapaSelMarkers[id]={marker,r};
-    marker.setIcon(_mkIcoSel());
-  }
-  _actualizarBtnLote();
-}
-
-async function _atenderLote(){
-  if(_mapaSel.size===0)return;
-  const n=_mapaSel.size;
-  if(!confirm('¿Marcar '+n+' baches como atendidos?'))return;
-  const ids=Array.from(_mapaSel);
-  let rs=LS.g('bb_r')||[];
-  const ahora=new Date().toISOString();
-  const ses=getSes();
-  rs=rs.map(r=>{
-    if(ids.includes(r.id)&&r.estado==='pendiente'){
-      return {...r,estado:'atendido',fechaAtencion:ahora,tecnico:ses?ses.uid:'admin'};
-    }
-    return r;
-  });
-  LS.s('bb_r',rs);
-  _mapaSel.clear();_mapaSelMarkers={};
-  _actualizarBtnLote();
-  notif('✓ '+n+' baches marcados como atendidos','s');
-  if(mapaTec)refrescarMarcadores(mapaTec);
-  try{await sincGH();}catch(e){}
-}
-
-function initSeleccionRecuadro(mapa){
-  if(!mapa||mapa._recuadroInit)return;
-  mapa._recuadroInit=true;
-  const container=mapa.getContainer();
-  let _rect=null,_svg=null,_startPt=null,_dragging=false;
-
-  function ptFromEv(e){
-    const b=container.getBoundingClientRect();
-    const src=e.touches?e.touches[0]:e;
-    return{x:src.clientX-b.left,y:src.clientY-b.top};
-  }
-
-  container.addEventListener('mousedown',function(e){
-    if(!esAdmin())return;
-    if(e.button!==2)return;// solo click derecho
-    e.preventDefault();
-    _startPt=ptFromEv(e);_dragging=false;
-    // crear SVG overlay
-    _svg=document.createElementNS('http://www.w3.org/2000/svg','svg');
-    _svg.style.cssText='position:absolute;top:0;left:0;width:100%;height:100%;z-index:9000;pointer-events:none;';
-    _rect=document.createElementNS('http://www.w3.org/2000/svg','rect');
-    _rect.setAttribute('fill','rgba(0,59,142,0.12)');
-    _rect.setAttribute('stroke','#003B8E');
-    _rect.setAttribute('stroke-width','2');
-    _rect.setAttribute('stroke-dasharray','6,3');
-    _svg.appendChild(_rect);container.appendChild(_svg);
-    mapa.dragging.disable();
-  },{passive:false});
-
-  container.addEventListener('mousemove',function(e){
-    if(!_startPt||!_svg)return;
-    _dragging=true;
-    const cur=ptFromEv(e);
-    const x=Math.min(_startPt.x,cur.x),y=Math.min(_startPt.y,cur.y);
-    const w=Math.abs(cur.x-_startPt.x),h=Math.abs(cur.y-_startPt.y);
-    _rect.setAttribute('x',x);_rect.setAttribute('y',y);
-    _rect.setAttribute('width',w);_rect.setAttribute('height',h);
-  });
-
-  container.addEventListener('mouseup',function(e){
-    if(!_startPt||!_svg)return;
-    mapa.dragging.enable();
-    if(_dragging&&esAdmin()){
-      const cur=ptFromEv(e);
-      const x1=Math.min(_startPt.x,cur.x),y1=Math.min(_startPt.y,cur.y);
-      const x2=Math.max(_startPt.x,cur.x),y2=Math.max(_startPt.y,cur.y);
-      // seleccionar marcadores dentro del recuadro
-      mapa.eachLayer(function(layer){
-        if(layer instanceof L.Marker&&layer._bacheId&&layer._bacheEstado==='pendiente'){
-          const pt=mapa.latLngToContainerPoint(layer.getLatLng());
-          if(pt.x>=x1&&pt.x<=x2&&pt.y>=y1&&pt.y<=y2){
-            _toggleMarkerSel(layer._bacheId,layer,null);
-          }
-        }
-      });
-    }
-    container.removeChild(_svg);_svg=null;_rect=null;_startPt=null;_dragging=false;
-  });
-
-  container.addEventListener('contextmenu',function(e){e.preventDefault();});
-}
 
 /* ── ATENDER RÁPIDO desde popup ── */
 let _arId=null,_arBlob=null,_arUrl=null;
@@ -1569,7 +1443,6 @@ function cargarMapaTec(){
   gpsCtrl.addTo(mapaTec);
   mapaTec._gpsBtn=gpsCtrl;
   setTimeout(()=>mapaTec.invalidateSize(),200);
-  if(esAdmin())setTimeout(()=>initSeleccionRecuadro(mapaTec),300);
 }
 
 /* ── ICONOS SVG inline ── */
@@ -1644,6 +1517,7 @@ function recargarDatos(){
 window.addEventListener('online',()=>{if(GH.token&&enWifi())sincGH(true);});
 if(navigator.connection)navigator.connection.addEventListener('change',()=>{if(GH.token&&enWifi())sincGH(true);});
 function __bootApp(){
+  {const _r=LS.g('bb_r');if(Array.isArray(_r)){const _l=limpiarFuera(_r);if(_l.length!==_r.length)LS.s('bb_r',_l);}}
   // Inyectar iconos en botones declarativos
   document.querySelectorAll('[data-ico]').forEach(el=>{
     const name=el.getAttribute('data-ico');
@@ -1675,6 +1549,16 @@ function __bootApp(){
   })();
 }
 if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',__bootApp);}else{__bootApp();}
+if(new URLSearchParams(location.search).get('reset')==='1'){
+  (async()=>{
+    if(!confirm('Se borrarán los datos guardados en este dispositivo y se cargarán los del portal. ¿Continuar?'))return;
+    const d=await leerGH();
+    if(!d||!d.baches){alert('No se pudo leer el portal. Revisa tu conexión.');return;}
+    LS.s('bb_r',d.baches);
+    alert('Datos actualizados: '+d.baches.length+' reportes.');
+    location.href=location.pathname;
+  })();
+}
 if(new URLSearchParams(location.search).get('export')==='1'){
   setTimeout(()=>{
     const datos={reportes:LS.g('bb_r')||[],cronograma:LS.g('bb_c')||[],fecha:new Date().toISOString()};
