@@ -1,11 +1,14 @@
 {
   "version": "2.0",
-  "actualizacion": "2026-08-31T17:28:08.593Z",
+  "actualizacion": "2026-08-31T17:31:37.109Z",
   "baches": [
     {
       "id": "R1788040298690ajga",
       "direccion": "",
       "tipo": "Profundo",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": null,
       "lng": null,
       "estado": "pendiente",
@@ -14,8 +17,7 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": null
     },
     {
       "id": "R17857067909165u4y",
@@ -41751,6 +41753,9 @@
       "id": "R17877139557179f5e",
       "direccion": "",
       "tipo": "Grande",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": -1.6757,
       "lng": -78.6462,
       "estado": "pendiente",
@@ -41759,13 +41764,15 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": null
     },
     {
       "id": "R17876809843757o6c",
       "direccion": "",
       "tipo": "Grande",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": null,
       "lng": null,
       "estado": "pendiente",
@@ -41774,8 +41781,7 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": null
     }
   ]
 }
