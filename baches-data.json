@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "actualizacion": "2026-08-31T12:26:39.368Z",
+  "actualizacion": "2026-08-31T12:26:44.010Z",
   "baches": [
     {
       "id": "R1788040298690ajga",
@@ -16809,13 +16809,14 @@
       "tipo": "Grande",
       "lat": -1.6642,
       "lng": -78.661,
-      "estado": "pendiente",
+      "estado": "atendido",
       "fecha": "2026-06-23T00:30:30.621Z",
       "fotoAntes": null,
       "fotoDespues": null,
       "observaciones": "",
-      "tecnico": "",
+      "tecnico": "F. B.",
       "origen": "tecnico",
+      "fechaAten": "2026-08-31T12:26:43.007Z",
       "tecnico_creador": ""
     },
     {
