@@ -38738,21 +38738,6 @@
       "tecnico_creador": ""
     },
     {
-      "id": "R1782230383994yvtl",
-      "direccion": "Vía Bolívar San Gabriel, La Paz",
-      "tipo": "Pequeño",
-      "lat": 0.5521,
-      "lng": -77.8455,
-      "estado": "pendiente",
-      "fecha": "2026-06-23T15:59:44.015Z",
-      "fotoAntes": "https://raw.githubusercontent.com/fborjaf07/bacheobamba/main/fotos/R1782230383994yvtl_antes.jpg",
-      "fotoDespues": null,
-      "observaciones": "",
-      "tecnico": "",
-      "origen": "tecnico",
-      "tecnico_creador": ""
-    },
-    {
       "id": "R1785018930253c3ky",
       "direccion": "",
       "tipo": "Grande",
