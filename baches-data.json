@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "actualizacion": "2026-08-31T12:27:09.811Z",
+  "actualizacion": "2026-08-31T12:27:14.232Z",
   "baches": [
     {
       "id": "R1788040298690ajga",
@@ -17234,13 +17234,14 @@
       "tipo": "Profundo",
       "lat": -1.6643,
       "lng": -78.6615,
-      "estado": "pendiente",
+      "estado": "atendido",
       "fecha": "2026-06-23T00:46:38.220Z",
       "fotoAntes": null,
       "fotoDespues": null,
       "observaciones": "",
-      "tecnico": "",
+      "tecnico": "F. B.",
       "origen": "tecnico",
+      "fechaAten": "2026-08-31T12:27:13.409Z",
       "tecnico_creador": ""
     },
     {
