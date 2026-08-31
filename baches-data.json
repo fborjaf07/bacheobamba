@@ -1,14 +1,11 @@
 {
   "version": "2.0",
-  "actualizacion": "2026-08-31T17:22:16.274Z",
+  "actualizacion": "2026-08-31T17:28:08.593Z",
   "baches": [
     {
       "id": "R1788040298690ajga",
       "direccion": "",
       "tipo": "Profundo",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": null,
       "lng": null,
       "estado": "pendiente",
@@ -17,7 +14,8 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "",
-      "fechaAten": null
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R17857067909165u4y",
@@ -38525,6 +38523,21 @@
       "tecnico_creador": ""
     },
     {
+      "id": "R1782230383994yvtl",
+      "direccion": "Vía Bolívar San Gabriel, La Paz",
+      "tipo": "Pequeño",
+      "lat": 0.5521,
+      "lng": -77.8455,
+      "estado": "pendiente",
+      "fecha": "2026-06-23T15:59:44.015Z",
+      "fotoAntes": "https://raw.githubusercontent.com/fborjaf07/bacheobamba/main/fotos/R1782230383994yvtl_antes.jpg",
+      "fotoDespues": null,
+      "observaciones": "",
+      "tecnico": "",
+      "origen": "tecnico",
+      "tecnico_creador": ""
+    },
+    {
       "id": "R1785018930253c3ky",
       "direccion": "",
       "tipo": "Grande",
@@ -41738,9 +41751,6 @@
       "id": "R17877139557179f5e",
       "direccion": "",
       "tipo": "Grande",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.6757,
       "lng": -78.6462,
       "estado": "pendiente",
@@ -41749,15 +41759,13 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "",
-      "fechaAten": null
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R17876809843757o6c",
       "direccion": "",
       "tipo": "Grande",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": null,
       "lng": null,
       "estado": "pendiente",
@@ -41766,7 +41774,8 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "",
-      "fechaAten": null
+      "origen": "tecnico",
+      "tecnico_creador": ""
     }
   ]
 }
