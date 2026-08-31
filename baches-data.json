@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "actualizacion": "2026-08-31T12:31:30.722Z",
+  "actualizacion": "2026-08-31T12:31:35.634Z",
   "baches": [
     {
       "id": "R1788040298690ajga",
@@ -34213,13 +34213,14 @@
       "tipo": "Pequeño",
       "lat": -1.6696,
       "lng": -78.6613,
-      "estado": "pendiente",
+      "estado": "atendido",
       "fecha": "2026-07-16T15:25:38.285Z",
       "fotoAntes": "https://raw.githubusercontent.com/fborjaf07/bacheobamba/main/fotos/R1784215538235qslx_antes.jpg",
       "fotoDespues": null,
       "observaciones": "",
-      "tecnico": "",
+      "tecnico": "F. B.",
       "origen": "tecnico",
+      "fechaAten": "2026-08-31T12:31:34.935Z",
       "tecnico_creador": ""
     },
     {
