@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "actualizacion": "2026-08-31T12:37:46.208Z",
+  "actualizacion": "2026-08-31T12:38:16.550Z",
   "baches": [
     {
       "id": "R1788040298690ajga",
@@ -12520,13 +12520,14 @@
       "tipo": "Grande",
       "lat": -1.6789,
       "lng": -78.6325,
-      "estado": "pendiente",
+      "estado": "atendido",
       "fecha": "2026-06-22T22:32:54.448Z",
       "fotoAntes": "https://raw.githubusercontent.com/fborjaf07/bacheobamba/main/fotos/R1782167574401pw88_antes.jpg",
       "fotoDespues": null,
       "observaciones": "",
-      "tecnico": "",
+      "tecnico": "F.",
       "origen": "tecnico",
+      "fechaAtencion": "2026-08-31T12:38:16.378Z",
       "tecnico_creador": ""
     },
     {
@@ -16141,13 +16142,14 @@
       "tipo": "Grande",
       "lat": -1.6787,
       "lng": -78.6322,
-      "estado": "pendiente",
+      "estado": "atendido",
       "fecha": "2026-06-22T22:42:46.204Z",
       "fotoAntes": null,
       "fotoDespues": null,
       "observaciones": "",
-      "tecnico": "",
+      "tecnico": "F.",
       "origen": "tecnico",
+      "fechaAtencion": "2026-08-31T12:38:16.378Z",
       "tecnico_creador": ""
     },
     {
@@ -29943,13 +29945,14 @@
       "tipo": "Profundo",
       "lat": -1.6789,
       "lng": -78.6324,
-      "estado": "pendiente",
+      "estado": "atendido",
       "fecha": "2026-06-23T22:02:27.144Z",
       "fotoAntes": "https://raw.githubusercontent.com/fborjaf07/bacheobamba/main/fotos/R1782252147083t0q3_antes.jpg",
       "fotoDespues": null,
       "observaciones": "",
-      "tecnico": "",
+      "tecnico": "F.",
       "origen": "tecnico",
+      "fechaAtencion": "2026-08-31T12:38:16.378Z",
       "tecnico_creador": ""
     },
     {
@@ -29973,13 +29976,14 @@
       "tipo": "Profundo",
       "lat": -1.6789,
       "lng": -78.6325,
-      "estado": "pendiente",
+      "estado": "atendido",
       "fecha": "2026-06-23T22:03:43.166Z",
       "fotoAntes": "https://raw.githubusercontent.com/fborjaf07/bacheobamba/main/fotos/R17822522230849ro5_antes.jpg",
       "fotoDespues": null,
       "observaciones": "",
-      "tecnico": "",
+      "tecnico": "F.",
       "origen": "tecnico",
+      "fechaAtencion": "2026-08-31T12:38:16.378Z",
       "tecnico_creador": ""
     },
     {
