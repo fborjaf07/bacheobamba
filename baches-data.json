@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "actualizacion": "2026-08-31T12:28:45.279Z",
+  "actualizacion": "2026-08-31T12:29:19.960Z",
   "baches": [
     {
       "id": "R1788040298690ajga",
@@ -1178,13 +1178,14 @@
       "tipo": "Profundo",
       "lat": -1.6684,
       "lng": -78.6647,
-      "estado": "pendiente",
+      "estado": "atendido",
       "fecha": "2026-07-09T22:21:50.872Z",
       "fotoAntes": "https://raw.githubusercontent.com/fborjaf07/bacheobamba/main/fotos/R17836357106982yso_antes.jpg",
       "fotoDespues": null,
       "observaciones": "",
-      "tecnico": "",
+      "tecnico": "F. B.",
       "origen": "tecnico",
+      "fechaAten": "2026-08-31T12:29:18.822Z",
       "tecnico_creador": ""
     },
     {
