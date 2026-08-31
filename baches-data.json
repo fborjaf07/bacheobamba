@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "actualizacion": "2026-08-31T12:31:12.754Z",
+  "actualizacion": "2026-08-31T12:31:18.421Z",
   "baches": [
     {
       "id": "R1788040298690ajga",
@@ -32931,13 +32931,14 @@
       "tipo": "Pequeño",
       "lat": -1.6697,
       "lng": -78.6615,
-      "estado": "pendiente",
+      "estado": "atendido",
       "fecha": "2026-07-22T16:31:53.712Z",
       "fotoAntes": "https://raw.githubusercontent.com/fborjaf07/bacheobamba/main/fotos/R1784737913614jptv_antes.jpg",
       "fotoDespues": null,
       "observaciones": "",
-      "tecnico": "",
+      "tecnico": "F. B.",
       "origen": "tecnico",
+      "fechaAten": "2026-08-31T12:31:17.700Z",
       "tecnico_creador": ""
     },
     {
