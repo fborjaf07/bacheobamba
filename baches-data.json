@@ -1,7 +1,24 @@
 {
   "version": "2.0",
-  "actualizacion": "2026-09-02T16:55:39.172Z",
+  "actualizacion": "2026-09-02T19:09:11.587Z",
   "baches": [
+    {
+      "id": "R1788376150785uknj",
+      "direccion": "",
+      "tipo": "Pequeño",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
+      "lat": null,
+      "lng": null,
+      "estado": "pendiente",
+      "fecha": "2026-09-02T19:09:10.792Z",
+      "fotoAntes": null,
+      "fotoDespues": null,
+      "observaciones": "",
+      "tecnico": "",
+      "fechaAten": null
+    },
     {
       "id": "R1788040298690ajga",
       "direccion": "",
