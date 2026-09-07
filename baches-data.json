@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "actualizacion": "2026-09-07T16:52:07.057Z",
+  "actualizacion": "2026-09-07T16:56:22.235Z",
   "baches": [
     {
       "id": "R1788797586783kd3v",
@@ -13,7 +13,7 @@
       "lng": -78.6817,
       "estado": "pendiente",
       "fecha": "2026-09-07T16:13:06.860Z",
-      "fotoAntes": null,
+      "fotoAntes": "https://raw.githubusercontent.com/fborjaf07/bacheobamba/main/fotos/R1788797586783kd3v_antes.jpg",
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "",
