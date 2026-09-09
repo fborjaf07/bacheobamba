@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "actualizacion": "2026-09-09T22:21:02.769Z",
+  "actualizacion": "2026-09-09T22:22:08.421Z",
   "baches": [
     {
       "id": "R1788797586783kd3v",
@@ -22503,13 +22503,14 @@
       "tipo": "Superficial",
       "lat": -1.6839,
       "lng": -78.6627,
-      "estado": "pendiente",
+      "estado": "atendido",
       "fecha": "2026-06-23T14:46:46.423Z",
       "fotoAntes": null,
       "fotoDespues": null,
       "observaciones": "",
-      "tecnico": "",
+      "tecnico": "F. B.",
       "origen": "tecnico",
+      "fechaAten": "2026-09-09T22:21:57.268Z",
       "tecnico_creador": ""
     },
     {
@@ -22953,13 +22954,14 @@
       "tipo": "Superficial",
       "lat": -1.6835,
       "lng": -78.6627,
-      "estado": "pendiente",
+      "estado": "atendido",
       "fecha": "2026-06-23T14:50:00.048Z",
       "fotoAntes": "https://raw.githubusercontent.com/fborjaf07/bacheobamba/main/fotos/R1782226200023y3os_antes.jpg",
       "fotoDespues": null,
       "observaciones": "",
-      "tecnico": "",
+      "tecnico": "F. B.",
       "origen": "tecnico",
+      "fechaAten": "2026-09-09T22:21:54.491Z",
       "tecnico_creador": ""
     },
     {
@@ -23808,13 +23810,14 @@
       "tipo": "Grande",
       "lat": -1.683,
       "lng": -78.6656,
-      "estado": "pendiente",
+      "estado": "atendido",
       "fecha": "2026-06-23T15:01:56.295Z",
       "fotoAntes": null,
       "fotoDespues": null,
       "observaciones": "",
-      "tecnico": "",
+      "tecnico": "F. B.",
       "origen": "tecnico",
+      "fechaAten": "2026-09-09T22:22:08.077Z",
       "tecnico_creador": ""
     },
     {
@@ -27903,13 +27906,14 @@
       "tipo": "Mediano",
       "lat": -1.6828,
       "lng": -78.6627,
-      "estado": "pendiente",
+      "estado": "atendido",
       "fecha": "2026-06-23T17:53:28.421Z",
       "fotoAntes": "https://raw.githubusercontent.com/fborjaf07/bacheobamba/main/fotos/R1782237208354kmvl_antes.jpg",
       "fotoDespues": null,
       "observaciones": "",
-      "tecnico": "",
+      "tecnico": "F. B.",
       "origen": "tecnico",
+      "fechaAten": "2026-09-09T22:21:51.509Z",
       "tecnico_creador": ""
     },
     {
