@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "actualizacion": "2026-09-10T20:09:40.959Z",
+  "actualizacion": "2026-09-10T20:10:40.789Z",
   "baches": [
     {
       "id": "R1788797586783kd3v",
@@ -18649,13 +18649,14 @@
       "tipo": "Grande",
       "lat": -1.6872,
       "lng": -78.6464,
-      "estado": "pendiente",
+      "estado": "atendido",
       "fecha": "2026-06-23T13:58:39.311Z",
       "fotoAntes": "https://raw.githubusercontent.com/fborjaf07/bacheobamba/main/fotos/R1782223119279rkhc_antes.jpg",
       "fotoDespues": null,
       "observaciones": "",
-      "tecnico": "",
+      "tecnico": "F. B.",
       "origen": "tecnico",
+      "fechaAten": "2026-09-10T20:09:51.206Z",
       "tecnico_creador": ""
     },
     {
