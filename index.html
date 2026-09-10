@@ -187,6 +187,10 @@ button,input,select,textarea{font-family:inherit;color:inherit;}
 .plat-chip.on .plat-chip-dot{box-shadow:0 0 0 1.5px #fff;}
 .plat-count{display:inline-flex;align-items:center;justify-content:center;min-width:18px;height:18px;padding:0 5px;border-radius:999px;background:rgba(11,31,77,.10);font-size:11px;font-weight:700;color:inherit;margin-left:2px;}
 .plat-chip.on .plat-count{background:rgba(255,255,255,.25);color:#fff;}
+.plat-count.pen{background:var(--rojo);color:#fff;}
+.plat-count.ate{background:var(--verde);color:#fff;}
+.plat-chip.on .plat-count.pen{background:var(--rojo);color:#fff;box-shadow:0 0 0 1.5px rgba(255,255,255,.6);}
+.plat-chip.on .plat-count.ate{background:var(--verde);color:#fff;box-shadow:0 0 0 1.5px rgba(255,255,255,.6);}
 .plat-lbl{display:flex;align-items:center;justify-content:center;width:24px;height:24px;border-radius:50%;background:#fff;border:2px solid var(--pc);color:var(--pc);font-size:12px;font-weight:800;box-shadow:0 1px 3px rgba(11,31,77,.25);}
 .mapa-gps-btn{width:36px;height:36px;border-radius:8px;background:#fff;border:2px solid rgba(0,0,0,.15);box-shadow:0 2px 6px rgba(0,0,0,.15);cursor:pointer;display:flex;align-items:center;justify-content:center;color:var(--azul);transition:.15s;padding:0;}
 .mapa-gps-btn:hover{background:var(--azul-s);border-color:var(--azul);}
@@ -622,22 +626,6 @@ button,input,select,textarea{font-family:inherit;color:inherit;}
       <span class="mapa-ley-item"><span class="mapa-ley-dot pen"></span>Bache pendiente</span>
       <span class="mapa-ley-item"><span class="mapa-ley-dot ate"></span>Bache atendido</span>
     </div>
-  </div>
-
-  <div class="sec"><span class="ico" data-ico-static="cal"></span>Cronograma de intervenciones</div>
-  <div class="cron-card">
-    <div class="cron-hdr">
-      <h3>¿Dónde estamos trabajando?</h3>
-      <p>Conoce aquí nuestra programación:</p>
-    </div>
-    <div class="cron-leyenda" aria-label="Filtrar por estado">
-      <span class="cron-leyenda-tit">Filtrar</span>
-      <button type="button" class="cron-ley-chip todos on" data-filtro="todos" onclick="filtrarCron(this,'todos')">Todos</button>
-      <button type="button" class="cron-ley-chip prog" data-filtro="prog" onclick="filtrarCron(this,'prog')">Azul · Por atender</button>
-      <button type="button" class="cron-ley-chip done" data-filtro="done" onclick="filtrarCron(this,'done')">Rojo · Atendido</button>
-      <button type="button" class="cron-ley-chip exec" data-filtro="exec" onclick="filtrarCron(this,'exec')">En curso</button>
-    </div>
-    <div class="cron-body" id="cron-ciu"><div class="cron-vacio">Cargando…</div></div>
   </div>
 
   <div id="lista-ciu"></div>

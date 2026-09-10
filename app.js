@@ -818,8 +818,9 @@ function actualizarStats(){
 }
 function renderCiu(){
   let rs=LS.g('bb_r')||[];const el=document.getElementById('lista-ciu');
-  rs=rs.filter(bacheEnPlat);
-  if(!rs.length){el.innerHTML='<div class="empty"><p>'+(_platFiltro?'No hay reportes en esta plataforma.':'Aún no hay reportes. ¡Sé el primero en reportar!')+'</p></div>';if(mapaCiu)refrescarMarcadores(mapaCiu);return;}
+  rs=rs.filter(bacheEnPlat).filter(r=>r.estado==='atendido');
+  rs.sort((a,b)=>String(b.fechaAten||b.fecha||'').localeCompare(String(a.fechaAten||a.fecha||'')));
+  if(!rs.length){el.innerHTML='<div class="empty"><p>'+(_platFiltro?'No hay baches atendidos en esta plataforma.':'Aún no hay baches atendidos.')+'</p></div>';if(mapaCiu)refrescarMarcadores(mapaCiu);return;}
   el.innerHTML=rs.slice(0,5).map(r=>`
     <div class="rep-card ${r.estado}" onclick="verDetalle('${r.id}')">
       <div class="rep-dot ${r.estado}"></div>
@@ -980,6 +981,7 @@ function filtrarCron(btn,filtro){
 }
 function renderCronCiu(){
   const cs=LS.g('bb_c')||[];const el=document.getElementById('cron-ciu');
+  if(!el)return;
   if(!cs.length){el.innerHTML='<div class="cron-vacio">No hay intervenciones programadas todavía.</div>';return;}
   const clase=c=>{
     const esEjec=c.estado==='ejecutado'||c.estado==='completado';
@@ -1175,17 +1177,24 @@ function initPlatFiltro(){
     if(_estadoFiltro&&(r.estado||'pendiente')!==_estadoFiltro)return false;
     return true;
   });
-  const cuentas={};
-  let totalFiltrado=0;
+  const cPen={},cAte={};
+  let totPen=0,totAte=0;
   rs.forEach(r=>{
     const pn=window.findPlataforma?window.findPlataforma(parseFloat(r.lat),parseFloat(r.lng)):null;
-    if(pn){cuentas[pn]=(cuentas[pn]||0)+1;totalFiltrado++;}
+    if(!pn)return;
+    if((r.estado||'pendiente')==='atendido'){cAte[pn]=(cAte[pn]||0)+1;totAte++;}
+    else{cPen[pn]=(cPen[pn]||0)+1;totPen++;}
   });
+  const nums=(pen,ate)=>{
+    let s='';
+    if(!_estadoFiltro||_estadoFiltro==='pendiente')s+='<span class="plat-count pen" title="Pendientes">'+pen+'</span>';
+    if(!_estadoFiltro||_estadoFiltro==='atendido')s+='<span class="plat-count ate" title="Atendidos">'+ate+'</span>';
+    return s;
+  };
   let h='<span class="plat-filtro-tit">Plataforma</span>';
-  h+='<button type="button" class="plat-chip'+((_platFiltro==='')?' on':'')+' " data-plat="" onclick="filtrarPlataforma(\'\')">Todas <span class="plat-count">'+totalFiltrado+'</span></button>';
+  h+='<button type="button" class="plat-chip'+((_platFiltro==='')?' on':'')+' " data-plat="" onclick="filtrarPlataforma(\'\')">Todas '+nums(totPen,totAte)+'</button>';
   window.PLATAFORMAS_GEO.forEach((p,i)=>{
-    const n=cuentas[p.name]||0;
-    h+='<button type="button" class="plat-chip'+(_platFiltro===p.name?' on':'')+' " data-plat="'+escH(p.name)+'" onclick="filtrarPlataforma(\''+escH(p.name)+'\')"><span class="plat-chip-dot" style="background:'+platColor(i)+'"></span>'+escH(platLetra(p))+'<span class="plat-count">'+n+'</span></button>';
+    h+='<button type="button" class="plat-chip'+(_platFiltro===p.name?' on':'')+' " data-plat="'+escH(p.name)+'" onclick="filtrarPlataforma(\''+escH(p.name)+'\')"><span class="plat-chip-dot" style="background:'+platColor(i)+'"></span>'+escH(platLetra(p))+nums(cPen[p.name]||0,cAte[p.name]||0)+'</button>';
   });
   wrap.innerHTML=h;
 }
