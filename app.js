@@ -58,6 +58,7 @@ const LS={g:k=>{try{return JSON.parse(localStorage.getItem(k));}catch{return nul
   s:(k,v)=>localStorage.setItem(k,JSON.stringify(v)),r:k=>localStorage.removeItem(k)};
 
 /* ── GITHUB ── */
+const APP_VERSION=3;
 const _t=['Z2l0aHViX3BhdF8xMUNCS1BRS1kwcw==','Tms3cld6bWNKMDlfSlE1VG1NbFhEeA==','SVRSeDhsbnM5eVZZeTlaamRYaFAxNg==','NzYyU2k1eVgzRVdUV0xHSDJQMkpTdg==','b0loSEI='];
 const GH_PUBLIC_TOKEN=(()=>{try{return _t.map(x=>atob(x)).join('');}catch(e){return '';}})();
 const GH={
@@ -510,6 +511,11 @@ async function sincGH(silent=false,_lote=0,forzar=false){
   const LOTE_MAX=20;
   try{
     const remoto=await leerGH();
+    // Candado de version: un dispositivo con app vieja no puede escribir en el repo
+    if(remoto&&remoto.minAppVersion&&APP_VERSION<remoto.minAppVersion){
+      notif('Tu app está desactualizada. Recarga la página antes de sincronizar.','r');
+      return false;
+    }
     let local=limpiarFuera(LS.g('bb_r')||[]);
     let subidas=0;
     for(let r of local){
@@ -542,7 +548,19 @@ async function sincGH(silent=false,_lote=0,forzar=false){
     let fusionado=[...local];
     if(remoto&&Array.isArray(remoto.baches)){
       const ml={};local.forEach(r=>{ml[r.id]=r;});
-      remoto.baches.forEach(r=>{if(!ml[r.id])fusionado.push(r);});
+      remoto.baches.forEach(r=>{
+        const l=ml[r.id];
+        if(!l){fusionado.push(r);return;}
+        // Un "atendido" del repo nunca se degrada a "pendiente" por una copia local
+        // desactualizada: así un dispositivo viejo no borra el trabajo de los demás.
+        if(r.estado==='atendido'&&l.estado!=='atendido'&&!l.pendienteSubir){
+          l.estado='atendido';
+          if(r.tecnico)l.tecnico=r.tecnico;
+          if(r.observaciones)l.observaciones=r.observaciones;
+          if(r.fotoDespues)l.fotoDespues=r.fotoDespues;
+          if(r.fechaAten)l.fechaAten=r.fechaAten;
+        }
+      });
     }
     const bachesLimpios=fusionado.map(r=>{
       const {idbAntes,idbDesp,pendienteSubir,...limpio}=r;
@@ -553,7 +571,7 @@ async function sincGH(silent=false,_lote=0,forzar=false){
       if(limpio.lng!=null)limpio.lng=gpsPub(limpio.lng);
       return limpio;
     });
-    const data={version:'2.0',actualizacion:new Date().toISOString(),baches:bachesLimpios};
+    const data={version:'2.0',minAppVersion:(remoto&&remoto.minAppVersion)||APP_VERSION,actualizacion:new Date().toISOString(),baches:bachesLimpios};
     const contenido=btoa(unescape(encodeURIComponent(JSON.stringify(data,null,2))));
     const sha=await obtenerSHA();
     const body={message:'BACHEOBAMBA: '+new Date().toLocaleString('es-EC'),content:contenido,branch:GH.branch};
@@ -596,7 +614,19 @@ async function cargarGH(){
       }));
     }
     const mr={};remotos.forEach(r=>{mr[r.id]=r;});
-    LS.s('bb_r',Object.values({...mr,...ml}));
+    const fus={...mr,...ml};
+    // El repo manda cuando ya marcó un bache como atendido y la copia local
+    // (sin cambios propios por subir) todavía lo tiene pendiente.
+    remotos.forEach(r=>{
+      const l=ml[r.id];
+      if(!l||r.estado!=='atendido'||l.estado==='atendido'||l.pendienteSubir)return;
+      fus[r.id]={...l,estado:'atendido',
+        tecnico:r.tecnico||l.tecnico,
+        observaciones:r.observaciones||l.observaciones,
+        fotoDespues:r.fotoDespues||l.fotoDespues,
+        fechaAten:r.fechaAten||l.fechaAten};
+    });
+    LS.s('bb_r',Object.values(fus));
   }
   const dataObras=await leerObras();
   if(dataObras&&Array.isArray(dataObras.cronograma)){
