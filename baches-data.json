@@ -1,62 +1,17 @@
 {
   "version": "2.0",
-  "actualizacion": "2026-09-12T00:34:04.627Z",
+  "minAppVersion": 3,
+  "actualizacion": "2026-09-12T17:38:54.773Z",
   "baches": [
     {
-      "id": "R1789141196026zpbq",
-      "direccion": "",
-      "tipo": "Grande",
-      "lat": -1.66,
-      "lng": -78.6814,
-      "estado": "pendiente",
-      "fecha": "2026-09-11T15:39:56.118Z",
-      "fotoAntes": "https://raw.githubusercontent.com/fborjaf07/bacheobamba/main/fotos/R1789141196026zpbq_antes.jpg",
-      "fotoDespues": null,
-      "observaciones": "",
-      "tecnico": "",
-      "origen": "tecnico",
-      "tecnico_creador": ""
-    },
-    {
-      "id": "R1788797586783kd3v",
-      "direccion": "",
-      "tipo": "Grande",
-      "lat": -1.6601,
-      "lng": -78.6817,
-      "estado": "pendiente",
-      "fecha": "2026-09-07T16:13:06.860Z",
-      "fotoAntes": "https://raw.githubusercontent.com/fborjaf07/bacheobamba/main/fotos/R1788797586783kd3v_antes.jpg",
-      "fotoDespues": null,
-      "observaciones": "",
-      "tecnico": "",
-      "origen": "tecnico",
-      "tecnico_creador": ""
-    },
-    {
-      "id": "R17887121295961ngr",
-      "direccion": "",
-      "tipo": "Grande",
-      "lat": -1.674,
-      "lng": -78.6609,
-      "estado": "atendido",
-      "fecha": "2026-09-06T16:28:49.722Z",
-      "fotoAntes": "https://raw.githubusercontent.com/fborjaf07/bacheobamba/main/fotos/R17887121295961ngr_antes.jpg",
-      "fotoDespues": null,
-      "observaciones": "Atendido junto al bache de la misma ubicación",
-      "tecnico": "F. B.",
-      "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-05-28T16:14:53.210Z"
-    },
-    {
-      "id": "R1788040298690ajga",
+      "id": "R17863688092015xtb",
       "direccion": "",
       "tipo": "Profundo",
-      "lat": null,
-      "lng": null,
+      "lat": -1.6419,
+      "lng": -78.677,
       "estado": "pendiente",
-      "fecha": "2026-08-29T21:51:39.031Z",
-      "fotoAntes": "https://raw.githubusercontent.com/fborjaf07/bacheobamba/main/fotos/R1788040298690ajga_antes.jpg",
+      "fecha": "2026-08-10T13:33:29.403Z",
+      "fotoAntes": "https://raw.githubusercontent.com/fborjaf07/bacheobamba/main/fotos/R17863688092015xtb_antes.jpg",
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "",
@@ -481,8 +436,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-07-25T21:36:19.040Z"
+      "fechaAten": "2026-07-25T21:36:19.040Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1785015378917fq57",
@@ -512,8 +467,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-07-25T21:34:50.954Z"
+      "fechaAten": "2026-07-25T21:34:50.954Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1785015290869p4mw",
@@ -573,8 +528,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-07-25T21:31:46.451Z"
+      "fechaAten": "2026-07-25T21:31:46.451Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R17850151063412w90",
@@ -604,8 +559,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-07-25T21:29:55.878Z"
+      "fechaAten": "2026-07-25T21:29:55.878Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1785015028998ld6s",
@@ -725,8 +680,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-07-25T21:26:14.034Z"
+      "fechaAten": "2026-07-25T21:26:14.034Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1785014773913xcfb",
@@ -1101,8 +1056,8 @@
       "observaciones": "Plataforma intervenida en su totalidad",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-09-12T00:34:04.599Z"
+      "fechaAten": "2026-09-12T00:34:04.599Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1784069268469kk5d",
@@ -1117,8 +1072,8 @@
       "observaciones": "Plataforma intervenida en su totalidad",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-09-12T00:34:04.599Z"
+      "fechaAten": "2026-09-12T00:34:04.599Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1784068950759t43s",
@@ -1133,8 +1088,8 @@
       "observaciones": "Plataforma intervenida en su totalidad",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-09-12T00:34:04.599Z"
+      "fechaAten": "2026-09-12T00:34:04.599Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1784068813014n4wc",
@@ -1149,8 +1104,8 @@
       "observaciones": "Plataforma intervenida en su totalidad",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-09-12T00:34:04.599Z"
+      "fechaAten": "2026-09-12T00:34:04.599Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1783981463980o3yp",
@@ -1206,12 +1161,11 @@
       "estado": "atendido",
       "fecha": "2026-07-11T18:53:24.174Z",
       "fotoAntes": "https://raw.githubusercontent.com/fborjaf07/bacheobamba/main/fotos/R1783796004081xiyw_antes.jpg",
-      "fotoDespues": null,
-      "observaciones": "Atendido junto al bache de la misma ubicación",
+      "fotoDespues": "https://raw.githubusercontent.com/fborjaf07/bacheobamba/main/fotos/R1783796004081xiyw_desp.jpg",
+      "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-07-22T16:16:26.676Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R17836977026993s3m",
@@ -1239,7 +1193,7 @@
       "fotoAntes": "https://raw.githubusercontent.com/fborjaf07/bacheobamba/main/fotos/R17836357106982yso_antes.jpg",
       "fotoDespues": null,
       "observaciones": "",
-      "tecnico": "F. B.",
+      "tecnico": "D. B.",
       "origen": "tecnico",
       "tecnico_creador": ""
     },
@@ -11726,8 +11680,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-06-22T22:12:43.725Z"
+      "fechaAten": "2026-06-22T22:12:43.725Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782166347182rmyn",
@@ -11832,8 +11786,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-06-03T17:42:45.011Z"
+      "fechaAten": "2026-06-03T17:42:45.011Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R178216668164906uh",
@@ -12583,8 +12537,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-06-23T22:03:43.166Z"
+      "fechaAten": "2026-06-23T22:03:43.166Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782167364092oe82",
@@ -12644,8 +12598,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "F. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-05-26T13:48:23.855Z"
+      "fechaAten": "2026-05-26T13:48:23.855Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782167748539xk3j",
@@ -13365,8 +13319,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-07-09T17:05:33.611Z"
+      "fechaAten": "2026-07-09T17:05:33.611Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782168429531j3j0",
@@ -13786,8 +13740,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "F.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-08-11T12:50:40.923Z"
+      "fechaAten": "2026-08-11T12:50:40.923Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782168892751kl5g",
@@ -13862,8 +13816,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "F.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-08-11T12:52:23.948Z"
+      "fechaAten": "2026-08-11T12:52:23.948Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782168936681hl0i",
@@ -14208,8 +14162,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-06-22T23:03:59.247Z"
+      "fechaAten": "2026-06-22T23:03:59.247Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782169421312i5yb",
@@ -14404,8 +14358,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-07-03T21:22:08.924Z"
+      "fechaAten": "2026-07-03T21:22:08.924Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782169456419m11z",
@@ -14570,8 +14524,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-06-22T23:06:49.370Z"
+      "fechaAten": "2026-06-22T23:06:49.370Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782169576729ary8",
@@ -14586,8 +14540,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-07-03T21:20:21.843Z"
+      "fechaAten": "2026-07-03T21:20:21.843Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R17821696093517xql",
@@ -15037,8 +14991,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-07-03T21:24:06.576Z"
+      "fechaAten": "2026-07-03T21:24:06.576Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782169847137u35h",
@@ -15143,8 +15097,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-06-22T23:15:21.211Z"
+      "fechaAten": "2026-06-22T23:15:21.211Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782170077347ur1s",
@@ -15174,8 +15128,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-07-08T17:29:11.019Z"
+      "fechaAten": "2026-07-08T17:29:11.019Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R17821700813258p70",
@@ -15190,8 +15144,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-07-08T17:29:11.019Z"
+      "fechaAten": "2026-07-08T17:29:11.019Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782170105171m55q",
@@ -15251,8 +15205,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-07-08T17:31:33.342Z"
+      "fechaAten": "2026-07-08T17:31:33.342Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782170046998hyuu",
@@ -15402,8 +15356,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-07-22T17:04:56.062Z"
+      "fechaAten": "2026-07-22T17:04:56.062Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R17821701842657v0a",
@@ -15493,8 +15447,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-06-22T23:23:00.190Z"
+      "fechaAten": "2026-06-22T23:23:00.190Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782170580190hg2x",
@@ -15809,8 +15763,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-06-22T23:35:28.092Z"
+      "fechaAten": "2026-06-22T23:35:28.092Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782171268296t22z",
@@ -15945,8 +15899,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-07-22T16:41:18.410Z"
+      "fechaAten": "2026-07-22T16:41:18.410Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R17821715847459nbk",
@@ -15976,8 +15930,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-07-22T16:45:51.759Z"
+      "fechaAten": "2026-07-22T16:45:51.759Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782171630266m4sw",
@@ -15992,8 +15946,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-07-22T16:42:21.682Z"
+      "fechaAten": "2026-07-22T16:42:21.682Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R178217165778728jl",
@@ -16008,8 +15962,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-07-22T16:45:51.759Z"
+      "fechaAten": "2026-07-22T16:45:51.759Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R17821716260505gq0",
@@ -16414,8 +16368,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-07-16T12:26:58.600Z"
+      "fechaAten": "2026-07-16T12:26:58.600Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782172959115cf2y",
@@ -16430,8 +16384,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-07-22T16:16:26.676Z"
+      "fechaAten": "2026-07-22T16:16:26.676Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782172982607he4p",
@@ -16461,8 +16415,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-07-22T16:17:44.471Z"
+      "fechaAten": "2026-07-22T16:17:44.471Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782172934638qe5n",
@@ -16522,8 +16476,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-07-16T12:36:13.243Z"
+      "fechaAten": "2026-07-16T12:36:13.243Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782173141562zjf5",
@@ -16538,8 +16492,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-07-22T16:24:40.176Z"
+      "fechaAten": "2026-07-22T16:24:40.176Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782173149168kxz5",
@@ -16584,8 +16538,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-06-23T00:06:43.012Z"
+      "fechaAten": "2026-06-23T00:06:43.012Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782173203012ohh6",
@@ -16795,8 +16749,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-06-23T14:45:47.981Z"
+      "fechaAten": "2026-06-23T14:45:47.981Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782173779644v959",
@@ -16946,8 +16900,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-07-16T20:29:53.478Z"
+      "fechaAten": "2026-07-16T20:29:53.478Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R178217467549807kq",
@@ -17097,8 +17051,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-06-23T00:39:10.762Z"
+      "fechaAten": "2026-06-23T00:39:10.762Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782175150744wdwg",
@@ -17203,8 +17157,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-06-23T00:41:45.055Z"
+      "fechaAten": "2026-06-23T00:41:45.055Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782175305055k9c3",
@@ -19889,8 +19843,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-06-23T14:16:37.548Z"
+      "fechaAten": "2026-06-23T14:16:37.548Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782224115273yv5p",
@@ -20520,8 +20474,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-07-23T12:25:55.805Z"
+      "fechaAten": "2026-07-23T12:25:55.805Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782224635099p5ld",
@@ -21481,8 +21435,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-06-23T14:33:06.344Z"
+      "fechaAten": "2026-06-23T14:33:06.344Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782225164229vmgo",
@@ -21527,8 +21481,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-07-23T12:15:06.579Z"
+      "fechaAten": "2026-07-23T12:15:06.579Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R178222462368462nz",
@@ -21633,8 +21587,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-06-23T16:56:42.947Z"
+      "fechaAten": "2026-06-23T16:56:42.947Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R17822251862346ttb",
@@ -21754,8 +21708,8 @@
       "observaciones": "Plataforma intervenida en su totalidad",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-09-12T00:28:10.359Z"
+      "fechaAten": "2026-09-12T00:28:10.359Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R17822253191552a6q",
@@ -21890,8 +21844,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-06-23T14:44:05.031Z"
+      "fechaAten": "2026-06-23T14:44:05.031Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R17822245965827zet",
@@ -22536,8 +22490,8 @@
       "observaciones": "",
       "tecnico": "F. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-09-10T19:49:53.585Z"
+      "fechaAten": "2026-09-10T19:49:53.585Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782226025685enot",
@@ -22567,8 +22521,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-06-23T14:45:47.981Z"
+      "fechaAten": "2026-06-23T14:45:47.981Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782225917132j4op",
@@ -22598,8 +22552,8 @@
       "observaciones": "Plataforma intervenida en su totalidad",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-09-12T00:28:10.359Z"
+      "fechaAten": "2026-09-12T00:28:10.359Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782225738505jcl2",
@@ -22899,8 +22853,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "F. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-09-10T19:49:29.631Z"
+      "fechaAten": "2026-09-10T19:49:29.631Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782226077076vrkb",
@@ -22990,8 +22944,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "F. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-09-10T14:53:35.777Z"
+      "fechaAten": "2026-09-10T14:53:35.777Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782226209607ts2h",
@@ -23846,8 +23800,8 @@
       "observaciones": "Plataforma intervenida en su totalidad",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-09-12T00:34:04.614Z"
+      "fechaAten": "2026-09-12T00:34:04.614Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782226938581y6r6",
@@ -23907,8 +23861,8 @@
       "observaciones": "Plataforma intervenida en su totalidad",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-09-12T00:34:04.615Z"
+      "fechaAten": "2026-09-12T00:34:04.615Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R17822270625132wip",
@@ -24073,8 +24027,8 @@
       "observaciones": "Plataforma intervenida en su totalidad",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-09-12T00:34:04.615Z"
+      "fechaAten": "2026-09-12T00:34:04.615Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782227444530e0l7",
@@ -24194,8 +24148,8 @@
       "observaciones": "Plataforma intervenida en su totalidad",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-09-12T00:34:04.615Z"
+      "fechaAten": "2026-09-12T00:34:04.615Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782227658552niqt",
@@ -24405,8 +24359,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "F. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-05-26T15:07:16.366Z"
+      "fechaAten": "2026-05-26T15:07:16.366Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R17822278318340rng",
@@ -24451,8 +24405,8 @@
       "observaciones": "Plataforma intervenida en su totalidad",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-09-12T00:34:04.615Z"
+      "fechaAten": "2026-09-12T00:34:04.615Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R17822280234541hy6",
@@ -24707,8 +24661,8 @@
       "observaciones": "Plataforma intervenida en su totalidad",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-09-12T00:28:10.360Z"
+      "fechaAten": "2026-09-12T00:28:10.360Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782228312031dmqj",
@@ -25098,8 +25052,8 @@
       "observaciones": "Plataforma intervenida en su totalidad",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-09-12T00:34:04.615Z"
+      "fechaAten": "2026-09-12T00:34:04.615Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782228096598hlng",
@@ -25114,8 +25068,8 @@
       "observaciones": "Plataforma intervenida en su totalidad",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-09-12T00:34:04.615Z"
+      "fechaAten": "2026-09-12T00:34:04.615Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782228840121icou",
@@ -25250,8 +25204,8 @@
       "observaciones": "Plataforma intervenida en su totalidad",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-09-12T00:34:04.615Z"
+      "fechaAten": "2026-09-12T00:34:04.615Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R17822290197247tvq",
@@ -25266,8 +25220,8 @@
       "observaciones": "Plataforma intervenida en su totalidad",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-09-12T00:34:04.615Z"
+      "fechaAten": "2026-09-12T00:34:04.615Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R178222908756997ss",
@@ -25372,8 +25326,8 @@
       "observaciones": "Plataforma intervenida en su totalidad",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-09-12T00:34:04.615Z"
+      "fechaAten": "2026-09-12T00:34:04.615Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782228704819609l",
@@ -25388,8 +25342,8 @@
       "observaciones": "Plataforma intervenida en su totalidad",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-09-12T00:34:04.615Z"
+      "fechaAten": "2026-09-12T00:34:04.615Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782228655645b3qb",
@@ -25404,8 +25358,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "F. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-05-26T15:11:44.314Z"
+      "fechaAten": "2026-05-26T15:11:44.314Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R17822285587693dgp",
@@ -25420,8 +25374,8 @@
       "observaciones": "Plataforma intervenida en su totalidad",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-09-12T00:34:04.615Z"
+      "fechaAten": "2026-09-12T00:34:04.615Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782228508733b4q7",
@@ -25436,8 +25390,8 @@
       "observaciones": "Plataforma intervenida en su totalidad",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-09-12T00:34:04.615Z"
+      "fechaAten": "2026-09-12T00:34:04.615Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R17822290386326781",
@@ -25542,8 +25496,8 @@
       "observaciones": "Plataforma intervenida en su totalidad",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-09-12T00:34:04.615Z"
+      "fechaAten": "2026-09-12T00:34:04.615Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782229281674emmc",
@@ -25558,8 +25512,8 @@
       "observaciones": "Plataforma intervenida en su totalidad",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-09-12T00:34:04.616Z"
+      "fechaAten": "2026-09-12T00:34:04.616Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782229337234h7pr",
@@ -25604,8 +25558,8 @@
       "observaciones": "Plataforma intervenida en su totalidad",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-09-12T00:34:04.616Z"
+      "fechaAten": "2026-09-12T00:34:04.616Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R17822293966545p7n",
@@ -25620,8 +25574,8 @@
       "observaciones": "Plataforma intervenida en su totalidad",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-09-12T00:34:04.616Z"
+      "fechaAten": "2026-09-12T00:34:04.616Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R17822293997352tz5",
@@ -25801,8 +25755,8 @@
       "observaciones": "Plataforma intervenida en su totalidad",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-09-12T00:34:04.616Z"
+      "fechaAten": "2026-09-12T00:34:04.616Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782229550385i5kq",
@@ -25832,8 +25786,8 @@
       "observaciones": "Plataforma intervenida en su totalidad",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-09-12T00:34:04.616Z"
+      "fechaAten": "2026-09-12T00:34:04.616Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R17822296253033nhy",
@@ -25848,8 +25802,8 @@
       "observaciones": "Plataforma intervenida en su totalidad",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-09-12T00:34:04.616Z"
+      "fechaAten": "2026-09-12T00:34:04.616Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782229673799nohd",
@@ -25894,8 +25848,8 @@
       "observaciones": "Plataforma intervenida en su totalidad",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-09-12T00:34:04.616Z"
+      "fechaAten": "2026-09-12T00:34:04.616Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782228058230haml",
@@ -25910,8 +25864,8 @@
       "observaciones": "Plataforma intervenida en su totalidad",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-09-12T00:34:04.616Z"
+      "fechaAten": "2026-09-12T00:34:04.616Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R17822279770214otr",
@@ -25926,8 +25880,8 @@
       "observaciones": "Plataforma intervenida en su totalidad",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-09-12T00:34:04.616Z"
+      "fechaAten": "2026-09-12T00:34:04.616Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R178222787637517kn",
@@ -25942,8 +25896,8 @@
       "observaciones": "Plataforma intervenida en su totalidad",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-09-12T00:34:04.616Z"
+      "fechaAten": "2026-09-12T00:34:04.616Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782227468645hizc",
@@ -25958,8 +25912,8 @@
       "observaciones": "Plataforma intervenida en su totalidad",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-09-12T00:34:04.616Z"
+      "fechaAten": "2026-09-12T00:34:04.616Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782229691140rug9",
@@ -26214,8 +26168,8 @@
       "observaciones": "Plataforma intervenida en su totalidad",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-09-12T00:34:04.616Z"
+      "fechaAten": "2026-09-12T00:34:04.616Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R17822302345586eau",
@@ -26365,8 +26319,8 @@
       "observaciones": "Plataforma intervenida en su totalidad",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-09-12T00:34:04.616Z"
+      "fechaAten": "2026-09-12T00:34:04.616Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782230637234c81p",
@@ -26381,8 +26335,8 @@
       "observaciones": "Plataforma intervenida en su totalidad",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-09-12T00:34:04.616Z"
+      "fechaAten": "2026-09-12T00:34:04.616Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782229739487muq0",
@@ -26397,8 +26351,8 @@
       "observaciones": "Plataforma intervenida en su totalidad",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-09-12T00:34:04.616Z"
+      "fechaAten": "2026-09-12T00:34:04.616Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782230729310ig8u",
@@ -26788,8 +26742,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-06-23T16:56:42.947Z"
+      "fechaAten": "2026-06-23T16:56:42.947Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782232952153r3de",
@@ -27074,8 +27028,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-08-04T16:33:37.279Z"
+      "fechaAten": "2026-08-04T16:33:37.279Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R17822336534084p0v",
@@ -27870,8 +27824,8 @@
       "observaciones": "Plataforma intervenida en su totalidad",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-09-12T00:34:04.617Z"
+      "fechaAten": "2026-09-12T00:34:04.617Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R17822363926894eaj",
@@ -27976,8 +27930,8 @@
       "observaciones": "",
       "tecnico": "F. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-09-10T19:49:29.631Z"
+      "fechaAten": "2026-09-10T19:49:29.631Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782237326584w4iz",
@@ -28442,8 +28396,8 @@
       "observaciones": "Plataforma intervenida en su totalidad",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-09-12T00:28:10.363Z"
+      "fechaAten": "2026-09-12T00:28:10.363Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782243688261u98h",
@@ -28458,8 +28412,8 @@
       "observaciones": "Plataforma intervenida en su totalidad",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-09-12T00:28:10.363Z"
+      "fechaAten": "2026-09-12T00:28:10.363Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R17822438482894rba",
@@ -28519,8 +28473,8 @@
       "observaciones": "Plataforma intervenida en su totalidad",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-09-12T00:28:10.363Z"
+      "fechaAten": "2026-09-12T00:28:10.363Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782243983885i62d",
@@ -28535,8 +28489,8 @@
       "observaciones": "Plataforma intervenida en su totalidad",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-09-12T00:28:10.363Z"
+      "fechaAten": "2026-09-12T00:28:10.363Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R17822440868321rkw",
@@ -28566,8 +28520,8 @@
       "observaciones": "Plataforma intervenida en su totalidad",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-09-12T00:28:10.363Z"
+      "fechaAten": "2026-09-12T00:28:10.363Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782244251372wqax",
@@ -28582,8 +28536,8 @@
       "observaciones": "Plataforma intervenida en su totalidad",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-09-12T00:28:10.363Z"
+      "fechaAten": "2026-09-12T00:28:10.363Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782244090918j8yh",
@@ -28763,8 +28717,8 @@
       "observaciones": "Plataforma intervenida en su totalidad",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-09-12T00:28:10.363Z"
+      "fechaAten": "2026-09-12T00:28:10.363Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782244344174rdva",
@@ -28779,8 +28733,8 @@
       "observaciones": "Plataforma intervenida en su totalidad",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-09-12T00:28:10.363Z"
+      "fechaAten": "2026-09-12T00:28:10.363Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R17822453763535s5q",
@@ -28795,8 +28749,8 @@
       "observaciones": "Plataforma intervenida en su totalidad",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-09-12T00:28:10.363Z"
+      "fechaAten": "2026-09-12T00:28:10.363Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782245570268r9ta",
@@ -29006,8 +28960,8 @@
       "observaciones": "Plataforma intervenida en su totalidad",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-09-12T00:28:10.363Z"
+      "fechaAten": "2026-09-12T00:28:10.363Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R17822461851505jcs",
@@ -30837,8 +30791,8 @@
       "observaciones": "Plataforma intervenida en su totalidad",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-09-12T00:34:04.619Z"
+      "fechaAten": "2026-09-12T00:34:04.619Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1784809716275wbhn",
@@ -31453,8 +31407,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-07-22T17:07:04.520Z"
+      "fechaAten": "2026-07-22T17:07:04.520Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1784740047025loqs",
@@ -31574,8 +31528,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-07-22T17:07:17.167Z"
+      "fechaAten": "2026-07-22T17:07:17.167Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1784739928739o774",
@@ -31710,8 +31664,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-07-22T17:02:35.627Z"
+      "fechaAten": "2026-07-22T17:02:35.627Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1784739728683b49z",
@@ -31771,8 +31725,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-07-22T17:02:35.627Z"
+      "fechaAten": "2026-07-22T17:02:35.627Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R178473965784367lv",
@@ -32057,8 +32011,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-07-22T16:54:17.052Z"
+      "fechaAten": "2026-07-22T16:54:17.052Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1784739256993mvkn",
@@ -32103,8 +32057,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-07-22T16:53:26.508Z"
+      "fechaAten": "2026-07-22T16:53:26.508Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1784739206471mvw4",
@@ -32359,8 +32313,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-07-22T16:45:51.759Z"
+      "fechaAten": "2026-07-22T16:45:51.759Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R17847388209514yin",
@@ -32375,8 +32329,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-07-22T16:45:51.759Z"
+      "fechaAten": "2026-07-22T16:45:51.759Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1784738807633jllq",
@@ -32391,8 +32345,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-07-22T16:45:51.759Z"
+      "fechaAten": "2026-07-22T16:45:51.759Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1784738790121zzz1",
@@ -32407,8 +32361,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-07-22T16:45:51.759Z"
+      "fechaAten": "2026-07-22T16:45:51.759Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1784738770924iuji",
@@ -32423,8 +32377,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-07-22T16:45:51.759Z"
+      "fechaAten": "2026-07-22T16:45:51.759Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1784738751704rflq",
@@ -32499,8 +32453,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-07-22T16:45:51.759Z"
+      "fechaAten": "2026-07-22T16:45:51.759Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1784738646132tsyy",
@@ -32530,8 +32484,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-07-22T16:42:21.682Z"
+      "fechaAten": "2026-07-22T16:42:21.682Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1784738556780w00n",
@@ -32591,8 +32545,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-07-16T20:30:11.457Z"
+      "fechaAten": "2026-07-16T20:30:11.457Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1784738478357geqy",
@@ -32622,8 +32576,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "F. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-07-22T16:40:38.136Z"
+      "fechaAten": "2026-07-22T16:40:38.136Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1784738437910diry",
@@ -32668,8 +32622,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-07-22T16:40:21.095Z"
+      "fechaAten": "2026-07-22T16:40:21.095Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R17847383699875ugp",
@@ -32699,8 +32653,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "F. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-07-22T16:39:04.571Z"
+      "fechaAten": "2026-07-22T16:39:04.571Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1784738344525shtl",
@@ -32745,8 +32699,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-07-16T20:25:25.391Z"
+      "fechaAten": "2026-07-16T20:25:25.391Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1784738289608p5z1",
@@ -32821,8 +32775,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-07-16T15:28:04.044Z"
+      "fechaAten": "2026-07-16T15:28:04.044Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R17847381944932brg",
@@ -32837,8 +32791,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-07-22T16:38:09.658Z"
+      "fechaAten": "2026-07-22T16:38:09.658Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R178473817055889pu",
@@ -32853,8 +32807,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "F. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-07-16T15:27:12.050Z"
+      "fechaAten": "2026-07-16T15:27:12.050Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1784738150986x079",
@@ -32869,8 +32823,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-07-16T15:28:04.044Z"
+      "fechaAten": "2026-07-16T15:28:04.044Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1784738136290le54",
@@ -32885,8 +32839,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-07-22T16:33:58.166Z"
+      "fechaAten": "2026-07-22T16:33:58.166Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1784738117840z3tt",
@@ -32901,8 +32855,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-07-16T15:25:54.107Z"
+      "fechaAten": "2026-07-16T15:25:54.107Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1784738103732izf0",
@@ -32917,8 +32871,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-07-22T16:33:58.166Z"
+      "fechaAten": "2026-07-22T16:33:58.166Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1784738082264yjrf",
@@ -32933,8 +32887,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-07-16T15:25:54.107Z"
+      "fechaAten": "2026-07-16T15:25:54.107Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1784738064539mmtc",
@@ -32949,8 +32903,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-07-16T15:25:54.107Z"
+      "fechaAten": "2026-07-16T15:25:54.107Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R17847380368077zr2",
@@ -32980,8 +32934,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "F. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-07-16T15:25:38.285Z"
+      "fechaAten": "2026-07-16T15:25:38.285Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R17847379992169pmb",
@@ -32996,8 +32950,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "F. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-07-16T15:24:27.926Z"
+      "fechaAten": "2026-07-16T15:24:27.926Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R17847379852752d10",
@@ -33012,8 +32966,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "F. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-07-16T15:24:27.926Z"
+      "fechaAten": "2026-07-16T15:24:27.926Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1784737968588s2uz",
@@ -33043,8 +32997,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-07-22T16:32:48.670Z"
+      "fechaAten": "2026-07-22T16:32:48.670Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1784737946500376w",
@@ -33119,8 +33073,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-07-22T16:28:26.602Z"
+      "fechaAten": "2026-07-22T16:28:26.602Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1784737855535kijy",
@@ -33255,8 +33209,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "F. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-07-16T15:21:01.980Z"
+      "fechaAten": "2026-07-16T15:21:01.980Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R17847376531343zic",
@@ -33271,8 +33225,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-07-22T16:28:26.602Z"
+      "fechaAten": "2026-07-22T16:28:26.602Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1784737636982hxrt",
@@ -33317,8 +33271,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-07-22T16:23:04.820Z"
+      "fechaAten": "2026-07-22T16:23:04.820Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R17847375698088bxs",
@@ -33378,8 +33332,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-07-22T16:23:04.820Z"
+      "fechaAten": "2026-07-22T16:23:04.820Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R17847374996104okm",
@@ -33394,8 +33348,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "F. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-07-22T16:20:31.348Z"
+      "fechaAten": "2026-07-22T16:20:31.348Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1784737480017rrlh",
@@ -33425,8 +33379,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "F. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-07-16T15:19:32.186Z"
+      "fechaAten": "2026-07-16T15:19:32.186Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R17847374432718ii9",
@@ -33456,8 +33410,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "F. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-07-16T12:39:25.244Z"
+      "fechaAten": "2026-07-16T12:39:25.244Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1784737408092cmgg",
@@ -33472,8 +33426,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-07-22T16:23:04.820Z"
+      "fechaAten": "2026-07-22T16:23:04.820Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1784737384774k22n",
@@ -33503,8 +33457,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-07-22T16:25:35.392Z"
+      "fechaAten": "2026-07-22T16:25:35.392Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1784737335941wzi3",
@@ -33549,8 +33503,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "F. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-07-16T12:37:17.808Z"
+      "fechaAten": "2026-07-16T12:37:17.808Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1784737264223yalm",
@@ -33640,8 +33594,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-07-22T16:15:20.850Z"
+      "fechaAten": "2026-07-22T16:15:20.850Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1784737131679b1sg",
@@ -33656,8 +33610,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-07-22T16:15:20.850Z"
+      "fechaAten": "2026-07-22T16:15:20.850Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1784737100885odd0",
@@ -33852,8 +33806,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-07-22T16:14:53.338Z"
+      "fechaAten": "2026-07-22T16:14:53.338Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1784736856778c1oy",
@@ -33958,8 +33912,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-07-16T20:30:11.457Z"
+      "fechaAten": "2026-07-16T20:30:11.457Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R17842338113932o5g",
@@ -34019,8 +33973,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-07-22T16:40:21.095Z"
+      "fechaAten": "2026-07-22T16:40:21.095Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1784233740312o2d8",
@@ -34125,8 +34079,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-07-16T20:25:25.391Z"
+      "fechaAten": "2026-07-16T20:25:25.391Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R17842335613793wjr",
@@ -34141,8 +34095,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-07-16T20:25:25.391Z"
+      "fechaAten": "2026-07-16T20:25:25.391Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R17842335253420c8f",
@@ -34217,8 +34171,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-07-22T16:38:09.658Z"
+      "fechaAten": "2026-07-22T16:38:09.658Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1784215751285tiag",
@@ -34233,8 +34187,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "F. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-07-16T15:27:12.050Z"
+      "fechaAten": "2026-07-16T15:27:12.050Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1784215714590xzvy",
@@ -34264,8 +34218,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-07-16T15:28:04.044Z"
+      "fechaAten": "2026-07-16T15:28:04.044Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1784215683983s0x8",
@@ -34295,8 +34249,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "F. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-07-16T15:27:12.050Z"
+      "fechaAten": "2026-07-16T15:27:12.050Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R17842156319933b1p",
@@ -34326,8 +34280,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "F. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-07-16T15:26:32.125Z"
+      "fechaAten": "2026-07-16T15:26:32.125Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R178421559208371xa",
@@ -34402,8 +34356,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-07-22T16:32:09.711Z"
+      "fechaAten": "2026-07-22T16:32:09.711Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1784215489764ug5o",
@@ -34583,8 +34537,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "F. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-07-16T15:21:01.980Z"
+      "fechaAten": "2026-07-16T15:21:01.980Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1784215261932djy9",
@@ -34689,8 +34643,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-07-22T16:23:04.820Z"
+      "fechaAten": "2026-07-22T16:23:04.820Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1784215133181qtii",
@@ -34780,8 +34734,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "F. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-07-16T12:39:25.244Z"
+      "fechaAten": "2026-07-16T12:39:25.244Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1784205565195yfmf",
@@ -35036,8 +34990,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-07-16T12:32:32.490Z"
+      "fechaAten": "2026-07-16T12:32:32.490Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1784205152409mpyk",
@@ -35277,8 +35231,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-07-16T12:18:14.380Z"
+      "fechaAten": "2026-07-16T12:18:14.380Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1784204294320if3b",
@@ -35308,8 +35262,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-07-16T12:17:05.666Z"
+      "fechaAten": "2026-07-16T12:17:05.666Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R17842042256165id3",
@@ -35339,8 +35293,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-07-16T12:16:17.360Z"
+      "fechaAten": "2026-07-16T12:16:17.360Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1784204197845jnpp",
@@ -35385,8 +35339,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-07-16T12:15:44.913Z"
+      "fechaAten": "2026-07-16T12:15:44.913Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1784204144849faye",
@@ -35446,8 +35400,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-07-16T12:14:26.109Z"
+      "fechaAten": "2026-07-16T12:14:26.109Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1784204066054mepg",
@@ -35522,8 +35476,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-07-09T17:09:21.267Z"
+      "fechaAten": "2026-07-09T17:09:21.267Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1783616976609lkx5",
@@ -35568,8 +35522,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-07-09T17:06:51.219Z"
+      "fechaAten": "2026-07-09T17:06:51.219Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1783616849297t59i",
@@ -35584,8 +35538,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-07-09T17:06:51.219Z"
+      "fechaAten": "2026-07-09T17:06:51.219Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R178361683078881ba",
@@ -35645,8 +35599,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-07-09T17:05:33.611Z"
+      "fechaAten": "2026-07-09T17:05:33.611Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1783616733556cqqg",
@@ -35856,8 +35810,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-07-09T12:28:02.419Z"
+      "fechaAten": "2026-07-09T12:28:02.419Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1783600133813ao60",
@@ -35887,8 +35841,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-07-09T12:28:02.419Z"
+      "fechaAten": "2026-07-09T12:28:02.419Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R178360009951344os",
@@ -35903,8 +35857,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-07-09T12:28:02.419Z"
+      "fechaAten": "2026-07-09T12:28:02.419Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1783600082368vvd6",
@@ -35934,8 +35888,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-06-24T15:44:30.562Z"
+      "fechaAten": "2026-06-24T15:44:30.562Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1783599993092vf22",
@@ -35950,8 +35904,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-06-24T15:44:30.562Z"
+      "fechaAten": "2026-06-24T15:44:30.562Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1783599949112boon",
@@ -35996,8 +35950,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-07-08T17:31:18.149Z"
+      "fechaAten": "2026-07-08T17:31:18.149Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R17835319218578b7o",
@@ -36012,8 +35966,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-07-08T17:31:00.990Z"
+      "fechaAten": "2026-07-08T17:31:00.990Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1783531904269o1mc",
@@ -36028,8 +35982,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-07-08T17:31:00.990Z"
+      "fechaAten": "2026-07-08T17:31:00.990Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1783531893244ey7z",
@@ -36104,8 +36058,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-07-08T17:29:11.019Z"
+      "fechaAten": "2026-07-08T17:29:11.019Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1783531794635yukz",
@@ -36120,8 +36074,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-07-08T17:29:11.019Z"
+      "fechaAten": "2026-07-08T17:29:11.019Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1783531778956lkb6",
@@ -36136,8 +36090,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-07-08T17:29:11.019Z"
+      "fechaAten": "2026-07-08T17:29:11.019Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1783531750939bt9d",
@@ -36167,8 +36121,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-07-03T21:31:38.500Z"
+      "fechaAten": "2026-07-03T21:31:38.500Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R178353170447096tc",
@@ -36183,8 +36137,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-07-03T21:31:21.195Z"
+      "fechaAten": "2026-07-03T21:31:21.195Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1783531674256nmr6",
@@ -36199,8 +36153,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-07-08T17:27:28.968Z"
+      "fechaAten": "2026-07-08T17:27:28.968Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R178353165998778xh",
@@ -36215,8 +36169,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-07-08T17:27:28.968Z"
+      "fechaAten": "2026-07-08T17:27:28.968Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1783531648897nte1",
@@ -36291,8 +36245,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-07-08T17:25:07.419Z"
+      "fechaAten": "2026-07-08T17:25:07.419Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1783531549004088x",
@@ -36307,8 +36261,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-07-08T17:25:07.419Z"
+      "fechaAten": "2026-07-08T17:25:07.419Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1783531532753dd65",
@@ -36488,8 +36442,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-07-03T21:29:45.993Z"
+      "fechaAten": "2026-07-03T21:29:45.993Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1783114153989zns4",
@@ -36654,8 +36608,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-07-03T21:24:06.576Z"
+      "fechaAten": "2026-07-03T21:24:06.576Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R17831138465366f3a",
@@ -37900,8 +37854,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-06-24T15:46:36.841Z"
+      "fechaAten": "2026-06-24T15:46:36.841Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R17823161297776qpv",
@@ -37916,8 +37870,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-06-24T15:48:21.275Z"
+      "fechaAten": "2026-06-24T15:48:21.275Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782316101230xodo",
@@ -38037,8 +37991,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-06-24T15:45:19.573Z"
+      "fechaAten": "2026-06-24T15:45:19.573Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782315919528b2gh",
@@ -38113,8 +38067,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-06-24T15:42:33.364Z"
+      "fechaAten": "2026-06-24T15:42:33.364Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R17823158031269s4q",
@@ -38129,8 +38083,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-06-24T15:42:33.364Z"
+      "fechaAten": "2026-06-24T15:42:33.364Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782315771247d1fa",
@@ -38145,8 +38099,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-06-24T15:42:33.364Z"
+      "fechaAten": "2026-06-24T15:42:33.364Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782315753321qrzi",
@@ -38206,8 +38160,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-06-24T15:39:53.007Z"
+      "fechaAten": "2026-06-24T15:39:53.007Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782315654566dj5f",
@@ -38222,8 +38176,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-06-24T15:39:53.007Z"
+      "fechaAten": "2026-06-24T15:39:53.007Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782315629126ymrp",
@@ -38268,8 +38222,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-06-24T15:37:54.941Z"
+      "fechaAten": "2026-06-24T15:37:54.941Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782315474894vbew",
@@ -38329,8 +38283,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-06-24T15:34:34.422Z"
+      "fechaAten": "2026-06-24T15:34:34.422Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782315347382tya3",
@@ -38345,8 +38299,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-06-24T15:34:34.422Z"
+      "fechaAten": "2026-06-24T15:34:34.422Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782315322914iz2m",
@@ -38361,8 +38315,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-06-24T15:34:34.422Z"
+      "fechaAten": "2026-06-24T15:34:34.422Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R17823152944758d8q",
@@ -38377,8 +38331,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-06-24T15:34:34.422Z"
+      "fechaAten": "2026-06-24T15:34:34.422Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R17823152743824ths",
@@ -38558,8 +38512,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-06-24T15:11:57.936Z"
+      "fechaAten": "2026-06-24T15:11:57.936Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782314074168z9f2",
@@ -38574,8 +38528,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-06-24T15:11:57.936Z"
+      "fechaAten": "2026-06-24T15:11:57.936Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782314019808a4ys",
@@ -38590,8 +38544,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-06-24T15:11:57.936Z"
+      "fechaAten": "2026-06-24T15:11:57.936Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782313997115f46b",
@@ -38606,8 +38560,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-06-24T15:11:57.936Z"
+      "fechaAten": "2026-06-24T15:11:57.936Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782313917895nyra",
@@ -38697,8 +38651,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-07-25T21:49:43.566Z"
+      "fechaAten": "2026-07-25T21:49:43.566Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1785016183446yhbn",
@@ -38769,66 +38723,6 @@
       "estado": "pendiente",
       "fecha": "2026-08-03T20:25:06.727Z",
       "fotoAntes": "https://raw.githubusercontent.com/fborjaf07/bacheobamba/main/fotos/R1785788706603gqb8_antes.jpg",
-      "fotoDespues": null,
-      "observaciones": "",
-      "tecnico": "",
-      "origen": "tecnico",
-      "tecnico_creador": ""
-    },
-    {
-      "id": "R1785018930253c3ky",
-      "direccion": "",
-      "tipo": "Grande",
-      "lat": -1.6831,
-      "lng": -78.6365,
-      "estado": "pendiente",
-      "fecha": "2026-07-25T22:35:30.382Z",
-      "fotoAntes": "https://raw.githubusercontent.com/fborjaf07/bacheobamba/main/fotos/R1785018930253c3ky_antes.jpg",
-      "fotoDespues": null,
-      "observaciones": "",
-      "tecnico": "",
-      "origen": "tecnico",
-      "tecnico_creador": ""
-    },
-    {
-      "id": "R17850189093966yp2",
-      "direccion": "",
-      "tipo": "Grande",
-      "lat": -1.6831,
-      "lng": -78.6363,
-      "estado": "pendiente",
-      "fecha": "2026-07-25T22:35:09.514Z",
-      "fotoAntes": "https://raw.githubusercontent.com/fborjaf07/bacheobamba/main/fotos/R17850189093966yp2_antes.jpg",
-      "fotoDespues": null,
-      "observaciones": "",
-      "tecnico": "",
-      "origen": "tecnico",
-      "tecnico_creador": ""
-    },
-    {
-      "id": "R1785018877807424k",
-      "direccion": "",
-      "tipo": "Grande",
-      "lat": -1.6834,
-      "lng": -78.6359,
-      "estado": "pendiente",
-      "fecha": "2026-07-25T22:34:37.924Z",
-      "fotoAntes": "https://raw.githubusercontent.com/fborjaf07/bacheobamba/main/fotos/R1785018877807424k_antes.jpg",
-      "fotoDespues": null,
-      "observaciones": "",
-      "tecnico": "",
-      "origen": "tecnico",
-      "tecnico_creador": ""
-    },
-    {
-      "id": "R17863688092015xtb",
-      "direccion": "",
-      "tipo": "Profundo",
-      "lat": -1.6419,
-      "lng": -78.677,
-      "estado": "pendiente",
-      "fecha": "2026-08-10T13:33:29.403Z",
-      "fotoAntes": "https://raw.githubusercontent.com/fborjaf07/bacheobamba/main/fotos/R17863688092015xtb_antes.jpg",
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "",
@@ -39673,8 +39567,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-08-04T17:36:58.066Z"
+      "fechaAten": "2026-08-04T17:36:58.066Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1785864955774xzs9",
@@ -40364,8 +40258,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-08-04T17:12:21.434Z"
+      "fechaAten": "2026-08-04T17:12:21.434Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1785863541382d3ox",
@@ -40425,8 +40319,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-06-23T14:31:59.527Z"
+      "fechaAten": "2026-06-23T14:31:59.527Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1785863436439ir7m",
@@ -40531,8 +40425,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-08-04T17:07:11.098Z"
+      "fechaAten": "2026-08-04T17:07:11.098Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1785863231041ol0o",
@@ -40592,8 +40486,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-08-04T17:15:39.909Z"
+      "fechaAten": "2026-08-04T17:15:39.909Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R17858621886441yo6",
@@ -40848,8 +40742,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-08-04T16:43:48.870Z"
+      "fechaAten": "2026-08-04T16:43:48.870Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1785861764031tj1n",
@@ -40864,8 +40758,8 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": "2026-08-04T16:43:48.870Z"
+      "fechaAten": "2026-08-04T16:43:48.870Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1785861746102jd63",
@@ -41089,6 +40983,112 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "D. B.",
+      "origen": "tecnico",
+      "tecnico_creador": ""
+    },
+    {
+      "id": "R1789141196026zpbq",
+      "direccion": "",
+      "tipo": "Grande",
+      "lat": -1.66,
+      "lng": -78.6814,
+      "estado": "pendiente",
+      "fecha": "2026-09-11T15:39:56.118Z",
+      "fotoAntes": "https://raw.githubusercontent.com/fborjaf07/bacheobamba/main/fotos/R1789141196026zpbq_antes.jpg",
+      "fotoDespues": null,
+      "observaciones": "",
+      "tecnico": "",
+      "origen": "tecnico",
+      "tecnico_creador": ""
+    },
+    {
+      "id": "R1788797586783kd3v",
+      "direccion": "",
+      "tipo": "Grande",
+      "lat": -1.6601,
+      "lng": -78.6817,
+      "estado": "pendiente",
+      "fecha": "2026-09-07T16:13:06.860Z",
+      "fotoAntes": "https://raw.githubusercontent.com/fborjaf07/bacheobamba/main/fotos/R1788797586783kd3v_antes.jpg",
+      "fotoDespues": null,
+      "observaciones": "",
+      "tecnico": "",
+      "origen": "tecnico",
+      "tecnico_creador": ""
+    },
+    {
+      "id": "R17887121295961ngr",
+      "direccion": "",
+      "tipo": "Grande",
+      "lat": -1.674,
+      "lng": -78.6609,
+      "estado": "atendido",
+      "fecha": "2026-09-06T16:28:49.722Z",
+      "fotoAntes": "https://raw.githubusercontent.com/fborjaf07/bacheobamba/main/fotos/R17887121295961ngr_antes.jpg",
+      "fotoDespues": null,
+      "observaciones": "Atendido junto al bache de la misma ubicación",
+      "tecnico": "F. B.",
+      "origen": "tecnico",
+      "tecnico_creador": "",
+      "fechaAten": "2026-05-28T16:14:53.210Z"
+    },
+    {
+      "id": "R1788040298690ajga",
+      "direccion": "",
+      "tipo": "Profundo",
+      "lat": null,
+      "lng": null,
+      "estado": "pendiente",
+      "fecha": "2026-08-29T21:51:39.031Z",
+      "fotoAntes": "https://raw.githubusercontent.com/fborjaf07/bacheobamba/main/fotos/R1788040298690ajga_antes.jpg",
+      "fotoDespues": null,
+      "observaciones": "",
+      "tecnico": "",
+      "origen": "tecnico",
+      "tecnico_creador": ""
+    },
+    {
+      "id": "R1785018930253c3ky",
+      "direccion": "",
+      "tipo": "Grande",
+      "lat": -1.6831,
+      "lng": -78.6365,
+      "estado": "pendiente",
+      "fecha": "2026-07-25T22:35:30.382Z",
+      "fotoAntes": "https://raw.githubusercontent.com/fborjaf07/bacheobamba/main/fotos/R1785018930253c3ky_antes.jpg",
+      "fotoDespues": null,
+      "observaciones": "",
+      "tecnico": "",
+      "origen": "tecnico",
+      "tecnico_creador": ""
+    },
+    {
+      "id": "R17850189093966yp2",
+      "direccion": "",
+      "tipo": "Grande",
+      "lat": -1.6831,
+      "lng": -78.6363,
+      "estado": "pendiente",
+      "fecha": "2026-07-25T22:35:09.514Z",
+      "fotoAntes": "https://raw.githubusercontent.com/fborjaf07/bacheobamba/main/fotos/R17850189093966yp2_antes.jpg",
+      "fotoDespues": null,
+      "observaciones": "",
+      "tecnico": "",
+      "origen": "tecnico",
+      "tecnico_creador": ""
+    },
+    {
+      "id": "R1785018877807424k",
+      "direccion": "",
+      "tipo": "Grande",
+      "lat": -1.6834,
+      "lng": -78.6359,
+      "estado": "pendiente",
+      "fecha": "2026-07-25T22:34:37.924Z",
+      "fotoAntes": "https://raw.githubusercontent.com/fborjaf07/bacheobamba/main/fotos/R1785018877807424k_antes.jpg",
+      "fotoDespues": null,
+      "observaciones": "",
+      "tecnico": "",
       "origen": "tecnico",
       "tecnico_creador": ""
     },
@@ -46012,6 +46012,5 @@
       "origen": "tecnico",
       "tecnico_creador": ""
     }
-  ],
-  "minAppVersion": 3
+  ]
 }
