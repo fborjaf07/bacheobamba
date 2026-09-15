@@ -1,7 +1,7 @@
 {
   "version": "2.0",
   "minAppVersion": 3,
-  "actualizacion": "2026-09-15T17:11:10.129Z",
+  "actualizacion": "2026-09-15T17:35:31.926Z",
   "baches": [
     {
       "id": "R17863688092015xtb",
@@ -45797,6 +45797,23 @@
       "tecnico": "",
       "origen": "tecnico",
       "tecnico_creador": ""
+    },
+    {
+      "id": "R1782524999627r1ul",
+      "direccion": "",
+      "tipo": "Superficial",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
+      "lat": -1.6915,
+      "lng": -78.6352,
+      "estado": "pendiente",
+      "fecha": "2026-06-27T01:49:59.701Z",
+      "fotoAntes": null,
+      "fotoDespues": null,
+      "observaciones": "",
+      "tecnico": "",
+      "fechaAten": null
     }
   ]
 }
