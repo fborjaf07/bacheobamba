@@ -1,42 +1,8 @@
 {
   "version": "2.0",
   "minAppVersion": 3,
-  "actualizacion": "2026-09-15T03:55:44.818Z",
+  "actualizacion": "2026-09-15T12:04:43.563Z",
   "baches": [
-    {
-      "id": "R1789444534406gs2a",
-      "direccion": "",
-      "tipo": "Grande",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
-      "lat": null,
-      "lng": null,
-      "estado": "pendiente",
-      "fecha": "2026-09-15T03:55:34.517Z",
-      "fotoAntes": "https://raw.githubusercontent.com/fborjaf07/bacheobamba/main/fotos/R1789444534406gs2a_antes.jpg",
-      "fotoDespues": null,
-      "observaciones": "",
-      "tecnico": "",
-      "fechaAten": null
-    },
-    {
-      "id": "R1789444431012wzcc",
-      "direccion": "",
-      "tipo": "Grande",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
-      "lat": null,
-      "lng": null,
-      "estado": "pendiente",
-      "fecha": "2026-09-15T03:53:51.153Z",
-      "fotoAntes": "https://raw.githubusercontent.com/fborjaf07/bacheobamba/main/fotos/R1789444431012wzcc_antes.jpg",
-      "fotoDespues": null,
-      "observaciones": "",
-      "tecnico": "",
-      "fechaAten": null
-    },
     {
       "id": "R17863688092015xtb",
       "direccion": "",
@@ -45801,6 +45767,40 @@
       "tecnico": "D. B.",
       "origen": "tecnico",
       "tecnico_creador": ""
+    },
+    {
+      "id": "R1789444534406gs2a",
+      "direccion": "",
+      "tipo": "Grande",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
+      "lat": null,
+      "lng": null,
+      "estado": "pendiente",
+      "fecha": "2026-09-15T03:55:34.517Z",
+      "fotoAntes": "https://raw.githubusercontent.com/fborjaf07/bacheobamba/main/fotos/R1789444534406gs2a_antes.jpg",
+      "fotoDespues": null,
+      "observaciones": "",
+      "tecnico": "",
+      "fechaAten": null
+    },
+    {
+      "id": "R1789444431012wzcc",
+      "direccion": "",
+      "tipo": "Grande",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
+      "lat": null,
+      "lng": null,
+      "estado": "pendiente",
+      "fecha": "2026-09-15T03:53:51.153Z",
+      "fotoAntes": "https://raw.githubusercontent.com/fborjaf07/bacheobamba/main/fotos/R1789444431012wzcc_antes.jpg",
+      "fotoDespues": null,
+      "observaciones": "",
+      "tecnico": "",
+      "fechaAten": null
     }
   ]
 }
