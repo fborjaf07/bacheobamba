@@ -1,7 +1,7 @@
 {
   "version": "2.0",
   "minAppVersion": 3,
-  "actualizacion": "2026-09-16T13:19:17.912Z",
+  "actualizacion": "2026-09-16T13:21:23.602Z",
   "baches": [
     {
       "id": "R17863688092015xtb",
@@ -45802,6 +45802,9 @@
       "id": "R1789495674566it1m",
       "direccion": "",
       "tipo": "Mediano",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": -1.6803,
       "lng": -78.6333,
       "estado": "pendiente",
@@ -45810,8 +45813,7 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": null
     },
     {
       "id": "R1782524999627r1ul",
@@ -45832,6 +45834,9 @@
       "id": "R1789511474853jsmg",
       "direccion": "",
       "tipo": "Grande",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": -1.6599,
       "lng": -78.6815,
       "estado": "pendiente",
@@ -45840,8 +45845,7 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": null
     }
   ]
 }
