@@ -1,7 +1,7 @@
 {
   "version": "2.0",
   "minAppVersion": 3,
-  "actualizacion": "2026-09-18T13:14:32.260Z",
+  "actualizacion": "2026-09-18T17:14:01.628Z",
   "baches": [
     {
       "id": "R17863688092015xtb",
@@ -47011,7 +47011,6 @@
       "observaciones": "",
       "tecnico": "F. B.",
       "origen": "tecnico",
-      "fechaAten": "2026-09-18T13:14:31.415Z",
       "tecnico_creador": ""
     }
   ]
