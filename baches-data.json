@@ -1,7 +1,7 @@
 {
   "version": "2.0",
   "minAppVersion": 3,
-  "actualizacion": "2026-09-19T03:24:49.088Z",
+  "actualizacion": "2026-09-19T03:25:52.522Z",
   "baches": [
     {
       "id": "R17863688092015xtb",
@@ -28769,13 +28769,14 @@
       "tipo": "Pequeño",
       "lat": -1.6688,
       "lng": -78.6389,
-      "estado": "pendiente",
+      "estado": "atendido",
       "fecha": "2026-06-23T20:12:50.343Z",
       "fotoAntes": "https://raw.githubusercontent.com/fborjaf07/bacheobamba/main/fotos/R1782245570268r9ta_antes.jpg",
       "fotoDespues": null,
       "observaciones": "",
-      "tecnico": "",
+      "tecnico": "D. B.",
       "origen": "tecnico",
+      "fechaAten": "2026-09-19T03:25:23.672Z",
       "tecnico_creador": ""
     },
     {
@@ -28784,13 +28785,14 @@
       "tipo": "Mediano",
       "lat": -1.6691,
       "lng": -78.6393,
-      "estado": "pendiente",
+      "estado": "atendido",
       "fecha": "2026-06-23T20:15:00.535Z",
       "fotoAntes": "https://raw.githubusercontent.com/fborjaf07/bacheobamba/main/fotos/R1782245700414hc6f_antes.jpg",
       "fotoDespues": null,
       "observaciones": "",
-      "tecnico": "",
+      "tecnico": "D. B.",
       "origen": "tecnico",
+      "fechaAten": "2026-09-19T03:25:16.567Z",
       "tecnico_creador": ""
     },
     {
@@ -29242,13 +29244,14 @@
       "tipo": "Pequeño",
       "lat": -1.6685,
       "lng": -78.6403,
-      "estado": "pendiente",
+      "estado": "atendido",
       "fecha": "2026-06-23T20:41:26.530Z",
       "fotoAntes": "https://raw.githubusercontent.com/fborjaf07/bacheobamba/main/fotos/R17822472864607gqk_antes.jpg",
       "fotoDespues": null,
       "observaciones": "",
-      "tecnico": "",
+      "tecnico": "D. B.",
       "origen": "tecnico",
+      "fechaAten": "2026-09-19T03:25:51.126Z",
       "tecnico_creador": ""
     },
     {
@@ -29273,13 +29276,14 @@
       "tipo": "Grande",
       "lat": -1.6687,
       "lng": -78.6395,
-      "estado": "pendiente",
+      "estado": "atendido",
       "fecha": "2026-06-23T20:39:52.831Z",
       "fotoAntes": "https://raw.githubusercontent.com/fborjaf07/bacheobamba/main/fotos/R1782247192777j0u4_antes.jpg",
       "fotoDespues": null,
       "observaciones": "",
-      "tecnico": "",
+      "tecnico": "D. B.",
       "origen": "tecnico",
+      "fechaAten": "2026-09-19T03:25:08.229Z",
       "tecnico_creador": ""
     },
     {
