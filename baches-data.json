@@ -1,7 +1,7 @@
 {
   "version": "2.0",
   "minAppVersion": 3,
-  "actualizacion": "2026-09-24T15:34:05.651Z",
+  "actualizacion": "2026-09-24T15:39:36.807Z",
   "baches": [
     {
       "id": "R17863688092015xtb",
@@ -49432,6 +49432,9 @@
       "id": "R1790255594395639z",
       "direccion": "",
       "tipo": "Mediano",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": null,
       "lng": null,
       "estado": "pendiente",
@@ -49440,8 +49443,7 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": null
     }
   ]
 }
