@@ -1,8 +1,25 @@
 {
   "version": "2.0",
   "minAppVersion": 3,
-  "actualizacion": "2026-09-29T19:26:15.824Z",
+  "actualizacion": "2026-09-29T21:07:38.211Z",
   "baches": [
+    {
+      "id": "R1790716052483ef63",
+      "direccion": "",
+      "tipo": "Grande",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
+      "lat": null,
+      "lng": null,
+      "estado": "pendiente",
+      "fecha": "2026-09-29T21:07:32.525Z",
+      "fotoAntes": "https://raw.githubusercontent.com/fborjaf07/bacheobamba/main/fotos/R1790716052483ef63_antes.jpg",
+      "fotoDespues": null,
+      "observaciones": "",
+      "tecnico": "",
+      "fechaAten": null
+    },
     {
       "id": "R17863688092015xtb",
       "direccion": "",
@@ -13216,7 +13233,6 @@
       "observaciones": "",
       "tecnico": "F. B.",
       "origen": "tecnico",
-      "fechaAten": "2026-09-29T17:18:21.787Z",
       "tecnico_creador": ""
     },
     {
@@ -13232,7 +13248,6 @@
       "observaciones": "",
       "tecnico": "F. B.",
       "origen": "tecnico",
-      "fechaAten": "2026-09-29T17:21:54.884Z",
       "tecnico_creador": ""
     },
     {
@@ -17313,7 +17328,6 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "fechaAten": "2026-09-29T17:33:09.555Z",
       "tecnico_creador": ""
     },
     {
@@ -18529,7 +18543,6 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "fechaAten": "2026-09-29T17:44:51.942Z",
       "tecnico_creador": ""
     },
     {
@@ -19715,7 +19728,6 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "fechaAten": "2026-09-29T17:44:33.723Z",
       "tecnico_creador": ""
     },
     {
@@ -23556,7 +23568,6 @@
       "observaciones": "",
       "tecnico": "F. B.",
       "origen": "tecnico",
-      "fechaAten": "2026-09-29T17:18:42.687Z",
       "tecnico_creador": ""
     },
     {
@@ -23587,7 +23598,6 @@
       "observaciones": "",
       "tecnico": "F. B.",
       "origen": "tecnico",
-      "fechaAten": "2026-09-29T17:18:53.362Z",
       "tecnico_creador": ""
     },
     {
@@ -25358,7 +25368,6 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "fechaAten": "2026-09-29T17:41:42.304Z",
       "tecnico_creador": ""
     },
     {
@@ -25479,7 +25488,6 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "fechaAten": "2026-09-29T17:41:27.340Z",
       "tecnico_creador": ""
     },
     {
@@ -25615,7 +25623,6 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "fechaAten": "2026-09-29T17:41:23.378Z",
       "tecnico_creador": ""
     },
     {
@@ -25631,7 +25638,6 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "fechaAten": "2026-09-29T17:41:17.413Z",
       "tecnico_creador": ""
     },
     {
@@ -28347,7 +28353,6 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "fechaAten": "2026-09-29T17:33:25.652Z",
       "tecnico_creador": ""
     },
     {
@@ -28363,7 +28368,6 @@
       "observaciones": "",
       "tecnico": "F. B.",
       "origen": "tecnico",
-      "fechaAten": "2026-09-29T17:18:56.976Z",
       "tecnico_creador": ""
     },
     {
@@ -28769,7 +28773,6 @@
       "observaciones": "",
       "tecnico": "F. B.",
       "origen": "tecnico",
-      "fechaAten": "2026-09-29T17:20:25.890Z",
       "tecnico_creador": ""
     },
     {
@@ -28800,7 +28803,6 @@
       "observaciones": "",
       "tecnico": "F. B.",
       "origen": "tecnico",
-      "fechaAten": "2026-09-29T17:21:46.035Z",
       "tecnico_creador": ""
     },
     {
@@ -29116,7 +29118,6 @@
       "observaciones": "",
       "tecnico": "F. B.",
       "origen": "tecnico",
-      "fechaAten": "2026-09-29T17:21:24.458Z",
       "tecnico_creador": ""
     },
     {
@@ -40907,7 +40908,6 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "fechaAten": "2026-09-29T17:32:52.037Z",
       "tecnico_creador": ""
     },
     {
@@ -51039,9 +51039,6 @@
       "id": "R1790688071977eupp",
       "direccion": "",
       "tipo": "Grande",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.6452,
       "lng": -78.6789,
       "estado": "atendido",
@@ -51050,15 +51047,13 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "D. B.",
-      "fechaAten": "2026-09-29T17:41:35.866Z"
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R1790688060427yo1q",
       "direccion": "",
       "tipo": "Grande",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.6453,
       "lng": -78.6789,
       "estado": "atendido",
@@ -51067,15 +51062,13 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "D. B.",
-      "fechaAten": "2026-09-29T17:41:32.232Z"
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R1790688042932qojg",
       "direccion": "",
       "tipo": "Mediano",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.6452,
       "lng": -78.679,
       "estado": "atendido",
@@ -51084,15 +51077,13 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "D. B.",
-      "fechaAten": "2026-09-29T17:41:49.482Z"
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R1790688030109b774",
       "direccion": "",
       "tipo": "Pequeño",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.6451,
       "lng": -78.679,
       "estado": "atendido",
@@ -51101,15 +51092,13 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "D. B.",
-      "fechaAten": "2026-09-29T17:41:46.063Z"
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R17906880051585lum",
       "direccion": "",
       "tipo": "Pequeño",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.6453,
       "lng": -78.6794,
       "estado": "atendido",
@@ -51118,15 +51107,13 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "D. B.",
-      "fechaAten": "2026-09-29T17:41:52.729Z"
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R17906877714804rvc",
       "direccion": "",
       "tipo": "Grande",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.6444,
       "lng": -78.6809,
       "estado": "atendido",
@@ -51135,15 +51122,13 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "D. B.",
-      "fechaAten": "2026-09-29T17:44:47.672Z"
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R1790687759767fab3",
       "direccion": "",
       "tipo": "Pequeño",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.6444,
       "lng": -78.6806,
       "estado": "atendido",
@@ -51152,15 +51137,13 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "D. B.",
-      "fechaAten": "2026-09-29T17:44:28.290Z"
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R1790687739335jc15",
       "direccion": "",
       "tipo": "Grande",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.6444,
       "lng": -78.6806,
       "estado": "atendido",
@@ -51169,15 +51152,13 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "D. B.",
-      "fechaAten": "2026-09-29T17:44:24.331Z"
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R1790687727191qm66",
       "direccion": "",
       "tipo": "Mediano",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.6443,
       "lng": -78.6805,
       "estado": "atendido",
@@ -51186,15 +51167,13 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "D. B.",
-      "fechaAten": "2026-09-29T17:44:14.874Z"
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R1790687711323vncq",
       "direccion": "",
       "tipo": "Grande",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.6444,
       "lng": -78.6805,
       "estado": "atendido",
@@ -51203,15 +51182,13 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "D. B.",
-      "fechaAten": "2026-09-29T17:44:18.480Z"
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R17906876938398ebo",
       "direccion": "",
       "tipo": "Mediano",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.6443,
       "lng": -78.6804,
       "estado": "atendido",
@@ -51220,15 +51197,13 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "D. B.",
-      "fechaAten": "2026-09-29T17:44:10.857Z"
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R17906876608763ga1",
       "direccion": "",
       "tipo": "Grande",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.6443,
       "lng": -78.6803,
       "estado": "atendido",
@@ -51237,15 +51212,13 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "D. B.",
-      "fechaAten": "2026-09-29T17:43:41.653Z"
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R1790687646389unks",
       "direccion": "",
       "tipo": "Pequeño",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.6443,
       "lng": -78.6804,
       "estado": "atendido",
@@ -51254,15 +51227,13 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "D. B.",
-      "fechaAten": "2026-09-29T17:44:05.441Z"
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R1790687629223a2zm",
       "direccion": "",
       "tipo": "Mediano",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.6443,
       "lng": -78.6804,
       "estado": "atendido",
@@ -51271,15 +51242,13 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "D. B.",
-      "fechaAten": "2026-09-29T17:43:48.019Z"
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R1790687607074sph7",
       "direccion": "",
       "tipo": "Grande",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.6443,
       "lng": -78.6801,
       "estado": "atendido",
@@ -51288,15 +51257,13 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "D. B.",
-      "fechaAten": "2026-09-29T17:43:10.297Z"
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R1790687578900eb0t",
       "direccion": "",
       "tipo": "Mediano",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.6443,
       "lng": -78.6801,
       "estado": "atendido",
@@ -51305,15 +51272,13 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "D. B.",
-      "fechaAten": "2026-09-29T17:43:32.824Z"
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R1790687568590tgjl",
       "direccion": "",
       "tipo": "Pequeño",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.6443,
       "lng": -78.6801,
       "estado": "atendido",
@@ -51322,15 +51287,13 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "D. B.",
-      "fechaAten": "2026-09-29T17:43:23.855Z"
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R17906875245939fkj",
       "direccion": "",
       "tipo": "Mediano",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.6444,
       "lng": -78.6798,
       "estado": "atendido",
@@ -51339,15 +51302,13 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "D. B.",
-      "fechaAten": "2026-09-29T17:42:45.254Z"
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R17906874593343qq7",
       "direccion": "",
       "tipo": "Pequeño",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.6448,
       "lng": -78.6798,
       "estado": "atendido",
@@ -51356,15 +51317,13 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "D. B.",
-      "fechaAten": "2026-09-29T17:42:30.522Z"
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R1790687444213dyuh",
       "direccion": "",
       "tipo": "Pequeño",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.6447,
       "lng": -78.6798,
       "estado": "atendido",
@@ -51373,15 +51332,13 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "D. B.",
-      "fechaAten": "2026-09-29T17:42:55.774Z"
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R1790687407209vf5d",
       "direccion": "",
       "tipo": "Mediano",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.6448,
       "lng": -78.6797,
       "estado": "atendido",
@@ -51390,15 +51347,13 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "D. B.",
-      "fechaAten": "2026-09-29T17:42:16.915Z"
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R1790687375499fpxj",
       "direccion": "",
       "tipo": "Mediano",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.6452,
       "lng": -78.6796,
       "estado": "atendido",
@@ -51407,15 +51362,13 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "D. B.",
-      "fechaAten": "2026-09-29T17:42:13.153Z"
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R17906873356591uep",
       "direccion": "",
       "tipo": "Pequeño",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.6453,
       "lng": -78.6796,
       "estado": "atendido",
@@ -51424,15 +51377,13 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "D. B.",
-      "fechaAten": "2026-09-29T17:41:56.311Z"
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R17906859213853vjx",
       "direccion": "",
       "tipo": "Pequeño",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.6641,
       "lng": -78.6484,
       "estado": "atendido",
@@ -51441,15 +51392,13 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "D. B.",
-      "fechaAten": "2026-09-29T17:30:52.657Z"
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R1790685906156uzdo",
       "direccion": "",
       "tipo": "Pequeño",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.6641,
       "lng": -78.6484,
       "estado": "atendido",
@@ -51458,15 +51407,13 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "D. B.",
-      "fechaAten": "2026-09-29T17:30:19.507Z"
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R1790685894653cube",
       "direccion": "",
       "tipo": "Pequeño",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.664,
       "lng": -78.6484,
       "estado": "atendido",
@@ -51475,15 +51422,13 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "fechaAten": "2026-09-29T17:23:53.441Z"
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R1790685882400aj9q",
       "direccion": "",
       "tipo": "Pequeño",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.664,
       "lng": -78.6484,
       "estado": "atendido",
@@ -51492,15 +51437,13 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "fechaAten": "2026-09-29T17:23:38.578Z"
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R1790685870676crlp",
       "direccion": "",
       "tipo": "Pequeño",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.664,
       "lng": -78.6484,
       "estado": "atendido",
@@ -51509,15 +51452,13 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "fechaAten": "2026-09-29T17:23:33.773Z"
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R17906858568421ew6",
       "direccion": "",
       "tipo": "Pequeño",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.664,
       "lng": -78.6483,
       "estado": "atendido",
@@ -51526,15 +51467,13 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "D. B.",
-      "fechaAten": "2026-09-29T17:31:16.445Z"
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R1790685840704a1q5",
       "direccion": "",
       "tipo": "Pequeño",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.6638,
       "lng": -78.6483,
       "estado": "atendido",
@@ -51543,15 +51482,13 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "fechaAten": "2026-09-29T17:23:30.041Z"
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R1790685821934j15o",
       "direccion": "",
       "tipo": "Pequeño",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.6637,
       "lng": -78.6481,
       "estado": "atendido",
@@ -51560,15 +51497,13 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "D. B.",
-      "fechaAten": "2026-09-29T17:31:28.423Z"
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R1790685809641kjnp",
       "direccion": "",
       "tipo": "Pequeño",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.6637,
       "lng": -78.6481,
       "estado": "atendido",
@@ -51577,15 +51512,13 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "D. B.",
-      "fechaAten": "2026-09-29T17:31:19.521Z"
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R1790685784200nxk7",
       "direccion": "",
       "tipo": "Mediano",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.6635,
       "lng": -78.6481,
       "estado": "atendido",
@@ -51594,15 +51527,13 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "fechaAten": "2026-09-29T17:23:21.391Z"
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R1790685657979pvmz",
       "direccion": "",
       "tipo": "Grande",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.6635,
       "lng": -78.648,
       "estado": "atendido",
@@ -51611,15 +51542,13 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "fechaAten": "2026-09-29T17:23:26.312Z"
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R1790685628602siz9",
       "direccion": "",
       "tipo": "Grande",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.6634,
       "lng": -78.6479,
       "estado": "atendido",
@@ -51628,15 +51557,13 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "fechaAten": "2026-09-29T17:23:06.864Z"
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R17906856105545fij",
       "direccion": "",
       "tipo": "Grande",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.6634,
       "lng": -78.648,
       "estado": "atendido",
@@ -51645,15 +51572,13 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "fechaAten": "2026-09-29T17:23:10.406Z"
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R1790685590913ckka",
       "direccion": "",
       "tipo": "Pequeño",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.6634,
       "lng": -78.6479,
       "estado": "atendido",
@@ -51662,15 +51587,13 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "fechaAten": "2026-09-29T17:22:56.434Z"
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R1790685576844bafl",
       "direccion": "",
       "tipo": "Pequeño",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.6634,
       "lng": -78.6478,
       "estado": "atendido",
@@ -51679,15 +51602,13 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "fechaAten": "2026-09-29T17:23:13.872Z"
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R1790685554370jga8",
       "direccion": "",
       "tipo": "Mediano",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.6633,
       "lng": -78.6478,
       "estado": "atendido",
@@ -51696,15 +51617,13 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "fechaAten": "2026-09-29T17:22:49.225Z"
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R1790685534431bst5",
       "direccion": "",
       "tipo": "Grande",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.6632,
       "lng": -78.6477,
       "estado": "atendido",
@@ -51713,15 +51632,13 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "fechaAten": "2026-09-29T17:22:39.318Z"
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R1790685518138f17m",
       "direccion": "",
       "tipo": "Mediano",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.6632,
       "lng": -78.6478,
       "estado": "atendido",
@@ -51730,15 +51647,13 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "fechaAten": "2026-09-29T17:22:45.590Z"
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R1790685507037wx5x",
       "direccion": "",
       "tipo": "Pequeño",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.6632,
       "lng": -78.6478,
       "estado": "atendido",
@@ -51747,15 +51662,13 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "fechaAten": "2026-09-29T17:22:42.436Z"
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R17906854907332gi4",
       "direccion": "",
       "tipo": "Grande",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.6631,
       "lng": -78.6477,
       "estado": "atendido",
@@ -51764,15 +51677,13 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "fechaAten": "2026-09-29T17:22:24.288Z"
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R1790685474769gg62",
       "direccion": "",
       "tipo": "Pequeño",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.6631,
       "lng": -78.6477,
       "estado": "atendido",
@@ -51781,15 +51692,13 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "fechaAten": "2026-09-29T17:22:35.854Z"
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R1790685463790fbu7",
       "direccion": "",
       "tipo": "Pequeño",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.6631,
       "lng": -78.6477,
       "estado": "atendido",
@@ -51798,15 +51707,13 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "fechaAten": "2026-09-29T17:22:32.046Z"
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R1790685437789yq76",
       "direccion": "",
       "tipo": "Pequeño",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.663,
       "lng": -78.6475,
       "estado": "atendido",
@@ -51815,15 +51722,13 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "fechaAten": "2026-09-29T17:22:09.438Z"
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R1790685423771irb9",
       "direccion": "",
       "tipo": "Mediano",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.663,
       "lng": -78.6475,
       "estado": "atendido",
@@ -51832,15 +51737,13 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "fechaAten": "2026-09-29T17:22:12.938Z"
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R1790685408080fva1",
       "direccion": "",
       "tipo": "Mediano",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.6631,
       "lng": -78.6476,
       "estado": "atendido",
@@ -51849,15 +51752,13 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "fechaAten": "2026-09-29T17:22:20.762Z"
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R1790685398034yufd",
       "direccion": "",
       "tipo": "Pequeño",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.6629,
       "lng": -78.6475,
       "estado": "atendido",
@@ -51866,15 +51767,13 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "fechaAten": "2026-09-29T17:22:05.751Z"
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R1790685381920g1fk",
       "direccion": "",
       "tipo": "Mediano",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.663,
       "lng": -78.6475,
       "estado": "atendido",
@@ -51883,15 +51782,13 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "fechaAten": "2026-09-29T17:22:16.671Z"
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R17906853677790e4j",
       "direccion": "",
       "tipo": "Pequeño",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.663,
       "lng": -78.6475,
       "estado": "atendido",
@@ -51900,15 +51797,13 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "fechaAten": "2026-09-29T17:21:58.748Z"
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R17906852600964rhp",
       "direccion": "",
       "tipo": "Grande",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.6629,
       "lng": -78.6474,
       "estado": "atendido",
@@ -51917,15 +51812,13 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "fechaAten": "2026-09-29T17:22:02.010Z"
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R17906852389409lwl",
       "direccion": "",
       "tipo": "Pequeño",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.6628,
       "lng": -78.6474,
       "estado": "atendido",
@@ -51934,15 +51827,13 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "fechaAten": "2026-09-29T17:21:31.519Z"
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R1790685223581wr4t",
       "direccion": "",
       "tipo": "Pequeño",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.6628,
       "lng": -78.6474,
       "estado": "atendido",
@@ -51951,15 +51842,13 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "fechaAten": "2026-09-29T17:21:38.490Z"
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R1790685209009ia34",
       "direccion": "",
       "tipo": "Grande",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.6627,
       "lng": -78.6475,
       "estado": "atendido",
@@ -51968,15 +51857,13 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "fechaAten": "2026-09-29T17:21:27.889Z"
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R1790685185157uhm0",
       "direccion": "",
       "tipo": "Pequeño",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.6628,
       "lng": -78.6474,
       "estado": "atendido",
@@ -51985,15 +51872,13 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "fechaAten": "2026-09-29T17:21:34.955Z"
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R17906851708856pvi",
       "direccion": "",
       "tipo": "Pequeño",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.6627,
       "lng": -78.6473,
       "estado": "atendido",
@@ -52002,15 +51887,13 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "fechaAten": "2026-09-29T17:21:20.567Z"
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R1790685152755dkt5",
       "direccion": "",
       "tipo": "Grande",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.6626,
       "lng": -78.6474,
       "estado": "atendido",
@@ -52019,15 +51902,13 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "fechaAten": "2026-09-29T17:21:15.874Z"
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R1790685139985nzfx",
       "direccion": "",
       "tipo": "Pequeño",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.6625,
       "lng": -78.6475,
       "estado": "atendido",
@@ -52036,15 +51917,13 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "fechaAten": "2026-09-29T17:21:12.229Z"
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R1790685127704q9gy",
       "direccion": "",
       "tipo": "Mediano",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.6626,
       "lng": -78.6474,
       "estado": "atendido",
@@ -52053,15 +51932,13 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "fechaAten": "2026-09-29T17:21:05.874Z"
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R1790685115740u7zb",
       "direccion": "",
       "tipo": "Mediano",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.6626,
       "lng": -78.6473,
       "estado": "atendido",
@@ -52070,15 +51947,13 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "fechaAten": "2026-09-29T17:20:54.160Z"
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R1790685101677x667",
       "direccion": "",
       "tipo": "Pequeño",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.6625,
       "lng": -78.6472,
       "estado": "atendido",
@@ -52087,15 +51962,13 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "D. B.",
-      "fechaAten": "2026-09-29T17:33:19.779Z"
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R179068509181685ka",
       "direccion": "",
       "tipo": "Pequeño",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.6625,
       "lng": -78.6472,
       "estado": "atendido",
@@ -52104,15 +51977,13 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "fechaAten": "2026-09-29T17:20:45.954Z"
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R1790685080254vbh4",
       "direccion": "",
       "tipo": "Pequeño",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.6626,
       "lng": -78.6472,
       "estado": "atendido",
@@ -52121,15 +51992,13 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "fechaAten": "2026-09-29T17:21:02.267Z"
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R1790685066363f3ip",
       "direccion": "",
       "tipo": "Grande",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.6625,
       "lng": -78.6473,
       "estado": "atendido",
@@ -52138,15 +52007,13 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "fechaAten": "2026-09-29T17:20:58.446Z"
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R17906849776376iqd",
       "direccion": "",
       "tipo": "Grande",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.6622,
       "lng": -78.6468,
       "estado": "atendido",
@@ -52155,15 +52022,13 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "fechaAten": "2026-09-29T17:20:12.006Z"
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R1790684949715hi2r",
       "direccion": "",
       "tipo": "Grande",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.6621,
       "lng": -78.647,
       "estado": "atendido",
@@ -52172,15 +52037,13 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "fechaAten": "2026-09-29T17:20:18.175Z"
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R1790684880342lf2h",
       "direccion": "",
       "tipo": "Pequeño",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.6626,
       "lng": -78.6466,
       "estado": "atendido",
@@ -52189,15 +52052,13 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "D. B.",
-      "fechaAten": "2026-09-29T17:31:54.611Z"
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R1790684868284yzwp",
       "direccion": "",
       "tipo": "Pequeño",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.6626,
       "lng": -78.6465,
       "estado": "atendido",
@@ -52206,15 +52067,13 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "D. B.",
-      "fechaAten": "2026-09-29T17:32:12.969Z"
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R17906848544046bec",
       "direccion": "",
       "tipo": "Mediano",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.6629,
       "lng": -78.6464,
       "estado": "atendido",
@@ -52223,15 +52082,13 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "D. B.",
-      "fechaAten": "2026-09-29T17:32:47.884Z"
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R17906848419052j2b",
       "direccion": "",
       "tipo": "Pequeño",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.6627,
       "lng": -78.6464,
       "estado": "atendido",
@@ -52240,15 +52097,13 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "D. B.",
-      "fechaAten": "2026-09-29T17:32:27.975Z"
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R17906848200578vxl",
       "direccion": "",
       "tipo": "Grande",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.6628,
       "lng": -78.6463,
       "estado": "atendido",
@@ -52257,15 +52112,13 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "D. B.",
-      "fechaAten": "2026-09-29T17:32:39.964Z"
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R17906847916287jz7",
       "direccion": "",
       "tipo": "Mediano",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.6627,
       "lng": -78.6463,
       "estado": "atendido",
@@ -52274,15 +52127,13 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "D. B.",
-      "fechaAten": "2026-09-29T17:32:31.739Z"
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R1790684762524n2tg",
       "direccion": "",
       "tipo": "Grande",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.6627,
       "lng": -78.6464,
       "estado": "atendido",
@@ -52291,15 +52142,13 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "D. B.",
-      "fechaAten": "2026-09-29T17:32:43.741Z"
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R17906847516605ezd",
       "direccion": "",
       "tipo": "Mediano",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.6626,
       "lng": -78.6465,
       "estado": "atendido",
@@ -52308,15 +52157,13 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "D. B.",
-      "fechaAten": "2026-09-29T17:32:23.561Z"
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R17906847359691v1w",
       "direccion": "",
       "tipo": "Pequeño",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.6626,
       "lng": -78.6465,
       "estado": "atendido",
@@ -52325,15 +52172,13 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "D. B.",
-      "fechaAten": "2026-09-29T17:32:17.973Z"
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R1790684723797e76i",
       "direccion": "",
       "tipo": "Mediano",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.6625,
       "lng": -78.6466,
       "estado": "atendido",
@@ -52342,15 +52187,13 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "D. B.",
-      "fechaAten": "2026-09-29T17:32:07.023Z"
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R17906847060871ldo",
       "direccion": "",
       "tipo": "Grande",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.6625,
       "lng": -78.6465,
       "estado": "atendido",
@@ -52359,15 +52202,13 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "D. B.",
-      "fechaAten": "2026-09-29T17:31:59.906Z"
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R1790684690881ycwz",
       "direccion": "",
       "tipo": "Grande",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.6626,
       "lng": -78.6467,
       "estado": "atendido",
@@ -52376,15 +52217,13 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "D. B.",
-      "fechaAten": "2026-09-29T17:31:50.628Z"
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R17906846667207bh7",
       "direccion": "",
       "tipo": "Grande",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.6624,
       "lng": -78.6468,
       "estado": "atendido",
@@ -52393,15 +52232,13 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "D. B.",
-      "fechaAten": "2026-09-29T17:31:46.954Z"
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R1790684623641xv8h",
       "direccion": "",
       "tipo": "Grande",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.6621,
       "lng": -78.6469,
       "estado": "atendido",
@@ -52410,15 +52247,13 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "fechaAten": "2026-09-29T17:20:08.496Z"
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R1790684606519icil",
       "direccion": "",
       "tipo": "Pequeño",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.6621,
       "lng": -78.6468,
       "estado": "atendido",
@@ -52427,15 +52262,13 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "fechaAten": "2026-09-29T17:19:56.025Z"
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R179068459296486p7",
       "direccion": "",
       "tipo": "Pequeño",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.6621,
       "lng": -78.6468,
       "estado": "atendido",
@@ -52444,15 +52277,13 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "fechaAten": "2026-09-29T17:20:04.826Z"
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R1790684577071pion",
       "direccion": "",
       "tipo": "Pequeño",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.6621,
       "lng": -78.6468,
       "estado": "atendido",
@@ -52461,15 +52292,13 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "fechaAten": "2026-09-29T17:19:50.774Z"
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R1790684565177xajj",
       "direccion": "",
       "tipo": "Grande",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.6621,
       "lng": -78.6468,
       "estado": "atendido",
@@ -52478,15 +52307,13 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "fechaAten": "2026-09-29T17:20:01.346Z"
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R17906845516624cvp",
       "direccion": "",
       "tipo": "Mediano",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.662,
       "lng": -78.6468,
       "estado": "atendido",
@@ -52495,15 +52322,13 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "fechaAten": "2026-09-29T17:19:47.062Z"
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R1790684533289flem",
       "direccion": "",
       "tipo": "Pequeño",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.6619,
       "lng": -78.6467,
       "estado": "atendido",
@@ -52512,15 +52337,13 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "fechaAten": "2026-09-29T17:19:17.164Z"
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R1790684521816x675",
       "direccion": "",
       "tipo": "Pequeño",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.662,
       "lng": -78.6467,
       "estado": "atendido",
@@ -52529,15 +52352,13 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "fechaAten": "2026-09-29T17:19:37.112Z"
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R17906845053168x8v",
       "direccion": "",
       "tipo": "Pequeño",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.662,
       "lng": -78.6467,
       "estado": "atendido",
@@ -52546,15 +52367,13 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "fechaAten": "2026-09-29T17:19:31.233Z"
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R17906844924844t1t",
       "direccion": "",
       "tipo": "Pequeño",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.662,
       "lng": -78.6467,
       "estado": "atendido",
@@ -52563,15 +52382,13 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "fechaAten": "2026-09-29T17:19:41.239Z"
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R1790684483649swj6",
       "direccion": "",
       "tipo": "Pequeño",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.662,
       "lng": -78.6467,
       "estado": "atendido",
@@ -52580,15 +52397,13 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "fechaAten": "2026-09-29T17:19:27.555Z"
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R17906844705930tix",
       "direccion": "",
       "tipo": "Pequeño",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.6619,
       "lng": -78.6467,
       "estado": "atendido",
@@ -52597,15 +52412,13 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "fechaAten": "2026-09-29T17:19:13.538Z"
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R17906844555681k7a",
       "direccion": "",
       "tipo": "Grande",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.662,
       "lng": -78.6467,
       "estado": "atendido",
@@ -52614,15 +52427,13 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "fechaAten": "2026-09-29T17:19:23.621Z"
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R1790684439049mfxy",
       "direccion": "",
       "tipo": "Pequeño",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.6618,
       "lng": -78.6467,
       "estado": "atendido",
@@ -52631,15 +52442,13 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "fechaAten": "2026-09-29T17:19:09.814Z"
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R179068442455216sr",
       "direccion": "",
       "tipo": "Pequeño",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.6618,
       "lng": -78.6467,
       "estado": "atendido",
@@ -52648,15 +52457,13 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "fechaAten": "2026-09-29T17:18:29.826Z"
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R1790684407004ime3",
       "direccion": "",
       "tipo": "Mediano",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.6618,
       "lng": -78.6466,
       "estado": "atendido",
@@ -52665,15 +52472,13 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "fechaAten": "2026-09-29T17:19:05.741Z"
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R1790684388131b0o5",
       "direccion": "",
       "tipo": "Pequeño",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.6617,
       "lng": -78.6467,
       "estado": "atendido",
@@ -52682,15 +52487,13 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "fechaAten": "2026-09-29T17:18:26.263Z"
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R1790684376246ygip",
       "direccion": "",
       "tipo": "Pequeño",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.6616,
       "lng": -78.6465,
       "estado": "atendido",
@@ -52699,15 +52502,13 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "fechaAten": "2026-09-29T17:18:39.127Z"
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R179068435618885qk",
       "direccion": "",
       "tipo": "Mediano",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.6617,
       "lng": -78.6465,
       "estado": "atendido",
@@ -52716,15 +52517,13 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "fechaAten": "2026-09-29T17:18:49.147Z"
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R1790684341521ffj5",
       "direccion": "",
       "tipo": "Mediano",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.6617,
       "lng": -78.6466,
       "estado": "atendido",
@@ -52733,15 +52532,13 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "fechaAten": "2026-09-29T17:19:01.582Z"
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R17906842661031uz7",
       "direccion": "",
       "tipo": "Grande",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.662,
       "lng": -78.6471,
       "estado": "atendido",
@@ -52750,15 +52547,13 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "fechaAten": "2026-09-29T17:20:22.129Z"
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R1790684243957sm54",
       "direccion": "",
       "tipo": "Pequeño",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.662,
       "lng": -78.6472,
       "estado": "atendido",
@@ -52767,15 +52562,13 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "fechaAten": "2026-09-29T17:18:10.218Z"
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R1790684229229m6io",
       "direccion": "",
       "tipo": "Mediano",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.662,
       "lng": -78.6473,
       "estado": "pendiente",
@@ -52784,15 +52577,13 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "",
-      "fechaAten": null
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R17906842051391wdl",
       "direccion": "",
       "tipo": "Pequeño",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.662,
       "lng": -78.6473,
       "estado": "atendido",
@@ -52801,15 +52592,13 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "fechaAten": "2026-09-29T17:18:05.958Z"
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R1790684187204byvd",
       "direccion": "",
       "tipo": "Pequeño",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.6619,
       "lng": -78.6474,
       "estado": "atendido",
@@ -52818,15 +52607,13 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "fechaAten": "2026-09-29T17:17:53.957Z"
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R1790684172413nfzq",
       "direccion": "",
       "tipo": "Mediano",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.6619,
       "lng": -78.6474,
       "estado": "atendido",
@@ -52835,15 +52622,13 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "fechaAten": "2026-09-29T17:17:57.675Z"
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R1790684150839st3w",
       "direccion": "",
       "tipo": "Mediano",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.6618,
       "lng": -78.6475,
       "estado": "atendido",
@@ -52852,15 +52637,13 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "fechaAten": "2026-09-29T17:17:49.700Z"
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R17906841225815rwj",
       "direccion": "",
       "tipo": "Mediano",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.6618,
       "lng": -78.6476,
       "estado": "atendido",
@@ -52869,7 +52652,8 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "fechaAten": "2026-09-29T17:17:19.173Z"
+      "origen": "tecnico",
+      "tecnico_creador": ""
     }
   ]
 }
