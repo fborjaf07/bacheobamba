@@ -1,7 +1,7 @@
 {
   "version": "2.0",
   "minAppVersion": 3,
-  "actualizacion": "2026-09-29T13:02:30.574Z",
+  "actualizacion": "2026-09-29T14:32:38.399Z",
   "baches": [
     {
       "id": "R17863688092015xtb",
@@ -17086,7 +17086,6 @@
       "observaciones": "",
       "tecnico": "F. B.",
       "origen": "tecnico",
-      "fechaAten": "2026-09-09T22:18:58.072Z",
       "tecnico_creador": ""
     },
     {
@@ -17643,7 +17642,6 @@
       "observaciones": "",
       "tecnico": "F. B.",
       "origen": "tecnico",
-      "fechaAten": "2026-09-09T22:17:51.653Z",
       "tecnico_creador": ""
     },
     {
@@ -17659,7 +17657,6 @@
       "observaciones": "",
       "tecnico": "F. B.",
       "origen": "tecnico",
-      "fechaAten": "2026-09-09T22:18:02.153Z",
       "tecnico_creador": ""
     },
     {
@@ -17675,7 +17672,6 @@
       "observaciones": "",
       "tecnico": "F. B.",
       "origen": "tecnico",
-      "fechaAten": "2026-09-09T22:18:07.975Z",
       "tecnico_creador": ""
     },
     {
@@ -17691,7 +17687,6 @@
       "observaciones": "",
       "tecnico": "F. B.",
       "origen": "tecnico",
-      "fechaAten": "2026-09-09T22:18:16.505Z",
       "tecnico_creador": ""
     },
     {
@@ -17707,7 +17702,6 @@
       "observaciones": "",
       "tecnico": "F. B.",
       "origen": "tecnico",
-      "fechaAten": "2026-09-09T22:18:19.139Z",
       "tecnico_creador": ""
     },
     {
@@ -17723,7 +17717,6 @@
       "observaciones": "",
       "tecnico": "F. B.",
       "origen": "tecnico",
-      "fechaAten": "2026-09-09T22:18:13.888Z",
       "tecnico_creador": ""
     },
     {
@@ -17739,7 +17732,6 @@
       "observaciones": "",
       "tecnico": "F. B.",
       "origen": "tecnico",
-      "fechaAten": "2026-09-09T22:18:11.138Z",
       "tecnico_creador": ""
     },
     {
@@ -17770,7 +17762,6 @@
       "observaciones": "",
       "tecnico": "F. B.",
       "origen": "tecnico",
-      "fechaAten": "2026-09-09T22:17:41.535Z",
       "tecnico_creador": ""
     },
     {
@@ -18471,7 +18462,6 @@
       "observaciones": "",
       "tecnico": "F. B.",
       "origen": "tecnico",
-      "fechaAten": "2026-09-09T22:17:57.820Z",
       "tecnico_creador": ""
     },
     {
@@ -18776,7 +18766,6 @@
       "observaciones": "",
       "tecnico": "F. B.",
       "origen": "tecnico",
-      "fechaAten": "2026-09-09T22:18:04.771Z",
       "tecnico_creador": ""
     },
     {
@@ -18913,7 +18902,6 @@
       "observaciones": "",
       "tecnico": "F. B.",
       "origen": "tecnico",
-      "fechaAten": "2026-09-09T22:17:54.819Z",
       "tecnico_creador": ""
     },
     {
@@ -51155,9 +51143,6 @@
       "id": "R1789254141218p4bw",
       "direccion": "",
       "tipo": "Mediano",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": null,
       "lng": null,
       "estado": "pendiente",
@@ -51166,7 +51151,8 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "",
-      "fechaAten": null
+      "origen": "tecnico",
+      "tecnico_creador": ""
     }
   ]
 }
