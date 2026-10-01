@@ -1,8 +1,25 @@
 {
   "version": "2.0",
   "minAppVersion": 3,
-  "actualizacion": "2026-10-01T21:36:32.048Z",
+  "actualizacion": "2026-10-01T22:40:29.270Z",
   "baches": [
+    {
+      "id": "R1790894423321oawo",
+      "direccion": "",
+      "tipo": "Superficial",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
+      "lat": -1.6604,
+      "lng": -78.644,
+      "estado": "pendiente",
+      "fecha": "2026-10-01T22:40:23.336Z",
+      "fotoAntes": "https://raw.githubusercontent.com/fborjaf07/bacheobamba/main/fotos/R1790894423321oawo_antes.jpg",
+      "fotoDespues": null,
+      "observaciones": "",
+      "tecnico": "",
+      "fechaAten": null
+    },
     {
       "id": "R17863688092015xtb",
       "direccion": "",
