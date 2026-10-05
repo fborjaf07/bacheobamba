@@ -1,7 +1,7 @@
 {
   "version": "2.0",
   "minAppVersion": 3,
-  "actualizacion": "2026-10-05T14:38:10.680Z",
+  "actualizacion": "2026-10-05T14:41:31.174Z",
   "baches": [
     {
       "id": "R17863688092015xtb",
@@ -56024,7 +56024,7 @@
       "lng": -78.6809,
       "estado": "pendiente",
       "fecha": "2026-10-05T13:25:07.416Z",
-      "fotoAntes": null,
+      "fotoAntes": "https://raw.githubusercontent.com/fborjaf07/bacheobamba/main/fotos/R1791206707356aoiz_antes.jpg",
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "",
@@ -57163,7 +57163,7 @@
       "lng": -78.6805,
       "estado": "pendiente",
       "fecha": "2026-10-05T12:50:03.155Z",
-      "fotoAntes": null,
+      "fotoAntes": "https://raw.githubusercontent.com/fborjaf07/bacheobamba/main/fotos/R17912046030045xcp_antes.jpg",
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "",
