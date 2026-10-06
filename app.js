@@ -1609,3 +1609,22 @@ if(new URLSearchParams(location.search).get('export')==='1'){
     alert('Respaldo descargado. Compártelo por WhatsApp.');
   },800);
 }
+
+// ── Recuperación de fotos antiguas ─────────────────────────────────────────
+// El 24/9/2026 se eliminó la carpeta fotos/ de la rama main (commit fd65563).
+// Las fotos siguen en el historial: si una foto no carga desde main, se
+// reintenta una sola vez desde el commit anterior al borrado.
+(function(){
+  var SHA_FOTOS='b05846b1cdf5d3432d7c1c20b7595c4af2a70c47';
+  var RUTA_MAIN='/fborjaf07/bacheobamba/main/fotos/';
+  document.addEventListener('error',function(e){
+    try{
+      var el=e.target;
+      if(!el||el.tagName!=='IMG'||el.dataset.fotoHist)return;
+      var src=el.getAttribute('src')||'';
+      if(src.indexOf(RUTA_MAIN)<0)return;
+      el.dataset.fotoHist='1';
+      el.src=src.replace(RUTA_MAIN,'/fborjaf07/bacheobamba/'+SHA_FOTOS+'/fotos/');
+    }catch(_){}
+  },true);
+})();
