@@ -58,7 +58,7 @@ const LS={g:k=>{try{return JSON.parse(localStorage.getItem(k));}catch{return nul
   s:(k,v)=>localStorage.setItem(k,JSON.stringify(v)),r:k=>localStorage.removeItem(k)};
 
 /* ── GITHUB ── */
-const APP_VERSION=3;
+const APP_VERSION=4;
 const _t=['Z2l0aHViX3BhdF8xMUNCS1BRS1kwcw==','Tms3cld6bWNKMDlfSlE1VG1NbFhEeA==','SVRSeDhsbnM5eVZZeTlaamRYaFAxNg==','NzYyU2k1eVgzRVdUV0xHSDJQMkpTdg==','b0loSEI='];
 const GH_PUBLIC_TOKEN=(()=>{try{return _t.map(x=>atob(x)).join('');}catch(e){return '';}})();
 const GH={
@@ -500,6 +500,11 @@ function enWifi(){
   if(typeof c.effectiveType==='string')return true; // sin type explícito, no se puede distinguir wifi/datos — permitir
   return true;
 }
+// true cuando el repo reabrió el bache y la copia local conserva un "atendido" más antiguo
+function debeReabrir(r,l){
+  return !!(r&&l&&r.reabierto&&r.estado!=='atendido'&&l.estado==='atendido'&&!l.pendienteSubir
+    &&!(l.fechaAten&&String(l.fechaAten)>String(r.reabierto)));
+}
 async function sincGH(silent=false,_lote=0,forzar=false){
   if(!GH.token){notif('Configura el token de GitHub primero','r');return;}
   if(!forzar&&!enWifi()){
@@ -560,6 +565,15 @@ async function sincGH(silent=false,_lote=0,forzar=false){
           if(r.fotoDespues)l.fotoDespues=r.fotoDespues;
           if(r.fechaAten)l.fechaAten=r.fechaAten;
         }
+        // Reapertura: si el repo devolvió el bache a "pendiente" (campo reabierto) y la
+        // copia local sigue con el "atendido" anterior a esa fecha, manda el repo.
+        if(r.reabierto){
+          if(debeReabrir(r,l)){
+            l.estado='pendiente';l.tecnico='';l.observaciones=r.observaciones||'';
+            l.fotoDespues=r.fotoDespues||null;l.fechaAten=null;
+          }
+          l.reabierto=r.reabierto;
+        }
       });
     }
     const bachesLimpios=fusionado.map(r=>{
@@ -610,7 +624,8 @@ async function cargarGH(){
         estado:r.estado||'pendiente',fecha:r.fecha||new Date().toISOString(),
         fotoAntes:r.fotoAntes||null,fotoDespues:r.fotoDespues||null,
         observaciones:r.observaciones||'',tecnico:r.tecnico||'',
-        origen:'tecnico',pendienteSubir:false
+        origen:'tecnico',pendienteSubir:false,
+        ...(r.reabierto?{reabierto:r.reabierto}:{})
       }));
     }
     const mr={};remotos.forEach(r=>{mr[r.id]=r;});
@@ -625,6 +640,15 @@ async function cargarGH(){
         observaciones:r.observaciones||l.observaciones,
         fotoDespues:r.fotoDespues||l.fotoDespues,
         fechaAten:r.fechaAten||l.fechaAten};
+    });
+    // Reapertura: el repo devolvió el bache a "pendiente" después del atendido local.
+    remotos.forEach(r=>{
+      const l=ml[r.id];
+      if(!l||!r.reabierto)return;
+      fus[r.id]=debeReabrir(r,l)
+        ?{...l,estado:'pendiente',tecnico:'',observaciones:r.observaciones||'',
+          fotoDespues:r.fotoDespues||null,fechaAten:null,reabierto:r.reabierto}
+        :{...fus[r.id],reabierto:r.reabierto};
     });
     LS.s('bb_r',Object.values(fus));
   }
