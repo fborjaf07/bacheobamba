@@ -1,15 +1,12 @@
 {
   "version": "2.0",
   "minAppVersion": 4,
-  "actualizacion": "2026-10-07T14:11:09.000Z",
+  "actualizacion": "2026-10-07T16:26:11.181Z",
   "baches": [
     {
       "id": "R1791381504659rnha",
       "direccion": "",
       "tipo": "Mediano",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.6567,
       "lng": -78.6377,
       "estado": "pendiente",
@@ -18,7 +15,8 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "",
-      "fechaAten": null
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R17863688092015xtb",
@@ -13233,6 +13231,7 @@
       "observaciones": "",
       "tecnico": "F. B.",
       "origen": "tecnico",
+      "fechaAten": "2026-09-29T17:18:21.787Z",
       "tecnico_creador": ""
     },
     {
@@ -13248,6 +13247,7 @@
       "observaciones": "",
       "tecnico": "F. B.",
       "origen": "tecnico",
+      "fechaAten": "2026-09-29T17:21:54.884Z",
       "tecnico_creador": ""
     },
     {
@@ -16113,8 +16113,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R17821682901511mww",
@@ -16729,8 +16730,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782173779644v959",
@@ -17330,6 +17332,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
+      "fechaAten": "2026-09-29T17:33:09.555Z",
       "tecnico_creador": ""
     },
     {
@@ -17795,8 +17798,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782221385100wg4t",
@@ -17811,8 +17815,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782221578374wlcv",
@@ -17827,8 +17832,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R17822214966724qdw",
@@ -17843,8 +17849,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782221383189rqjm",
@@ -17859,8 +17866,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782221654344ezff",
@@ -17875,8 +17883,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782221570331nf2u",
@@ -17891,8 +17900,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782221663353klcf",
@@ -17907,8 +17917,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R17822217064996vgq",
@@ -17953,8 +17964,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782221701126d0i1",
@@ -17984,8 +17996,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782221853372e62i",
@@ -18000,8 +18013,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R178222189686856i9",
@@ -18016,8 +18030,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782222076823k973",
@@ -18032,8 +18047,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R178222211148504kn",
@@ -18048,8 +18064,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782221903417zl5b",
@@ -18064,8 +18081,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782222256446py1b",
@@ -18095,8 +18113,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782222105840u427",
@@ -18111,8 +18130,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R17822225479443qma",
@@ -18127,8 +18147,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782222574022r1g1",
@@ -18143,8 +18164,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782222573494gpea",
@@ -18159,8 +18181,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782222644686hh7n",
@@ -18175,8 +18198,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R17822226659719iyp",
@@ -18191,8 +18215,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R17822227217899og3",
@@ -18207,8 +18232,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R17822226038414t3w",
@@ -18238,8 +18264,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782222811738i0r7",
@@ -18284,8 +18311,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782222858700yasq",
@@ -18300,8 +18328,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782222863575t0sj",
@@ -18316,8 +18345,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782222884828areh",
@@ -18377,8 +18407,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R17822229162782i7i",
@@ -18408,8 +18439,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782222934381bpfp",
@@ -18439,8 +18471,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R17822228873457h4o",
@@ -18455,8 +18488,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R17822229532888cix",
@@ -18531,8 +18565,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R17822230468095o28",
@@ -18547,8 +18582,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R17822230480485wns",
@@ -18578,6 +18614,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
+      "fechaAten": "2026-09-29T17:44:51.942Z",
       "tecnico_creador": ""
     },
     {
@@ -18593,8 +18630,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782223089415vnnu",
@@ -18609,8 +18647,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782223033751thds",
@@ -18625,8 +18664,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782222954260zw2q",
@@ -18641,8 +18681,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782223104437ando",
@@ -18657,8 +18698,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782223119279rkhc",
@@ -18688,8 +18730,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R17822228834583k8k",
@@ -18704,8 +18747,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782222814046fwl6",
@@ -18720,8 +18764,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782223179958tuml",
@@ -18736,8 +18781,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782223186651an6l",
@@ -18752,8 +18798,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R17822231872111h7b",
@@ -18768,8 +18815,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R17822232348358ksq",
@@ -18799,8 +18847,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782223269094vvco",
@@ -18845,8 +18894,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R178222341746132w7",
@@ -18861,8 +18911,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782223331110ghs4",
@@ -18877,8 +18928,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782223335447m76g",
@@ -18893,8 +18945,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782223345795swze",
@@ -18909,8 +18962,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782223466487in2s",
@@ -18925,8 +18979,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R17822233689434hwg",
@@ -18971,8 +19026,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782223472029wo0k",
@@ -19377,8 +19433,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R178222356696639z9",
@@ -19423,8 +19480,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782223560118qps1",
@@ -19439,8 +19497,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782223623616xeb4",
@@ -19485,8 +19544,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782223637381rg8u",
@@ -19501,8 +19561,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782223594932rp5a",
@@ -19517,8 +19578,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782223752280hq88",
@@ -19533,8 +19595,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782223650518uk8w",
@@ -19564,8 +19627,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782223334027ly8e",
@@ -19580,8 +19644,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782223776844ggbk",
@@ -19596,8 +19661,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R17822237925688obc",
@@ -19612,8 +19678,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782223720499fs5z",
@@ -19628,8 +19695,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R178222380388537vj",
@@ -19644,8 +19712,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782223818170jqur",
@@ -19660,8 +19729,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R17822238404922ogg",
@@ -19676,8 +19746,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782223586115dld2",
@@ -19692,8 +19763,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R17822239021080mf8",
@@ -19723,8 +19795,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782223949254ejkv",
@@ -19754,8 +19827,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R17822239954042ye0",
@@ -19770,8 +19844,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782224009945o5b6",
@@ -19801,6 +19876,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
+      "fechaAten": "2026-09-29T17:44:33.723Z",
       "tecnico_creador": ""
     },
     {
@@ -19831,8 +19907,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782224113502gzn5",
@@ -19862,8 +19939,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782223899122b8rn",
@@ -19878,8 +19956,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782224150573c1kr",
@@ -19894,8 +19973,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782224115273yv5p",
@@ -19955,8 +20035,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782224197456n1d8",
@@ -19971,8 +20052,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782224184962r0w4",
@@ -20032,8 +20114,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R17822241180648b2z",
@@ -20048,8 +20131,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782224261182uofq",
@@ -20079,8 +20163,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782224234996o0z9",
@@ -20095,8 +20180,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782224269195i220",
@@ -20111,8 +20197,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R178222393261444gu",
@@ -20142,8 +20229,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782224252637u5j3",
@@ -20158,8 +20246,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782224219481uglm",
@@ -20174,8 +20263,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782224295364915i",
@@ -20250,8 +20340,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782224331557p8ij",
@@ -20266,8 +20357,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782224182510ak4t",
@@ -20282,8 +20374,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782224343613ee66",
@@ -20298,8 +20391,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782224352560ji8x",
@@ -20329,8 +20423,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782224247320d7jk",
@@ -20345,8 +20440,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782224379493b8a2",
@@ -20391,8 +20487,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782224431649s24f",
@@ -20422,8 +20519,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782224505597q6nd",
@@ -20438,8 +20536,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R17822244990112euk",
@@ -20454,8 +20553,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782224492340daad",
@@ -20470,8 +20570,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782224526128w9e1",
@@ -20486,8 +20587,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R178222443093739ys",
@@ -20502,8 +20604,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R178222454733380zl",
@@ -20533,8 +20636,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R178222462107674xg",
@@ -20549,8 +20653,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782224635099p5ld",
@@ -20670,8 +20775,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R178222464365678bc",
@@ -20686,8 +20792,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782224625834p0j1",
@@ -20747,8 +20854,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782224399712shrd",
@@ -20778,8 +20886,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782224689845i9z2",
@@ -20794,8 +20903,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782223987310qcmo",
@@ -20810,8 +20920,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782224699112647o",
@@ -20856,8 +20967,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782224755323t39u",
@@ -20977,8 +21089,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782224609048r7ml",
@@ -20993,8 +21106,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782223738719vtt7",
@@ -21009,8 +21123,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R17822247961594hwa",
@@ -21145,8 +21260,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782224727614cqmz",
@@ -21161,8 +21277,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R17822249537663xz4",
@@ -21177,8 +21294,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782224937197ybqk",
@@ -21208,8 +21326,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R178222435554009d1",
@@ -21224,8 +21343,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782224310256knzd",
@@ -21240,8 +21360,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782224971290dyb7",
@@ -21256,8 +21377,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782224797258aptq",
@@ -21347,8 +21469,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782224980117inxo",
@@ -21363,8 +21486,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782225042638vi9l",
@@ -21379,8 +21503,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782225047587zao8",
@@ -21410,8 +21535,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782225074855rpjm",
@@ -21426,8 +21552,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782225067962dsxd",
@@ -21472,8 +21599,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R17822250882188omy",
@@ -21488,8 +21616,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782225119494amzj",
@@ -21504,8 +21633,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782225133849itlp",
@@ -21535,8 +21665,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782225164229vmgo",
@@ -21551,8 +21682,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782225177332517i",
@@ -21567,8 +21699,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R17822246901568dnd",
@@ -21613,8 +21746,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R178222492208565h6",
@@ -21629,8 +21763,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782224773452xhbj",
@@ -21645,8 +21780,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R17822252164583ayg",
@@ -21661,8 +21797,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782225232716on31",
@@ -21677,8 +21814,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R17822252073600xo7",
@@ -21693,8 +21831,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R17822251862346ttb",
@@ -21709,8 +21848,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782225234798gue5",
@@ -21725,8 +21865,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782225257034frr7",
@@ -21771,8 +21912,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782225300832919h",
@@ -21787,8 +21929,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R17822246969376lwb",
@@ -21803,8 +21946,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782224488531t9mx",
@@ -21849,8 +21993,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782225332765le0i",
@@ -21865,8 +22010,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R17822253669309qh3",
@@ -21881,8 +22027,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R17822253803660v1r",
@@ -21927,8 +22074,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782225403542snhy",
@@ -21958,8 +22106,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R17822245965827zet",
@@ -21974,8 +22123,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782225660707oeje",
@@ -22020,8 +22170,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782225487973eo4x",
@@ -22051,8 +22202,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782225462934rl4o",
@@ -22067,8 +22219,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782225534236a3as",
@@ -22113,8 +22266,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782225346034vs5y",
@@ -22129,8 +22283,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782225532349zw9y",
@@ -22160,8 +22315,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782225659009rod4",
@@ -22176,8 +22332,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782225558211u2ci",
@@ -22192,8 +22349,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782225592330jn2f",
@@ -22238,8 +22396,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782225648050gun4",
@@ -22254,8 +22413,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R17822256661924e4w",
@@ -22285,8 +22445,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782225700598x5x7",
@@ -22376,8 +22537,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782225702838tq21",
@@ -22422,8 +22584,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782225814501i6ai",
@@ -22483,8 +22646,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R17822257724894z6y",
@@ -22499,8 +22663,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782225860374b1yd",
@@ -22515,8 +22680,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782225967811n4zk",
@@ -22546,8 +22712,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R178222567320716u9",
@@ -22562,8 +22729,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782225969929h3y7",
@@ -22608,8 +22776,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782226006406s9jj",
@@ -22639,8 +22808,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782225978337qmae",
@@ -22655,8 +22825,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782225917132j4op",
@@ -22671,8 +22842,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782225909802w09d",
@@ -22702,8 +22874,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782225419616o0vm",
@@ -22733,8 +22906,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782225201449g2ho",
@@ -22749,8 +22923,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782225916782ez8c",
@@ -22825,8 +23000,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782225947926ljp7",
@@ -22841,8 +23017,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782225609564s25k",
@@ -22917,8 +23094,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782226056972psrx",
@@ -23023,8 +23201,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R178222616346059hl",
@@ -23114,8 +23293,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782226157292o8ua",
@@ -23130,8 +23310,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R17822262396023f5o",
@@ -23191,8 +23372,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R17822259621295fvw",
@@ -23207,8 +23389,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782226296335drh3",
@@ -23268,8 +23451,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782246675656w9cb",
@@ -23299,8 +23483,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R17822263215762buz",
@@ -23450,8 +23635,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782226322873dyc3",
@@ -23466,8 +23652,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R178222599972041ar",
@@ -23512,8 +23699,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782226513034peft",
@@ -23543,8 +23731,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782226577289tlnl",
@@ -23649,8 +23838,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782226678809bccv",
@@ -23695,8 +23885,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782226537891ure0",
@@ -23711,8 +23902,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R17822264916114w5k",
@@ -23727,8 +23919,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782226724581tzey",
@@ -23758,6 +23951,7 @@
       "observaciones": "",
       "tecnico": "F. B.",
       "origen": "tecnico",
+      "fechaAten": "2026-09-29T17:18:42.687Z",
       "tecnico_creador": ""
     },
     {
@@ -23788,6 +23982,7 @@
       "observaciones": "",
       "tecnico": "F. B.",
       "origen": "tecnico",
+      "fechaAten": "2026-09-29T17:18:53.362Z",
       "tecnico_creador": ""
     },
     {
@@ -24388,8 +24583,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782227734189wmou",
@@ -24479,8 +24675,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R178222793739133t4",
@@ -25140,8 +25337,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782226433794cyoz",
@@ -25156,8 +25354,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R17822264114422w86",
@@ -25172,8 +25371,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782226337532pqqb",
@@ -25188,8 +25388,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782228813928pz2r",
@@ -25564,6 +25765,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
+      "fechaAten": "2026-09-29T17:41:42.304Z",
       "tecnico_creador": ""
     },
     {
@@ -25684,6 +25886,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
+      "fechaAten": "2026-09-29T17:41:27.340Z",
       "tecnico_creador": ""
     },
     {
@@ -25819,6 +26022,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
+      "fechaAten": "2026-09-29T17:41:23.378Z",
       "tecnico_creador": ""
     },
     {
@@ -25834,6 +26038,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
+      "fechaAten": "2026-09-29T17:41:17.413Z",
       "tecnico_creador": ""
     },
     {
@@ -26869,8 +27074,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782232952153r3de",
@@ -26885,8 +27091,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782233076009emjh",
@@ -27006,8 +27213,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782233129253okuq",
@@ -27037,8 +27245,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782232696921iud3",
@@ -27143,8 +27352,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R17822334634097zv3",
@@ -27159,8 +27369,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R17822336534084p0v",
@@ -27205,8 +27416,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782233585792h6x3",
@@ -27221,8 +27433,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782233706530xld3",
@@ -27237,8 +27450,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782233770910uupa",
@@ -27283,8 +27497,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782233802891eyaw",
@@ -27299,8 +27514,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R17822337393348zkq",
@@ -27315,8 +27531,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782233706337ofus",
@@ -27331,8 +27548,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R178223390740746tp",
@@ -28112,8 +28330,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R17822387204135i9x",
@@ -28128,8 +28347,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782238922408qo60",
@@ -28144,8 +28364,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R17822388093705mbj",
@@ -28160,8 +28381,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782239132948xhfl",
@@ -28176,8 +28398,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782239275210f9du",
@@ -28192,8 +28415,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R17822393330576br6",
@@ -28208,8 +28432,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R17822394104012fvv",
@@ -28224,8 +28449,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782239459045pt7z",
@@ -28240,8 +28466,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782239780114qozv",
@@ -28256,8 +28483,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R17822399808717xdg",
@@ -28272,8 +28500,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782239913283fffn",
@@ -28288,8 +28517,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782240159665zr83",
@@ -28304,8 +28534,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782240195344ix6y",
@@ -28320,8 +28551,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782240602062k4lo",
@@ -28336,8 +28568,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R17822405045083dlm",
@@ -28352,8 +28585,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782240844928sdys",
@@ -28383,8 +28617,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782240646073ej54",
@@ -28399,8 +28634,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782240968761llc1",
@@ -28415,8 +28651,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782241046671256j",
@@ -28431,8 +28668,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782241102800au4b",
@@ -28447,8 +28685,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782241210965wtr9",
@@ -28463,8 +28702,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782241591555cf7p",
@@ -28479,8 +28719,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782241626517h7em",
@@ -28495,8 +28736,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782241728769mp6k",
@@ -28511,8 +28753,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R178224166391273v8",
@@ -28527,8 +28770,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782241803047ifk1",
@@ -28543,8 +28787,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R178224365044992t0",
@@ -28589,6 +28834,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
+      "fechaAten": "2026-09-29T17:33:25.652Z",
       "tecnico_creador": ""
     },
     {
@@ -28604,6 +28850,7 @@
       "observaciones": "",
       "tecnico": "F. B.",
       "origen": "tecnico",
+      "fechaAten": "2026-09-29T17:18:56.976Z",
       "tecnico_creador": ""
     },
     {
@@ -28919,8 +29166,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782245700414hc6f",
@@ -28935,8 +29183,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782245954713pqzm",
@@ -28951,8 +29200,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R17822457555843m3y",
@@ -28967,8 +29217,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782246007262wtni",
@@ -28983,8 +29234,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782246076380um9b",
@@ -28999,8 +29251,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782246121039ibt4",
@@ -29015,6 +29268,7 @@
       "observaciones": "",
       "tecnico": "F. B.",
       "origen": "tecnico",
+      "fechaAten": "2026-09-29T17:20:25.890Z",
       "tecnico_creador": ""
     },
     {
@@ -29045,6 +29299,7 @@
       "observaciones": "",
       "tecnico": "F. B.",
       "origen": "tecnico",
+      "fechaAten": "2026-09-29T17:21:46.035Z",
       "tecnico_creador": ""
     },
     {
@@ -29075,8 +29330,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782246182332k1zl",
@@ -29091,8 +29347,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782246124403q5p3",
@@ -29107,8 +29364,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782246336976oapu",
@@ -29243,8 +29501,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782246438245gj6e",
@@ -29259,8 +29518,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R17822463333848z3a",
@@ -29275,8 +29535,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R178224628449542mh",
@@ -29291,8 +29552,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782246578895ip3t",
@@ -29367,6 +29629,7 @@
       "observaciones": "",
       "tecnico": "F. B.",
       "origen": "tecnico",
+      "fechaAten": "2026-09-29T17:21:24.458Z",
       "tecnico_creador": ""
     },
     {
@@ -29397,8 +29660,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R17822472404179ljk",
@@ -29413,8 +29677,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782247192777j0u4",
@@ -29429,8 +29694,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782247317996nxfi",
@@ -29535,8 +29801,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R17822475233484sn3",
@@ -29551,8 +29818,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R17822473261284url",
@@ -29567,8 +29835,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782247348226kh0b",
@@ -29703,8 +29972,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782248042180hgb3",
@@ -29824,8 +30094,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782248153883qgj0",
@@ -29840,8 +30111,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782248171189tswm",
@@ -29856,8 +30128,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782247861683jxr0",
@@ -29872,8 +30145,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782248404241sma8",
@@ -29888,8 +30162,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782248298030hlaq",
@@ -29904,8 +30179,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782248456590inkn",
@@ -29935,8 +30211,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R17822485852249fdf",
@@ -29951,8 +30228,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1782248896252y7fc",
@@ -30072,8 +30350,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R17822491283145oi9",
@@ -31183,8 +31462,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R17848092719968t1f",
@@ -31199,8 +31479,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1784809254181uutn",
@@ -31470,8 +31751,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1784808881292jjtm",
@@ -31486,8 +31768,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1784808868966n2j1",
@@ -31502,8 +31785,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1784808855317ujzn",
@@ -31518,8 +31802,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1784808833059atyl",
@@ -38974,8 +39259,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1785949120607y4me",
@@ -39140,8 +39426,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1785948176720mc7x",
@@ -39441,8 +39728,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1785947536510tuma",
@@ -39772,8 +40060,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1785864738713yrzx",
@@ -39923,8 +40212,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1785864504712tt9p",
@@ -40029,8 +40319,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1785864351761vubd",
@@ -40345,8 +40636,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1785863541382d3ox",
@@ -40406,8 +40698,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1785863436439ir7m",
@@ -40512,8 +40805,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1785863231041ol0o",
@@ -40573,8 +40867,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R17858621886441yo6",
@@ -40829,8 +41124,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1785861764031tj1n",
@@ -40845,8 +41141,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1785861746102jd63",
@@ -41011,8 +41308,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R178586150739909wx",
@@ -41192,6 +41490,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
+      "fechaAten": "2026-09-29T17:32:52.037Z",
       "tecnico_creador": ""
     },
     {
@@ -41297,8 +41596,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1786455827971w73d",
@@ -41793,8 +42093,9 @@
       "observaciones": "",
       "tecnico": "",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "fechaAten": null,
+      "reabierto": "2026-10-07T14:11:09.000Z",
+      "tecnico_creador": ""
     },
     {
       "id": "R1786454922378tweb",
@@ -51325,6 +51626,9 @@
       "id": "R1790688071977eupp",
       "direccion": "",
       "tipo": "Grande",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": -1.6452,
       "lng": -78.6789,
       "estado": "atendido",
@@ -51333,13 +51637,15 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "D. B.",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": "2026-09-29T17:41:35.866Z"
     },
     {
       "id": "R1790688060427yo1q",
       "direccion": "",
       "tipo": "Grande",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": -1.6453,
       "lng": -78.6789,
       "estado": "atendido",
@@ -51348,13 +51654,15 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "D. B.",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": "2026-09-29T17:41:32.232Z"
     },
     {
       "id": "R1790688042932qojg",
       "direccion": "",
       "tipo": "Mediano",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": -1.6452,
       "lng": -78.679,
       "estado": "atendido",
@@ -51363,13 +51671,15 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "D. B.",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": "2026-09-29T17:41:49.482Z"
     },
     {
       "id": "R1790688030109b774",
       "direccion": "",
       "tipo": "Pequeño",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": -1.6451,
       "lng": -78.679,
       "estado": "atendido",
@@ -51378,13 +51688,15 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "D. B.",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": "2026-09-29T17:41:46.063Z"
     },
     {
       "id": "R17906880051585lum",
       "direccion": "",
       "tipo": "Pequeño",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": -1.6453,
       "lng": -78.6794,
       "estado": "atendido",
@@ -51393,13 +51705,15 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "D. B.",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": "2026-09-29T17:41:52.729Z"
     },
     {
       "id": "R17906877714804rvc",
       "direccion": "",
       "tipo": "Grande",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": -1.6444,
       "lng": -78.6809,
       "estado": "atendido",
@@ -51408,13 +51722,15 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "D. B.",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": "2026-09-29T17:44:47.672Z"
     },
     {
       "id": "R1790687759767fab3",
       "direccion": "",
       "tipo": "Pequeño",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": -1.6444,
       "lng": -78.6806,
       "estado": "atendido",
@@ -51423,13 +51739,15 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "D. B.",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": "2026-09-29T17:44:28.290Z"
     },
     {
       "id": "R1790687739335jc15",
       "direccion": "",
       "tipo": "Grande",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": -1.6444,
       "lng": -78.6806,
       "estado": "atendido",
@@ -51438,13 +51756,15 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "D. B.",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": "2026-09-29T17:44:24.331Z"
     },
     {
       "id": "R1790687727191qm66",
       "direccion": "",
       "tipo": "Mediano",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": -1.6443,
       "lng": -78.6805,
       "estado": "atendido",
@@ -51453,13 +51773,15 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "D. B.",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": "2026-09-29T17:44:14.874Z"
     },
     {
       "id": "R1790687711323vncq",
       "direccion": "",
       "tipo": "Grande",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": -1.6444,
       "lng": -78.6805,
       "estado": "atendido",
@@ -51468,13 +51790,15 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "D. B.",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": "2026-09-29T17:44:18.480Z"
     },
     {
       "id": "R17906876938398ebo",
       "direccion": "",
       "tipo": "Mediano",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": -1.6443,
       "lng": -78.6804,
       "estado": "atendido",
@@ -51483,13 +51807,15 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "D. B.",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": "2026-09-29T17:44:10.857Z"
     },
     {
       "id": "R17906876608763ga1",
       "direccion": "",
       "tipo": "Grande",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": -1.6443,
       "lng": -78.6803,
       "estado": "atendido",
@@ -51498,13 +51824,15 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "D. B.",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": "2026-09-29T17:43:41.653Z"
     },
     {
       "id": "R1790687646389unks",
       "direccion": "",
       "tipo": "Pequeño",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": -1.6443,
       "lng": -78.6804,
       "estado": "atendido",
@@ -51513,13 +51841,15 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "D. B.",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": "2026-09-29T17:44:05.441Z"
     },
     {
       "id": "R1790687629223a2zm",
       "direccion": "",
       "tipo": "Mediano",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": -1.6443,
       "lng": -78.6804,
       "estado": "atendido",
@@ -51528,13 +51858,15 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "D. B.",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": "2026-09-29T17:43:48.019Z"
     },
     {
       "id": "R1790687607074sph7",
       "direccion": "",
       "tipo": "Grande",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": -1.6443,
       "lng": -78.6801,
       "estado": "atendido",
@@ -51543,13 +51875,15 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "D. B.",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": "2026-09-29T17:43:10.297Z"
     },
     {
       "id": "R1790687578900eb0t",
       "direccion": "",
       "tipo": "Mediano",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": -1.6443,
       "lng": -78.6801,
       "estado": "atendido",
@@ -51558,13 +51892,15 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "D. B.",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": "2026-09-29T17:43:32.824Z"
     },
     {
       "id": "R1790687568590tgjl",
       "direccion": "",
       "tipo": "Pequeño",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": -1.6443,
       "lng": -78.6801,
       "estado": "atendido",
@@ -51573,13 +51909,15 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "D. B.",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": "2026-09-29T17:43:23.855Z"
     },
     {
       "id": "R17906875245939fkj",
       "direccion": "",
       "tipo": "Mediano",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": -1.6444,
       "lng": -78.6798,
       "estado": "atendido",
@@ -51588,13 +51926,15 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "D. B.",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": "2026-09-29T17:42:45.254Z"
     },
     {
       "id": "R17906874593343qq7",
       "direccion": "",
       "tipo": "Pequeño",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": -1.6448,
       "lng": -78.6798,
       "estado": "atendido",
@@ -51603,13 +51943,15 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "D. B.",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": "2026-09-29T17:42:30.522Z"
     },
     {
       "id": "R1790687444213dyuh",
       "direccion": "",
       "tipo": "Pequeño",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": -1.6447,
       "lng": -78.6798,
       "estado": "atendido",
@@ -51618,13 +51960,15 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "D. B.",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": "2026-09-29T17:42:55.774Z"
     },
     {
       "id": "R1790687407209vf5d",
       "direccion": "",
       "tipo": "Mediano",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": -1.6448,
       "lng": -78.6797,
       "estado": "atendido",
@@ -51633,13 +51977,15 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "D. B.",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": "2026-09-29T17:42:16.915Z"
     },
     {
       "id": "R1790687375499fpxj",
       "direccion": "",
       "tipo": "Mediano",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": -1.6452,
       "lng": -78.6796,
       "estado": "atendido",
@@ -51648,13 +51994,15 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "D. B.",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": "2026-09-29T17:42:13.153Z"
     },
     {
       "id": "R17906873356591uep",
       "direccion": "",
       "tipo": "Pequeño",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": -1.6453,
       "lng": -78.6796,
       "estado": "atendido",
@@ -51663,13 +52011,15 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "D. B.",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": "2026-09-29T17:41:56.311Z"
     },
     {
       "id": "R17906859213853vjx",
       "direccion": "",
       "tipo": "Pequeño",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": -1.6641,
       "lng": -78.6484,
       "estado": "atendido",
@@ -51678,13 +52028,15 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "D. B.",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": "2026-09-29T17:30:52.657Z"
     },
     {
       "id": "R1790685906156uzdo",
       "direccion": "",
       "tipo": "Pequeño",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": -1.6641,
       "lng": -78.6484,
       "estado": "atendido",
@@ -51693,13 +52045,15 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "D. B.",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": "2026-09-29T17:30:19.507Z"
     },
     {
       "id": "R1790685894653cube",
       "direccion": "",
       "tipo": "Pequeño",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": -1.664,
       "lng": -78.6484,
       "estado": "atendido",
@@ -51708,13 +52062,15 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": "2026-09-29T17:23:53.441Z"
     },
     {
       "id": "R1790685882400aj9q",
       "direccion": "",
       "tipo": "Pequeño",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": -1.664,
       "lng": -78.6484,
       "estado": "atendido",
@@ -51723,13 +52079,15 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": "2026-09-29T17:23:38.578Z"
     },
     {
       "id": "R1790685870676crlp",
       "direccion": "",
       "tipo": "Pequeño",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": -1.664,
       "lng": -78.6484,
       "estado": "atendido",
@@ -51738,13 +52096,15 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": "2026-09-29T17:23:33.773Z"
     },
     {
       "id": "R17906858568421ew6",
       "direccion": "",
       "tipo": "Pequeño",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": -1.664,
       "lng": -78.6483,
       "estado": "atendido",
@@ -51753,13 +52113,15 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "D. B.",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": "2026-09-29T17:31:16.445Z"
     },
     {
       "id": "R1790685840704a1q5",
       "direccion": "",
       "tipo": "Pequeño",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": -1.6638,
       "lng": -78.6483,
       "estado": "atendido",
@@ -51768,13 +52130,15 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": "2026-09-29T17:23:30.041Z"
     },
     {
       "id": "R1790685821934j15o",
       "direccion": "",
       "tipo": "Pequeño",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": -1.6637,
       "lng": -78.6481,
       "estado": "atendido",
@@ -51783,13 +52147,15 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "D. B.",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": "2026-09-29T17:31:28.423Z"
     },
     {
       "id": "R1790685809641kjnp",
       "direccion": "",
       "tipo": "Pequeño",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": -1.6637,
       "lng": -78.6481,
       "estado": "atendido",
@@ -51798,13 +52164,15 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "D. B.",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": "2026-09-29T17:31:19.521Z"
     },
     {
       "id": "R1790685784200nxk7",
       "direccion": "",
       "tipo": "Mediano",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": -1.6635,
       "lng": -78.6481,
       "estado": "atendido",
@@ -51813,13 +52181,15 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": "2026-09-29T17:23:21.391Z"
     },
     {
       "id": "R1790685657979pvmz",
       "direccion": "",
       "tipo": "Grande",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": -1.6635,
       "lng": -78.648,
       "estado": "atendido",
@@ -51828,13 +52198,15 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": "2026-09-29T17:23:26.312Z"
     },
     {
       "id": "R1790685628602siz9",
       "direccion": "",
       "tipo": "Grande",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": -1.6634,
       "lng": -78.6479,
       "estado": "atendido",
@@ -51843,13 +52215,15 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": "2026-09-29T17:23:06.864Z"
     },
     {
       "id": "R17906856105545fij",
       "direccion": "",
       "tipo": "Grande",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": -1.6634,
       "lng": -78.648,
       "estado": "atendido",
@@ -51858,13 +52232,15 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": "2026-09-29T17:23:10.406Z"
     },
     {
       "id": "R1790685590913ckka",
       "direccion": "",
       "tipo": "Pequeño",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": -1.6634,
       "lng": -78.6479,
       "estado": "atendido",
@@ -51873,13 +52249,15 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": "2026-09-29T17:22:56.434Z"
     },
     {
       "id": "R1790685576844bafl",
       "direccion": "",
       "tipo": "Pequeño",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": -1.6634,
       "lng": -78.6478,
       "estado": "atendido",
@@ -51888,13 +52266,15 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": "2026-09-29T17:23:13.872Z"
     },
     {
       "id": "R1790685554370jga8",
       "direccion": "",
       "tipo": "Mediano",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": -1.6633,
       "lng": -78.6478,
       "estado": "atendido",
@@ -51903,13 +52283,15 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": "2026-09-29T17:22:49.225Z"
     },
     {
       "id": "R1790685534431bst5",
       "direccion": "",
       "tipo": "Grande",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": -1.6632,
       "lng": -78.6477,
       "estado": "atendido",
@@ -51918,13 +52300,15 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": "2026-09-29T17:22:39.318Z"
     },
     {
       "id": "R1790685518138f17m",
       "direccion": "",
       "tipo": "Mediano",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": -1.6632,
       "lng": -78.6478,
       "estado": "atendido",
@@ -51933,13 +52317,15 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": "2026-09-29T17:22:45.590Z"
     },
     {
       "id": "R1790685507037wx5x",
       "direccion": "",
       "tipo": "Pequeño",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": -1.6632,
       "lng": -78.6478,
       "estado": "atendido",
@@ -51948,13 +52334,15 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": "2026-09-29T17:22:42.436Z"
     },
     {
       "id": "R17906854907332gi4",
       "direccion": "",
       "tipo": "Grande",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": -1.6631,
       "lng": -78.6477,
       "estado": "atendido",
@@ -51963,13 +52351,15 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": "2026-09-29T17:22:24.288Z"
     },
     {
       "id": "R1790685474769gg62",
       "direccion": "",
       "tipo": "Pequeño",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": -1.6631,
       "lng": -78.6477,
       "estado": "atendido",
@@ -51978,13 +52368,15 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": "2026-09-29T17:22:35.854Z"
     },
     {
       "id": "R1790685463790fbu7",
       "direccion": "",
       "tipo": "Pequeño",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": -1.6631,
       "lng": -78.6477,
       "estado": "atendido",
@@ -51993,13 +52385,15 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": "2026-09-29T17:22:32.046Z"
     },
     {
       "id": "R1790685437789yq76",
       "direccion": "",
       "tipo": "Pequeño",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": -1.663,
       "lng": -78.6475,
       "estado": "atendido",
@@ -52008,13 +52402,15 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": "2026-09-29T17:22:09.438Z"
     },
     {
       "id": "R1790685423771irb9",
       "direccion": "",
       "tipo": "Mediano",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": -1.663,
       "lng": -78.6475,
       "estado": "atendido",
@@ -52023,13 +52419,15 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": "2026-09-29T17:22:12.938Z"
     },
     {
       "id": "R1790685408080fva1",
       "direccion": "",
       "tipo": "Mediano",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": -1.6631,
       "lng": -78.6476,
       "estado": "atendido",
@@ -52038,13 +52436,15 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": "2026-09-29T17:22:20.762Z"
     },
     {
       "id": "R1790685398034yufd",
       "direccion": "",
       "tipo": "Pequeño",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": -1.6629,
       "lng": -78.6475,
       "estado": "atendido",
@@ -52053,13 +52453,15 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": "2026-09-29T17:22:05.751Z"
     },
     {
       "id": "R1790685381920g1fk",
       "direccion": "",
       "tipo": "Mediano",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": -1.663,
       "lng": -78.6475,
       "estado": "atendido",
@@ -52068,13 +52470,15 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": "2026-09-29T17:22:16.671Z"
     },
     {
       "id": "R17906853677790e4j",
       "direccion": "",
       "tipo": "Pequeño",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": -1.663,
       "lng": -78.6475,
       "estado": "atendido",
@@ -52083,13 +52487,15 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": "2026-09-29T17:21:58.748Z"
     },
     {
       "id": "R17906852600964rhp",
       "direccion": "",
       "tipo": "Grande",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": -1.6629,
       "lng": -78.6474,
       "estado": "atendido",
@@ -52098,13 +52504,15 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": "2026-09-29T17:22:02.010Z"
     },
     {
       "id": "R17906852389409lwl",
       "direccion": "",
       "tipo": "Pequeño",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": -1.6628,
       "lng": -78.6474,
       "estado": "atendido",
@@ -52113,13 +52521,15 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": "2026-09-29T17:21:31.519Z"
     },
     {
       "id": "R1790685223581wr4t",
       "direccion": "",
       "tipo": "Pequeño",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": -1.6628,
       "lng": -78.6474,
       "estado": "atendido",
@@ -52128,13 +52538,15 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": "2026-09-29T17:21:38.490Z"
     },
     {
       "id": "R1790685209009ia34",
       "direccion": "",
       "tipo": "Grande",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": -1.6627,
       "lng": -78.6475,
       "estado": "atendido",
@@ -52143,13 +52555,15 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": "2026-09-29T17:21:27.889Z"
     },
     {
       "id": "R1790685185157uhm0",
       "direccion": "",
       "tipo": "Pequeño",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": -1.6628,
       "lng": -78.6474,
       "estado": "atendido",
@@ -52158,13 +52572,15 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": "2026-09-29T17:21:34.955Z"
     },
     {
       "id": "R17906851708856pvi",
       "direccion": "",
       "tipo": "Pequeño",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": -1.6627,
       "lng": -78.6473,
       "estado": "atendido",
@@ -52173,13 +52589,15 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": "2026-09-29T17:21:20.567Z"
     },
     {
       "id": "R1790685152755dkt5",
       "direccion": "",
       "tipo": "Grande",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": -1.6626,
       "lng": -78.6474,
       "estado": "atendido",
@@ -52188,13 +52606,15 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": "2026-09-29T17:21:15.874Z"
     },
     {
       "id": "R1790685139985nzfx",
       "direccion": "",
       "tipo": "Pequeño",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": -1.6625,
       "lng": -78.6475,
       "estado": "atendido",
@@ -52203,13 +52623,15 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": "2026-09-29T17:21:12.229Z"
     },
     {
       "id": "R1790685127704q9gy",
       "direccion": "",
       "tipo": "Mediano",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": -1.6626,
       "lng": -78.6474,
       "estado": "atendido",
@@ -52218,13 +52640,15 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": "2026-09-29T17:21:05.874Z"
     },
     {
       "id": "R1790685115740u7zb",
       "direccion": "",
       "tipo": "Mediano",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": -1.6626,
       "lng": -78.6473,
       "estado": "atendido",
@@ -52233,13 +52657,15 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": "2026-09-29T17:20:54.160Z"
     },
     {
       "id": "R1790685101677x667",
       "direccion": "",
       "tipo": "Pequeño",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": -1.6625,
       "lng": -78.6472,
       "estado": "atendido",
@@ -52248,13 +52674,15 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "D. B.",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": "2026-09-29T17:33:19.779Z"
     },
     {
       "id": "R179068509181685ka",
       "direccion": "",
       "tipo": "Pequeño",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": -1.6625,
       "lng": -78.6472,
       "estado": "atendido",
@@ -52263,13 +52691,15 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": "2026-09-29T17:20:45.954Z"
     },
     {
       "id": "R1790685080254vbh4",
       "direccion": "",
       "tipo": "Pequeño",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": -1.6626,
       "lng": -78.6472,
       "estado": "atendido",
@@ -52278,13 +52708,15 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": "2026-09-29T17:21:02.267Z"
     },
     {
       "id": "R1790685066363f3ip",
       "direccion": "",
       "tipo": "Grande",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": -1.6625,
       "lng": -78.6473,
       "estado": "atendido",
@@ -52293,13 +52725,15 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": "2026-09-29T17:20:58.446Z"
     },
     {
       "id": "R17906849776376iqd",
       "direccion": "",
       "tipo": "Grande",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": -1.6622,
       "lng": -78.6468,
       "estado": "atendido",
@@ -52308,13 +52742,15 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": "2026-09-29T17:20:12.006Z"
     },
     {
       "id": "R1790684949715hi2r",
       "direccion": "",
       "tipo": "Grande",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": -1.6621,
       "lng": -78.647,
       "estado": "atendido",
@@ -52323,13 +52759,15 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": "2026-09-29T17:20:18.175Z"
     },
     {
       "id": "R1790684880342lf2h",
       "direccion": "",
       "tipo": "Pequeño",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": -1.6626,
       "lng": -78.6466,
       "estado": "atendido",
@@ -52338,13 +52776,15 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "D. B.",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": "2026-09-29T17:31:54.611Z"
     },
     {
       "id": "R1790684868284yzwp",
       "direccion": "",
       "tipo": "Pequeño",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": -1.6626,
       "lng": -78.6465,
       "estado": "atendido",
@@ -52353,13 +52793,15 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "D. B.",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": "2026-09-29T17:32:12.969Z"
     },
     {
       "id": "R17906848544046bec",
       "direccion": "",
       "tipo": "Mediano",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": -1.6629,
       "lng": -78.6464,
       "estado": "atendido",
@@ -52368,13 +52810,15 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "D. B.",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": "2026-09-29T17:32:47.884Z"
     },
     {
       "id": "R17906848419052j2b",
       "direccion": "",
       "tipo": "Pequeño",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": -1.6627,
       "lng": -78.6464,
       "estado": "atendido",
@@ -52383,13 +52827,15 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "D. B.",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": "2026-09-29T17:32:27.975Z"
     },
     {
       "id": "R17906848200578vxl",
       "direccion": "",
       "tipo": "Grande",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": -1.6628,
       "lng": -78.6463,
       "estado": "atendido",
@@ -52398,13 +52844,15 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "D. B.",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": "2026-09-29T17:32:39.964Z"
     },
     {
       "id": "R17906847916287jz7",
       "direccion": "",
       "tipo": "Mediano",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": -1.6627,
       "lng": -78.6463,
       "estado": "atendido",
@@ -52413,13 +52861,15 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "D. B.",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": "2026-09-29T17:32:31.739Z"
     },
     {
       "id": "R1790684762524n2tg",
       "direccion": "",
       "tipo": "Grande",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": -1.6627,
       "lng": -78.6464,
       "estado": "atendido",
@@ -52428,13 +52878,15 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "D. B.",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": "2026-09-29T17:32:43.741Z"
     },
     {
       "id": "R17906847516605ezd",
       "direccion": "",
       "tipo": "Mediano",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": -1.6626,
       "lng": -78.6465,
       "estado": "atendido",
@@ -52443,13 +52895,15 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "D. B.",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": "2026-09-29T17:32:23.561Z"
     },
     {
       "id": "R17906847359691v1w",
       "direccion": "",
       "tipo": "Pequeño",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": -1.6626,
       "lng": -78.6465,
       "estado": "atendido",
@@ -52458,13 +52912,15 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "D. B.",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": "2026-09-29T17:32:17.973Z"
     },
     {
       "id": "R1790684723797e76i",
       "direccion": "",
       "tipo": "Mediano",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": -1.6625,
       "lng": -78.6466,
       "estado": "atendido",
@@ -52473,13 +52929,15 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "D. B.",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": "2026-09-29T17:32:07.023Z"
     },
     {
       "id": "R17906847060871ldo",
       "direccion": "",
       "tipo": "Grande",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": -1.6625,
       "lng": -78.6465,
       "estado": "atendido",
@@ -52488,13 +52946,15 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "D. B.",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": "2026-09-29T17:31:59.906Z"
     },
     {
       "id": "R1790684690881ycwz",
       "direccion": "",
       "tipo": "Grande",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": -1.6626,
       "lng": -78.6467,
       "estado": "atendido",
@@ -52503,13 +52963,15 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "D. B.",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": "2026-09-29T17:31:50.628Z"
     },
     {
       "id": "R17906846667207bh7",
       "direccion": "",
       "tipo": "Grande",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": -1.6624,
       "lng": -78.6468,
       "estado": "atendido",
@@ -52518,13 +52980,15 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "D. B.",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": "2026-09-29T17:31:46.954Z"
     },
     {
       "id": "R1790684623641xv8h",
       "direccion": "",
       "tipo": "Grande",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": -1.6621,
       "lng": -78.6469,
       "estado": "atendido",
@@ -52533,13 +52997,15 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": "2026-09-29T17:20:08.496Z"
     },
     {
       "id": "R1790684606519icil",
       "direccion": "",
       "tipo": "Pequeño",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": -1.6621,
       "lng": -78.6468,
       "estado": "atendido",
@@ -52548,13 +53014,15 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": "2026-09-29T17:19:56.025Z"
     },
     {
       "id": "R179068459296486p7",
       "direccion": "",
       "tipo": "Pequeño",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": -1.6621,
       "lng": -78.6468,
       "estado": "atendido",
@@ -52563,13 +53031,15 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": "2026-09-29T17:20:04.826Z"
     },
     {
       "id": "R1790684577071pion",
       "direccion": "",
       "tipo": "Pequeño",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": -1.6621,
       "lng": -78.6468,
       "estado": "atendido",
@@ -52578,13 +53048,15 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": "2026-09-29T17:19:50.774Z"
     },
     {
       "id": "R1790684565177xajj",
       "direccion": "",
       "tipo": "Grande",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": -1.6621,
       "lng": -78.6468,
       "estado": "atendido",
@@ -52593,13 +53065,15 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": "2026-09-29T17:20:01.346Z"
     },
     {
       "id": "R17906845516624cvp",
       "direccion": "",
       "tipo": "Mediano",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": -1.662,
       "lng": -78.6468,
       "estado": "atendido",
@@ -52608,13 +53082,15 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": "2026-09-29T17:19:47.062Z"
     },
     {
       "id": "R1790684533289flem",
       "direccion": "",
       "tipo": "Pequeño",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": -1.6619,
       "lng": -78.6467,
       "estado": "atendido",
@@ -52623,13 +53099,15 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": "2026-09-29T17:19:17.164Z"
     },
     {
       "id": "R1790684521816x675",
       "direccion": "",
       "tipo": "Pequeño",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": -1.662,
       "lng": -78.6467,
       "estado": "atendido",
@@ -52638,13 +53116,15 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": "2026-09-29T17:19:37.112Z"
     },
     {
       "id": "R17906845053168x8v",
       "direccion": "",
       "tipo": "Pequeño",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": -1.662,
       "lng": -78.6467,
       "estado": "atendido",
@@ -52653,13 +53133,15 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": "2026-09-29T17:19:31.233Z"
     },
     {
       "id": "R17906844924844t1t",
       "direccion": "",
       "tipo": "Pequeño",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": -1.662,
       "lng": -78.6467,
       "estado": "atendido",
@@ -52668,13 +53150,15 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": "2026-09-29T17:19:41.239Z"
     },
     {
       "id": "R1790684483649swj6",
       "direccion": "",
       "tipo": "Pequeño",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": -1.662,
       "lng": -78.6467,
       "estado": "atendido",
@@ -52683,13 +53167,15 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": "2026-09-29T17:19:27.555Z"
     },
     {
       "id": "R17906844705930tix",
       "direccion": "",
       "tipo": "Pequeño",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": -1.6619,
       "lng": -78.6467,
       "estado": "atendido",
@@ -52698,13 +53184,15 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": "2026-09-29T17:19:13.538Z"
     },
     {
       "id": "R17906844555681k7a",
       "direccion": "",
       "tipo": "Grande",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": -1.662,
       "lng": -78.6467,
       "estado": "atendido",
@@ -52713,13 +53201,15 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": "2026-09-29T17:19:23.621Z"
     },
     {
       "id": "R1790684439049mfxy",
       "direccion": "",
       "tipo": "Pequeño",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": -1.6618,
       "lng": -78.6467,
       "estado": "atendido",
@@ -52728,13 +53218,15 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": "2026-09-29T17:19:09.814Z"
     },
     {
       "id": "R179068442455216sr",
       "direccion": "",
       "tipo": "Pequeño",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": -1.6618,
       "lng": -78.6467,
       "estado": "atendido",
@@ -52743,13 +53235,15 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": "2026-09-29T17:18:29.826Z"
     },
     {
       "id": "R1790684407004ime3",
       "direccion": "",
       "tipo": "Mediano",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": -1.6618,
       "lng": -78.6466,
       "estado": "atendido",
@@ -52758,13 +53252,15 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": "2026-09-29T17:19:05.741Z"
     },
     {
       "id": "R1790684388131b0o5",
       "direccion": "",
       "tipo": "Pequeño",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": -1.6617,
       "lng": -78.6467,
       "estado": "atendido",
@@ -52773,13 +53269,15 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": "2026-09-29T17:18:26.263Z"
     },
     {
       "id": "R1790684376246ygip",
       "direccion": "",
       "tipo": "Pequeño",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": -1.6616,
       "lng": -78.6465,
       "estado": "atendido",
@@ -52788,13 +53286,15 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": "2026-09-29T17:18:39.127Z"
     },
     {
       "id": "R179068435618885qk",
       "direccion": "",
       "tipo": "Mediano",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": -1.6617,
       "lng": -78.6465,
       "estado": "atendido",
@@ -52803,13 +53303,15 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": "2026-09-29T17:18:49.147Z"
     },
     {
       "id": "R1790684341521ffj5",
       "direccion": "",
       "tipo": "Mediano",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": -1.6617,
       "lng": -78.6466,
       "estado": "atendido",
@@ -52818,13 +53320,15 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": "2026-09-29T17:19:01.582Z"
     },
     {
       "id": "R17906842661031uz7",
       "direccion": "",
       "tipo": "Grande",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": -1.662,
       "lng": -78.6471,
       "estado": "atendido",
@@ -52833,13 +53337,15 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": "2026-09-29T17:20:22.129Z"
     },
     {
       "id": "R1790684243957sm54",
       "direccion": "",
       "tipo": "Pequeño",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": -1.662,
       "lng": -78.6472,
       "estado": "atendido",
@@ -52848,13 +53354,15 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": "2026-09-29T17:18:10.218Z"
     },
     {
       "id": "R1790684229229m6io",
       "direccion": "",
       "tipo": "Mediano",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": -1.662,
       "lng": -78.6473,
       "estado": "pendiente",
@@ -52863,13 +53371,15 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": null
     },
     {
       "id": "R17906842051391wdl",
       "direccion": "",
       "tipo": "Pequeño",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": -1.662,
       "lng": -78.6473,
       "estado": "atendido",
@@ -52878,13 +53388,15 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": "2026-09-29T17:18:05.958Z"
     },
     {
       "id": "R1790684187204byvd",
       "direccion": "",
       "tipo": "Pequeño",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": -1.6619,
       "lng": -78.6474,
       "estado": "atendido",
@@ -52893,13 +53405,15 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": "2026-09-29T17:17:53.957Z"
     },
     {
       "id": "R1790684172413nfzq",
       "direccion": "",
       "tipo": "Mediano",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": -1.6619,
       "lng": -78.6474,
       "estado": "atendido",
@@ -52908,13 +53422,15 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": "2026-09-29T17:17:57.675Z"
     },
     {
       "id": "R1790684150839st3w",
       "direccion": "",
       "tipo": "Mediano",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": -1.6618,
       "lng": -78.6475,
       "estado": "atendido",
@@ -52923,13 +53439,15 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": "2026-09-29T17:17:49.700Z"
     },
     {
       "id": "R17906841225815rwj",
       "direccion": "",
       "tipo": "Mediano",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": -1.6618,
       "lng": -78.6476,
       "estado": "atendido",
@@ -52938,8 +53456,7 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "F. B.",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": "2026-09-29T17:17:19.173Z"
     },
     {
       "id": "R1790716225161ob0t",
