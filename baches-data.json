@@ -1,15 +1,12 @@
 {
   "version": "2.0",
   "minAppVersion": 4,
-  "actualizacion": "2026-10-08T22:11:08.060Z",
+  "actualizacion": "2026-10-09T06:10:52.860Z",
   "baches": [
     {
       "id": "R1791497462254zmau",
       "direccion": "",
       "tipo": "Grande",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": null,
       "lng": null,
       "estado": "pendiente",
@@ -18,7 +15,8 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "",
-      "fechaAten": null
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R1791381504659rnha",
