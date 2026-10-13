@@ -1,7 +1,7 @@
 {
   "version": "2.0",
   "minAppVersion": 4,
-  "actualizacion": "2026-10-13T15:02:58.460Z",
+  "actualizacion": "2026-10-13T15:03:59.557Z",
   "baches": [
     {
       "id": "R1791898743833igwd",
@@ -24131,6 +24131,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
+      "fechaAten": "2026-10-05T15:03:17.189Z",
       "tecnico_creador": ""
     },
     {
@@ -55457,6 +55458,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
+      "fechaAten": "2026-10-05T15:02:57.284Z",
       "tecnico_creador": ""
     },
     {
@@ -55472,6 +55474,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
+      "fechaAten": "2026-10-05T15:02:50.772Z",
       "tecnico_creador": ""
     },
     {
