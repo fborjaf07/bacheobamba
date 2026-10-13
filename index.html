@@ -27,20 +27,22 @@
 })();
 </script>
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<title>BACHEOBAMBA RIOBAMBA · Alcaldía de la Gente de Riobamba</title>
+<title>BACHEOBAMBA · Alcaldía de la Gente de Riobamba</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <style>
 :root{
   /* Paleta Alcaldía de la Gente · rojo + azul (alto contraste) */
-  --rojo:#C8102E; --rojo-h:#A60D26; --rojo-s:#FDE7EA; --rojo-d:#7A0A1C;
-  --azul:#0B1F4D; --azul-h:#081640; --azul-c:#1E3A8A; --azul-s:#E4EAF6;
+  /* Línea gráfica RioObras · navy #0B1F4D + naranja #EA580C */
+  --rojo:#EA580C; --rojo-h:#C2410C; --rojo-s:#FFEDD5; --rojo-d:#9A3412;
+  --naranja-c:#F97316; --naranja-g:linear-gradient(135deg,#F97316 0%,#EA580C 100%);
+  --azul:#0B1F4D; --azul-h:#081640; --azul-c:#0F3460; --azul-s:#E4EAF6;
   --verde:#1A7A4A; --verde-s:#E8F5EE;
   --ambar:#E0A011; --ambar-s:#FFF4DA;
-  --fondo:#FFFFFF; --tarjeta:#FFFFFF;
+  --fondo:#F4F6FB; --tarjeta:#FFFFFF; --fondo-s:#F4F6FB;
   --linea:#E3E6EF; --linea-f:#EEF1F7;
   --tx:#0B1F4D; --tx-m:#4A536B; --tx-c:#7A8299;
   --r:14px; --rs:10px; --r-pill:999px;
@@ -58,7 +60,7 @@ button,input,select,textarea{font-family:inherit;color:inherit;}
 .ico svg{width:1em;height:1em;}
 
 /* ── FRANJA SUPERIOR (mensajes municipales) ── */
-.top-bar{background:var(--rojo);color:#fff;font-size:.7rem;font-weight:700;
+.top-bar{background:var(--verde);color:#fff;font-size:.7rem;font-weight:700;
   letter-spacing:.18em;text-transform:uppercase;overflow:hidden;position:relative;
   display:flex;align-items:center;height:30px;border-bottom:2px solid var(--azul);}
 .top-track{display:flex;gap:48px;white-space:nowrap;animation:tickr 28s linear infinite;padding-left:100%;}
@@ -66,51 +68,60 @@ button,input,select,textarea{font-family:inherit;color:inherit;}
 .top-track span::before{content:"";width:6px;height:6px;border-radius:50%;background:#fff;display:inline-block;}
 @keyframes tickr{0%{transform:translateX(0);}100%{transform:translateX(-100%);}}
 
+/* ── CORTE / ÚLTIMO ATENDIDO ── */
+.corte-card{margin:0 0 22px;background:var(--tarjeta);border:1px solid var(--linea);border-radius:var(--r);overflow:hidden;box-shadow:var(--sh-1);}
+.corte-card::before{content:"";display:block;height:4px;background:var(--rojo);}
+.corte-in{padding:18px 20px;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:14px;align-items:center;}
+.corte-lbl{font-size:.9rem;font-weight:700;color:var(--tx-m);margin-bottom:6px;}
+.corte-fecha{font-size:1.6rem;font-weight:900;line-height:1.05;color:var(--rojo);letter-spacing:-0.01em;}
+.corte-det{font-size:.82rem;color:var(--tx-m);margin-top:6px;line-height:1.45;text-wrap:pretty;}
+.corte-plat{display:inline-flex;align-items:center;gap:7px;padding:6px 13px;border-radius:var(--r-pill);background:var(--rojo);color:#fff;font-size:.8rem;font-weight:700;white-space:nowrap;}
+.corte-msg{padding:13px 20px;background:var(--rojo-s);color:var(--rojo-d);font-size:.84rem;font-weight:600;line-height:1.45;border-top:1px solid var(--linea);text-wrap:pretty;}
+.corte-msg + .corte-msg{border-top:1px solid rgba(234,88,12,.18);}
+.corte-msg strong{font-weight:800;}
+.corte-msg.ok{background:var(--verde-s);color:#0F5233;}
+@media(max-width:520px){.corte-in{grid-template-columns:1fr;}}
+
 /* ── HEADER ── */
-.hdr{background:var(--azul);border-bottom:4px solid var(--rojo);height:96px;display:grid;
-  grid-template-columns:auto 1fr auto;align-items:center;gap:14px;padding:0 18px;position:sticky;top:0;z-index:200;}
+.hdr{background:var(--azul);border-bottom:4px solid var(--rojo);position:sticky;top:0;z-index:200;max-width:872px;width:calc(100% - 28px);margin:0 auto;}
+/* bloque superior con el mismo ancho fijo que el contenido de .main (872px) */
+.top-bar,.hero{max-width:872px;width:calc(100% - 28px);margin-left:auto;margin-right:auto;}
+.bot-wrap{max-width:900px;margin-left:auto;margin-right:auto;}
+.hdr-in{margin:0 auto;padding:10px 14px;min-height:96px;display:grid;
+  grid-template-columns:72px minmax(0,1fr) 48px;align-items:center;gap:16px;}
+.hdr-der{display:flex;align-items:center;gap:12px;justify-self:end;}
+.hdr-fecha{display:block;font-size:.58rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:rgba(255,255,255,.62);margin-top:5px;}
 .hdr-brand{display:flex;align-items:center;justify-self:start;}
 .logo-mark{width:72px;height:72px;border-radius:12px;display:block;background:#fff;padding:4px;
   box-shadow:0 4px 14px rgba(0,0,0,.22);}
 .hdr-title{justify-self:center;text-align:center;line-height:1;}
-.hdr-title h1{font-size:1.85rem;font-weight:800;letter-spacing:0.06em;color:#fff;
-  text-transform:uppercase;white-space:nowrap;}
-.hdr-title h1 em{font-style:normal;color:#fff;background:var(--rojo);padding:2px 10px;border-radius:6px;}
-.hdr-title small{display:block;font-size:0.6rem;font-weight:700;letter-spacing:0.22em;text-transform:uppercase;
+.hdr-title h1{font-size:1.5rem;font-weight:900;letter-spacing:0.02em;color:#fff;text-transform:uppercase;line-height:1.05;text-wrap:balance;}
+.hdr-title h1 em{font-style:normal;color:var(--naranja-c);}
+.hdr-title small{display:block;font-size:0.62rem;font-weight:700;letter-spacing:0.24em;text-transform:uppercase;
   color:rgba(255,255,255,.78);margin-top:6px;}
-.btn-adm-hdr{background:var(--rojo);border:2px solid #fff;color:#fff;width:48px;height:48px;
+.btn-adm-hdr{background:var(--rojo);border:2px solid rgba(255,255,255,.9);color:#fff;width:48px;height:48px;
   border-radius:50%;cursor:pointer;display:flex;align-items:center;justify-content:center;
   justify-self:end;transition:all .15s;padding:0;font-size:1.15rem;
   box-shadow:0 4px 14px rgba(200,16,46,.45);}
 .btn-adm-hdr:hover{background:var(--rojo-h);transform:scale(1.05);}
 .btn-adm-hdr span{display:none;}
 .btn-adm-hdr .ico{font-size:1.1rem;}
-@media(max-width:520px){
-  .hdr{height:86px;padding:0 14px;gap:10px;}
-  .logo-mark{width:60px;height:60px;}
-  .hdr-title h1{font-size:1.3rem;letter-spacing:0.04em;}
-  .hdr-title small{font-size:0.52rem;letter-spacing:0.16em;margin-top:4px;}
-  .btn-adm-hdr{width:42px;height:42px;}
-}
-@media(max-width:380px){
-  .hdr-title h1{font-size:1.1rem;}
-  .hdr-title small{display:none;}
-}
+
 
 /* ── HERO ── */
-.hero{padding:42px 20px 36px;min-height:300px;display:flex;align-items:center;background:var(--azul);position:relative;overflow:hidden;color:#fff;}
+.hero{padding:42px 14px 36px;min-height:300px;display:flex;align-items:center;background:var(--azul);position:relative;overflow:hidden;color:#fff;}
 .hero::before{content:"";position:absolute;inset:0;
   background:url('hero-bg.png') center center / cover no-repeat;
   opacity:.16;mix-blend-mode:luminosity;pointer-events:none;z-index:0;}
 .hero::after{content:"";position:absolute;bottom:0;left:0;right:0;height:6px;
   background:linear-gradient(90deg, var(--rojo) 0%, var(--rojo) 50%, #fff 50%, #fff 100%);}
-.hero-wrap{max-width:900px;margin:0 auto;position:relative;z-index:1;width:100%;}
+.hero-wrap{max-width:872px;margin:0 auto;position:relative;z-index:1;width:100%;}
 .hero-eyebrow{display:inline-flex;align-items:center;gap:9px;font-size:0.68rem;font-weight:800;
   letter-spacing:0.18em;text-transform:uppercase;color:#fff;margin-bottom:18px;
-  background:var(--rojo);padding:7px 14px;border-radius:var(--r-pill);box-shadow:0 4px 14px rgba(200,16,46,.45);}
+  background:var(--naranja-g);padding:7px 14px;border-radius:var(--r-pill);box-shadow:0 4px 14px rgba(234,88,12,.4);}
 .hero-eyebrow::before{content:"";display:inline-block;width:6px;height:6px;border-radius:50%;background:#fff;}
 .hero h2{font-size:2.15rem;font-weight:800;line-height:1.05;color:#fff;letter-spacing:-0.02em;margin-bottom:14px;text-wrap:balance;}
-.hero h2 em{font-style:normal;color:#FFD3D8;}
+.hero h2 em{font-style:normal;color:var(--naranja-c);}
 .hero p{font-size:0.94rem;color:rgba(255,255,255,.82);font-weight:500;line-height:1.55;max-width:540px;margin-bottom:24px;}
 .btn-reportar{background:var(--rojo);color:#fff;border:2px solid #fff;padding:14px 28px;border-radius:var(--r-pill);
   font-size:0.95rem;font-weight:800;cursor:pointer;display:inline-flex;align-items:center;gap:8px;letter-spacing:.02em;
@@ -125,7 +136,7 @@ button,input,select,textarea{font-family:inherit;color:inherit;}
 
 /* ── BANNER INFERIOR (construcción) ── */
 .bot-banner{background:var(--azul);color:#fff;padding:18px 16px;display:flex;align-items:center;gap:14px;
-  max-width:900px;margin:0 auto;border-radius:var(--r);box-shadow:0 8px 24px rgba(11,31,77,.18);
+  max-width:872px;margin:0 auto;border-radius:var(--r);box-shadow:0 8px 24px rgba(11,31,77,.18);
   position:relative;overflow:hidden;}
 .bot-banner::before{content:"";position:absolute;left:0;top:0;bottom:0;width:5px;background:var(--rojo);}
 .bot-banner::after{content:"";position:absolute;right:-40px;top:-40px;width:140px;height:140px;
@@ -147,6 +158,14 @@ button,input,select,textarea{font-family:inherit;color:inherit;}
 @keyframes pulse{0%,100%{transform:scale(1);opacity:1;}50%{transform:scale(1.3);opacity:.65;}}
 .bot-wrap{padding:24px 14px 0;margin-bottom:24px;}
 
+/* ── TITULAR PLAN ── */
+.plan-hd{background:var(--azul);color:#fff;border-radius:20px;padding:32px 30px;margin-bottom:24px;position:relative;overflow:hidden;box-shadow:0 10px 30px rgba(11,31,77,.18);}
+.plan-hd::after{content:"";position:absolute;right:-90px;top:-90px;width:300px;height:300px;border-radius:50%;background:radial-gradient(circle,rgba(249,115,22,.22) 0%,transparent 65%);pointer-events:none;}
+.plan-hd h2{font-size:2.5rem;font-weight:900;line-height:1.04;letter-spacing:-0.02em;color:var(--naranja-c);text-wrap:balance;margin-bottom:14px;position:relative;z-index:1;}
+.plan-hd p{font-size:1rem;line-height:1.6;color:rgba(255,255,255,.88);max-width:620px;position:relative;z-index:1;text-align:left;}
+.plan-hd p strong{color:#fff;font-weight:700;}
+@media(max-width:520px){.plan-hd{padding:24px 20px;}.plan-hd h2{font-size:1.9rem;}}
+
 /* ── MAIN ── */
 .main{max-width:900px;margin:0 auto;padding:22px 14px 90px;}
 .main p,.main li{text-align:justify;hyphens:auto;}
@@ -159,7 +178,7 @@ button,input,select,textarea{font-family:inherit;color:inherit;}
 .stat.pen{border-color:var(--rojo);}
 .stat.ate{border-color:var(--verde);}
 .stat-l{font-size:0.62rem;color:var(--tx-c);font-weight:700;text-transform:uppercase;letter-spacing:0.1em;}
-.stat-n{font-size:1.85rem;font-weight:800;line-height:1;letter-spacing:-0.02em;}
+.stat-n{font-size:1.85rem;font-weight:900;line-height:1;letter-spacing:-0.02em;}
 .stat.tot .stat-n{color:var(--azul);}
 .stat.pen .stat-n{color:var(--rojo);}
 .stat.ate .stat-n{color:var(--verde);}
@@ -557,7 +576,7 @@ button,input,select,textarea{font-family:inherit;color:inherit;}
   .hero h2{font-size:1.7rem;}
   .stat-n{font-size:1.55rem;}
   .tab{padding:12px 10px;font-size:0.74rem;}
-  .hdr-tit small{display:none;}
+  
   .adm-stats-grid{grid-template-columns:repeat(2,1fr);}
 }
 </style>
@@ -573,16 +592,20 @@ button,input,select,textarea{font-family:inherit;color:inherit;}
 </div>
 
 <!-- HEADER -->
-<header class="hdr">
+<header class="hdr"><div class="hdr-in">
   <div class="hdr-brand">
     <img class="logo-mark" src="logo-riobamba.jpeg" alt="Alcaldía de la Gente · Riobamba">
   </div>
   <div class="hdr-title">
-    <h1>Bacheo<em>bamba</em> Riobamba</h1>
+    <h1>Gente, <em>Bacheobamba</em> está sucediendo</h1>
     <small>Alcaldía de la Gente</small>
+    <span class="hdr-fecha" id="hdr-fecha"></span>
   </div>
+  <div class="hdr-der">
   <button class="btn-adm-hdr" onclick="abrirLogin()" data-ico="lock" aria-label="Acceso técnico" title="Acceso técnico"><span>Acceso técnico</span></button>
-</header>
+  </div>
+</div></header>
+<script>(function(){var e=document.getElementById('hdr-fecha');if(e)e.textContent=new Date().toLocaleDateString('es-EC',{weekday:'long',day:'numeric',month:'long',year:'numeric'});})();</script>
 
 <!-- HERO -->
 <section class="hero">
@@ -605,6 +628,10 @@ button,input,select,textarea{font-family:inherit;color:inherit;}
 </div>
 
 <main class="main">
+  <section class="plan-hd" aria-label="Plan de bacheo">
+    <h2>El JhonVi planifica, Riobamba avanza sin baches.</h2>
+    <p>Seguimiento a cada bache reportado y atendido por el GADM Riobamba, plataforma por plataforma. <strong>Información pública, actualizada y verificable.</strong></p>
+  </section>
   <div class="stats">
     <div class="stat tot"><div class="stat-l">Total</div><div class="stat-n" id="sn-tot">—</div><div class="stat-bar"><i></i></div></div>
     <div class="stat pen"><div class="stat-l">Pendientes</div><div class="stat-n" id="sn-pen">—</div><div class="stat-bar"><i></i></div></div>
@@ -627,6 +654,7 @@ button,input,select,textarea{font-family:inherit;color:inherit;}
       <span class="mapa-ley-item"><span class="mapa-ley-dot ate"></span>Bache atendido</span>
     </div>
   </div>
+  <div class="corte-card" id="corte-card" aria-live="polite" style="display:none;"></div>
 
   <div id="lista-ciu"></div>
 

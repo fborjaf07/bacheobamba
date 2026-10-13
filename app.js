@@ -58,7 +58,7 @@ const LS={g:k=>{try{return JSON.parse(localStorage.getItem(k));}catch{return nul
   s:(k,v)=>localStorage.setItem(k,JSON.stringify(v)),r:k=>localStorage.removeItem(k)};
 
 /* ── GITHUB ── */
-const APP_VERSION=4;
+const APP_VERSION=3;
 const _t=['Z2l0aHViX3BhdF8xMUNCS1BRS1kwcw==','Tms3cld6bWNKMDlfSlE1VG1NbFhEeA==','SVRSeDhsbnM5eVZZeTlaamRYaFAxNg==','NzYyU2k1eVgzRVdUV0xHSDJQMkpTdg==','b0loSEI='];
 const GH_PUBLIC_TOKEN=(()=>{try{return _t.map(x=>atob(x)).join('');}catch(e){return '';}})();
 const GH={
@@ -500,11 +500,6 @@ function enWifi(){
   if(typeof c.effectiveType==='string')return true; // sin type explícito, no se puede distinguir wifi/datos — permitir
   return true;
 }
-// true cuando el repo reabrió el bache y la copia local conserva un "atendido" más antiguo
-function debeReabrir(r,l){
-  return !!(r&&l&&r.reabierto&&r.estado!=='atendido'&&l.estado==='atendido'&&!l.pendienteSubir
-    &&!(l.fechaAten&&String(l.fechaAten)>String(r.reabierto)));
-}
 async function sincGH(silent=false,_lote=0,forzar=false){
   if(!GH.token){notif('Configura el token de GitHub primero','r');return;}
   if(!forzar&&!enWifi()){
@@ -565,15 +560,6 @@ async function sincGH(silent=false,_lote=0,forzar=false){
           if(r.fotoDespues)l.fotoDespues=r.fotoDespues;
           if(r.fechaAten)l.fechaAten=r.fechaAten;
         }
-        // Reapertura: si el repo devolvió el bache a "pendiente" (campo reabierto) y la
-        // copia local sigue con el "atendido" anterior a esa fecha, manda el repo.
-        if(r.reabierto){
-          if(debeReabrir(r,l)){
-            l.estado='pendiente';l.tecnico='';l.observaciones=r.observaciones||'';
-            l.fotoDespues=r.fotoDespues||null;l.fechaAten=null;
-          }
-          l.reabierto=r.reabierto;
-        }
       });
     }
     const bachesLimpios=fusionado.map(r=>{
@@ -624,8 +610,7 @@ async function cargarGH(){
         estado:r.estado||'pendiente',fecha:r.fecha||new Date().toISOString(),
         fotoAntes:r.fotoAntes||null,fotoDespues:r.fotoDespues||null,
         observaciones:r.observaciones||'',tecnico:r.tecnico||'',
-        origen:'tecnico',pendienteSubir:false,
-        ...(r.reabierto?{reabierto:r.reabierto}:{})
+        origen:'tecnico',pendienteSubir:false
       }));
     }
     const mr={};remotos.forEach(r=>{mr[r.id]=r;});
@@ -640,15 +625,6 @@ async function cargarGH(){
         observaciones:r.observaciones||l.observaciones,
         fotoDespues:r.fotoDespues||l.fotoDespues,
         fechaAten:r.fechaAten||l.fechaAten};
-    });
-    // Reapertura: el repo devolvió el bache a "pendiente" después del atendido local.
-    remotos.forEach(r=>{
-      const l=ml[r.id];
-      if(!l||!r.reabierto)return;
-      fus[r.id]=debeReabrir(r,l)
-        ?{...l,estado:'pendiente',tecnico:'',observaciones:r.observaciones||'',
-          fotoDespues:r.fotoDespues||null,fechaAten:null,reabierto:r.reabierto}
-        :{...fus[r.id],reabierto:r.reabierto};
     });
     LS.s('bb_r',Object.values(fus));
   }
@@ -870,7 +846,51 @@ function actualizarStats(){
   document.getElementById('sn-ate').textContent=a;
   const b=document.getElementById('bdg-pen');if(b)b.textContent=p;
 }
+function fCorte(iso){
+  if(!iso)return '—';
+  const d=new Date(iso);if(isNaN(d))return '—';
+  return d.toLocaleDateString('es-EC',{day:'numeric',month:'long',year:'numeric'});
+}
+function platDe(r){
+  if(r.lat==null||r.lng==null||!window.findPlataforma)return null;
+  return window.findPlataforma(parseFloat(r.lat),parseFloat(r.lng));
+}
+function renderCorte(){
+  const el=document.getElementById('corte-card');if(!el)return;
+  if(!_platFiltro){el.style.display='none';el.innerHTML='';return;}
+  const rs=LS.g('bb_r')||[];
+  const fA=r=>r.fechaAten||r.fecha||'';
+  const base=_platFiltro?rs.filter(r=>platDe(r)===_platFiltro):rs;
+  const atend=base.filter(r=>r.estado==='atendido').sort((x,y)=>fA(y).localeCompare(fA(x)));
+  if(!atend.length){el.style.display='';el.innerHTML='<div class="corte-msg">Esta plataforma aún no registra baches atendidos.</div>';return;}
+  el.style.display='';
+  const u=atend[0];
+  const pu=platDe(u);
+  const nomP=n=>n?'Plataforma '+escH(platLetra({name:n})):'Fuera de plataforma';
+  let h='<div class="corte-in"><div>'
+    +'<div class="corte-lbl">'+((base.length-atend.length)>0?'El JhonVi sigue atendiendo, el último bache fue tapado el':'El JhonVi atendió el último bache el')+'</div>'
+    +'<div class="corte-fecha">'+fCorte(fA(u))+'</div>'
+    +'<div class="corte-det">'+escH(u.direccion||'Sin dirección registrada')+(u.tipo?' · '+escH(u.tipo):'')+'</div>'
+    +'</div><span class="corte-plat">'+nomP(pu)+'</span></div>';
+  // por plataforma: sin pendientes → último bache; con pendientes → última atención
+  const plats=_platFiltro?[_platFiltro]:(window.PLATAFORMAS_GEO||[]).map(p=>p.name);
+  const msgs=[];
+  plats.forEach(n=>{
+    const enP=rs.filter(r=>platDe(r)===n);
+    const at=enP.filter(r=>r.estado==='atendido');
+    if(!at.length)return;
+    const ult=at.map(fA).sort().pop();
+    const pend=enP.length-at.length;
+    if(pend===0){
+      msgs.push('<div class="corte-msg ok"><strong>'+nomP(n)+'</strong> sin baches pendientes. El JhonVi atendió el último bache el '+fCorte(ult)+'.</div>');
+    }else{
+      msgs.push('<div class="corte-msg"><strong>'+nomP(n)+'</strong> · '+pend+' pendiente'+(pend===1?'':'s')+'. El JhonVi sigue atendiendo, el último bache fue tapado el '+fCorte(ult)+'.</div>');
+    }
+  });
+  el.innerHTML=h+msgs.join('');
+}
 function renderCiu(){
+  renderCorte();
   let rs=LS.g('bb_r')||[];const el=document.getElementById('lista-ciu');
   rs=rs.filter(bacheEnPlat).filter(r=>r.estado==='atendido');
   rs.sort((a,b)=>String(b.fechaAten||b.fecha||'').localeCompare(String(a.fechaAten||a.fecha||'')));
@@ -1279,7 +1299,7 @@ function refrescarMapa(mapa){
     const lat=parseFloat(r.lat),lng=parseFloat(r.lng);
     if(isNaN(lat)||isNaN(lng))return;
     bounds.push([lat,lng]);
-    const color=r.estado==='pendiente'?'#C8102E':'#1A7A4A';
+    const color=r.estado==='pendiente'?'#EA580C':'#1A7A4A';
     const m=L.marker([lat,lng],{icon:mkIco(color)}).addTo(mapa);
     const srcA=fotoSrc(r,'antes');const srcD=fotoSrc(r,'desp');
     function mkPopupContent(){
@@ -1316,12 +1336,12 @@ function refrescarMapa(mapa){
     if(!Array.isArray(c.puntos)||c.puntos.length<1)return;
     const esEjec=c.estado==='ejecutado'||c.estado==='completado';
     const esProg=c.estado==='programado';
-    const lineColor=esEjec?'#C8102E':esProg?'#0B1F4D':'#1E3A8A';
+    const lineColor=esEjec?'#EA580C':esProg?'#0B1F4D':'#1E3A8A';
     const popHTML='<div style="font-family:Montserrat,sans-serif;min-width:160px;">'
       +'<strong style="font-size:0.84rem;color:#1A2F5A;">'+escH(c.sector)+'</strong><br>'
       +'<span style="font-size:0.7rem;color:#7a818e;">'+escH(c.fecha)+(c.fechaFin&&c.fechaFin!==c.fecha?' → '+escH(c.fechaFin):'')+'</span><br>'
       +'<span style="display:inline-block;margin-top:4px;padding:2px 8px;border-radius:50px;font-size:0.66rem;font-weight:700;background:'
-      +(esEjec?'#C8102E;color:#fff':esProg?'#0B1F4D;color:#fff':'#1E3A8A;color:#fff')+';">'
+      +(esEjec?'#EA580C;color:#fff':esProg?'#0B1F4D;color:#fff':'#1E3A8A;color:#fff')+';">'
       +(esEjec?'Ejecutado':esProg?'Programado':'En ejecución')+'</span>'
       +(c.descripcion?'<br><span style="font-size:0.7rem;color:#7a818e;">'+escH(c.descripcion)+'</span>':'')
       +'</div>';
@@ -1633,22 +1653,3 @@ if(new URLSearchParams(location.search).get('export')==='1'){
     alert('Respaldo descargado. Compártelo por WhatsApp.');
   },800);
 }
-
-// ── Recuperación de fotos antiguas ─────────────────────────────────────────
-// El 24/9/2026 se eliminó la carpeta fotos/ de la rama main (commit fd65563).
-// Las fotos siguen en el historial: si una foto no carga desde main, se
-// reintenta una sola vez desde el commit anterior al borrado.
-(function(){
-  var SHA_FOTOS='b05846b1cdf5d3432d7c1c20b7595c4af2a70c47';
-  var RUTA_MAIN='/fborjaf07/bacheobamba/main/fotos/';
-  document.addEventListener('error',function(e){
-    try{
-      var el=e.target;
-      if(!el||el.tagName!=='IMG'||el.dataset.fotoHist)return;
-      var src=el.getAttribute('src')||'';
-      if(src.indexOf(RUTA_MAIN)<0)return;
-      el.dataset.fotoHist='1';
-      el.src=src.replace(RUTA_MAIN,'/fborjaf07/bacheobamba/'+SHA_FOTOS+'/fotos/');
-    }catch(_){}
-  },true);
-})();
