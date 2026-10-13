@@ -1,8 +1,25 @@
 {
   "version": "2.0",
   "minAppVersion": 4,
-  "actualizacion": "2026-10-13T13:43:37.937Z",
+  "actualizacion": "2026-10-13T13:52:07.470Z",
   "baches": [
+    {
+      "id": "R1791898721008xb4b",
+      "direccion": "",
+      "tipo": "Grande",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
+      "lat": -1.6714,
+      "lng": -78.6622,
+      "estado": "pendiente",
+      "fecha": "2026-10-13T13:38:41.195Z",
+      "fotoAntes": null,
+      "fotoDespues": null,
+      "observaciones": "",
+      "tecnico": "",
+      "fechaAten": null
+    },
     {
       "id": "R1791497462254zmau",
       "direccion": "",
