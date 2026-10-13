@@ -1,7 +1,7 @@
 {
   "version": "2.0",
   "minAppVersion": 4,
-  "actualizacion": "2026-10-12T19:41:36.397Z",
+  "actualizacion": "2026-10-13T13:31:34.821Z",
   "baches": [
     {
       "id": "R1791497462254zmau",
@@ -55463,9 +55463,6 @@
       "id": "R1791829499773ytuj",
       "direccion": "",
       "tipo": "Pequeño",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.6837,
       "lng": -78.6625,
       "estado": "pendiente",
@@ -55474,15 +55471,13 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "",
-      "fechaAten": null
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R1791829395487ande",
       "direccion": "",
       "tipo": "Grande",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.684,
       "lng": -78.6622,
       "estado": "pendiente",
@@ -55491,15 +55486,13 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "",
-      "fechaAten": null
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R1791829356060ivum",
       "direccion": "",
       "tipo": "Pequeño",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.684,
       "lng": -78.6621,
       "estado": "pendiente",
@@ -55508,7 +55501,8 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "",
-      "fechaAten": null
+      "origen": "tecnico",
+      "tecnico_creador": ""
     }
   ]
 }
