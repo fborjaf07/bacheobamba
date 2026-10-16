@@ -1,7 +1,7 @@
 {
   "version": "2.0",
-  "minAppVersion": 4,
-  "actualizacion": "2026-10-16T13:22:51.686Z",
+  "minAppVersion": 3,
+  "actualizacion": "2026-10-16T19:43:53.421Z",
   "baches": [
     {
       "id": "R1791497462254zmau",
@@ -46389,6 +46389,9 @@
       "id": "R1789444534406gs2a",
       "direccion": "",
       "tipo": "Grande",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": null,
       "lng": null,
       "estado": "pendiente",
@@ -46397,13 +46400,15 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": null
     },
     {
       "id": "R1789444431012wzcc",
       "direccion": "",
       "tipo": "Grande",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": null,
       "lng": null,
       "estado": "pendiente",
@@ -46412,13 +46417,15 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": null
     },
     {
       "id": "R1789495674566it1m",
       "direccion": "",
       "tipo": "Mediano",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": -1.6803,
       "lng": -78.6333,
       "estado": "pendiente",
@@ -46427,8 +46434,7 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": null
     },
     {
       "id": "R1782524999627r1ul",
@@ -46449,6 +46455,9 @@
       "id": "R1789511474853jsmg",
       "direccion": "",
       "tipo": "Grande",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": -1.6599,
       "lng": -78.6815,
       "estado": "pendiente",
@@ -46457,8 +46466,7 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": null
     },
     {
       "id": "R17896654837234v6h",
@@ -55899,6 +55907,9 @@
       "id": "R1791912856615x6j2",
       "direccion": "",
       "tipo": "Profundo",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": -1.6609,
       "lng": -78.6811,
       "estado": "pendiente",
@@ -55907,8 +55918,7 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": null
     }
   ]
 }
