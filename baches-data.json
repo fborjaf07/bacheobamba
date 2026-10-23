@@ -1,7 +1,7 @@
 {
   "version": "2.0",
   "minAppVersion": 3,
-  "actualizacion": "2026-10-23T16:14:48.060Z",
+  "actualizacion": "2026-10-23T16:17:01.793Z",
   "baches": [
     {
       "id": "R1791497462254zmau",
@@ -62955,13 +62955,13 @@
       "tecnico_creador": "D. B.",
       "lat": -1.6786,
       "lng": -78.6488,
-      "estado": "pendiente",
+      "estado": "atendido",
       "fecha": "2026-10-23T13:00:47.549Z",
       "fotoAntes": "https://raw.githubusercontent.com/fborjaf07/bacheobamba/main/fotos/R179276044749357gd_antes.jpg",
       "fotoDespues": null,
       "observaciones": "",
-      "tecnico": "",
-      "fechaAten": null
+      "tecnico": "D. B.",
+      "fechaAten": "2026-10-23T16:16:51.769Z"
     },
     {
       "id": "R1792760431201chjo",
