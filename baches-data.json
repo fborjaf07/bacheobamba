@@ -1,25 +1,8 @@
 {
   "version": "2.0",
   "minAppVersion": 3,
-  "actualizacion": "2026-10-30T22:07:30.664Z",
+  "actualizacion": "2026-10-30T23:04:49.658Z",
   "baches": [
-    {
-      "id": "R1793398045567nnwm",
-      "direccion": "",
-      "tipo": "Mediano",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
-      "lat": null,
-      "lng": null,
-      "estado": "pendiente",
-      "fecha": "2026-10-30T22:07:25.599Z",
-      "fotoAntes": "https://raw.githubusercontent.com/fborjaf07/bacheobamba/main/fotos/R1793398045567nnwm_antes.jpg",
-      "fotoDespues": null,
-      "observaciones": "",
-      "tecnico": "",
-      "fechaAten": null
-    },
     {
       "id": "R1791497462254zmau",
       "direccion": "",
@@ -61504,6 +61487,23 @@
       "tecnico": "D. B.",
       "origen": "tecnico",
       "tecnico_creador": ""
+    },
+    {
+      "id": "R1793398045567nnwm",
+      "direccion": "",
+      "tipo": "Mediano",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
+      "lat": null,
+      "lng": null,
+      "estado": "pendiente",
+      "fecha": "2026-10-30T22:07:25.599Z",
+      "fotoAntes": "https://raw.githubusercontent.com/fborjaf07/bacheobamba/main/fotos/R1793398045567nnwm_antes.jpg",
+      "fotoDespues": null,
+      "observaciones": "",
+      "tecnico": "",
+      "fechaAten": null
     }
   ]
 }
