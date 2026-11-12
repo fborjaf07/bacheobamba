@@ -1,7 +1,7 @@
 {
   "version": "2.0",
   "minAppVersion": 3,
-  "actualizacion": "2026-11-12T00:26:21.197Z",
+  "actualizacion": "2026-11-12T00:36:11.958Z",
   "baches": [
     {
       "id": "R1791497462254zmau",
@@ -62782,9 +62782,6 @@
       "id": "R1792704672360wbjr",
       "direccion": "",
       "tipo": "Mediano",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.6856,
       "lng": -78.6793,
       "estado": "pendiente",
@@ -62793,7 +62790,8 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "",
-      "fechaAten": null
+      "origen": "tecnico",
+      "tecnico_creador": ""
     }
   ]
 }
