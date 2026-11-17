@@ -1,8 +1,25 @@
 {
   "version": "2.0",
   "minAppVersion": 3,
-  "actualizacion": "2026-11-16T21:29:00.617Z",
+  "actualizacion": "2026-11-17T14:43:52.261Z",
   "baches": [
+    {
+      "id": "R17949266197246tf2",
+      "direccion": "",
+      "tipo": "Mediano",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
+      "lat": -1.6697,
+      "lng": -78.6586,
+      "estado": "pendiente",
+      "fecha": "2026-11-17T14:43:39.754Z",
+      "fotoAntes": "https://raw.githubusercontent.com/fborjaf07/bacheobamba/main/fotos/R17949266197246tf2_antes.jpg",
+      "fotoDespues": null,
+      "observaciones": "",
+      "tecnico": "",
+      "fechaAten": null
+    },
     {
       "id": "R1791497462254zmau",
       "direccion": "",
