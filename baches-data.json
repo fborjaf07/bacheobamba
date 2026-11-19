@@ -1,7 +1,7 @@
 {
   "version": "2.0",
   "minAppVersion": 3,
-  "actualizacion": "2026-11-18T13:59:07.894Z",
+  "actualizacion": "2026-11-19T17:10:46.468Z",
   "baches": [
     {
       "id": "R17949266197246tf2",
@@ -1141,7 +1141,6 @@
       "observaciones": "",
       "tecnico": "F. B.",
       "origen": "tecnico",
-      "fechaAten": "2026-09-09T22:22:40.931Z",
       "tecnico_creador": ""
     },
     {
@@ -13862,7 +13861,6 @@
       "observaciones": "",
       "tecnico": "F. B.",
       "origen": "tecnico",
-      "fechaAten": "2026-09-09T22:25:07.862Z",
       "tecnico_creador": ""
     },
     {
@@ -13878,7 +13876,6 @@
       "observaciones": "",
       "tecnico": "F. B.",
       "origen": "tecnico",
-      "fechaAten": "2026-09-09T22:25:15.686Z",
       "tecnico_creador": ""
     },
     {
@@ -13894,7 +13891,6 @@
       "observaciones": "",
       "tecnico": "F. B.",
       "origen": "tecnico",
-      "fechaAten": "2026-09-09T22:25:51.338Z",
       "tecnico_creador": ""
     },
     {
@@ -13940,7 +13936,6 @@
       "observaciones": "",
       "tecnico": "F. B.",
       "origen": "tecnico",
-      "fechaAten": "2026-09-09T22:25:47.611Z",
       "tecnico_creador": ""
     },
     {
@@ -16146,9 +16141,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R17821682901511mww",
@@ -16703,7 +16696,6 @@
       "observaciones": "",
       "tecnico": "F. B.",
       "origen": "tecnico",
-      "fechaAten": "2026-09-09T22:20:14.293Z",
       "tecnico_creador": ""
     },
     {
@@ -16764,9 +16756,7 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782173779644v959",
@@ -16841,7 +16831,6 @@
       "observaciones": "",
       "tecnico": "F. B.",
       "origen": "tecnico",
-      "fechaAten": "2026-09-09T22:20:58.289Z",
       "tecnico_creador": ""
     },
     {
@@ -16857,7 +16846,6 @@
       "observaciones": "",
       "tecnico": "F. B.",
       "origen": "tecnico",
-      "fechaAten": "2026-09-09T22:20:42.004Z",
       "tecnico_creador": ""
     },
     {
@@ -16873,7 +16861,6 @@
       "observaciones": "",
       "tecnico": "F. B.",
       "origen": "tecnico",
-      "fechaAten": "2026-09-09T22:20:45.488Z",
       "tecnico_creador": ""
     },
     {
@@ -16889,7 +16876,6 @@
       "observaciones": "",
       "tecnico": "F. B.",
       "origen": "tecnico",
-      "fechaAten": "2026-09-09T22:20:48.637Z",
       "tecnico_creador": ""
     },
     {
@@ -16905,7 +16891,6 @@
       "observaciones": "",
       "tecnico": "F. B.",
       "origen": "tecnico",
-      "fechaAten": "2026-09-09T22:21:02.038Z",
       "tecnico_creador": ""
     },
     {
@@ -16936,7 +16921,6 @@
       "observaciones": "",
       "tecnico": "F. B.",
       "origen": "tecnico",
-      "fechaAten": "2026-09-09T22:20:53.417Z",
       "tecnico_creador": ""
     },
     {
@@ -16952,7 +16936,6 @@
       "observaciones": "",
       "tecnico": "F. B.",
       "origen": "tecnico",
-      "fechaAten": "2026-09-09T22:20:18.841Z",
       "tecnico_creador": ""
     },
     {
@@ -16968,7 +16951,6 @@
       "observaciones": "",
       "tecnico": "F. B.",
       "origen": "tecnico",
-      "fechaAten": "2026-09-09T22:19:54.809Z",
       "tecnico_creador": ""
     },
     {
@@ -16984,7 +16966,6 @@
       "observaciones": "",
       "tecnico": "F. B.",
       "origen": "tecnico",
-      "fechaAten": "2026-09-09T22:19:51.041Z",
       "tecnico_creador": ""
     },
     {
@@ -17000,7 +16981,6 @@
       "observaciones": "",
       "tecnico": "F. B.",
       "origen": "tecnico",
-      "fechaAten": "2026-09-09T22:19:47.368Z",
       "tecnico_creador": ""
     },
     {
@@ -17016,7 +16996,6 @@
       "observaciones": "",
       "tecnico": "F. B.",
       "origen": "tecnico",
-      "fechaAten": "2026-09-09T22:19:42.723Z",
       "tecnico_creador": ""
     },
     {
@@ -17032,7 +17011,6 @@
       "observaciones": "",
       "tecnico": "F. B.",
       "origen": "tecnico",
-      "fechaAten": "2026-09-09T22:19:07.394Z",
       "tecnico_creador": ""
     },
     {
@@ -17048,7 +17026,6 @@
       "observaciones": "",
       "tecnico": "F. B.",
       "origen": "tecnico",
-      "fechaAten": "2026-09-09T22:19:04.027Z",
       "tecnico_creador": ""
     },
     {
@@ -17064,7 +17041,6 @@
       "observaciones": "",
       "tecnico": "F. B.",
       "origen": "tecnico",
-      "fechaAten": "2026-09-09T22:19:11.045Z",
       "tecnico_creador": ""
     },
     {
@@ -17095,7 +17071,6 @@
       "observaciones": "",
       "tecnico": "F. B.",
       "origen": "tecnico",
-      "fechaAten": "2026-09-09T22:19:14.429Z",
       "tecnico_creador": ""
     },
     {
@@ -17111,7 +17086,6 @@
       "observaciones": "",
       "tecnico": "F. B.",
       "origen": "tecnico",
-      "fechaAten": "2026-09-09T22:19:39.302Z",
       "tecnico_creador": ""
     },
     {
@@ -17127,7 +17101,6 @@
       "observaciones": "",
       "tecnico": "F. B.",
       "origen": "tecnico",
-      "fechaAten": "2026-09-09T22:19:22.213Z",
       "tecnico_creador": ""
     },
     {
@@ -17143,7 +17116,6 @@
       "observaciones": "",
       "tecnico": "F. B.",
       "origen": "tecnico",
-      "fechaAten": "2026-09-09T22:19:17.291Z",
       "tecnico_creador": ""
     },
     {
@@ -17159,7 +17131,6 @@
       "observaciones": "",
       "tecnico": "F. B.",
       "origen": "tecnico",
-      "fechaAten": "2026-09-09T22:18:58.072Z",
       "tecnico_creador": ""
     },
     {
@@ -17175,7 +17146,6 @@
       "observaciones": "",
       "tecnico": "F. B.",
       "origen": "tecnico",
-      "fechaAten": "2026-09-09T22:19:26.046Z",
       "tecnico_creador": ""
     },
     {
@@ -17206,7 +17176,6 @@
       "observaciones": "",
       "tecnico": "F. B.",
       "origen": "tecnico",
-      "fechaAten": "2026-09-09T22:19:29.179Z",
       "tecnico_creador": ""
     },
     {
@@ -17222,7 +17191,6 @@
       "observaciones": "",
       "tecnico": "F. B.",
       "origen": "tecnico",
-      "fechaAten": "2026-09-09T22:20:04.326Z",
       "tecnico_creador": ""
     },
     {
@@ -17238,7 +17206,6 @@
       "observaciones": "",
       "tecnico": "F. B.",
       "origen": "tecnico",
-      "fechaAten": "2026-09-09T22:20:07.490Z",
       "tecnico_creador": ""
     },
     {
@@ -17254,7 +17221,6 @@
       "observaciones": "",
       "tecnico": "F. B.",
       "origen": "tecnico",
-      "fechaAten": "2026-09-09T22:20:00.338Z",
       "tecnico_creador": ""
     },
     {
@@ -17270,7 +17236,6 @@
       "observaciones": "",
       "tecnico": "F. B.",
       "origen": "tecnico",
-      "fechaAten": "2026-09-09T22:20:10.920Z",
       "tecnico_creador": ""
     },
     {
@@ -17286,7 +17251,6 @@
       "observaciones": "",
       "tecnico": "F. B.",
       "origen": "tecnico",
-      "fechaAten": "2026-09-09T22:20:26.510Z",
       "tecnico_creador": ""
     },
     {
@@ -17302,7 +17266,6 @@
       "observaciones": "",
       "tecnico": "F. B.",
       "origen": "tecnico",
-      "fechaAten": "2026-09-09T22:20:31.215Z",
       "tecnico_creador": ""
     },
     {
@@ -17318,7 +17281,6 @@
       "observaciones": "",
       "tecnico": "F. B.",
       "origen": "tecnico",
-      "fechaAten": "2026-09-09T22:20:34.646Z",
       "tecnico_creador": ""
     },
     {
@@ -17724,7 +17686,6 @@
       "observaciones": "",
       "tecnico": "F. B.",
       "origen": "tecnico",
-      "fechaAten": "2026-09-09T22:17:51.653Z",
       "tecnico_creador": ""
     },
     {
@@ -17740,7 +17701,6 @@
       "observaciones": "",
       "tecnico": "F. B.",
       "origen": "tecnico",
-      "fechaAten": "2026-09-09T22:18:02.153Z",
       "tecnico_creador": ""
     },
     {
@@ -17756,7 +17716,6 @@
       "observaciones": "",
       "tecnico": "F. B.",
       "origen": "tecnico",
-      "fechaAten": "2026-09-09T22:18:07.975Z",
       "tecnico_creador": ""
     },
     {
@@ -17772,7 +17731,6 @@
       "observaciones": "",
       "tecnico": "F. B.",
       "origen": "tecnico",
-      "fechaAten": "2026-09-09T22:18:16.505Z",
       "tecnico_creador": ""
     },
     {
@@ -17788,7 +17746,6 @@
       "observaciones": "",
       "tecnico": "F. B.",
       "origen": "tecnico",
-      "fechaAten": "2026-09-09T22:18:19.139Z",
       "tecnico_creador": ""
     },
     {
@@ -17804,7 +17761,6 @@
       "observaciones": "",
       "tecnico": "F. B.",
       "origen": "tecnico",
-      "fechaAten": "2026-09-09T22:18:13.888Z",
       "tecnico_creador": ""
     },
     {
@@ -17820,7 +17776,6 @@
       "observaciones": "",
       "tecnico": "F. B.",
       "origen": "tecnico",
-      "fechaAten": "2026-09-09T22:18:11.138Z",
       "tecnico_creador": ""
     },
     {
@@ -17851,7 +17806,6 @@
       "observaciones": "",
       "tecnico": "F. B.",
       "origen": "tecnico",
-      "fechaAten": "2026-09-09T22:17:41.535Z",
       "tecnico_creador": ""
     },
     {
@@ -17867,9 +17821,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782221385100wg4t",
@@ -17884,9 +17836,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782221578374wlcv",
@@ -17901,9 +17851,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R17822214966724qdw",
@@ -17918,9 +17866,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782221383189rqjm",
@@ -17935,9 +17881,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782221654344ezff",
@@ -17952,9 +17896,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782221570331nf2u",
@@ -17969,9 +17911,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782221663353klcf",
@@ -17986,9 +17926,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R17822217064996vgq",
@@ -18033,9 +17971,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782221701126d0i1",
@@ -18065,9 +18001,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782221853372e62i",
@@ -18082,9 +18016,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R178222189686856i9",
@@ -18099,9 +18031,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782222076823k973",
@@ -18116,9 +18046,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R178222211148504kn",
@@ -18133,9 +18061,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782221903417zl5b",
@@ -18150,9 +18076,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782222256446py1b",
@@ -18182,9 +18106,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782222105840u427",
@@ -18199,9 +18121,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R17822225479443qma",
@@ -18216,9 +18136,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782222574022r1g1",
@@ -18233,9 +18151,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782222573494gpea",
@@ -18250,9 +18166,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782222644686hh7n",
@@ -18267,9 +18181,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R17822226659719iyp",
@@ -18284,9 +18196,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R17822227217899og3",
@@ -18301,9 +18211,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R17822226038414t3w",
@@ -18333,9 +18241,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782222811738i0r7",
@@ -18380,9 +18286,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782222858700yasq",
@@ -18397,9 +18301,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782222863575t0sj",
@@ -18414,9 +18316,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782222884828areh",
@@ -18476,9 +18376,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R17822229162782i7i",
@@ -18508,9 +18406,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782222934381bpfp",
@@ -18540,9 +18436,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R17822228873457h4o",
@@ -18557,9 +18451,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R17822229532888cix",
@@ -18604,7 +18496,6 @@
       "observaciones": "",
       "tecnico": "F. B.",
       "origen": "tecnico",
-      "fechaAten": "2026-09-09T22:17:57.820Z",
       "tecnico_creador": ""
     },
     {
@@ -18635,9 +18526,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R17822230468095o28",
@@ -18652,9 +18541,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R17822230480485wns",
@@ -18699,9 +18586,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782223089415vnnu",
@@ -18716,9 +18601,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782223033751thds",
@@ -18733,9 +18616,7 @@
       "observaciones": "",
       "tecnico": "F.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782222954260zw2q",
@@ -18750,9 +18631,7 @@
       "observaciones": "",
       "tecnico": "F.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782223104437ando",
@@ -18767,9 +18646,7 @@
       "observaciones": "",
       "tecnico": "F.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782223119279rkhc",
@@ -18799,9 +18676,7 @@
       "observaciones": "",
       "tecnico": "F.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R17822228834583k8k",
@@ -18816,9 +18691,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782222814046fwl6",
@@ -18833,9 +18706,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782223179958tuml",
@@ -18850,9 +18721,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782223186651an6l",
@@ -18867,9 +18736,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R17822231872111h7b",
@@ -18884,9 +18751,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R17822232348358ksq",
@@ -18916,9 +18781,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782223269094vvco",
@@ -18933,7 +18796,6 @@
       "observaciones": "",
       "tecnico": "F. B.",
       "origen": "tecnico",
-      "fechaAten": "2026-09-09T22:18:04.771Z",
       "tecnico_creador": ""
     },
     {
@@ -18964,9 +18826,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R178222341746132w7",
@@ -18981,9 +18841,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782223331110ghs4",
@@ -18998,9 +18856,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782223335447m76g",
@@ -19015,9 +18871,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782223345795swze",
@@ -19032,9 +18886,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782223466487in2s",
@@ -19049,9 +18901,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R17822233689434hwg",
@@ -19081,7 +18931,6 @@
       "observaciones": "",
       "tecnico": "F. B.",
       "origen": "tecnico",
-      "fechaAten": "2026-09-09T22:17:54.819Z",
       "tecnico_creador": ""
     },
     {
@@ -19097,9 +18946,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782223472029wo0k",
@@ -19504,9 +19351,7 @@
       "observaciones": "",
       "tecnico": "F.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R178222356696639z9",
@@ -19551,9 +19396,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782223560118qps1",
@@ -19568,9 +19411,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782223623616xeb4",
@@ -19615,9 +19456,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782223637381rg8u",
@@ -19632,9 +19471,7 @@
       "observaciones": "",
       "tecnico": "F.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782223594932rp5a",
@@ -19649,9 +19486,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782223752280hq88",
@@ -19666,9 +19501,7 @@
       "observaciones": "",
       "tecnico": "F.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782223650518uk8w",
@@ -19698,9 +19531,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782223334027ly8e",
@@ -19715,9 +19546,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782223776844ggbk",
@@ -19732,9 +19561,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R17822237925688obc",
@@ -19749,9 +19576,7 @@
       "observaciones": "",
       "tecnico": "F.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782223720499fs5z",
@@ -19766,9 +19591,7 @@
       "observaciones": "",
       "tecnico": "F.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R178222380388537vj",
@@ -19783,9 +19606,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782223818170jqur",
@@ -19800,9 +19621,7 @@
       "observaciones": "",
       "tecnico": "F.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R17822238404922ogg",
@@ -19817,9 +19636,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782223586115dld2",
@@ -19834,9 +19651,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R17822239021080mf8",
@@ -19866,9 +19681,7 @@
       "observaciones": "",
       "tecnico": "F.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782223949254ejkv",
@@ -19898,9 +19711,7 @@
       "observaciones": "",
       "tecnico": "F.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R17822239954042ye0",
@@ -19915,9 +19726,7 @@
       "observaciones": "",
       "tecnico": "F.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782224009945o5b6",
@@ -19977,9 +19786,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782224113502gzn5",
@@ -20009,9 +19816,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782223899122b8rn",
@@ -20026,9 +19831,7 @@
       "observaciones": "",
       "tecnico": "F.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782224150573c1kr",
@@ -20043,9 +19846,7 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782224115273yv5p",
@@ -20105,9 +19906,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782224197456n1d8",
@@ -20122,9 +19921,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782224184962r0w4",
@@ -20184,9 +19981,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R17822241180648b2z",
@@ -20201,9 +19996,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782224261182uofq",
@@ -20233,9 +20026,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782224234996o0z9",
@@ -20250,9 +20041,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782224269195i220",
@@ -20267,9 +20056,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R178222393261444gu",
@@ -20299,9 +20086,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782224252637u5j3",
@@ -20316,9 +20101,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782224219481uglm",
@@ -20333,9 +20116,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782224295364915i",
@@ -20410,9 +20191,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782224331557p8ij",
@@ -20427,9 +20206,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782224182510ak4t",
@@ -20444,9 +20221,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782224343613ee66",
@@ -20461,9 +20236,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782224352560ji8x",
@@ -20493,9 +20266,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782224247320d7jk",
@@ -20510,9 +20281,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782224379493b8a2",
@@ -20557,9 +20326,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782224431649s24f",
@@ -20589,9 +20356,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782224505597q6nd",
@@ -20606,9 +20371,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R17822244990112euk",
@@ -20623,9 +20386,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782224492340daad",
@@ -20640,9 +20401,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782224526128w9e1",
@@ -20657,9 +20416,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R178222443093739ys",
@@ -20674,9 +20431,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R178222454733380zl",
@@ -20706,9 +20461,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R178222462107674xg",
@@ -20723,9 +20476,7 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782224635099p5ld",
@@ -20845,9 +20596,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R178222464365678bc",
@@ -20862,9 +20611,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782224625834p0j1",
@@ -20924,9 +20671,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782224399712shrd",
@@ -20956,9 +20701,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782224689845i9z2",
@@ -20973,9 +20716,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782223987310qcmo",
@@ -20990,9 +20731,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782224699112647o",
@@ -21037,9 +20776,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782224755323t39u",
@@ -21159,9 +20896,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782224609048r7ml",
@@ -21176,9 +20911,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782223738719vtt7",
@@ -21193,9 +20926,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R17822247961594hwa",
@@ -21330,9 +21061,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782224727614cqmz",
@@ -21347,9 +21076,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R17822249537663xz4",
@@ -21364,9 +21091,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782224937197ybqk",
@@ -21396,9 +21121,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R178222435554009d1",
@@ -21413,9 +21136,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782224310256knzd",
@@ -21430,9 +21151,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782224971290dyb7",
@@ -21447,9 +21166,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782224797258aptq",
@@ -21539,9 +21256,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782224980117inxo",
@@ -21556,9 +21271,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782225042638vi9l",
@@ -21573,9 +21286,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782225047587zao8",
@@ -21605,9 +21316,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782225074855rpjm",
@@ -21622,9 +21331,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782225067962dsxd",
@@ -21669,9 +21376,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R17822250882188omy",
@@ -21686,9 +21391,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782225119494amzj",
@@ -21703,9 +21406,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782225133849itlp",
@@ -21735,9 +21436,7 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782225164229vmgo",
@@ -21752,9 +21451,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782225177332517i",
@@ -21769,9 +21466,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R17822246901568dnd",
@@ -21816,9 +21511,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R178222492208565h6",
@@ -21833,9 +21526,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782224773452xhbj",
@@ -21850,9 +21541,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R17822252164583ayg",
@@ -21867,9 +21556,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782225232716on31",
@@ -21884,9 +21571,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R17822252073600xo7",
@@ -21901,9 +21586,7 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R17822251862346ttb",
@@ -21918,9 +21601,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782225234798gue5",
@@ -21935,9 +21616,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782225257034frr7",
@@ -21982,9 +21661,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782225300832919h",
@@ -21999,9 +21676,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R17822246969376lwb",
@@ -22016,9 +21691,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782224488531t9mx",
@@ -22063,9 +21736,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782225332765le0i",
@@ -22080,9 +21751,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R17822253669309qh3",
@@ -22097,9 +21766,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R17822253803660v1r",
@@ -22144,9 +21811,7 @@
       "observaciones": "",
       "tecnico": "F.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782225403542snhy",
@@ -22176,9 +21841,7 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R17822245965827zet",
@@ -22193,9 +21856,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782225660707oeje",
@@ -22240,9 +21901,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782225487973eo4x",
@@ -22272,9 +21931,7 @@
       "observaciones": "",
       "tecnico": "F.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782225462934rl4o",
@@ -22289,9 +21946,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782225534236a3as",
@@ -22336,9 +21991,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782225346034vs5y",
@@ -22353,9 +22006,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782225532349zw9y",
@@ -22385,9 +22036,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782225659009rod4",
@@ -22402,9 +22051,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782225558211u2ci",
@@ -22419,9 +22066,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782225592330jn2f",
@@ -22466,9 +22111,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782225648050gun4",
@@ -22483,9 +22126,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R17822256661924e4w",
@@ -22515,9 +22156,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782225700598x5x7",
@@ -22607,9 +22246,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782225702838tq21",
@@ -22654,9 +22291,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782225814501i6ai",
@@ -22716,9 +22351,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R17822257724894z6y",
@@ -22733,9 +22366,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782225860374b1yd",
@@ -22750,9 +22381,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782225967811n4zk",
@@ -22782,9 +22411,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R178222567320716u9",
@@ -22799,9 +22426,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782225969929h3y7",
@@ -22846,9 +22471,7 @@
       "observaciones": "",
       "tecnico": "F.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782226006406s9jj",
@@ -22863,7 +22486,6 @@
       "observaciones": "",
       "tecnico": "F. B.",
       "origen": "tecnico",
-      "fechaAten": "2026-09-09T22:21:57.268Z",
       "tecnico_creador": ""
     },
     {
@@ -22879,9 +22501,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782225978337qmae",
@@ -22896,9 +22516,7 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782225917132j4op",
@@ -22913,9 +22531,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782225909802w09d",
@@ -22945,9 +22561,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782225419616o0vm",
@@ -22977,9 +22591,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782225201449g2ho",
@@ -22994,9 +22606,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782225916782ez8c",
@@ -23071,9 +22681,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782225947926ljp7",
@@ -23088,9 +22696,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782225609564s25k",
@@ -23165,9 +22771,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782226056972psrx",
@@ -23272,9 +22876,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R178222616346059hl",
@@ -23334,7 +22936,6 @@
       "observaciones": "",
       "tecnico": "F. B.",
       "origen": "tecnico",
-      "fechaAten": "2026-09-09T22:21:54.491Z",
       "tecnico_creador": ""
     },
     {
@@ -23365,9 +22966,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782226157292o8ua",
@@ -23382,9 +22981,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R17822262396023f5o",
@@ -23444,9 +23041,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R17822259621295fvw",
@@ -23461,9 +23056,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782226296335drh3",
@@ -23523,9 +23116,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782246675656w9cb",
@@ -23555,9 +23146,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R17822263215762buz",
@@ -23707,9 +23296,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782226322873dyc3",
@@ -23724,9 +23311,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R178222599972041ar",
@@ -23771,9 +23356,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782226513034peft",
@@ -23803,9 +23386,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782226577289tlnl",
@@ -23910,9 +23491,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782226678809bccv",
@@ -23957,9 +23536,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782226537891ure0",
@@ -23974,9 +23551,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R17822264916114w5k",
@@ -23991,9 +23566,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782226724581tzey",
@@ -24218,7 +23791,6 @@
       "observaciones": "",
       "tecnico": "F. B.",
       "origen": "tecnico",
-      "fechaAten": "2026-09-09T22:22:08.077Z",
       "tecnico_creador": ""
     },
     {
@@ -24564,7 +24136,6 @@
       "observaciones": "",
       "tecnico": "F. B.",
       "origen": "tecnico",
-      "fechaAten": "2026-09-09T22:22:23.223Z",
       "tecnico_creador": ""
     },
     {
@@ -24655,9 +24226,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782227734189wmou",
@@ -24747,9 +24316,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R178222793739133t4",
@@ -24779,7 +24346,6 @@
       "observaciones": "",
       "tecnico": "F. B.",
       "origen": "tecnico",
-      "fechaAten": "2026-09-09T22:22:28.561Z",
       "tecnico_creador": ""
     },
     {
@@ -24825,7 +24391,6 @@
       "observaciones": "",
       "tecnico": "F. B.",
       "origen": "tecnico",
-      "fechaAten": "2026-09-09T22:22:31.190Z",
       "tecnico_creador": ""
     },
     {
@@ -25411,9 +24976,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782226433794cyoz",
@@ -25428,9 +24991,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R17822264114422w86",
@@ -25445,9 +25006,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782226337532pqqb",
@@ -25462,9 +25021,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782228813928pz2r",
@@ -25479,7 +25036,6 @@
       "observaciones": "",
       "tecnico": "F. B.",
       "origen": "tecnico",
-      "fechaAten": "2026-09-09T22:22:56.466Z",
       "tecnico_creador": ""
     },
     {
@@ -25495,7 +25051,6 @@
       "observaciones": "",
       "tecnico": "F. B.",
       "origen": "tecnico",
-      "fechaAten": "2026-09-09T22:22:34.112Z",
       "tecnico_creador": ""
     },
     {
@@ -25796,7 +25351,6 @@
       "observaciones": "",
       "tecnico": "F. B.",
       "origen": "tecnico",
-      "fechaAten": "2026-09-09T22:22:50.031Z",
       "tecnico_creador": ""
     },
     {
@@ -25812,7 +25366,6 @@
       "observaciones": "",
       "tecnico": "F. B.",
       "origen": "tecnico",
-      "fechaAten": "2026-09-09T22:22:47.005Z",
       "tecnico_creador": ""
     },
     {
@@ -26263,7 +25816,6 @@
       "observaciones": "",
       "tecnico": "F. B.",
       "origen": "tecnico",
-      "fechaAten": "2026-09-09T22:22:20.542Z",
       "tecnico_creador": ""
     },
     {
@@ -26579,7 +26131,6 @@
       "observaciones": "",
       "tecnico": "F. B.",
       "origen": "tecnico",
-      "fechaAten": "2026-09-09T22:22:37.746Z",
       "tecnico_creador": ""
     },
     {
@@ -27150,9 +26701,7 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782232952153r3de",
@@ -27167,9 +26716,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782233076009emjh",
@@ -27289,9 +26836,7 @@
       "observaciones": "",
       "tecnico": "F.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782233129253okuq",
@@ -27321,9 +26866,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782232696921iud3",
@@ -27428,9 +26971,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R17822334634097zv3",
@@ -27445,9 +26986,7 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R17822336534084p0v",
@@ -27492,9 +27031,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782233585792h6x3",
@@ -27509,9 +27046,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782233706530xld3",
@@ -27526,9 +27061,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782233770910uupa",
@@ -27573,9 +27106,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782233802891eyaw",
@@ -27590,9 +27121,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R17822337393348zkq",
@@ -27607,9 +27136,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782233706337ofus",
@@ -27624,9 +27151,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R178223390740746tp",
@@ -28361,7 +27886,6 @@
       "observaciones": "",
       "tecnico": "F. B.",
       "origen": "tecnico",
-      "fechaAten": "2026-09-09T22:21:51.509Z",
       "tecnico_creador": ""
     },
     {
@@ -28407,9 +27931,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R17822387204135i9x",
@@ -28424,9 +27946,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782238922408qo60",
@@ -28441,9 +27961,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R17822388093705mbj",
@@ -28458,9 +27976,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782239132948xhfl",
@@ -28475,9 +27991,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782239275210f9du",
@@ -28492,9 +28006,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R17822393330576br6",
@@ -28509,9 +28021,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R17822394104012fvv",
@@ -28526,9 +28036,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782239459045pt7z",
@@ -28543,9 +28051,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782239780114qozv",
@@ -28560,9 +28066,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R17822399808717xdg",
@@ -28577,9 +28081,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782239913283fffn",
@@ -28594,9 +28096,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782240159665zr83",
@@ -28611,9 +28111,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782240195344ix6y",
@@ -28628,9 +28126,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782240602062k4lo",
@@ -28645,9 +28141,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R17822405045083dlm",
@@ -28662,9 +28156,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782240844928sdys",
@@ -28694,9 +28186,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782240646073ej54",
@@ -28711,9 +28201,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782240968761llc1",
@@ -28728,9 +28216,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782241046671256j",
@@ -28745,9 +28231,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782241102800au4b",
@@ -28762,9 +28246,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782241210965wtr9",
@@ -28779,9 +28261,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782241591555cf7p",
@@ -28796,9 +28276,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782241626517h7em",
@@ -28813,9 +28291,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782241728769mp6k",
@@ -28830,9 +28306,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R178224166391273v8",
@@ -28847,9 +28321,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782241803047ifk1",
@@ -28864,9 +28336,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R178224365044992t0",
@@ -29241,9 +28711,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782245700414hc6f",
@@ -29258,9 +28726,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782245954713pqzm",
@@ -29275,9 +28741,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R17822457555843m3y",
@@ -29292,9 +28756,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782246007262wtni",
@@ -29309,9 +28771,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782246076380um9b",
@@ -29326,9 +28786,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782246121039ibt4",
@@ -29403,9 +28861,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782246182332k1zl",
@@ -29420,9 +28876,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782246124403q5p3",
@@ -29437,9 +28891,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782246336976oapu",
@@ -29574,9 +29026,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782246438245gj6e",
@@ -29591,9 +29041,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R17822463333848z3a",
@@ -29608,9 +29056,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R178224628449542mh",
@@ -29625,9 +29071,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782246578895ip3t",
@@ -29732,9 +29176,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R17822472404179ljk",
@@ -29749,9 +29191,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782247192777j0u4",
@@ -29766,9 +29206,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782247317996nxfi",
@@ -29873,9 +29311,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R17822475233484sn3",
@@ -29890,9 +29326,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R17822473261284url",
@@ -29907,9 +29341,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782247348226kh0b",
@@ -30044,9 +29476,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782248042180hgb3",
@@ -30166,9 +29596,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782248153883qgj0",
@@ -30183,9 +29611,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782248171189tswm",
@@ -30200,9 +29626,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782247861683jxr0",
@@ -30217,9 +29641,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782248404241sma8",
@@ -30234,9 +29656,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782248298030hlaq",
@@ -30251,9 +29671,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782248456590inkn",
@@ -30283,9 +29701,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R17822485852249fdf",
@@ -30300,9 +29716,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1782248896252y7fc",
@@ -30422,9 +29836,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R17822491283145oi9",
@@ -31324,7 +30736,6 @@
       "observaciones": "",
       "tecnico": "F. B.",
       "origen": "tecnico",
-      "fechaAten": "2026-09-09T22:22:17.777Z",
       "tecnico_creador": ""
     },
     {
@@ -31535,9 +30946,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R17848092719968t1f",
@@ -31552,9 +30961,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1784809254181uutn",
@@ -31824,9 +31231,7 @@
       "observaciones": "",
       "tecnico": "F.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1784808881292jjtm",
@@ -31841,9 +31246,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1784808868966n2j1",
@@ -31858,9 +31261,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1784808855317ujzn",
@@ -31875,9 +31276,7 @@
       "observaciones": "",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1784808833059atyl",
@@ -39332,9 +38731,7 @@
       "observaciones": "",
       "tecnico": "F.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1785949120607y4me",
@@ -39499,9 +38896,7 @@
       "observaciones": "",
       "tecnico": "F.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1785948176720mc7x",
@@ -39801,9 +39196,7 @@
       "observaciones": "",
       "tecnico": "F.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1785947536510tuma",
@@ -40133,9 +39526,7 @@
       "observaciones": "",
       "tecnico": "F.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1785864738713yrzx",
@@ -40285,9 +39676,7 @@
       "observaciones": "",
       "tecnico": "F.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1785864504712tt9p",
@@ -40392,9 +39781,7 @@
       "observaciones": "",
       "tecnico": "F.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1785864351761vubd",
@@ -40709,9 +40096,7 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1785863541382d3ox",
@@ -40771,9 +40156,7 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1785863436439ir7m",
@@ -40878,9 +40261,7 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1785863231041ol0o",
@@ -40940,9 +40321,7 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R17858621886441yo6",
@@ -41197,9 +40576,7 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1785861764031tj1n",
@@ -41214,9 +40591,7 @@
       "observaciones": "Atendido junto al bache de la misma ubicación",
       "tecnico": "D. B.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1785861746102jd63",
@@ -41381,9 +40756,7 @@
       "observaciones": "",
       "tecnico": "F.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R178586150739909wx",
@@ -41668,9 +41041,7 @@
       "observaciones": "",
       "tecnico": "F.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1786455827971w73d",
@@ -42165,9 +41536,7 @@
       "observaciones": "",
       "tecnico": "F.",
       "origen": "tecnico",
-      "tecnico_creador": "",
-      "fechaAten": null,
-      "reabierto": "2026-10-07T14:11:09.000Z"
+      "tecnico_creador": ""
     },
     {
       "id": "R1786454922378tweb",
@@ -42212,7 +41581,6 @@
       "observaciones": "",
       "tecnico": "F. B.",
       "origen": "tecnico",
-      "fechaAten": "2026-09-09T22:25:34.631Z",
       "tecnico_creador": ""
     },
     {
@@ -42228,7 +41596,6 @@
       "observaciones": "",
       "tecnico": "F. B.",
       "origen": "tecnico",
-      "fechaAten": "2026-09-09T22:25:37.489Z",
       "tecnico_creador": ""
     },
     {
@@ -42259,7 +41626,6 @@
       "observaciones": "",
       "tecnico": "F. B.",
       "origen": "tecnico",
-      "fechaAten": "2026-09-09T22:25:29.085Z",
       "tecnico_creador": ""
     },
     {
@@ -42275,7 +41641,6 @@
       "observaciones": "",
       "tecnico": "F. B.",
       "origen": "tecnico",
-      "fechaAten": "2026-09-09T22:25:22.782Z",
       "tecnico_creador": ""
     },
     {
@@ -42306,7 +41671,6 @@
       "observaciones": "",
       "tecnico": "F. B.",
       "origen": "tecnico",
-      "fechaAten": "2026-09-09T22:25:44.610Z",
       "tecnico_creador": ""
     },
     {
@@ -42352,7 +41716,6 @@
       "observaciones": "",
       "tecnico": "F. B.",
       "origen": "tecnico",
-      "fechaAten": "2026-09-09T22:25:40.442Z",
       "tecnico_creador": ""
     },
     {
@@ -42383,7 +41746,6 @@
       "observaciones": "",
       "tecnico": "F. B.",
       "origen": "tecnico",
-      "fechaAten": "2026-09-09T22:25:12.769Z",
       "tecnico_creador": ""
     },
     {
@@ -42399,7 +41761,6 @@
       "observaciones": "",
       "tecnico": "F. B.",
       "origen": "tecnico",
-      "fechaAten": "2026-09-09T22:25:03.655Z",
       "tecnico_creador": ""
     },
     {
@@ -42445,7 +41806,6 @@
       "observaciones": "",
       "tecnico": "F. B.",
       "origen": "tecnico",
-      "fechaAten": "2026-09-09T22:24:58.106Z",
       "tecnico_creador": ""
     },
     {
@@ -42461,7 +41821,6 @@
       "observaciones": "",
       "tecnico": "F. B.",
       "origen": "tecnico",
-      "fechaAten": "2026-09-09T22:25:18.964Z",
       "tecnico_creador": ""
     },
     {
@@ -46458,9 +45817,6 @@
       "id": "R1789254141218p4bw",
       "direccion": "",
       "tipo": "Mediano",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": null,
       "lng": null,
       "estado": "pendiente",
@@ -46469,7 +45825,8 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "",
-      "fechaAten": null
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R1789444534406gs2a",
@@ -55835,9 +55192,6 @@
       "id": "R1791829499773ytuj",
       "direccion": "",
       "tipo": "Pequeño",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.6837,
       "lng": -78.6625,
       "estado": "pendiente",
@@ -55846,15 +55200,13 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "",
-      "fechaAten": null
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R1791829395487ande",
       "direccion": "",
       "tipo": "Grande",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.684,
       "lng": -78.6622,
       "estado": "pendiente",
@@ -55863,15 +55215,13 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "",
-      "fechaAten": null
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R1791829356060ivum",
       "direccion": "",
       "tipo": "Pequeño",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.684,
       "lng": -78.6621,
       "estado": "pendiente",
@@ -55880,7 +55230,8 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "",
-      "fechaAten": null
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R1791898743833igwd",
@@ -63446,9 +62797,6 @@
       "id": "R1792704672360wbjr",
       "direccion": "",
       "tipo": "Mediano",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.6856,
       "lng": -78.6793,
       "estado": "pendiente",
@@ -63457,7 +62805,8 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "",
-      "fechaAten": null
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R1794506200712dxy9",
@@ -64768,9 +64117,6 @@
       "id": "R1795002862964w6jj",
       "direccion": "",
       "tipo": "Grande",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": null,
       "lng": null,
       "estado": "pendiente",
@@ -64779,7 +64125,8 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "",
-      "fechaAten": null
+      "origen": "tecnico",
+      "tecnico_creador": ""
     }
   ]
 }
