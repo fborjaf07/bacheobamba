@@ -1,7 +1,7 @@
 {
   "version": "2.0",
   "minAppVersion": 3,
-  "actualizacion": "2026-11-19T17:12:37.504Z",
+  "actualizacion": "2026-11-20T02:15:57.451Z",
   "baches": [
     {
       "id": "R17949266197246tf2",
@@ -1072,6 +1072,9 @@
       "id": "R1784257997248klrb",
       "direccion": "",
       "tipo": "Grande",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": -1.6643,
       "lng": -78.6532,
       "estado": "pendiente",
@@ -1080,8 +1083,7 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": null
     },
     {
       "id": "R1784069453040xms0",
@@ -1162,6 +1164,9 @@
       "id": "R1783893948360nlhj",
       "direccion": "",
       "tipo": "Profundo",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
       "lat": -1.6689,
       "lng": -78.6475,
       "estado": "pendiente",
@@ -1170,8 +1175,7 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "",
-      "origen": "tecnico",
-      "tecnico_creador": ""
+      "fechaAten": null
     },
     {
       "id": "R1783890737085zxed",
@@ -64127,6 +64131,23 @@
       "tecnico": "",
       "origen": "tecnico",
       "tecnico_creador": ""
+    },
+    {
+      "id": "R1784425014848kicu",
+      "direccion": "",
+      "tipo": "Profundo",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
+      "lat": -1.6856,
+      "lng": -78.6347,
+      "estado": "pendiente",
+      "fecha": "2026-07-19T01:36:54.902Z",
+      "fotoAntes": "https://raw.githubusercontent.com/fborjaf07/bacheobamba/main/fotos/R1784425014848kicu_antes.jpg",
+      "fotoDespues": null,
+      "observaciones": "",
+      "tecnico": "",
+      "fechaAten": null
     }
   ]
 }
