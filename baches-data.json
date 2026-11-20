@@ -1,8 +1,25 @@
 {
   "version": "2.0",
   "minAppVersion": 3,
-  "actualizacion": "2026-11-20T02:15:57.451Z",
+  "actualizacion": "2026-11-20T02:17:09.836Z",
   "baches": [
+    {
+      "id": "R17951409883777dla",
+      "direccion": "",
+      "tipo": "Profundo",
+      "descripcion": "",
+      "origen": "ciudadano",
+      "tecnico_creador": "",
+      "lat": -1.6643,
+      "lng": -78.6539,
+      "estado": "pendiente",
+      "fecha": "2026-11-20T02:16:28.538Z",
+      "fotoAntes": null,
+      "fotoDespues": null,
+      "observaciones": "",
+      "tecnico": "",
+      "fechaAten": null
+    },
     {
       "id": "R17949266197246tf2",
       "direccion": "",
