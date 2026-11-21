@@ -1,15 +1,12 @@
 {
   "version": "2.0",
   "minAppVersion": 3,
-  "actualizacion": "2026-11-20T02:17:09.836Z",
+  "actualizacion": "2026-11-21T13:32:31.293Z",
   "baches": [
     {
       "id": "R17951409883777dla",
       "direccion": "",
       "tipo": "Profundo",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.6643,
       "lng": -78.6539,
       "estado": "pendiente",
@@ -18,7 +15,8 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "",
-      "fechaAten": null
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R17949266197246tf2",
@@ -1089,9 +1087,6 @@
       "id": "R1784257997248klrb",
       "direccion": "",
       "tipo": "Grande",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.6643,
       "lng": -78.6532,
       "estado": "pendiente",
@@ -1100,7 +1095,8 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "",
-      "fechaAten": null
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R1784069453040xms0",
@@ -1181,9 +1177,6 @@
       "id": "R1783893948360nlhj",
       "direccion": "",
       "tipo": "Profundo",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.6689,
       "lng": -78.6475,
       "estado": "pendiente",
@@ -1192,7 +1185,8 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "",
-      "fechaAten": null
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R1783890737085zxed",
@@ -64153,9 +64147,6 @@
       "id": "R1784425014848kicu",
       "direccion": "",
       "tipo": "Profundo",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.6856,
       "lng": -78.6347,
       "estado": "pendiente",
@@ -64164,7 +64155,8 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "",
-      "fechaAten": null
+      "origen": "tecnico",
+      "tecnico_creador": ""
     }
   ]
 }
