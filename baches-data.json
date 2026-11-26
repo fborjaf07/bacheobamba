@@ -1,15 +1,12 @@
 {
   "version": "2.0",
   "minAppVersion": 3,
-  "actualizacion": "2026-11-25T18:33:25.679Z",
+  "actualizacion": "2026-11-26T22:50:25.661Z",
   "baches": [
     {
       "id": "R1795631596861x1ko",
       "direccion": "",
       "tipo": "Mediano",
-      "descripcion": "",
-      "origen": "ciudadano",
-      "tecnico_creador": "",
       "lat": -1.6683,
       "lng": -78.6501,
       "estado": "pendiente",
@@ -18,7 +15,8 @@
       "fotoDespues": null,
       "observaciones": "",
       "tecnico": "",
-      "fechaAten": null
+      "origen": "tecnico",
+      "tecnico_creador": ""
     },
     {
       "id": "R1795362621665lrh5",
